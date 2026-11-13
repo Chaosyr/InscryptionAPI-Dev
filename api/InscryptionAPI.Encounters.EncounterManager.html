@@ -1,614 +1,617 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EncounterManager
-   | InscryptionAPI </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EncounterManager
-   | InscryptionAPI ">
-    <meta name="generator" content="docfx 2.59.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+      <title>Class EncounterManager | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EncounterManager | InscryptionAPI ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_EncounterManager.md&amp;value=---%0Auid%3A%20InscryptionAPI.Encounters.EncounterManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
-        </nav>
-      </header>
-      <div class="container body-content">
-        
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InscryptionAPI.Encounters.EncounterManager">
-  
-  
-  <h1 id="InscryptionAPI_Encounters_EncounterManager" data-uid="InscryptionAPI.Encounters.EncounterManager" class="text-break">Class EncounterManager
-  </h1>
+
+        <article data-uid="InscryptionAPI.Encounters.EncounterManager">
+
+
+
+  <h1 id="InscryptionAPI_Encounters_EncounterManager" data-uid="InscryptionAPI.Encounters.EncounterManager" class="text-break">Class EncounterManager</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">EncounterManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.Encounters.html">InscryptionAPI.Encounters</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Encounters.html">Encounters</a></h6>
   <h6><strong>Assembly</strong>: InscryptionAPI.dll</h6>
   <h5 id="InscryptionAPI_Encounters_EncounterManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class EncounterManager : object</code></pre>
+    <pre><code class="lang- hljs">public static class EncounterManager</code></pre>
   </div>
-  <h3 id="fields">Fields
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_BaseGameEncounters" data-uid="InscryptionAPI.Encounters.EncounterManager.BaseGameEncounters">
+  BaseGameEncounters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_BaseGameEncounters" data-uid="InscryptionAPI.Encounters.EncounterManager.BaseGameEncounters">BaseGameEncounters</h4>
-  <div class="markdown level1 summary"><p>All of the vanilla game&apos;s encounters.</p>
+
+  <div class="markdown level1 summary"><p>All of the vanilla game's encounters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ReadOnlyCollection&lt;EncounterBlueprintData&gt; BaseGameEncounters</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ReadOnlyCollection</span>&lt;<span class="xref">EncounterBlueprintData</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_NewEncounters" data-uid="InscryptionAPI.Encounters.EncounterManager.NewEncounters">NewEncounters</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection</a>&lt;<span class="xref">EncounterBlueprintData</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_NewEncounters" data-uid="InscryptionAPI.Encounters.EncounterManager.NewEncounters">
+  NewEncounters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static readonly ObservableCollection&lt;EncounterBlueprintData&gt; NewEncounters</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ObservableCollection</span>&lt;<span class="xref">EncounterBlueprintData</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<span class="xref">EncounterBlueprintData</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_AllEncountersCopy_" data-uid="InscryptionAPI.Encounters.EncounterManager.AllEncountersCopy*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_AllEncountersCopy" data-uid="InscryptionAPI.Encounters.EncounterManager.AllEncountersCopy">AllEncountersCopy</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_AllEncountersCopy" data-uid="InscryptionAPI.Encounters.EncounterManager.AllEncountersCopy">
+  AllEncountersCopy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>A copy of all encounters in the encounter pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;EncounterBlueprintData&gt; AllEncountersCopy { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">EncounterBlueprintData</span>&gt;</td>
-        <td><p>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>&gt;</dt>
+    <dd><p>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_Add_" data-uid="InscryptionAPI.Encounters.EncounterManager.Add*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_Add_EncounterBlueprintData_" data-uid="InscryptionAPI.Encounters.EncounterManager.Add(EncounterBlueprintData)">Add(EncounterBlueprintData)</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_Add_DiskCardGame_EncounterBlueprintData_" data-uid="InscryptionAPI.Encounters.EncounterManager.Add(DiskCardGame.EncounterBlueprintData)">
+  Add(EncounterBlueprintData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Adds a new encounter to the encounter pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Add(EncounterBlueprintData newEncounter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EncounterBlueprintData</span></td>
-        <td><span class="parametername">newEncounter</span></td>
-        <td><p>The encounter to add.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newEncounter</code> <span class="xref">EncounterBlueprintData</span></dt>
+    <dd><p>The encounter to add.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_CardBlueprint_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(CardBlueprint)">CreateTurn(CardBlueprint)</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_DiskCardGame_EncounterBlueprintData_CardBlueprint_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(DiskCardGame.EncounterBlueprintData.CardBlueprint)">
+  CreateTurn(CardBlueprint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates a new turn using the provided CardBlueprint.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;CardBlueprint&gt; CreateTurn(CardBlueprint card = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;EncounterBlueprintData.CardBlueprint&gt; CreateTurn(EncounterBlueprintData.CardBlueprint card = null)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardBlueprint</span></td>
-        <td><span class="parametername">card</span></td>
-        <td><p>The CardBlueprint that will be used this turn. If null, creates an empty turn.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">CardBlueprint</span>&gt;</td>
-        <td><p>The newly created list so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span></dt>
+    <dd><p>The CardBlueprint that will be used this turn. If null, creates an empty turn.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span>&gt;</dt>
+    <dd><p>The newly created list so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_CardBlueprint___" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(CardBlueprint[])">CreateTurn(CardBlueprint[])</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_DiskCardGame_EncounterBlueprintData_CardBlueprint___" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(DiskCardGame.EncounterBlueprintData.CardBlueprint[])">
+  CreateTurn(params CardBlueprint[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates a new turn using the provided CardBlueprints.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;CardBlueprint&gt; CreateTurn(params CardBlueprint[] cards)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;EncounterBlueprintData.CardBlueprint&gt; CreateTurn(params EncounterBlueprintData.CardBlueprint[] cards)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardBlueprint</span>[]</td>
-        <td><span class="parametername">cards</span></td>
-        <td><p>The CardBlueprints that will be used this turn.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">CardBlueprint</span>&gt;</td>
-        <td><p>The newly created list so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <span class="xref">CardBlueprint</span>[]</dt>
+    <dd><p>The CardBlueprints that will be used this turn.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span>&gt;</dt>
+    <dd><p>The newly created list so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_System_String_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(System.String)">CreateTurn(String)</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_System_String_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(System.String)">
+  CreateTurn(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates a new turn using the provided card name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;CardBlueprint&gt; CreateTurn(string cardName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;EncounterBlueprintData.CardBlueprint&gt; CreateTurn(string cardName)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">cardName</span></td>
-        <td><p>The name of the card that will be played this turn.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">CardBlueprint</span>&gt;</td>
-        <td><p>The newly created list so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cardName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the card that will be played this turn.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span>&gt;</dt>
+    <dd><p>The newly created list so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_System_String___" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(System.String[])">CreateTurn(String[])</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_CreateTurn_System_String___" data-uid="InscryptionAPI.Encounters.EncounterManager.CreateTurn(System.String[])">
+  CreateTurn(params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates a new turn using the provided card names.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;CardBlueprint&gt; CreateTurn(params string[] cardNames)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;EncounterBlueprintData.CardBlueprint&gt; CreateTurn(params string[] cardNames)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span>[]</td>
-        <td><span class="parametername">cardNames</span></td>
-        <td><p>The names of the cards that will be played this turn.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">CardBlueprint</span>&gt;</td>
-        <td><p>The newly created list so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cardNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>The names of the cards that will be played this turn.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span>&gt;</dt>
+    <dd><p>The newly created list so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_New_" data-uid="InscryptionAPI.Encounters.EncounterManager.New*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_New_System_String_System_Boolean_" data-uid="InscryptionAPI.Encounters.EncounterManager.New(System.String,System.Boolean)">New(String, Boolean)</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_New_System_String_System_Boolean_" data-uid="InscryptionAPI.Encounters.EncounterManager.New(System.String,System.Boolean)">
+  New(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates a new instance of EncounterBlueprintData.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static EncounterBlueprintData New(string name, bool addToPool = true)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The internal name of your encounter - used to find and reference it.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">addToPool</span></td>
-        <td><p>If true, the created instance will be added to the encounter pool.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EncounterBlueprintData</span></td>
-        <td><p>The newly created card&apos;s CardInfo.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The internal name of your encounter - used to find and reference it.</p>
+</dd>
+    <dt><code>addToPool</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, the created instance will be added to the encounter pool.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EncounterBlueprintData</span></dt>
+    <dd><p>The newly created card's CardInfo.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_NewCardBlueprint_" data-uid="InscryptionAPI.Encounters.EncounterManager.NewCardBlueprint*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_NewCardBlueprint_System_String_System_Int32_System_Boolean_System_Int32_System_String_System_Int32_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterManager.NewCardBlueprint(System.String,System.Int32,System.Boolean,System.Int32,System.String,System.Int32,System.Int32)">NewCardBlueprint(String, Int32, Boolean, Int32, String, Int32, Int32)</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_NewCardBlueprint_System_String_System_Int32_System_Boolean_System_Int32_System_String_System_Int32_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterManager.NewCardBlueprint(System.String,System.Int32,System.Boolean,System.Int32,System.String,System.Int32,System.Int32)">
+  NewCardBlueprint(string, int, bool, int, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Creates a new CardBlueprint.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CardBlueprint NewCardBlueprint(string cardName, int randomReplaceChance = 0, bool difficultyReplace = false, int difficultyReplaceReq = 0, string replacement = null, int minDifficulty = 1, int maxDifficulty = 20)</code></pre>
+    <pre><code class="lang-csharp hljs">public static EncounterBlueprintData.CardBlueprint NewCardBlueprint(string cardName, int randomReplaceChance = 0, bool difficultyReplace = false, int difficultyReplaceReq = 0, string replacement = null, int minDifficulty = 1, int maxDifficulty = 20)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">cardName</span></td>
-        <td><p>The internal name of the card to use.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">randomReplaceChance</span></td>
-        <td><p>The integer probability of this card getting replaced by a card from the encounter&apos;s <code>randomReplacementCards</code>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">difficultyReplace</span></td>
-        <td><p>Whether to replace this card when a certain difficulty threshold is met.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">difficultyReplaceReq</span></td>
-        <td><p>The difficulty threshold for the <code>replacement</code> card to be used instead.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">replacement</span></td>
-        <td><p>The name of the replacement card for the difficulty replacement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">minDifficulty</span></td>
-        <td><p>The minimum difficulty for this card to appear.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">maxDifficulty</span></td>
-        <td><p>The maximum difficulty for this card to appear.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardBlueprint</span></td>
-        <td><p>The newly created CardBlueprint.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cardName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The internal name of the card to use.</p>
+</dd>
+    <dt><code>randomReplaceChance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The integer probability of this card getting replaced by a card from the encounter's <code>randomReplacementCards</code>.</p>
+</dd>
+    <dt><code>difficultyReplace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to replace this card when a certain difficulty threshold is met.</p>
+</dd>
+    <dt><code>difficultyReplaceReq</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The difficulty threshold for the <code>replacement</code> card to be used instead.</p>
+</dd>
+    <dt><code>replacement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the replacement card for the difficulty replacement.</p>
+</dd>
+    <dt><code>minDifficulty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The minimum difficulty for this card to appear.</p>
+</dd>
+    <dt><code>maxDifficulty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The maximum difficulty for this card to appear.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span></dt>
+    <dd><p>The newly created CardBlueprint.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_Remove_" data-uid="InscryptionAPI.Encounters.EncounterManager.Remove*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_Remove_EncounterBlueprintData_" data-uid="InscryptionAPI.Encounters.EncounterManager.Remove(EncounterBlueprintData)">Remove(EncounterBlueprintData)</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_Remove_DiskCardGame_EncounterBlueprintData_" data-uid="InscryptionAPI.Encounters.EncounterManager.Remove(DiskCardGame.EncounterBlueprintData)">
+  Remove(EncounterBlueprintData)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Removes a custom encounter from the encounter pool. Cannot be used to remove base encounters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Remove(EncounterBlueprintData encounter)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EncounterBlueprintData</span></td>
-        <td><span class="parametername">encounter</span></td>
-        <td><p>The encounter to remove.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>encounter</code> <span class="xref">EncounterBlueprintData</span></dt>
+    <dd><p>The encounter to remove.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_Encounters_EncounterManager_SyncEncounterList_" data-uid="InscryptionAPI.Encounters.EncounterManager.SyncEncounterList*"></a>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_SyncEncounterList" data-uid="InscryptionAPI.Encounters.EncounterManager.SyncEncounterList">SyncEncounterList()</h4>
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_SyncEncounterList" data-uid="InscryptionAPI.Encounters.EncounterManager.SyncEncounterList">
+  SyncEncounterList()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Re-executes events and rebuilds the encounter pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SyncEncounterList()</code></pre>
   </div>
-  <h3 id="events">Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="InscryptionAPI_Encounters_EncounterManager_ModifyEncountersList" data-uid="InscryptionAPI.Encounters.EncounterManager.ModifyEncountersList">
+  ModifyEncountersList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
-  <h4 id="InscryptionAPI_Encounters_EncounterManager_ModifyEncountersList" data-uid="InscryptionAPI.Encounters.EncounterManager.ModifyEncountersList">ModifyEncountersList</h4>
+
   <div class="markdown level1 summary"><p>This event runs every time the encounters list is resynced. By adding listeners to this event, you can modify encounters that have been added to the list after your mod was loaded.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static event Func&lt;List&lt;EncounterBlueprintData&gt;, List&lt;EncounterBlueprintData&gt;&gt; ModifyEncountersList</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<span class="xref">EncounterBlueprintData</span>&gt;, <span class="xref">List</span>&lt;<span class="xref">EncounterBlueprintData</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">EncounterBlueprintData</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="toggle-mode">
-                <div class="icon">
-                  <i aria-hidden="true">☀</i>
-                </div>
-                <label class="switch">
-                  <input type="checkbox" id="switch-style">
-                  <span class="slider round"></span>
-                </label>
-                <div class="icon">
-                  <i aria-hidden="true">☾</i>
-                </div>
-              </div>
-          
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
-              <div></div>
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
-          </div>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            <div class="pull-left">
-              
-              <span>Generated by <strong>DocFX</strong></span>
-            </div>
-            <div class="toggle-mode pull-right visible-sm visible-xs">
-              <div class="icon">
-                <i aria-hidden="true">☀</i>
-              </div>
-              <label class="switch">
-                <input type="checkbox" id="switch-style-m">
-                <span class="slider round"></span>
-              </label>
-              <div class="icon">
-                <i aria-hidden="true">☾</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
-      </footer>    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

@@ -1,82 +1,98 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Getting Started: Installation | InscryptionAPI </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Getting Started: Installation | InscryptionAPI ">
-    <meta name="generator" content="docfx 2.59.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+      <title> | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | InscryptionAPI ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/blob/main/docs/wiki/getting_started.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
-        </nav>
-      </header>
-      <div class="container body-content">
-        
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h2 id="getting-started-installation">Getting Started: Installation</h2>
 
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+
+<h2 id="getting-started-installation">Getting Started: Installation</h2>
 <hr>
-<p>To begin, we&#39;ll go over how to install BepInEx, the framework all Inscryption mods use.  This is a necessary step to playing modded Inscryption, so be sure to follow this carefully.</p>
+<p>To begin, we'll go over how to install BepInEx, the framework all Inscryption mods use.  This is a necessary step to playing modded Inscryption, so be sure to follow this carefully.</p>
 <p><strong>FOR LINUX AND STEAMDECK:</strong> Ensure that the game is set to run using <code>Proton</code> in he game settings on steam. Should be a setting like this: <code>Change launch behaviour</code> -&gt; <code>Proton</code>.</p>
 <h3 id="installing-with-a-mod-manager">Installing with a Mod Manager</h3>
 <ol>
-<li>Download and install <a href="https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager">Thunderstore Mod Manager</a>, <a href="https://thunderstore.io/c/inscryption/p/Kesomannen/GaleModManager/">Gale</a> or <a href="https://thunderstore.io/c/inscryption/p/ebkr/r2modman/">r2modman</a>.</li>
-<li>Click the <strong>Install with Mod Manager</strong> button on the top of <a href="https://thunderstore.io/c/inscryption/p/BepInEx/BepInExPack_Inscryption/">BepInEx&#39;s</a> page.</li>
+<li>Download and install <a href="https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager">Thunderstore Mod Manager</a>, <a href="https://thunderstore.io/c/inscryption/p/Kesomannen/GaleModManager/">Gale</a>, <a href="https://pulsarmods.com/">Pulsar</a> or <a href="https://thunderstore.io/c/inscryption/p/ebkr/r2modman/">r2modman</a>.</li>
+<li>Click the <strong>Install with Mod Manager</strong> button on the top of <a href="https://thunderstore.io/c/inscryption/p/BepInEx/BepInExPack_Inscryption/">BepInEx's</a> page.</li>
 <li>Run the game via the mod manager.</li>
 </ol>
 <p>If you have issues with Mod Managers head to one of these discords;</p>
@@ -91,40 +107,12 @@
 <li>Move the contents of the <code>BepInExPack_Inscryption</code> folder into the game folder (where the game executable is; usually found here: <code>C:\Program Files (x86)\Steam\steamapps\common\Inscryption</code>).</li>
 <li>Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.</li>
 <li>Install <a href="https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/">MonoModLoader</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don&#39;t exist, just create them).</li>
+<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don't exist, just create them).</li>
 <li>Install <a href="https://inscryption.thunderstore.io/package/API_dev/API/">Inscryption API</a> and extract the contents into a folder.</li>
 <li>Move the contents of the <code>plugins</code> folder into <code>BepInEx/plugins</code> and the contents of the <code>monomod</code> folder into the <code>BepInEx/monomod</code> folder.</li>
 <li>Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.</li>
 <li>For any additional mods create a new subfolder, it can be called anything and extract the zips archive into it and if there is a <code>BepInEx</code> folder within the zip instead drop the contents of that folder into the <code>BepInEx</code> root for the modding instance. EX;
- <code>BepInEx // These go within the BepInEx root folder
- |-- config
- |-- patchers
- |-- plugins
- |-- monomod
- |-- core
- plugins // Files within go into the created plugin subfolder that was created for the mod
- |-- Art
- |-- Scripts
- |-- MyMod.dll
- manifest.json // Ignorable, but if kept, goes in plugin subfolder
- README.md // Ignorable, but if kept, goes in plugin subfolder
- CHANGELOG.md // Ignorable, but if kept, goes in plugin subfolder
- icon.png // Ignorable, but if kept, goes in plugin subfolder</code></li>
-<li>Run the game once more and everything should be correct and working.</li>
-</ol>
-<h3 id="installing-manually-xbox-game-pass">Installing Manually (XBOX Game-Pass)</h3>
-<ol>
-<li>Install <a href="https://thunderstore.io/package/download/BepInEx/BepInExPack_Inscryption/5.4.2305/">BepInEx</a> by pressing <code>Manual Download</code> and extract the contents into a folder. <strong>Do not extract into the game folder!</strong></li>
-<li>Move the contents of the <code>BepInExPack_Inscryption</code> folder into the game folder (where the game executable is; usually found here: <code>C:\XboxGames\Inscryption\Content</code>).</li>
-<li>Install the following package: <a href="https://thunderstore.io/c/inscryption/p/CORE_API_TEAM/GamepassSilencio/">XboxSilencio</a>, this is a package which aims to solve frictions with XBOX Gamepass specific installations, such as HueyFS related errors.</li>
-<li>Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.</li>
-<li>Install <a href="https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/">MonoModLoader</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don&#39;t exist, just create them).</li>
-<li>Install <a href="https://inscryption.thunderstore.io/package/API_dev/API/">Inscryption API</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>plugins</code> folder into <code>BepInEx/plugins</code> and the contents of the <code>monomod</code> folder into the <code>BepInEx/monomod</code> folder.</li>
-<li>Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.</li>
-<li>For any additional mods create a new subfolder, it can be called anything and extract the zips archive into it and if there is a <code>BepInEx</code> folder within the zip instead drop the contents of that folder into the <code>BepInEx</code> root for the modding instance. EX;
-<code>BepInEx // These go within the BepInEx root folder
+<pre><code>BepInEx // These go within the BepInEx root folder
 |-- config
 |-- patchers
 |-- plugins
@@ -137,17 +125,49 @@ plugins // Files within go into the created plugin subfolder that was created fo
 manifest.json // Ignorable, but if kept, goes in plugin subfolder
 README.md // Ignorable, but if kept, goes in plugin subfolder
 CHANGELOG.md // Ignorable, but if kept, goes in plugin subfolder
-icon.png // Ignorable, but if kept, goes in plugin subfolder</code></li>
+icon.png // Ignorable, but if kept, goes in plugin subfolder
+</code></pre>
+</li>
+<li>Run the game once more and everything should be correct and working.</li>
+</ol>
+<h3 id="installing-manually-xbox-game-pass">Installing Manually (XBOX Game-Pass)</h3>
+<ol>
+<li>Install <a href="https://thunderstore.io/package/download/BepInEx/BepInExPack_Inscryption/5.4.2305/">BepInEx</a> by pressing <code>Manual Download</code> and extract the contents into a folder. <strong>Do not extract into the game folder!</strong></li>
+<li>Move the contents of the <code>BepInExPack_Inscryption</code> folder into the game folder (where the game executable is; usually found here: <code>C:\XboxGames\Inscryption\Content</code>).</li>
+<li>Install the following package: <a href="https://thunderstore.io/c/inscryption/p/CORE_API_TEAM/GamepassSilencio/">XboxSilencio</a>, this is a package which aims to solve frictions with XBOX Gamepass specific installations, such as HueyFS related errors.</li>
+<li>Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.</li>
+<li>Install <a href="https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/">MonoModLoader</a> and extract the contents into a folder.</li>
+<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don't exist, just create them).</li>
+<li>Install <a href="https://inscryption.thunderstore.io/package/API_dev/API/">Inscryption API</a> and extract the contents into a folder.</li>
+<li>Move the contents of the <code>plugins</code> folder into <code>BepInEx/plugins</code> and the contents of the <code>monomod</code> folder into the <code>BepInEx/monomod</code> folder.</li>
+<li>Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.</li>
+<li>For any additional mods create a new subfolder, it can be called anything and extract the zips archive into it and if there is a <code>BepInEx</code> folder within the zip instead drop the contents of that folder into the <code>BepInEx</code> root for the modding instance. EX;
+<pre><code>BepInEx // These go within the BepInEx root folder
+|-- config
+|-- patchers
+|-- plugins
+|-- monomod
+|-- core
+plugins // Files within go into the created plugin subfolder that was created for the mod
+|-- Art
+|-- Scripts
+|-- MyMod.dll
+manifest.json // Ignorable, but if kept, goes in plugin subfolder
+README.md // Ignorable, but if kept, goes in plugin subfolder
+CHANGELOG.md // Ignorable, but if kept, goes in plugin subfolder
+icon.png // Ignorable, but if kept, goes in plugin subfolder
+</code></pre>
+</li>
 <li>Run the game once more and everything should be correct and working.</li>
 </ol>
 <h3 id="installing-on-the-steam-deck">Installing on the Steam Deck</h3>
 <ol>
-<li>Download <a href="https://thunderstore.io/c/inscryption/p/ebkr/r2modman/">r2modman</a> on the Steam Deck&#39;s Desktop Mode and open it from its download using its <code>AppImage</code> file.</li>
+<li>Download <a href="https://thunderstore.io/c/inscryption/p/ebkr/r2modman/">r2modman</a> on the Steam Deck's Desktop Mode and open it from its download using its <code>AppImage</code> file.</li>
 <li>Download the mods you plan on using and their dependencies.</li>
 <li>Go to the setting of the profile you are using for the mods and click <code>Browse Profile Folder</code>.</li>
-<li>Copy the BepInEx folder, then go to Steam and open Inscryption&#39;s Properties menu</li>
-<li>Go to <code>Installed Files</code> click <code>Browse</code> to open the folder containing Inscryption&#39;s local files; paste the BepInEx folder there.</li>
-<li>Enter Gaming Mode and check &#39;Force the use of a specific Steam Play compatibility tool&#39; in the Properties menu under <code>Compatibility</code>.</li>
+<li>Copy the BepInEx folder, then go to Steam and open Inscryption's Properties menu</li>
+<li>Go to <code>Installed Files</code> click <code>Browse</code> to open the folder containing Inscryption's local files; paste the BepInEx folder there.</li>
+<li>Enter Gaming Mode and check 'Force the use of a specific Steam Play compatibility tool' in the Properties menu under <code>Compatibility</code>.</li>
 <li>Go to the launch parameters and enter <code>WINEDLLOVERRIDES=&quot;winhttp.dll=n,b&quot; %command%</code>.</li>
 <li>Open Inscryption. If everything was done correctly, you should see a console appear on your screen.</li>
 </ol>
@@ -164,22 +184,22 @@ icon.png // Ignorable, but if kept, goes in plugin subfolder</code></li>
 <h2 id="getting-started-modding">Getting Started: Modding</h2>
 <hr>
 <p>Modding Inscryption requires a knowledge of coding in C#, and in many cases an understanding of how to patch the game using HarmonyPatch.</p>
-<p>If you&#39;re unfamiliar with any of this, or just want to create cards and sigils, you can use <a href="https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/">JSONLoader</a>. </p>
+<p>If you're unfamiliar with any of this, or just want to create cards and sigils, you can use <a href="https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/">JSONLoader</a>.</p>
 <h3 id="modding-with-jsonloader">Modding with JSONLoader</h3>
-<p> JSONLoader is a versatile mode that provides a more beginner-friendly way of creating new cards and abilities for Inscryption using JSON syntax, which is much simpler than C#.</p>
-<p>JSONLoader&#39;s documentation can be found <a href="https://github.com/MADH95/JSONLoader">here</a>.</p>
+<p>JSONLoader is a versatile mode that provides a more beginner-friendly way of creating new cards and abilities for Inscryption using JSON syntax, which is much simpler than C#.</p>
+<p>JSONLoader's documentation can be found <a href="https://github.com/MADH95/JSONLoader">here</a>.</p>
 <p>A video tutorial covering how to use JSONLoader in a basic form can be found <a href="https://www.youtube.com/watch?v=grTSkpI4U7g">here</a>.</p>
 <h3 id="modding-with-c">Modding with C#</h3>
 <p>To begin modding with C#, you will need to create a new C# project using a code editor.
-We recommend and assume you&#39;re using Microsoft&#39;s Visual Studio.</p>
-<p>Your project&#39;s target framework needs to be <code>netstandard2.0</code>.</p>
-<p>Once your project&#39;s created, go to <code>Project &gt; Manage NuGet Packages</code>.
-Click the dropdown menu for &#39;Package source&#39; and check that &#39;BepInEx&#39; and &#39;nuget&#39; is there.</p>
-<p>If BepInEx or nuget aren&#39;t an available source, we need to add them.
+We recommend and assume you're using Microsoft's Visual Studio.</p>
+<p>Your project's target framework needs to be <code>netstandard2.0</code>.</p>
+<p>Once your project's created, go to <code>Project &gt; Manage NuGet Packages</code>.
+Click the dropdown menu for 'Package source' and check that 'BepInEx' and 'nuget' is there.</p>
+<p>If BepInEx or nuget aren't an available source, we need to add them.
 To add a new package source, click on the gear icon next to the package source selector, then click the large green plus-sign.</p>
-<p>To add BepInEx, change the name to &#39;BepInEx&#39; and the source link to &#39;<a href="https://nuget.bepinex.dev/v3/index.json">https://nuget.bepinex.dev/v3/index.json</a>&#39;.
-To add nuget, change the name to &#39;nuget&#39; and the source link to &#39;<a href="https://nuget.windows10ce.com/nuget/v3/index.json">https://nuget.windows10ce.com/nuget/v3/index.json</a>&#39;.</p>
-<p>Change the package source to &#39;All&#39; then click &#39;Browse&#39;.
+<p>To add BepInEx, change the name to 'BepInEx' and the source link to 'https://nuget.bepinex.dev/v3/index.json'.
+To add nuget, change the name to 'nuget' and the source link to 'https://nuget.windows10ce.com/nuget/v3/index.json'.</p>
+<p>Change the package source to 'All' then click 'Browse'.
 We want to install the following packages (<strong>Make sure the version numbers match!</strong>):</p>
 <ul>
 <li>BepInEx.Analyzers v1.0.8</li>
@@ -189,12 +209,12 @@ We want to install the following packages (<strong>Make sure the version numbers
 <li>UnityEngine.Modules v2019.4.24</li>
 </ul>
 <p>You will also need to add the API as a reference.
-There are a couple ways to do this, detailed below; whichever way you choose to do this, you&#39;ll also need to need to reference <code>InscryptionAPI.dll</code>, which should be in your BepInEx plugins folder; copy this path for future use.</p>
-<p>To do so, go to your &#39;BepInEx/plugins&#39; folder and copy the folder path.
-Then, navigate to <code>Project &gt; Add Project Reference</code> and click &#39;Browse&#39;.
-Copy the folder path and add &#39;InscryptionAPI.dll&#39; as a reference.
-You can do this for other mods&#39; .dll files if you want to reference them as a mod dependency (a separate mod that your mod relies on to work).</p>
-<p>An alternative method to adding the API (and other mods) as a reference is to use NuGet packages by adding &#39;<a href="https://nuget.bepinex.dev/v3/index.json">https://nuget.bepinex.dev/v3/index.json</a>&#39; as a package source, and then adding &#39;API_dev-API&#39; as a reference.</p>
+There are a couple ways to do this, detailed below; whichever way you choose to do this, you'll also need to need to reference <code>InscryptionAPI.dll</code>, which should be in your BepInEx plugins folder; copy this path for future use.</p>
+<p>To do so, go to your 'BepInEx/plugins' folder and copy the folder path.
+Then, navigate to <code>Project &gt; Add Project Reference</code> and click 'Browse'.
+Copy the folder path and add 'InscryptionAPI.dll' as a reference.
+You can do this for other mods' .dll files if you want to reference them as a mod dependency (a separate mod that your mod relies on to work).</p>
+<p>An alternative method to adding the API (and other mods) as a reference is to use NuGet packages by adding 'https://nuget.bepinex.dev/v3/index.json' as a package source, and then adding 'API_dev-API' as a reference.</p>
 <p>With all this, you are now ready to begin creating your mod!
 Some resources are provided below for you to use, including an example mod to look at for examples.
 Otherwise, continue reading this wiki.</p>
@@ -204,64 +224,27 @@ Otherwise, continue reading this wiki.</p>
 <p><a href="https://harmony.pardeike.net/articles/patching.html">Harmony patching article</a></p>
 <p><a href="https://github.com/debugman18/InscryptionExampleMod">Example Mod using C#</a></p>
 <p><a href="https://github.com/SaxbyMod/SabyModEnums">Vanilla and Modded Enumerations</a></p>
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="toggle-mode">
-                <div class="icon">
-                  <i aria-hidden="true">☀</i>
-                </div>
-                <label class="switch">
-                  <input type="checkbox" id="switch-style">
-                  <span class="slider round"></span>
-                </label>
-                <div class="icon">
-                  <i aria-hidden="true">☾</i>
-                </div>
-              </div>
-          
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
-              <div></div>
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
-          </div>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            <div class="pull-left">
-              
-              <span>Generated by <strong>DocFX</strong></span>
-            </div>
-            <div class="toggle-mode pull-right visible-sm visible-xs">
-              <div class="icon">
-                <i aria-hidden="true">☀</i>
-              </div>
-              <label class="switch">
-                <input type="checkbox" id="switch-style-m">
-                <span class="slider round"></span>
-              </label>
-              <div class="icon">
-                <i aria-hidden="true">☾</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
-      </footer>    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

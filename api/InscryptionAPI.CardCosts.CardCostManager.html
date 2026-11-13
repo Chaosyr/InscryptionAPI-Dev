@@ -1,988 +1,925 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CardCostManager
-   | InscryptionAPI </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CardCostManager
-   | InscryptionAPI ">
-    <meta name="generator" content="docfx 2.59.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+      <title>Class CardCostManager | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CardCostManager | InscryptionAPI ">
+      
+      <meta name="description" content="Class for managing custom card costs.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_CardCosts_CardCostManager.md&amp;value=---%0Auid%3A%20InscryptionAPI.CardCosts.CardCostManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
-        </nav>
-      </header>
-      <div class="container body-content">
-        
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InscryptionAPI.CardCosts.CardCostManager">
-  
-  
-  <h1 id="InscryptionAPI_CardCosts_CardCostManager" data-uid="InscryptionAPI.CardCosts.CardCostManager" class="text-break">Class CardCostManager
-  </h1>
-  <div class="markdown level0 summary"></div>
+
+        <article data-uid="InscryptionAPI.CardCosts.CardCostManager">
+
+
+
+  <h1 id="InscryptionAPI_CardCosts_CardCostManager" data-uid="InscryptionAPI.CardCosts.CardCostManager" class="text-break">Class CardCostManager</h1>
+  <div class="markdown level0 summary"><p>Class for managing custom card costs.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">CardCostManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.CardCosts.html">InscryptionAPI.CardCosts</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.CardCosts.html">CardCosts</a></h6>
   <h6><strong>Assembly</strong>: InscryptionAPI.dll</h6>
   <h5 id="InscryptionAPI_CardCosts_CardCostManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class CardCostManager : object</code></pre>
+    <pre><code class="lang- hljs">[HarmonyPatch]
+public static class CardCostManager</code></pre>
   </div>
-  <h3 id="fields">Fields
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_notEnoghSameColourGemsEvent" data-uid="InscryptionAPI.CardCosts.CardCostManager.notEnoghSameColourGemsEvent">
+  notEnoghSameColourGemsEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L242"><i class="bi bi-code-slash"></i></a>
   </h3>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_notEnoghSameColourGemsEvent" data-uid="InscryptionAPI.CardCosts.CardCostManager.notEnoghSameColourGemsEvent">notEnoghSameColourGemsEvent</h4>
-  <div class="markdown level1 summary"></div>
+
+  <div class="markdown level1 summary"><p>The DialogueEvent that is played when a player cannot play a card that costs multiple gems of the same colour.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DialogueEvent notEnoghSameColourGemsEvent</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DialogueEvent</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_notEnoughSameColourGemsHint" data-uid="InscryptionAPI.CardCosts.CardCostManager.notEnoughSameColourGemsHint">notEnoughSameColourGemsHint</h4>
-  <div class="markdown level1 summary"></div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DialogueEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_notEnoughSameColourGemsHint" data-uid="InscryptionAPI.CardCosts.CardCostManager.notEnoughSameColourGemsHint">
+  notEnoughSameColourGemsHint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Hint used to tell the player when they cannot play a card that costs multiple gems of the same colour.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static HintsHandler.Hint notEnoughSameColourGemsHint</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">HintsHandler.Hint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">HintsHandler</span>.<span class="xref">Hint</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_AllCustomCosts_" data-uid="InscryptionAPI.CardCosts.CardCostManager.AllCustomCosts*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_AllCustomCosts" data-uid="InscryptionAPI.CardCosts.CardCostManager.AllCustomCosts">AllCustomCosts</h4>
-  <div class="markdown level1 summary"></div>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_AllCustomCosts" data-uid="InscryptionAPI.CardCosts.CardCostManager.AllCustomCosts">
+  AllCustomCosts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of all card costs registered with the API.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static List&lt;CardCostManager.FullCardCost&gt; AllCustomCosts { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_CostByBehaviour_" data-uid="InscryptionAPI.CardCosts.CardCostManager.CostByBehaviour*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_CostByBehaviour_IEnumerable_InscryptionAPI_CardCosts_CardCostManager_FullCardCost__Type_" data-uid="InscryptionAPI.CardCosts.CardCostManager.CostByBehaviour(IEnumerable{InscryptionAPI.CardCosts.CardCostManager.FullCardCost},Type)">CostByBehaviour(IEnumerable&lt;CardCostManager.FullCardCost&gt;, Type)</h4>
-  <div class="markdown level1 summary"></div>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_CostByBehaviour_System_Collections_Generic_IEnumerable_InscryptionAPI_CardCosts_CardCostManager_FullCardCost__System_Type_" data-uid="InscryptionAPI.CardCosts.CardCostManager.CostByBehaviour(System.Collections.Generic.IEnumerable{InscryptionAPI.CardCosts.CardCostManager.FullCardCost},System.Type)">
+  CostByBehaviour(IEnumerable&lt;FullCardCost&gt;, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the FullCardCost object associated with the given CustomCardCost class Type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost CostByBehaviour(this IEnumerable&lt;CardCostManager.FullCardCost&gt; customCosts, Type costBehaviour)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a>&gt;</td>
-        <td><span class="parametername">customCosts</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Type</span></td>
-        <td><span class="parametername">costBehaviour</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>customCosts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a>&gt;</dt>
+    <dd><p>Collection of FullCardCost objects to search through.</p>
+</dd>
+    <dt><code>costBehaviour</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>Type of the CustomCardCost to find the FUllCardCost object of.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost associated with the given Type, or null if it cannot be found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="InscryptionAPI_CardCosts_CardCostManager_CostByBehaviour_System_Collections_Generic_IEnumerable_InscryptionAPI_CardCosts_CardCostManager_FullCardCost__System_Type__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Intended to be used with the AllCustomCosts getter as a way of searching through all card costs added by the API.</p>
+</div>
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableCustomCostCard_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableCustomCostCard*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableCustomCostCard_System_Int32_List_InscryptionAPI_CardCosts_CardCostManager_FullCardCost__" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableCustomCostCard(System.Int32,List{InscryptionAPI.CardCosts.CardCostManager.FullCardCost})">GetRandomChoosableCustomCostCard(Int32, List&lt;CardCostManager.FullCardCost&gt;)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableCustomCostCard_System_Int32_System_Collections_Generic_List_InscryptionAPI_CardCosts_CardCostManager_FullCardCost__" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableCustomCostCard(System.Int32,System.Collections.Generic.List{InscryptionAPI.CardCosts.CardCostManager.FullCardCost})">
+  GetRandomChoosableCustomCostCard(int, List&lt;FullCardCost&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L786"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardInfo GetRandomChoosableCustomCostCard(int randomSeed, List&lt;CardCostManager.FullCardCost&gt; customCosts)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">randomSeed</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a>&gt;</td>
-        <td><span class="parametername">customCosts</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>randomSeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>customCosts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CardInfo</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableCustomCostCardWithAmounts_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableCustomCostCardWithAmounts*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableCustomCostCardWithAmounts_System_Int32_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableCustomCostCardWithAmounts(System.Int32,InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Int32[])">GetRandomChoosableCustomCostCardWithAmounts(Int32, CardCostManager.FullCardCost, Int32[])</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableCustomCostCardWithAmounts_System_Int32_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableCustomCostCardWithAmounts(System.Int32,InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Int32[])">
+  GetRandomChoosableCustomCostCardWithAmounts(int, FullCardCost, params int[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L796"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardInfo GetRandomChoosableCustomCostCardWithAmounts(int randomSeed, CardCostManager.FullCardCost customCost, params int[] costAmounts)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">randomSeed</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">customCost</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
-        <td><span class="parametername">costAmounts</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>randomSeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>customCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd></dd>
+    <dt><code>costAmounts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CardInfo</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableEnergyCard_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableEnergyCard*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableEnergyCard_System_Int32_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableEnergyCard(System.Int32)">GetRandomChoosableEnergyCard(Int32)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableEnergyCard_System_Int32_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableEnergyCard(System.Int32)">
+  GetRandomChoosableEnergyCard(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L774"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardInfo GetRandomChoosableEnergyCard(int randomSeed)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">randomSeed</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>randomSeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CardInfo</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableMoxCard_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableMoxCard*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableMoxCard_System_Int32_GemType_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableMoxCard(System.Int32,GemType)">GetRandomChoosableMoxCard(Int32, GemType)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomChoosableMoxCard_System_Int32_DiskCardGame_GemType_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomChoosableMoxCard(System.Int32,DiskCardGame.GemType)">
+  GetRandomChoosableMoxCard(int, GemType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L779"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardInfo GetRandomChoosableMoxCard(int randomSeed, GemType gem)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">randomSeed</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">GemType</span></td>
-        <td><span class="parametername">gem</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CardInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>randomSeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>gem</code> <span class="xref">GemType</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CardInfo</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_GetRandomMoxIndex_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomMoxIndex*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomMoxIndex_System_Int32_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomMoxIndex(System.Int32)">GetRandomMoxIndex(Int32)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_GetRandomMoxIndex_System_Int32_" data-uid="InscryptionAPI.CardCosts.CardCostManager.GetRandomMoxIndex(System.Int32)">
+  GetRandomMoxIndex(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L804"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetRandomMoxIndex(int randomSeed)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">randomSeed</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>randomSeed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_NewGemsCostRequirementMet_" data-uid="InscryptionAPI.CardCosts.CardCostManager.NewGemsCostRequirementMet*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_NewGemsCostRequirementMet_PlayableCard_" data-uid="InscryptionAPI.CardCosts.CardCostManager.NewGemsCostRequirementMet(PlayableCard)">NewGemsCostRequirementMet(PlayableCard)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_NewGemsCostRequirementMet_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.CardCosts.CardCostManager.NewGemsCostRequirementMet(DiskCardGame.PlayableCard)">
+  NewGemsCostRequirementMet(PlayableCard)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>A new method that overrides the result of PlayableCard.GemsCostRequirement. Override this if you want to modify GemsCostRequirementMet.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool NewGemsCostRequirementMet(PlayableCard card)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PlayableCard</span></td>
-        <td><span class="parametername">card</span></td>
-        <td><p>The PlayableCard currently being checked.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Boolean representing if the card&apos;s gem cost has been met or not.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
+    <dd><p>The PlayableCard currently being checked.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Boolean representing if the card's gem cost has been met or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_PlaySelectedCardToSlot_" data-uid="InscryptionAPI.CardCosts.CardCostManager.PlaySelectedCardToSlot*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_PlaySelectedCardToSlot_PlayerHand_PlayableCard_CardSlot_" data-uid="InscryptionAPI.CardCosts.CardCostManager.PlaySelectedCardToSlot(PlayerHand,PlayableCard,CardSlot)">PlaySelectedCardToSlot(PlayerHand, PlayableCard, CardSlot)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_PlaySelectedCardToSlot_DiskCardGame_PlayerHand_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.CardCosts.CardCostManager.PlaySelectedCardToSlot(DiskCardGame.PlayerHand,DiskCardGame.PlayableCard,DiskCardGame.CardSlot)">
+  PlaySelectedCardToSlot(PlayerHand, PlayableCard, CardSlot)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L617"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Does two things:
-1: Caches play costs before playing the card onto the board to prevent incorrect values being used should the card&apos;s CardInfo change.
-2: Implements support for custom cards&apos; OnPlay logic.</p>
+1: Caches play costs before playing the card onto the board to prevent incorrect values being used should the card's CardInfo change.
+2: Implements support for custom cards' OnPlay logic.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IEnumerator PlaySelectedCardToSlot(PlayerHand instance, PlayableCard card, CardSlot lastSelectedSlot)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PlayerHand</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td><p>The PlayerHand object.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">PlayableCard</span></td>
-        <td><span class="parametername">card</span></td>
-        <td><p>The PlayableCard being played to the board.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">CardSlot</span></td>
-        <td><span class="parametername">lastSelectedSlot</span></td>
-        <td><p>The last selected slot, equals BoardManage.Instance.LastSelectedSlot by default.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instance</code> <span class="xref">PlayerHand</span></dt>
+    <dd><p>The PlayerHand object.</p>
+</dd>
+    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
+    <dd><p>The PlayableCard being played to the board.</p>
+</dd>
+    <dt><code>lastSelectedSlot</code> <span class="xref">CardSlot</span></dt>
+    <dd><p>The last selected slot, equals BoardManage.Instance.LastSelectedSlot by default.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_Register_" data-uid="InscryptionAPI.CardCosts.CardCostManager.Register*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_Register_System_String_System_String_Type_Func_System_Int32_CardInfo_PlayableCard_Texture2D__Func_System_Int32_CardInfo_PlayableCard_Texture2D__" data-uid="InscryptionAPI.CardCosts.CardCostManager.Register(System.String,System.String,Type,Func{System.Int32,CardInfo,PlayableCard,Texture2D},Func{System.Int32,CardInfo,PlayableCard,Texture2D})">Register(String, String, Type, Func&lt;Int32, CardInfo, PlayableCard, Texture2D&gt;, Func&lt;Int32, CardInfo, PlayableCard, Texture2D&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_Register_System_String_System_String_System_Type_System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__" data-uid="InscryptionAPI.CardCosts.CardCostManager.Register(System.String,System.String,System.Type,System.Func{System.Int32,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,UnityEngine.Texture2D},System.Func{System.Int32,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,UnityEngine.Texture2D})">
+  Register(string, string, Type, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt;, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Registers a new custom card cost with the API.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost Register(string modGUID, string costName, Type costBehaviour, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt; getCostTexture, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt; getPixelCostTexture)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">modGUID</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">costName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Type</span></td>
-        <td><span class="parametername">costBehaviour</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">CardInfo</span>, <span class="xref">PlayableCard</span>, <span class="xref">Texture2D</span>&gt;</td>
-        <td><span class="parametername">getCostTexture</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">CardInfo</span>, <span class="xref">PlayableCard</span>, <span class="xref">Texture2D</span>&gt;</td>
-        <td><span class="parametername">getPixelCostTexture</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modGUID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The GUID of the mod adding this card cost.</p>
+</dd>
+    <dt><code>costName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The internal name of this card cost.</p>
+</dd>
+    <dt><code>costBehaviour</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The type of the CustomCardCost class for this card cost.</p>
+</dd>
+    <dt><code>getCostTexture</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <span class="xref">CardInfo</span>, <span class="xref">PlayableCard</span>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</dt>
+    <dd><p>The function used to determine what texture to display on cards with this cost.</p>
+</dd>
+    <dt><code>getPixelCostTexture</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <span class="xref">CardInfo</span>, <span class="xref">PlayableCard</span>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</dt>
+    <dd><p>The function used to determine what pixel texture to display on cards with this cost.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost object containing the new custom card cost's data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SetCanBeNegative_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCanBeNegative*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SetCanBeNegative_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Boolean_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCanBeNegative(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Boolean)">SetCanBeNegative(CardCostManager.FullCardCost, Boolean)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SetCanBeNegative_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Boolean_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCanBeNegative(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Boolean)">
+  SetCanBeNegative(FullCardCost, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Whether or not GetCustomCost can return negative values. If False, negative values will be returned as 0.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost SetCanBeNegative(this CardCostManager.FullCardCost fullCardCost, bool canBeNegative)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">fullCardCost</span></td>
-        <td><p>The FullCardCost object to modify.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">canBeNegative</span></td>
-        <td><p>If negative cost values should be accepted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><p>The same FullCardCost so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullCardCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost object to modify.</p>
+</dd>
+    <dt><code>canBeNegative</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If negative cost values should be accepted.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The same FullCardCost so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SetCanBePlayedByTurn2WithHand_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCanBePlayedByTurn2WithHand*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SetCanBePlayedByTurn2WithHand_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_Func_System_Int32_CardInfo_List_CardInfo__System_Boolean__" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCanBePlayedByTurn2WithHand(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,Func{System.Int32,CardInfo,List{CardInfo},System.Boolean})">SetCanBePlayedByTurn2WithHand(CardCostManager.FullCardCost, Func&lt;Int32, CardInfo, List&lt;CardInfo&gt;, Boolean&gt;)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SetCanBePlayedByTurn2WithHand_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Func_System_Int32_DiskCardGame_CardInfo_System_Collections_Generic_List_DiskCardGame_CardInfo__System_Boolean__" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCanBePlayedByTurn2WithHand(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Func{System.Int32,DiskCardGame.CardInfo,System.Collections.Generic.List{DiskCardGame.CardInfo},System.Boolean})">
+  SetCanBePlayedByTurn2WithHand(FullCardCost, Func&lt;int, CardInfo, List&lt;CardInfo&gt;, bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the function used to determine if a card with this cost can be played by the second turn</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost SetCanBePlayedByTurn2WithHand(this CardCostManager.FullCardCost fullCardCost, Func&lt;int, CardInfo, List&lt;CardInfo&gt;, bool&gt; getCanBePlayedByTurn2WithHand)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">fullCardCost</span></td>
-        <td><p>The FullCardCost object to modify.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">CardInfo</span>, <span class="xref">List</span>&lt;<span class="xref">CardInfo</span>&gt;, <span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">getCanBePlayedByTurn2WithHand</span></td>
-        <td><p>CardInfo - current CardInfo ; List<cardinfo> - cards in player&apos;s hand.</cardinfo>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><p>The same FullCardCost so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullCardCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost object to modify.</p>
+</dd>
+    <dt><code>getCanBePlayedByTurn2WithHand</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <span class="xref">CardInfo</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>CardInfo - current CardInfo ; List<cardinfo> - cards in player's hand.</cardinfo>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The same FullCardCost so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SetChoiceAmounts_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetChoiceAmounts*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SetChoiceAmounts_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetChoiceAmounts(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Int32[])">SetChoiceAmounts(CardCostManager.FullCardCost, Int32[])</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SetChoiceAmounts_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetChoiceAmounts(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Int32[])">
+  SetChoiceAmounts(FullCardCost, params int[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Defines what cost amounts for this cost will be offered at the cost choice node.
 For example, the choice node offers 1 Blood, 2 Blood, and 3 Blood.</p>
 <p>If this cost is part of a group (ie shares its ResourceType with another custom cost), ChoiceAmounts is ignored.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost SetChoiceAmounts(this CardCostManager.FullCardCost fullCardCost, params int[] choiceAmounts)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">fullCardCost</span></td>
-        <td><p>The FullCardCost object to modify.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
-        <td><span class="parametername">choiceAmounts</span></td>
-        <td><p>An array of integers representing cost amounts to offer at the cost choice node.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><p>The same FullCardCost so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullCardCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost object to modify.</p>
+</dd>
+    <dt><code>choiceAmounts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>An array of integers representing cost amounts to offer at the cost choice node.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The same FullCardCost so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SetCostTier_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCostTier*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SetCostTier_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_Func_System_Int32_System_Int32__" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCostTier(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,Func{System.Int32,System.Int32})">SetCostTier(CardCostManager.FullCardCost, Func&lt;Int32, Int32&gt;)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SetCostTier_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Func_System_Int32_System_Int32__" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetCostTier(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Func{System.Int32,System.Int32})">
+  SetCostTier(FullCardCost, Func&lt;int, int&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the function used to determine the cost tier for a custom cost.
 For example, the cost tier for Bones is equal to (Bones / 3 ), rounded down to the nearest integer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost SetCostTier(this CardCostManager.FullCardCost fullCardCost, Func&lt;int, int&gt; getCostTier)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">fullCardCost</span></td>
-        <td><p>The FullCardCost object to modify.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">getCostTier</span></td>
-        <td><p>Parameters: int - cost amount. Returns int representing tier value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><p>The same FullCardCost so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullCardCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost object to modify.</p>
+</dd>
+    <dt><code>getCostTier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>Parameters: int - cost amount. Returns int representing tier value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The same FullCardCost so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SetFoundAtChoiceNodes_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetFoundAtChoiceNodes*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SetFoundAtChoiceNodes_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Boolean_Func_System_Int32_Texture__System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetFoundAtChoiceNodes(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Boolean,Func{System.Int32,Texture},System.Int32[])">SetFoundAtChoiceNodes(CardCostManager.FullCardCost, Boolean, Func&lt;Int32, Texture&gt;, Int32[])</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SetFoundAtChoiceNodes_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Boolean_System_Func_System_Int32_UnityEngine_Texture__System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetFoundAtChoiceNodes(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Boolean,System.Func{System.Int32,UnityEngine.Texture},System.Int32[])">
+  SetFoundAtChoiceNodes(FullCardCost, bool, Func&lt;int, Texture&gt;, params int[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost SetFoundAtChoiceNodes(this CardCostManager.FullCardCost fullCardCost, bool isChoice, Func&lt;int, Texture&gt; rewardBackFunc, params int[] choiceAmounts)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">fullCardCost</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isChoice</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">Texture</span>&gt;</td>
-        <td><span class="parametername">rewardBackFunc</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span>[]</td>
-        <td><span class="parametername">choiceAmounts</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullCardCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd></dd>
+    <dt><code>isChoice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>rewardBackFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture.html">Texture</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>choiceAmounts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SetFoundAtChoiceNodes_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetFoundAtChoiceNodes*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SetFoundAtChoiceNodes_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Boolean_Texture_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetFoundAtChoiceNodes(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Boolean,Texture)">SetFoundAtChoiceNodes(CardCostManager.FullCardCost, Boolean, Texture)</h4>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SetFoundAtChoiceNodes_InscryptionAPI_CardCosts_CardCostManager_FullCardCost_System_Boolean_UnityEngine_Texture_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SetFoundAtChoiceNodes(InscryptionAPI.CardCosts.CardCostManager.FullCardCost,System.Boolean,UnityEngine.Texture)">
+  SetFoundAtChoiceNodes(FullCardCost, bool, Texture)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>Sets the ResourceType and RewardBackTexture for this cost, allowing it to be selected at cost choice nodes in Act 1.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CardCostManager.FullCardCost SetFoundAtChoiceNodes(this CardCostManager.FullCardCost fullCardCost, bool isChoice, Texture rewardBack)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><span class="parametername">fullCardCost</span></td>
-        <td><p>The FullCardCost object to modify.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isChoice</span></td>
-        <td><p>Whether this card cost should appear at cost choice nodes. Sets the ResourceType to a unique value if true. Sets the ResourceType to None if false.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Texture</span></td>
-        <td><span class="parametername">rewardBack</span></td>
-        <td><p>The texture to use at the cost choice node.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a></td>
-        <td><p>The same FullCardCost so a chain can continue.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fullCardCost</code> <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The FullCardCost object to modify.</p>
+</dd>
+    <dt><code>isChoice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether this card cost should appear at cost choice nodes. Sets the ResourceType to a unique value if true. Sets the ResourceType to None if false.</p>
+</dd>
+    <dt><code>rewardBack</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture.html">Texture</a></dt>
+    <dd><p>The texture to use at the cost choice node.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a></dt>
+    <dd><p>The same FullCardCost so a chain can continue.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_CardCosts_CardCostManager_SyncCustomCostList_" data-uid="InscryptionAPI.CardCosts.CardCostManager.SyncCustomCostList*"></a>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_SyncCustomCostList" data-uid="InscryptionAPI.CardCosts.CardCostManager.SyncCustomCostList">SyncCustomCostList()</h4>
-  <div class="markdown level1 summary"></div>
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_SyncCustomCostList" data-uid="InscryptionAPI.CardCosts.CardCostManager.SyncCustomCostList">
+  SyncCustomCostList()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Re-executes events and rebuilds the card cost pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SyncCustomCostList()</code></pre>
   </div>
-  <h3 id="events">Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="InscryptionAPI_CardCosts_CardCostManager_ModifyCustomCostList" data-uid="InscryptionAPI.CardCosts.CardCostManager.ModifyCustomCostList">
+  ModifyCustomCostList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L229"><i class="bi bi-code-slash"></i></a>
   </h3>
-  <h4 id="InscryptionAPI_CardCosts_CardCostManager_ModifyCustomCostList" data-uid="InscryptionAPI.CardCosts.CardCostManager.ModifyCustomCostList">ModifyCustomCostList</h4>
-  <div class="markdown level1 summary"></div>
+
+  <div class="markdown level1 summary"><p>This event runs every time the card card list is resynced. By adding listeners to this event, you can modify card costs that have been added to the list after your mod was loaded.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static event Func&lt;List&lt;CardCostManager.FullCardCost&gt;, List&lt;CardCostManager.FullCardCost&gt;&gt; ModifyCustomCostList</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a>&gt;, <span class="xref">List</span>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">CardCostManager.FullCardCost</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.<a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html">FullCardCost</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="toggle-mode">
-                <div class="icon">
-                  <i aria-hidden="true">☀</i>
-                </div>
-                <label class="switch">
-                  <input type="checkbox" id="switch-style">
-                  <span class="slider round"></span>
-                </label>
-                <div class="icon">
-                  <i aria-hidden="true">☾</i>
-                </div>
-              </div>
-          
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
-              <div></div>
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
-          </div>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            <div class="pull-left">
-              
-              <span>Generated by <strong>DocFX</strong></span>
-            </div>
-            <div class="toggle-mode pull-right visible-sm visible-xs">
-              <div class="icon">
-                <i aria-hidden="true">☀</i>
-              </div>
-              <label class="switch">
-                <input type="checkbox" id="switch-style-m">
-                <span class="slider round"></span>
-              </label>
-              <div class="icon">
-                <i aria-hidden="true">☾</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
-      </footer>    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

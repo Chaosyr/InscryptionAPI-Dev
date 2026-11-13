@@ -1,75 +1,91 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Talking Cards | InscryptionAPI </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Talking Cards | InscryptionAPI ">
-    <meta name="generator" content="docfx 2.59.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+      <title> | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | InscryptionAPI ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/blob/main/docs/wiki/talking_cards.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
-        </nav>
-      </header>
-      <div class="container body-content">
-        
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h2 id="talking-cards">Talking Cards</h2>
 
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="">
+
+<h2 id="talking-cards">Talking Cards</h2>
 <hr>
 <p>This API supports creating new talking cards from scratch, without the need to load up your own Unity prefabs or anything of the sort!</p>
 <p>All you have to do is create a class that implements the <strong>ITalkingCard</strong> interface, which contains the following fields:</p>
@@ -90,7 +106,7 @@
 <tr>
 <td>Emotions</td>
 <td>List&lt;EmotionData&gt;</td>
-<td>Your talking card&#39;s emotions.</td>
+<td>Your talking card's emotions.</td>
 </tr>
 <tr>
 <td>FaceInfo</td>
@@ -100,15 +116,16 @@
 <tr>
 <td>DialogueAbility</td>
 <td>SpecialTriggeredAbility</td>
-<td>The special ability that controls your talking card&#39;s dialogue.</td>
+<td>The special ability that controls your talking card's dialogue.</td>
 </tr>
 </tbody>
 </table>
 <p>And after that, all you need to do is register your talking card with the <code>TalkingCardManager.New&lt;T&gt;()</code> method as such:</p>
 <pre><code class="lang-csharp">TalkingCardManager.New&lt;ExampleClass&gt;();
-</code></pre><p>Additionally, as you can see from the last item in the table above, you&#39;re gonna need to create a new SpecialTriggeredAbility that controls your talking card&#39;s dialogue.</p>
-<p>Don&#39;t worry, I&#39;ll explain exactly what you need to do! </p>
-<p>Fortunately for you, this API already supports creating new special abilities. Additionally, you won&#39;t have to do all the work: the base game already defines abstract classes you should inherit from when creating a special ability for your talking card:</p>
+</code></pre>
+<p>Additionally, as you can see from the last item in the table above, you're gonna need to create a new SpecialTriggeredAbility that controls your talking card's dialogue.</p>
+<p>Don't worry, I'll explain exactly what you need to do!</p>
+<p>Fortunately for you, this API already supports creating new special abilities. Additionally, you won't have to do all the work: the base game already defines abstract classes you should inherit from when creating a special ability for your talking card:</p>
 <table>
 <thead>
 <tr>
@@ -127,7 +144,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Additionally</strong>, to make the task of creating Act 1 talking cards even easier for you, I&#39;ve defined an abstract class that inherits from <strong>PaperTalkingCard</strong>, includes the <strong>ITalkingCard</strong> interface and adds a few small tweaks behind the scenes! It&#39;s called <strong>CustomPaperTalkingCard</strong>.</p>
+<p><strong>Additionally</strong>, to make the task of creating Act 1 talking cards even easier for you, I've defined an abstract class that inherits from <strong>PaperTalkingCard</strong>, includes the <strong>ITalkingCard</strong> interface and adds a few small tweaks behind the scenes! It's called <strong>CustomPaperTalkingCard</strong>.</p>
 <p>All you have to do is create a class that inherits from <strong>CustomPaperTalkingCard</strong> and implement its abstract fields as such:</p>
 <pre><code class="lang-csharp">public class ExampleTalkingCard : CustomPaperTalkingCard
 {
@@ -141,9 +158,9 @@
             emission: (&quot;Example_EyesOpenEmission.png&quot;, &quot;_&quot;))
     };
     public override FaceInfo FaceInfo =&gt; new FaceInfo(blinkRate: 1.5f, voiceSoundPitch: 1.1f);
-
+    
     public override SpecialTriggeredAbility DialogueAbility =&gt; dialogueAbility;
-
+    
     private SpecialTriggeredAbility dialogueAbility = SpecialTriggeredAbilityManager.Add(
             guid: Plugin.PluginGuid,
             abilityName: &quot;ExampleDialogueAbility&quot;,
@@ -161,12 +178,14 @@
 
     public override Dictionary&lt;Opponent.Type, string&gt; OnDrawnSpecialOpponentDialogueIds =&gt; new Dictionary&lt;Opponent.Type, string&gt;();
 }
-</code></pre><p>And, after that, all you need to do is register your new talking card with the <code>TalkingCardManager.New&lt;T&gt;()</code> method as such:</p>
+</code></pre>
+<p>And, after that, all you need to do is register your new talking card with the <code>TalkingCardManager.New&lt;T&gt;()</code> method as such:</p>
 <pre><code class="lang-csharp">TalkingCardManager.New&lt;ExampleTalkingCard&gt;();
-</code></pre><p><strong>Note</strong>: <strong>CustomPaperTalkingCard</strong> can only be used for Act 1 talking cards. If you want to make an Act 3 talking card, you&#39;re gonna have to inherit from DiskTalkingCard directly!</p>
-<p>Below I&#39;m going to explain a few important things about talking cards in-depth!</p>
+</code></pre>
+<p><strong>Note</strong>: <strong>CustomPaperTalkingCard</strong> can only be used for Act 1 talking cards. If you want to make an Act 3 talking card, you're gonna have to inherit from DiskTalkingCard directly!</p>
+<p>Below I'm going to explain a few important things about talking cards in-depth!</p>
 <h3 id="emotiondata">EmotionData</h3>
-<p>The EmotionData class is a container for the sprites for one of your character&#39;s emotions. It has a constructor that takes Unity Sprites as parameters, and another constructor that takes the path to your image as a string for each image. </p>
+<p>The EmotionData class is a container for the sprites for one of your character's emotions. It has a constructor that takes Unity Sprites as parameters, and another constructor that takes the path to your image as a string for each image.</p>
 <p>The constructors take the following parameters:</p>
 <table>
 <thead>
@@ -182,27 +201,27 @@
 </tr>
 <tr>
 <td>face</td>
-<td>A sprite for your character&#39;s face.</td>
+<td>A sprite for your character's face.</td>
 </tr>
 <tr>
 <td>eyes</td>
-<td>A pair of sprites for your character&#39;s eyes: open and closed.</td>
+<td>A pair of sprites for your character's eyes: open and closed.</td>
 </tr>
 <tr>
 <td>mouth</td>
-<td>A pair of sprites for your character&#39;s mouth: open and closed.</td>
+<td>A pair of sprites for your character's mouth: open and closed.</td>
 </tr>
 <tr>
 <td>emission</td>
-<td>A pair of sprites for your character&#39;s eyes&#39; emission: open and closed.</td>
+<td>A pair of sprites for your character's eyes' emission: open and closed.</td>
 </tr>
 </tbody>
 </table>
 <p>If you ever need to use an empty portrait texture, you can use <code>TalkingCardManager.EmptyPortrait</code>!</p>
-<p>The string constructor also contains shorthand for an empty texture, if you need it: Just add an &quot;_&quot; as your string for that given parameter. </p>
-<p>A guide on how to <strong>use emotions</strong> in your card&#39;s dialogue can be found <a href="#using-emotions-in-dialogue">in this section below</a>.</p>
+<p>The string constructor also contains shorthand for an empty texture, if you need it: Just add an &quot;_&quot; as your string for that given parameter.</p>
+<p>A guide on how to <strong>use emotions</strong> in your card's dialogue can be found <a href="#using-emotions-in-dialogue">in this section below</a>.</p>
 <h3 id="faceinfo">FaceInfo</h3>
-<p>The FaceInfo class contains a bit of info about your talking card: namely, blink rate, voice pitch, and the sound used for your character&#39;s voice in general.</p>
+<p>The FaceInfo class contains a bit of info about your talking card: namely, blink rate, voice pitch, and the sound used for your character's voice in general.</p>
 <p>The constructor takes the following parameters:</p>
 <table>
 <thead>
@@ -221,12 +240,12 @@
 <tr>
 <td>voiceId</td>
 <td>string</td>
-<td>Your character&#39;s &quot;voice&quot;. Will explain more below.</td>
+<td>Your character's &quot;voice&quot;. Will explain more below.</td>
 </tr>
 <tr>
 <td>voiceSoundPitch</td>
 <td>float</td>
-<td>Your character&#39;s voice&#39;s pitch.</td>
+<td>Your character's voice's pitch.</td>
 </tr>
 <tr>
 <td>customVoice</td>
@@ -245,17 +264,17 @@
 <h3 id="custom-voices">Custom Voices</h3>
 <p>You can add a custom voice to your character instead of using one of the default voices. For that, all you need to is pass the path to your audio file as the &quot;customVoice&quot; parameter.</p>
 <p>The supported audio formats are MP3, WAV, OGG and AIFF!</p>
-<p>Please use a very short audio file for your voice. Typically, you want only a very short &#39;vowel&#39; sound for this, since it&#39;s going to be played in rapid repetition.</p>
+<p>Please use a very short audio file for your voice. Typically, you want only a very short 'vowel' sound for this, since it's going to be played in rapid repetition.</p>
 <p>If you pass anything as &quot;customVoice&quot;, then the contents of the &quot;voiceId&quot; parameter will not matter.</p>
 <h2 id="dialogue-events">Dialogue Events</h2>
 <hr>
-<p>After looking at the example above, you might be wondering <em>&quot;What&#39;s all of that DialogueId stuff about? How do I make my own dialogue events?&quot;</em>. </p>
-<p>I&#39;m gonna explain everything to you in detail now!</p>
+<p>After looking at the example above, you might be wondering <em>&quot;What's all of that DialogueId stuff about? How do I make my own dialogue events?&quot;</em>.</p>
+<p>I'm gonna explain everything to you in detail now!</p>
 <h3 id="dialogue-triggers">Dialogue Triggers</h3>
 <p>Talking cards can respond to a variety of game events. If you want your card to respond to a given event, you can override that property and return the ID of your new dialogue event.</p>
 <p>Some properties are abstract and <em>must</em> be implemented: namely, <code>OnDrawnDialogueId</code>, <code>OnPlayFromHandDialogueId</code>, <code>OnAttackedDialogueId</code>, <code>OnBecomeSelectablePositiveDialogueId</code> and  <code>OnBecomeSelectableNegativeDialogueId</code>.</p>
-<p>And here&#39;s a full list of triggers you can override, and a small explanation of each.</p>
-<p><strong>Note</strong>: All of these names end in &quot;DialogueId&quot;, so I&#39;ve omitted that last part of the name to be concise.</p>
+<p>And here's a full list of triggers you can override, and a small explanation of each.</p>
+<p><strong>Note</strong>: All of these names end in &quot;DialogueId&quot;, so I've omitted that last part of the name to be concise.</p>
 <table>
 <thead>
 <tr>
@@ -307,8 +326,9 @@
 {
     { Opponent.Type.ProspectorBoss, &quot;Example_TalkAboutProspector&quot; }
 };
-</code></pre><h3 id="creating-a-dialogue-event">Creating a Dialogue Event</h3>
-<p>You can create your own dialogue events with this API&#39;s <code>DialogueManager.GenerateEvent()</code> method, like this:</p>
+</code></pre>
+<h3 id="creating-a-dialogue-event">Creating a Dialogue Event</h3>
+<p>You can create your own dialogue events with this API's <code>DialogueManager.GenerateEvent()</code> method, like this:</p>
 <pre><code class="lang-csharp">DialogueManager.GenerateEvent(
     pluginGUID: Plugin.PluginGuid,
     name: &quot;Example_OnPlayFromHand&quot;,
@@ -319,7 +339,8 @@
          new List&lt;CustomLine&gt;() { &quot;This is another repeat line!&quot; }
     }
 );
-</code></pre><p>A brief explanation of each parameter:</p>
+</code></pre>
+<p>A brief explanation of each parameter:</p>
 <table>
 <thead>
 <tr>
@@ -330,11 +351,11 @@
 <tbody>
 <tr>
 <td>pluginGUID</td>
-<td>Your mod&#39;s GUID.</td>
+<td>Your mod's GUID.</td>
 </tr>
 <tr>
 <td>name</td>
-<td>The name for your dialogue event; this is what you&#39;ll use to refer to it!</td>
+<td>The name for your dialogue event; this is what you'll use to refer to it!</td>
 </tr>
 <tr>
 <td>mainLines</td>
@@ -347,23 +368,25 @@
 </tbody>
 </table>
 <h3 id="dialogue-codes">Dialogue Codes</h3>
-<p>A really neat feature of Inscryption&#39;s dialogue events are dialogue codes. They add a lot of life to dialogue!</p>
+<p>A really neat feature of Inscryption's dialogue events are dialogue codes. They add a lot of life to dialogue!</p>
 <p>The dialogue codes most relevant to talking cards will be explained below. All of these work with talking cards.</p>
 <h3 id="wait-w">Wait ([w:])</h3>
-<p>This is by far the dialogue code you&#39;ll wanna use the most. It&#39;s also the one the game itself uses the most in all of its dialogue.</p>
+<p>This is by far the dialogue code you'll wanna use the most. It's also the one the game itself uses the most in all of its dialogue.</p>
 <p>The &quot;[w:x]&quot; dialogue code adds a pause of x seconds before the rest of a sentence plays.</p>
 <p>You can use it like this:</p>
 <pre><code>&quot;Hello.[w:1] How are you?&quot;
-</code></pre><p>In this example, after saying &quot;Hello.&quot;, the character waits 1 second before saying &quot;How are you?&quot;.</p>
-<p>The number of seconds does not have to be an integer. Using &quot;[w:0.2]&quot; to wait only 0.2 seconds is valid, for example, and used often throughout the base game&#39;s dialogue.</p>
-<p>This being said, I&#39;d advise you not to go below [w:0.1], as I don&#39;t know how small the number can go before issues arise. (And there&#39;s no point in going below that, anyhow.)</p>
+</code></pre>
+<p>In this example, after saying &quot;Hello.&quot;, the character waits 1 second before saying &quot;How are you?&quot;.</p>
+<p>The number of seconds does not have to be an integer. Using &quot;[w:0.2]&quot; to wait only 0.2 seconds is valid, for example, and used often throughout the base game's dialogue.</p>
+<p>This being said, I'd advise you not to go below [w:0.1], as I don't know how small the number can go before issues arise. (And there's no point in going below that, anyhow.)</p>
 <h3 id="color-c">Color ([c:])</h3>
 <p>The [c:] dialogue code changes the color of a portion of your text.</p>
 <p>You can use it like this:</p>
 <pre><code>&quot;[c:R]This text is red.[c:] This text is not.&quot;
-</code></pre><p>In this example, the part after [c:R] is colored in the color that matches the code &#39;R&#39;, which is the color red, and the part after [c:] has the default text color. You can think of this as &quot;switching on&quot; the colorful text mode and then switching it off.</p>
+</code></pre>
+<p>In this example, the part after [c:R] is colored in the color that matches the code 'R', which is the color red, and the part after [c:] has the default text color. You can think of this as &quot;switching on&quot; the colorful text mode and then switching it off.</p>
 <p><em>&quot;But how do I know the codes for each color?&quot;</em>
-Fear not! Here&#39;s a comprehensive table of all available colors and their respective codes:</p>
+Fear not! Here's a comprehensive table of all available colors and their respective codes:</p>
 <table>
 <thead>
 <tr>
@@ -434,89 +457,56 @@ Fear not! Here&#39;s a comprehensive table of all available colors and their res
 </tr>
 </tbody>
 </table>
-<p>(For the record: These are the colors the game has available, built-in. I did not choose them. Yes, it&#39;s a very odd selection of colors.)</p>
+<p>(For the record: These are the colors the game has available, built-in. I did not choose them. Yes, it's a very odd selection of colors.)</p>
 <h4 id="custom-colors">Custom Colors</h4>
 <p>I have added a way to use custom colors with dialogue codes. In place of one of the color codes in the table above, you can instead use a <a href="https://htmlcolorcodes.com/color-picker/">hex color code</a>, and this mod will parse the code into an usable Color for the text.</p>
-<p>Here&#39;s an example:</p>
+<p>Here's an example:</p>
 <pre><code>&quot;You must be... [w:0.4][c:#7f35e6]confused[c:][w:1].&quot;,
-</code></pre><p>In this example, the word &quot;confused&quot; is colored in the color #7f35e6. Which, if you don&#39;t wanna look it up, it&#39;s <a href="https://g.co/kgs/JPHV5v">this color!</a></p>
-<p>Please note that for compatibility reasons, your hex color code <strong>should include the &#39;#&#39;</strong>.</p>
+</code></pre>
+<p>In this example, the word &quot;confused&quot; is colored in the color #7f35e6. Which, if you don't wanna look it up, it's <a href="https://g.co/kgs/JPHV5v">this color!</a></p>
+<p>Please note that for compatibility reasons, your hex color code <strong>should include the '#'</strong>.</p>
 <h3 id="making-leshy-talk">Making Leshy Talk</h3>
 <p>The [leshy:x] dialogue code makes Leshy say x. This color code is very useful for making Leshy and your card talk a bit between each other!</p>
 <p>You can use it like this:</p>
-<pre><code>&quot;We&#39;re all doomed.[leshy:Quiet now.][w:2]&quot;,
-</code></pre><p>In this example, the character says &quot;We&#39;re all doomed.&quot; and then Leshy says &quot;Quiet now.&quot; right after. The text remains on the screen for 2 seconds.</p>
+<pre><code>&quot;We're all doomed.[leshy:Quiet now.][w:2]&quot;,
+</code></pre>
+<p>In this example, the character says &quot;We're all doomed.&quot; and then Leshy says &quot;Quiet now.&quot; right after. The text remains on the screen for 2 seconds.</p>
 <p>There are a few things to note from that example:</p>
 <ol>
-<li>You don&#39;t need to put quotation marks around the line Leshy is going to say.</li>
-<li>The &quot;Wait&quot; dialogue code is still usable with Leshy&#39;s lines.</li>
+<li>You don't need to put quotation marks around the line Leshy is going to say.</li>
+<li>The &quot;Wait&quot; dialogue code is still usable with Leshy's lines.</li>
 </ol>
 <h3 id="using-emotions-in-dialogue">Using Emotions in Dialogue</h3>
-<p>You can change your character&#39;s emotion in their dialogue lines with the dialogue code <code>[e:x]</code>, where &#39;x&#39; is the name of an emotion. You can look at the table above for the names of all the available emotions.</p>
+<p>You can change your character's emotion in their dialogue lines with the dialogue code <code>[e:x]</code>, where 'x' is the name of an emotion. You can look at the table above for the names of all the available emotions.</p>
 <p>This mod adds patches to make the emotion names not case-sensitive, which means the following lines are all equally valid:</p>
-<pre><code>&quot;[e:Anger]I&#39;m angry.&quot;
-&quot;[e:anger]I&#39;m angry.&quot;
-&quot;[e:AnGeR]I&#39;m angry and my keyboard is acting up.&quot;
-</code></pre><p>If you prefer, you can use the numeric value associated with an emotion instead of its name! This is perfectly valid, for example:</p>
-<pre><code>&quot;[e:2]I&#39;m angry.&quot;
-</code></pre></article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="toggle-mode">
-                <div class="icon">
-                  <i aria-hidden="true">☀</i>
-                </div>
-                <label class="switch">
-                  <input type="checkbox" id="switch-style">
-                  <span class="slider round"></span>
-                </label>
-                <div class="icon">
-                  <i aria-hidden="true">☾</i>
-                </div>
-              </div>
-          
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
-              <div></div>
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
-          </div>
+<pre><code>&quot;[e:Anger]I'm angry.&quot;
+&quot;[e:anger]I'm angry.&quot;
+&quot;[e:AnGeR]I'm angry and my keyboard is acting up.&quot;
+</code></pre>
+<p>If you prefer, you can use the numeric value associated with an emotion instead of its name! This is perfectly valid, for example:</p>
+<pre><code>&quot;[e:2]I'm angry.&quot;
+</code></pre>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            <div class="pull-left">
-              
-              <span>Generated by <strong>DocFX</strong></span>
-            </div>
-            <div class="toggle-mode pull-right visible-sm visible-xs">
-              <div class="icon">
-                <i aria-hidden="true">☀</i>
-              </div>
-              <label class="switch">
-                <input type="checkbox" id="switch-style-m">
-                <span class="slider round"></span>
-              </label>
-              <div class="icon">
-                <i aria-hidden="true">☾</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
-      </footer>    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>

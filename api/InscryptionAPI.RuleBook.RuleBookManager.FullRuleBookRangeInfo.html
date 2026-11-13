@@ -1,642 +1,659 @@
-﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+<!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RuleBookManager.FullRuleBookRangeInfo
-   | InscryptionAPI </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RuleBookManager.FullRuleBookRangeInfo
-   | InscryptionAPI ">
-    <meta name="generator" content="docfx 2.59.0.0">
-    
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+      <title>Class RuleBookManager.FullRuleBookRangeInfo | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RuleBookManager.FullRuleBookRangeInfo | InscryptionAPI ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo.md&amp;value=---%0Auid%3A%20InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
-        </nav>
-      </header>
-      <div class="container body-content">
-        
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo">
-  
-  
-  <h1 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo" class="text-break">Class RuleBookManager.FullRuleBookRangeInfo
-  </h1>
+
+        <article data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo">
+
+
+
+  <h1 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo" class="text-break">Class RuleBookManager.FullRuleBookRangeInfo</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">RuleBookManager.FullRuleBookRangeInfo</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.RuleBook.html">InscryptionAPI.RuleBook</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.RuleBook.html">RuleBook</a></h6>
   <h6><strong>Assembly</strong>: InscryptionAPI.dll</h6>
   <h5 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FullRuleBookRangeInfo : object</code></pre>
+    <pre><code class="lang- hljs">public class RuleBookManager.FullRuleBookRangeInfo</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo__ctor_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.#ctor*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo__ctor_System_String_PageRangeType_System_String_System_String_Func_List_RuleBookPageInfo__System_Int32__Func_PageRangeInfo_List_RuleBookPageInfo__System_Int32__Func_RuleBookInfo_PageRangeInfo_AbilityMetaCategory_List_RuleBookPageInfo___Action_RuleBookPage_System_String_System_Object____" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.#ctor(System.String,PageRangeType,System.String,System.String,Func{List{RuleBookPageInfo},System.Int32},Func{PageRangeInfo,List{RuleBookPageInfo},System.Int32},Func{RuleBookInfo,PageRangeInfo,AbilityMetaCategory,List{RuleBookPageInfo}},Action{RuleBookPage,System.String,System.Object[]})">FullRuleBookRangeInfo(String, PageRangeType, String, String, Func&lt;List&lt;RuleBookPageInfo&gt;, Int32&gt;, Func&lt;PageRangeInfo, List&lt;RuleBookPageInfo&gt;, Int32&gt;, Func&lt;RuleBookInfo, PageRangeInfo, AbilityMetaCategory, List&lt;RuleBookPageInfo&gt;&gt;, Action&lt;RuleBookPage, String, Object[]&gt;)</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo__ctor_System_String_DiskCardGame_PageRangeType_System_String_System_String_System_Func_System_Collections_Generic_List_DiskCardGame_RuleBookPageInfo__System_Int32__System_Func_DiskCardGame_PageRangeInfo_System_Collections_Generic_List_DiskCardGame_RuleBookPageInfo__System_Int32__System_Func_DiskCardGame_RuleBookInfo_DiskCardGame_PageRangeInfo_DiskCardGame_AbilityMetaCategory_System_Collections_Generic_List_DiskCardGame_RuleBookPageInfo___System_Action_DiskCardGame_RuleBookPage_System_String_System_Object____" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.#ctor(System.String,DiskCardGame.PageRangeType,System.String,System.String,System.Func{System.Collections.Generic.List{DiskCardGame.RuleBookPageInfo},System.Int32},System.Func{DiskCardGame.PageRangeInfo,System.Collections.Generic.List{DiskCardGame.RuleBookPageInfo},System.Int32},System.Func{DiskCardGame.RuleBookInfo,DiskCardGame.PageRangeInfo,DiskCardGame.AbilityMetaCategory,System.Collections.Generic.List{DiskCardGame.RuleBookPageInfo}},System.Action{DiskCardGame.RuleBookPage,System.String,System.Object[]})">
+  FullRuleBookRangeInfo(string, PageRangeType, string, string, Func&lt;List&lt;RuleBookPageInfo&gt;, int&gt;, Func&lt;PageRangeInfo, List&lt;RuleBookPageInfo&gt;, int&gt;, Func&lt;RuleBookInfo, PageRangeInfo, AbilityMetaCategory, List&lt;RuleBookPageInfo&gt;&gt;, Action&lt;RuleBookPage, string, object[]&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public FullRuleBookRangeInfo(string modGuid, PageRangeType type, string headerPrefix, string subsectionName, Func&lt;List&lt;RuleBookPageInfo&gt;, int&gt; getStartingNumberFunc, Func&lt;PageRangeInfo, List&lt;RuleBookPageInfo&gt;, int&gt; getInsertPositionFunc, Func&lt;RuleBookInfo, PageRangeInfo, AbilityMetaCategory, List&lt;RuleBookPageInfo&gt;&gt; createPagesFunc, Action&lt;RuleBookPage, string, object[]&gt; fillPageAct)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">modGuid</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PageRangeType</span></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">headerPrefix</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">subsectionName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">getStartingNumberFunc</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">PageRangeInfo</span>, <span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <span class="xref">System.Int32</span>&gt;</td>
-        <td><span class="parametername">getInsertPositionFunc</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">RuleBookInfo</span>, <span class="xref">PageRangeInfo</span>, <span class="xref">AbilityMetaCategory</span>, <span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;&gt;</td>
-        <td><span class="parametername">createPagesFunc</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">RuleBookPage</span>, <span class="xref">System.String</span>, <span class="xref">System.Object</span>[]&gt;</td>
-        <td><span class="parametername">fillPageAct</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <span class="xref">PageRangeType</span></dt>
+    <dd></dd>
+    <dt><code>headerPrefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>subsectionName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>getStartingNumberFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>getInsertPositionFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<span class="xref">PageRangeInfo</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>createPagesFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<span class="xref">RuleBookInfo</span>, <span class="xref">PageRangeInfo</span>, <span class="xref">AbilityMetaCategory</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;&gt;</dt>
+    <dd></dd>
+    <dt><code>fillPageAct</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<span class="xref">RuleBookPage</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_CreatePagesFunc" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.CreatePagesFunc">
+  CreatePagesFunc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_CreatePagesFunc" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.CreatePagesFunc">CreatePagesFunc</h4>
+
   <div class="markdown level1 summary"><p>The function for filling out each RuleBookPageInfo.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Func&lt;RuleBookInfo, PageRangeInfo, AbilityMetaCategory, List&lt;RuleBookPageInfo&gt;&gt; CreatePagesFunc</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">RuleBookInfo</span>, <span class="xref">PageRangeInfo</span>, <span class="xref">AbilityMetaCategory</span>, <span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FillPageAction" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FillPageAction">FillPageAction</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<span class="xref">RuleBookInfo</span>, <span class="xref">PageRangeInfo</span>, <span class="xref">AbilityMetaCategory</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FillPageAction" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FillPageAction">
+  FillPageAction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Action&lt;RuleBookPage, string, object[]&gt; FillPageAction</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">RuleBookPage</span>, <span class="xref">System.String</span>, <span class="xref">System.Object</span>[]&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetInsertPositionFunc" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetInsertPositionFunc">GetInsertPositionFunc</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<span class="xref">RuleBookPage</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetInsertPositionFunc" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetInsertPositionFunc">
+  GetInsertPositionFunc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The function used to determine what index in the rulebook to begin inserting this rulebook range.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Func&lt;PageRangeInfo, List&lt;RuleBookPageInfo&gt;, int&gt; GetInsertPositionFunc</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">PageRangeInfo</span>, <span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetStartingNumberFunc" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetStartingNumberFunc">GetStartingNumberFunc</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<span class="xref">PageRangeInfo</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetStartingNumberFunc" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetStartingNumberFunc">
+  GetStartingNumberFunc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The function used to determine what the starting page number is; this number is added to the header.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Func&lt;List&lt;RuleBookPageInfo&gt;, int&gt; GetStartingNumberFunc</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_HeaderPrefix" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.HeaderPrefix">HeaderPrefix</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_HeaderPrefix" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.HeaderPrefix">
+  HeaderPrefix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The beginning section of the header, typically containing an appendix number and subsection number.
 An example of what HeaderPrefix should be: &quot;APPENDIX XII, SUBSECTION X&quot;.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string HeaderPrefix</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_HeaderPrefix_remarks">Remarks</h5>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_HeaderPrefix_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Unless you plan on using a custom appendix number or some other unique header, you should use FillHeaderPrefix .</p>
 </div>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_ModGUID" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.ModGUID">ModGUID</h4>
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_ModGUID" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.ModGUID">
+  ModGUID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The GUID for the mod that added this rulebook section.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly string ModGUID</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_PageTypeTemplate" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.PageTypeTemplate">PageTypeTemplate</h4>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_PageTypeTemplate" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.PageTypeTemplate">
+  PageTypeTemplate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>What PageRangeType this rulebook section will inherit from and use as a template.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly PageRangeType PageTypeTemplate</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PageRangeType</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_PageTypeTemplate_remarks">Remarks</h5>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PageRangeType</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_PageTypeTemplate_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Ability pages have a small square icon on the left side of the page.
 Stat icon pages have a small square icon on the left side of the rulebook name.
 Boon pages have a large icon on both sides of the page.
 Item pages have a large icon on the left side of the page.
 Unique is unused by the game, so should be avoided here unless you plan on using a unique page template.</p>
 </div>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_SubSectionName" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.SubSectionName">SubSectionName</h4>
+
+
+
+
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_SubSectionName" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.SubSectionName">
+  SubSectionName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The subsection name for this rulebook range. Examples include &quot;ABILITIES&quot; and &quot;VARIABLE STATS&quot;.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string SubSectionName</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FullHeaderText_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FullHeaderText*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FullHeaderText" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FullHeaderText">FullHeaderText</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FullHeaderText" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FullHeaderText">
+  FullHeaderText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"><p>The full text of the header, combining the prefix and subsection name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string FullHeaderText { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_Clone_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.Clone*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_Clone" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.Clone">Clone()</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_Clone" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public RuleBookManager.FullRuleBookRangeInfo Clone()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.html">RuleBookManager.FullRuleBookRangeInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.html">RuleBookManager</a>.<a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.html">FullRuleBookRangeInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_CreatePages_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.CreatePages*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_CreatePages_RuleBookInfo_PageRangeInfo_AbilityMetaCategory_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.CreatePages(RuleBookInfo,PageRangeInfo,AbilityMetaCategory)">CreatePages(RuleBookInfo, PageRangeInfo, AbilityMetaCategory)</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_CreatePages_DiskCardGame_RuleBookInfo_DiskCardGame_PageRangeInfo_DiskCardGame_AbilityMetaCategory_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.CreatePages(DiskCardGame.RuleBookInfo,DiskCardGame.PageRangeInfo,DiskCardGame.AbilityMetaCategory)">
+  CreatePages(RuleBookInfo, PageRangeInfo, AbilityMetaCategory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public List&lt;RuleBookPageInfo&gt; CreatePages(RuleBookInfo instance, PageRangeInfo currentPageRange, AbilityMetaCategory metaCategory)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">RuleBookInfo</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PageRangeInfo</span></td>
-        <td><span class="parametername">currentPageRange</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">AbilityMetaCategory</span></td>
-        <td><span class="parametername">metaCategory</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instance</code> <span class="xref">RuleBookInfo</span></dt>
+    <dd></dd>
+    <dt><code>currentPageRange</code> <span class="xref">PageRangeInfo</span></dt>
+    <dd></dd>
+    <dt><code>metaCategory</code> <span class="xref">AbilityMetaCategory</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FillRuleBookPage_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FillRuleBookPage*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FillRuleBookPage_RuleBookPage_System_String_System_Object___" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FillRuleBookPage(RuleBookPage,System.String,System.Object[])">FillRuleBookPage(RuleBookPage, String, Object[])</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_FillRuleBookPage_DiskCardGame_RuleBookPage_System_String_System_Object___" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.FillRuleBookPage(DiskCardGame.RuleBookPage,System.String,System.Object[])">
+  FillRuleBookPage(RuleBookPage, string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void FillRuleBookPage(RuleBookPage instance, string pageId, params object[] otherArgs)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">RuleBookPage</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">pageId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">otherArgs</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>instance</code> <span class="xref">RuleBookPage</span></dt>
+    <dd></dd>
+    <dt><code>pageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>otherArgs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetInsertPosition_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetInsertPosition*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetInsertPosition_PageRangeInfo_List_RuleBookPageInfo__" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetInsertPosition(PageRangeInfo,List{RuleBookPageInfo})">GetInsertPosition(PageRangeInfo, List&lt;RuleBookPageInfo&gt;)</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetInsertPosition_DiskCardGame_PageRangeInfo_System_Collections_Generic_List_DiskCardGame_RuleBookPageInfo__" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetInsertPosition(DiskCardGame.PageRangeInfo,System.Collections.Generic.List{DiskCardGame.RuleBookPageInfo})">
+  GetInsertPosition(PageRangeInfo, List&lt;RuleBookPageInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int GetInsertPosition(PageRangeInfo currentPageRange, List&lt;RuleBookPageInfo&gt; pages)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PageRangeInfo</span></td>
-        <td><span class="parametername">currentPageRange</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</td>
-        <td><span class="parametername">pages</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>currentPageRange</code> <span class="xref">PageRangeInfo</span></dt>
+    <dd></dd>
+    <dt><code>pages</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetStartingNumber_" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetStartingNumber*"></a>
-  <h4 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetStartingNumber_List_RuleBookPageInfo__" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetStartingNumber(List{RuleBookPageInfo})">GetStartingNumber(List&lt;RuleBookPageInfo&gt;)</h4>
+
+  <h3 id="InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_GetStartingNumber_System_Collections_Generic_List_DiskCardGame_RuleBookPageInfo__" data-uid="InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.GetStartingNumber(System.Collections.Generic.List{DiskCardGame.RuleBookPageInfo})">
+  GetStartingNumber(List&lt;RuleBookPageInfo&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int GetStartingNumber(List&lt;RuleBookPageInfo&gt; pages)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</td>
-        <td><span class="parametername">pages</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.html#InscryptionAPI_RuleBook_RuleBookManager_SetFillPage_InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_Action_RuleBookPage_System_String_System_Object____">RuleBookManager.SetFillPage(RuleBookManager.FullRuleBookRangeInfo, Action&lt;RuleBookPage, String, Object[]&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.html#InscryptionAPI_RuleBook_RuleBookManager_SetHeaderPrefix_InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_System_String_">RuleBookManager.SetHeaderPrefix(RuleBookManager.FullRuleBookRangeInfo, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.html#InscryptionAPI_RuleBook_RuleBookManager_SetHeaderPrefixSimple_InscryptionAPI_RuleBook_RuleBookManager_FullRuleBookRangeInfo_System_String_">RuleBookManager.SetHeaderPrefixSimple(RuleBookManager.FullRuleBookRangeInfo, String)</a>
-  </div>
-  <div>
-      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, Int32)</a>
-  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pages</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="toggle-mode">
-                <div class="icon">
-                  <i aria-hidden="true">☀</i>
-                </div>
-                <label class="switch">
-                  <input type="checkbox" id="switch-style">
-                  <span class="slider round"></span>
-                </label>
-                <div class="icon">
-                  <i aria-hidden="true">☾</i>
-                </div>
-              </div>
-          
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
-              <div></div>
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
-          </div>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            <div class="pull-left">
-              
-              <span>Generated by <strong>DocFX</strong></span>
-            </div>
-            <div class="toggle-mode pull-right visible-sm visible-xs">
-              <div class="icon">
-                <i aria-hidden="true">☀</i>
-              </div>
-              <label class="switch">
-                <input type="checkbox" id="switch-style-m">
-                <span class="slider round"></span>
-              </label>
-              <div class="icon">
-                <i aria-hidden="true">☾</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
-      </footer>    </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    </footer>
   </body>
 </html>
