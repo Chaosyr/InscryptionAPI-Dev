@@ -13,6 +13,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "../LICENSE.md",
+      "output": {
+        "resource": {
+          "relative_path": "LICENSE.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "README.md",
       "output": {
         "resource": {
@@ -3652,6 +3662,26 @@
         },
         ".html": {
           "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "apipatcher/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "apipatcher/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "community/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "community/index.html"
         }
       },
       "version": ""

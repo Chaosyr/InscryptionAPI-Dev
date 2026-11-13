@@ -1291,8 +1291,18 @@
   },
   "api/index.html": {
     "href": "api/index.html",
-    "title": "API Documentation | InscryptionAPI",
-    "summary": "API Documentation Hello, and welcome to the documentation section of the Inscryption API! This section documents the various classes and members of the API, providing information on what they do."
+    "title": "Inscryption API Documentation | InscryptionAPI",
+    "summary": "Inscryption API Documentation Hello, and welcome to the documentation section for the Inscryption API! This section documents the various classes and members of the Inscryption API, providing information on what they do."
+  },
+  "apipatcher/index.html": {
+    "href": "apipatcher/index.html",
+    "title": "APIPatcher Documentation | InscryptionAPI",
+    "summary": "APIPatcher Documentation Hello, and welcome to the documentation section for the APIPatcher! This section documents the various classes and members of the APIPatcher, providing information on what they do."
+  },
+  "community/index.html": {
+    "href": "community/index.html",
+    "title": "Inscryption Community Patch Documentation | InscryptionAPI",
+    "summary": "Inscryption Community Patch Documentation Hello, and welcome to the documentation section for the Inscryption Community Patch! This section documents the various classes and members of the Inscryption Community Patch, providing information on what they do."
   },
   "index.html": {
     "href": "index.html",
