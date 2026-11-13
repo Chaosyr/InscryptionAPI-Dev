@@ -33,6 +33,258 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.AbilityIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.AbilityIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.AbilityIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.AbilityInfoUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.AbilityInfoUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.AbilityInfoUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.CardUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.CardUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.CardUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.CustomCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.CustomCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.CustomCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.CustomRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.CustomRegion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.CustomRegion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.EvolveIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.EvolveIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.EvolveIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.IceCubeIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.IceCubeIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.IceCubeIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.IgnoreMappingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.IgnoreMappingAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.IgnoreMappingAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewCardAppearanceBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewCardAppearanceBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewCardAppearanceBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewEncounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewEncounter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewEncounter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewRegion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewRegion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewSpecialAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewSpecialAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewSpecialAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.SpecialAbilityIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.SpecialAbilityIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.SpecialAbilityIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.TailIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.TailIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.TailIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.TypeMapper-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.TypeMapper-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.TypeMapper<S, D>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/InscryptionAPI.Ascension.AscensionChallengePaginator.yml",
       "output": {
         ".html": {
@@ -3677,11 +3929,612 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Act1LatchAbilityFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D.yml\" sourcestartlinenumber=\"1\">Fixes the Activated Ability handler in 3D Environments.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.ActivatedAbilityIconFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.ActivatedAbilityIconFix.yml\" sourcestartlinenumber=\"1\">Fixes related to Activated Ability Icons.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.yml\" sourcestartlinenumber=\"1\">Fixes related to how Activated Ability Interactable's are rendered on cards.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.AllStrikeAbilityFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.AllStrikeAbilityFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.AllStrikeAbilityFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.CardCostRender",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.CardCostRender.yml\" sourcestartlinenumber=\"1\">Fixes the Rendering related to a Card's Cost.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.DefaultEvolveFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.DefaultEvolveFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.DefaultEvolveFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.GreenGemStatIconFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.GreenGemStatIconFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.GreenGemStatIconFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.MergedSigilOnBottom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.MergedSigilOnBottom.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.MergedSigilOnBottom",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.MergedSigilOnBottom.yml\" sourcestartlinenumber=\"1\">Makes it so that Merged Sigils are shown on the Bottom of the Card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix.yml\" sourcestartlinenumber=\"1\">Patches in the Missing Squirrel Tribe Icon.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1CardCostRender",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1GemifyIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1GemifyIndicator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1GemifyIndicator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1SniperVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1SniperVisualizer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1SniperVisualizer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part2CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act 2 to add support for mixed costs and custom costs.\nAlso reduces the size of card costs so they take up less space on the card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Contains rendering information for a specific custom cost</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part3CardCostRender",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.PassiveAttackBuffPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.PassiveAttackBuffPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.PassiveAttackBuffPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.RandomAbilityPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.RandomAbilityPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.RandomAbilityPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SacrificeTokensFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SacrificeTokensFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SacrificeTokensFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.SacrificeTokensFix.yml\" sourcestartlinenumber=\"1\">Allows blood costs over 4 to work properly</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SentryInteractionFixes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SentryInteractionFixes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SentryInteractionFixes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SentryTailOnHitFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SentryTailOnHitFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SentryTailOnHitFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SniperFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SniperFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SniperFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.StackAbilityIcons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.StackAbilityIcons.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.StackAbilityIcons",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.StackAbilityIcons.yml\" sourcestartlinenumber=\"1\">Adds Handling for Stacking Abilities of the same type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.TempModPixelSigilsFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.TempModPixelSigilsFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.TempModPixelSigilsFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.TempModPixelSigilsFix.yml\" sourcestartlinenumber=\"1\">Lets you add and remove decals via temporary mods</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PatchPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PatchPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PatchPlugin",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PatchPlugin.yml\" sourcestartlinenumber=\"1\">The Entry Point for the Community Patch.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PixelTutor.Act2TutorFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.yml\" sourcestartlinenumber=\"1\">Patches in our Act 2 <xref href=\"DiskCardGame.Tutor\" data-throw-if-not-resolved=\"false\"></xref> related UI, that way it doesn't break when used in Act 2.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.yml\" sourcestartlinenumber=\"1\">Handles the UI related to the Act 2 <xref href=\"DiskCardGame.Tutor\" data-throw-if-not-resolved=\"false\"></xref> patched in by <xref href=\"InscryptionCommunityPatch.PixelTutor.Act2TutorFix\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PixelTutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PixelTutor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PixelTutor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.yml\" sourcestartlinenumber=\"1\">This patch handles adding the Bones Displayer to the Drone.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.yml\" sourcestartlinenumber=\"1\">Class containing information on the resource energy drone. Controls whether the Energy Drone will appear in non-Act 3 acts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.yml\" sourcestartlinenumber=\"1\">This patch handles information related to the Drone Configuration for Act 1.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix.yml\" sourcestartlinenumber=\"1\">This patch fixes Tradable Talking Card related Issues.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Sequencers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Sequencers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Sequencers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.DebugCards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.DebugCards.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.DebugCards",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.DebugCards.yml\" sourcestartlinenumber=\"1\">This class adds some Debug Cards for testing the Steel Trap Death Patch in the Main API's functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests.yml\" sourcestartlinenumber=\"1\">The home of the Community Patch's Tests/</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.SacrificeSquirrels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.SacrificeSquirrels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.SacrificeSquirrels",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.SacrificeSquirrels.yml\" sourcestartlinenumber=\"1\">This is a test related to Boons.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.TestCost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.TestCost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.TestCost",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.TestCost.yml\" sourcestartlinenumber=\"1\">This function defines our Testing Cost.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch",
+      "Summary": null
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "community/index.md",
       "output": {
         ".html": {
           "relative_path": "community/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "community/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "community/toc.json"
+        },
+        ".html": {
+          "relative_path": "community/toc.html"
         }
       },
       "version": ""

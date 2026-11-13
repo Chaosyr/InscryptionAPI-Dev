@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PixelPlayableCardArray | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PixelPlayableCardArray | InscryptionAPI ">
+      
+      <meta name="description" content="Handles the UI related to the Act 2  patched in by .">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray.md&amp;value=---%0Auid%3A%20InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray">
+
+
+
+  <h1 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray" class="text-break">Class PixelPlayableCardArray</h1>
+  <div class="markdown level0 summary"><p>Handles the UI related to the Act 2 <span class="xref">DiskCardGame.Tutor</span> patched in by <a class="xref" href="InscryptionCommunityPatch.PixelTutor.Act2TutorFix.html">Act2TutorFix</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.html">Component</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+    <div class="level4"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+    <div class="level5"><span class="xref">ManagedBehaviourBase</span></div>
+    <div class="level6"><span class="xref">ManagedBehaviour</span></div>
+    <div class="level7"><span class="xref">PixelPlayableCardArray</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.PixelTutor.html">PixelTutor</a></h6>
+  <h6><strong>Assembly</strong>: InscryptionCommunityPatch.dll</h6>
+  <h5 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public class PixelPlayableCardArray : ManagedBehaviour</code></pre>
+  </div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_displayedCards" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.displayedCards">
+  displayedCards
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Cards to Display when <span class="xref">DiskCardGame.Tutor</span> is triggered in Act 2, by default an empty list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly List&lt;PixelPlayableCard&gt; displayedCards</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PixelPlayableCard</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_selectedCard" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.selectedCard">
+  selectedCard
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Selected Card, by default null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PixelPlayableCard selectedCard</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PixelPlayableCard</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_CleanUpCards_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.CleanUpCards*"></a>
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_CleanUpCards" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.CleanUpCards">
+  CleanUpCards()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a> used to Clean Up the card's in the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator CleanUpCards()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd><p>The cleaned up menu and a switch back to the Board context.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_DisplayUntilCancelled_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.DisplayUntilCancelled*"></a>
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_DisplayUntilCancelled_System_Collections_Generic_List_DiskCardGame_CardInfo__System_Func_System_Boolean__System_Action_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.DisplayUntilCancelled(System.Collections.Generic.List{DiskCardGame.CardInfo},System.Func{System.Boolean},System.Action)">
+  DisplayUntilCancelled(List&lt;CardInfo&gt;, Func&lt;bool&gt;, Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a> used to make the Act 2 <span class="xref">DiskCardGame.Tutor</span> display show until it's cancelled, e.g. by a card being selected..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator DisplayUntilCancelled(List&lt;CardInfo&gt; cards, Func&lt;bool&gt; cancelCondition, Action cardsPlacedCallback = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;</dt>
+    <dd><p>The cards available for selection.</p>
+</dd>
+    <dt><code>cancelCondition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The condition needed to cancel the screen showing when <span class="xref">DiskCardGame.Tutor</span> would be triggered.</p>
+</dd>
+    <dt><code>cardsPlacedCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>The callback for when the card(s) has/have been placed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd><p>The Act 2 <span class="xref">DiskCardGame.Tutor</span> screen shown in game.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_GetCardPosition_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.GetCardPosition*"></a>
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_GetCardPosition_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.GetCardPosition(System.Int32,System.Int32,System.Int32,System.Int32)">
+  GetCardPosition(int, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A function used to get the card's position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 GetCardPosition(int cardIndex, int cardsToPlace, int numRows, int cardsPerRow)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cardIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The Index of the card we are after within the row of cards.</p>
+</dd>
+    <dt><code>cardsToPlace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of cards to place in the row of cards.</p>
+</dd>
+    <dt><code>numRows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of rows on the screen.</p>
+</dd>
+    <dt><code>cardsPerRow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of cards placed in the row of cards.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_SelectPixelCardFrom_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.SelectPixelCardFrom*"></a>
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_SelectPixelCardFrom_System_Collections_Generic_List_DiskCardGame_CardInfo__System_Action_GBC_PixelPlayableCard__System_Func_System_Boolean__System_Boolean_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.SelectPixelCardFrom(System.Collections.Generic.List{DiskCardGame.CardInfo},System.Action{GBC.PixelPlayableCard},System.Func{System.Boolean},System.Boolean)">
+  SelectPixelCardFrom(List&lt;CardInfo&gt;, Action&lt;PixelPlayableCard&gt;, Func&lt;bool&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a> used to determine the selection for when the Act 2 <span class="xref">DiskCardGame.Tutor</span> is triggered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator SelectPixelCardFrom(List&lt;CardInfo&gt; cards, Action&lt;PixelPlayableCard&gt; cardSelectedCallback, Func&lt;bool&gt; cancelCondition = null, bool forPositiveEffect = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;</dt>
+    <dd><p>The cards we want to show.</p>
+</dd>
+    <dt><code>cardSelectedCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">PixelPlayableCard</span>&gt;</dt>
+    <dd><p>The call back for when a Card has been selected.</p>
+</dd>
+    <dt><code>cancelCondition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The condition by which to cancel the Selection screen.</p>
+</dd>
+    <dt><code>forPositiveEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the special ability should use a Positive Effect when the card is shown in selection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd><p>A selection screen of cards to be selected from.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_SpawnAndPlaceCards_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.SpawnAndPlaceCards*"></a>
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_SpawnAndPlaceCards_System_Collections_Generic_List_DiskCardGame_CardInfo__System_Int32_System_Int32_System_Boolean_System_Boolean_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.SpawnAndPlaceCards(System.Collections.Generic.List{DiskCardGame.CardInfo},System.Int32,System.Int32,System.Boolean,System.Boolean)">
+  SpawnAndPlaceCards(List&lt;CardInfo&gt;, int, int, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a> related to the spawning and placement of card's to the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerator SpawnAndPlaceCards(List&lt;CardInfo&gt; cards, int numRows, int pageIndex, bool isDeckReview = false, bool forPositiveEffect = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;</dt>
+    <dd><p>The List of <span class="xref">DiskCardGame.CardInfo</span> to place into the Menu.</p>
+</dd>
+    <dt><code>numRows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The Number of Rows alloted to the Menu.</p>
+</dd>
+    <dt><code>pageIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The Index of the current Selection Screen's pages.</p>
+</dd>
+    <dt><code>isDeckReview</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether or not after this was triggered we should go to the Deck for review.</p>
+</dd>
+    <dt><code>forPositiveEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the special ability should use a Positive Effect when the card is shown in selection.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
+    <dd><p>The readied screen of cards to show in our selection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_TweenInCard_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.TweenInCard*"></a>
+
+  <h3 id="InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray_TweenInCard_UnityEngine_Transform_UnityEngine_Vector3_" data-uid="InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.TweenInCard(UnityEngine.Transform,UnityEngine.Vector3)">
+  TweenInCard(Transform, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/PixelPlayableCardArray.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles the tweening of a card to the specified position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void TweenInCard(Transform cardTransform, Vector3 cardPos)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cardTransform</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Transform.html">Transform</a></dt>
+    <dd><p>The Card Transform we want to tween.</p>
+</dd>
+    <dt><code>cardPos</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Vector3.html">Vector3</a></dt>
+    <dd><p>The Vector3 related to where the Card is located.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

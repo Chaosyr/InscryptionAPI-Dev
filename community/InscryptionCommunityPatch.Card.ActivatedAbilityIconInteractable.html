@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ActivatedAbilityIconInteractable | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ActivatedAbilityIconInteractable | InscryptionAPI ">
+      
+      <meta name="description" content="Fixes related to how Activated Ability Interactable&#39;s are rendered on cards.">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable.md&amp;value=---%0Auid%3A%20InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable">
+
+
+
+  <h1 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable" class="text-break">Class ActivatedAbilityIconInteractable</h1>
+  <div class="markdown level0 summary"><p>Fixes related to how Activated Ability Interactable's are rendered on cards.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.html">Component</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+    <div class="level4"><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+    <div class="level5"><span class="xref">ManagedBehaviourBase</span></div>
+    <div class="level6"><span class="xref">ManagedBehaviour</span></div>
+    <div class="level7"><span class="xref">InteractableBase</span></div>
+    <div class="level8"><span class="xref">MainInputInteractable</span></div>
+    <div class="level9"><span class="xref">ActivatedAbilityIconInteractable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.Card.html">Card</a></h6>
+  <h6><strong>Assembly</strong>: InscryptionCommunityPatch.dll</h6>
+  <h5 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public class ActivatedAbilityIconInteractable : MainInputInteractable</code></pre>
+  </div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__enterColor" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable._enterColor">
+  _enterColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Color used when the region is entered: ARGB: <code>178, 178, 178, 178</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Color _enterColor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__originalColor" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable._originalColor">
+  _originalColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Original Interactable Color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color _originalColor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__selectedColor" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable._selectedColor">
+  _selectedColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Color used when the region is selected: ARGB: <code>102, 102, 102, 102</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Color _selectedColor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_Ability_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.Ability*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_Ability" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.Ability">
+  Ability
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The Ability associated with the Activated Ability.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Ability Ability { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Ability</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_AbilityAssigned_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.AbilityAssigned*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_AbilityAssigned" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.AbilityAssigned">
+  AbilityAssigned
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether or not an Ability has been assigned, this is done by checking if the Ability is greater than <span class="xref">DiskCardGame.Ability.None</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AbilityAssigned { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_AssignAbility_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.AssignAbility*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_AssignAbility_DiskCardGame_Ability_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.AssignAbility(DiskCardGame.Ability)">
+  AssignAbility(Ability)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Assigns our new interactable to the passed in Ability.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AssignAbility(Ability ability)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ability</code> <span class="xref">Ability</span></dt>
+    <dd><p>The ability we want to update the Interactable of.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorDrag_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorDrag*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorDrag" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorDrag">
+  OnCursorDrag()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set's the color to <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__originalColor">_originalColor</a> using <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_UnityEngine_Color_">SetColor(Color)</a> when the cursor drags the region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCursorDrag()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorEnter_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorEnter*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorEnter" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorEnter">
+  OnCursorEnter()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set's the color to <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__enterColor">_enterColor</a> using <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_UnityEngine_Color_">SetColor(Color)</a> when the cursor enters the region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCursorEnter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorExit_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorExit*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorExit" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorExit">
+  OnCursorExit()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set's the color to <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__originalColor">_originalColor</a> using <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_UnityEngine_Color_">SetColor(Color)</a> when the cursor exits the region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCursorExit()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorSelectEnd_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorSelectEnd*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorSelectEnd" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorSelectEnd">
+  OnCursorSelectEnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set's the color to <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__originalColor">_originalColor</a> using <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_UnityEngine_Color_">SetColor(Color)</a> when the cursor unselects the region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCursorSelectEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorSelectStart_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorSelectStart*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_OnCursorSelectStart" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.OnCursorSelectStart">
+  OnCursorSelectStart()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set's the color to <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable__selectedColor">_selectedColor</a> using <a class="xref" href="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html#InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_UnityEngine_Color_">SetColor(Color)</a> when the cursor selects the region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCursorSelectStart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.SetColor*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_ActivatedAbilityIconInteractable_SetColor_UnityEngine_Color_" data-uid="InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.SetColor(UnityEngine.Color)">
+  SetColor(Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/ActivatedAbilityIconInteractable.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set's the color of the Rendering Material related to the Activated Ability.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColor(Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

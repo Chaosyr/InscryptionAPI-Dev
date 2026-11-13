@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Part3CardCostRender | InscryptionAPI </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Part3CardCostRender | InscryptionAPI ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender.md&amp;value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding API">
+            Inscryption Modding API
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </div>
+
+        <article data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender">
+
+
+
+  <h1 id="InscryptionCommunityPatch_Card_Part3CardCostRender" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender" class="text-break">Class Part3CardCostRender</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">Part3CardCostRender</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.Card.html">Card</a></h6>
+  <h6><strong>Assembly</strong>: InscryptionCommunityPatch.dll</h6>
+  <h5 id="InscryptionCommunityPatch_Card_Part3CardCostRender_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">[HarmonyPatch]
+public static class Part3CardCostRender</code></pre>
+  </div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_BLUE_GEM_COST" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.BLUE_GEM_COST">
+  BLUE_GEM_COST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string BLUE_GEM_COST = &quot;Gem_Cost_Blue&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_BLUE_GEM_ORIGINAL" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.BLUE_GEM_ORIGINAL">
+  BLUE_GEM_ORIGINAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string BLUE_GEM_ORIGINAL = &quot;Anim/CardBase/Top/Gems/Gem_Blue&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_ENERGY_LIGHTS" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.ENERGY_LIGHTS">
+  ENERGY_LIGHTS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ENERGY_LIGHTS = &quot;Anim/CardBase/Top/EnergyCostLights&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GREEN_GEM_COST" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GREEN_GEM_COST">
+  GREEN_GEM_COST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string GREEN_GEM_COST = &quot;Gem_Cost_Green&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GREEN_GEM_ORIGINAL" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GREEN_GEM_ORIGINAL">
+  GREEN_GEM_ORIGINAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string GREEN_GEM_ORIGINAL = &quot;Anim/CardBase/Bottom/Gems/Gem_Green&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_INITIAL_ALTERNATE_COST" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.INITIAL_ALTERNATE_COST">
+  INITIAL_ALTERNATE_COST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string INITIAL_ALTERNATE_COST = &quot;Anim/CardBase/Top/Gems/TextureDisplayer&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_ORANGE_GEM_COST" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.ORANGE_GEM_COST">
+  ORANGE_GEM_COST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ORANGE_GEM_COST = &quot;Gem_Cost_Orange&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_ORANGE_GEM_ORIGINAL" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.ORANGE_GEM_ORIGINAL">
+  ORANGE_GEM_ORIGINAL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ORANGE_GEM_ORIGINAL = &quot;Anim/CardBase/Bottom/Gems/Gem_Orange&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_UPPER_GEM_CONTAINER" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.UPPER_GEM_CONTAINER">
+  UPPER_GEM_CONTAINER
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string UPPER_GEM_CONTAINER = &quot;Anim/CardBase/Top/Gems&quot;</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_DisplayCostOnContainer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.DisplayCostOnContainer*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_DisplayCostOnContainer_UnityEngine_GameObject_System_Tuple_UnityEngine_Texture2D_UnityEngine_Texture2D__" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.DisplayCostOnContainer(UnityEngine.GameObject,System.Tuple{UnityEngine.Texture2D,UnityEngine.Texture2D})">
+  DisplayCostOnContainer(GameObject, Tuple&lt;Texture2D, Texture2D&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L609"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays the given set of cost textures on the container object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisplayCostOnContainer(this GameObject gameObject, Tuple&lt;Texture2D, Texture2D&gt; costTextures)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gameObject</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></dt>
+    <dd></dd>
+    <dt><code>costTextures</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</dt>
+    <dd><p>The cost textures (as generated by the GetIconifiedCostTexture helper)</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="InscryptionCommunityPatch_Card_Part3CardCostRender_DisplayCostOnContainer_UnityEngine_GameObject_System_Tuple_UnityEngine_Texture2D_UnityEngine_Texture2D___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Does nothing if the game object is not the appropriate game object (i.e., it wasn't created in this helper)</p>
+</div>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_DisplayCostOnContainer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.DisplayCostOnContainer*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_DisplayCostOnContainer_UnityEngine_GameObject_UnityEngine_Texture2D_UnityEngine_Texture2D_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.DisplayCostOnContainer(UnityEngine.GameObject,UnityEngine.Texture2D,UnityEngine.Texture2D)">
+  DisplayCostOnContainer(GameObject, Texture2D, Texture2D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L585"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays the given set of cost textures on the container object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisplayCostOnContainer(this GameObject gameObject, Texture2D texture, Texture2D emission)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gameObject</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></dt>
+    <dd></dd>
+    <dt><code>texture</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a></dt>
+    <dd><p>The default texture</p>
+</dd>
+    <dt><code>emission</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a></dt>
+    <dd><p>The emission texture</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="InscryptionCommunityPatch_Card_Part3CardCostRender_DisplayCostOnContainer_UnityEngine_GameObject_UnityEngine_Texture2D_UnityEngine_Texture2D__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Does nothing if the game object is not the appropriate game object (i.e., it wasn't created in this helper)</p>
+</div>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetCard_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetCard*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetCard_DiskCardGame_RenderStatsLayer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetCard(DiskCardGame.RenderStatsLayer)">
+  GetCard(RenderStatsLayer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a reverse reference from an instance of RenderStatsLayer back to the Card it belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Card GetCard(this RenderStatsLayer layer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>layer</code> <span class="xref">RenderStatsLayer</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Card</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetCostContainers_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetCostContainers*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetCostContainers_DiskCardGame_Card_System_Int32_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetCostContainers(DiskCardGame.Card,System.Int32)">
+  GetCostContainers(Card, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the set of additional cost containers to hold costs beyond 1. If additional containers need to be built, this will buidl them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;GameObject&gt; GetCostContainers(this Card card, int numberOfContainers)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <span class="xref">Card</span></dt>
+    <dd></dd>
+    <dt><code>numberOfContainers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetCostContainers_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetCostContainers*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetCostContainers_DiskCardGame_RenderStatsLayer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetCostContainers(DiskCardGame.RenderStatsLayer)">
+  GetCostContainers(RenderStatsLayer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the cached set of additional cost containers that have been built to accomodate costs beyond 1 type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;GameObject&gt; GetCostContainers(this RenderStatsLayer layer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>layer</code> <span class="xref">RenderStatsLayer</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetGemCostContainer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetGemCostContainer*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetGemCostContainer_DiskCardGame_Card_System_Boolean_UnityEngine_GameObject_System_Boolean_System_Nullable_DiskCardGame_GemType__System_Single_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetGemCostContainer(DiskCardGame.Card,System.Boolean,UnityEngine.GameObject,System.Boolean,System.Nullable{DiskCardGame.GemType},System.Single)">
+  GetGemCostContainer(Card, bool, GameObject, bool, GemType?, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L646"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a reference to the renderers for the three possible gem costs for the card.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Tuple&lt;GemType, int, Renderer&gt;&gt; GetGemCostContainer(this Card card, bool force = false, GameObject container = null, bool verify = false, GemType? gemType = null, float stretchFactor = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <span class="xref">Card</span></dt>
+    <dd></dd>
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, this will create a gem cost container if it doesn't already exist</p>
+</dd>
+    <dt><code>container</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></dt>
+    <dd></dd>
+    <dt><code>verify</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, this will validate that the existing container matches the card's current cost. This is off by default for performance reasons</p>
+</dd>
+    <dt><code>gemType</code> <span class="xref">GemType</span>?</dt>
+    <dd></dd>
+    <dt><code>stretchFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<span class="xref">GemType</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Renderer.html">Renderer</a>&gt;&gt;</dt>
+    <dd><p>A dictionary mapping GemType to Renderer. The renderers will be null if the container was never created.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetGemCostContainer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetGemCostContainer*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetGemCostContainer_DiskCardGame_RenderStatsLayer_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetGemCostContainer(DiskCardGame.RenderStatsLayer)">
+  GetGemCostContainer(RenderStatsLayer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L620"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a reference to the renderers for the three possible gem costs for the card.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Tuple&lt;GemType, int, Renderer&gt;&gt; GetGemCostContainer(this RenderStatsLayer layer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>layer</code> <span class="xref">RenderStatsLayer</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<span class="xref">GemType</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Renderer.html">Renderer</a>&gt;&gt;</dt>
+    <dd><p>A dictionary mapping GemType to Renderer. The renderers will be null if the container was never created.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetIconifiedCostTexture_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetIconifiedCostTexture*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetIconifiedCostTexture_UnityEngine_Texture2D_System_Int32_System_Boolean_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetIconifiedCostTexture(UnityEngine.Texture2D,System.Int32,System.Boolean)">
+  GetIconifiedCostTexture(Texture2D, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L463"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates a texture that displays the cost of a specific resource, either by duplicating the icon or using a seven-segment display if there isn't enough space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Tuple&lt;Texture2D, Texture2D&gt; GetIconifiedCostTexture(Texture2D iconTexture, int cost, bool forceDigitDisplay = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>iconTexture</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a></dt>
+    <dd><p>The icon for your resource</p>
+</dd>
+    <dt><code>cost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of that resource to display</p>
+</dd>
+    <dt><code>forceDigitDisplay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Force the texture to render using the 7-segment display</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</dt>
+    <dd><p>A tuple of two textures. The first has the default background, the second does not. The first is best used as a default texture and the second as an emission texture.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetIconifiedCostTexture_UnityEngine_Texture2D_System_Int32_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If there is enough space in the texture to render multiple instances of the icon, this will do that.
+Otherwise, it will render a texture that shows [ICON] x Cost.
+In order to take advantage of texture caching, your icon texture must have a unique name.</p>
+</div>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetIconifiedCostTexture_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetIconifiedCostTexture*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetIconifiedCostTexture_UnityEngine_Texture2D_UnityEngine_Texture2D_System_Int32_System_Boolean_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetIconifiedCostTexture(UnityEngine.Texture2D,UnityEngine.Texture2D,System.Int32,System.Boolean)">
+  GetIconifiedCostTexture(Texture2D, Texture2D, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L479"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates a texture that displays the cost of a specific resource, either by duplicating the icon or using a seven-segment display if there isn't enough space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Tuple&lt;Texture2D, Texture2D&gt; GetIconifiedCostTexture(Texture2D iconTexture, Texture2D unlitIconTexture, int cost, bool forceDigitDisplay = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>iconTexture</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a></dt>
+    <dd><p>The icon for your resource</p>
+</dd>
+    <dt><code>unlitIconTexture</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a></dt>
+    <dd><p>The &quot;unlit&quot; (off) icon for your resource</p>
+</dd>
+    <dt><code>cost</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The amount of that resource to display</p>
+</dd>
+    <dt><code>forceDigitDisplay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Force the texture to render using the 7-segment display</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>, <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</dt>
+    <dd><p>A tuple of two textures. The first has the default background, the second does not. The first is best used as a default texture and the second as an emission texture.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetIconifiedCostTexture_UnityEngine_Texture2D_UnityEngine_Texture2D_System_Int32_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If there is enough space in the texture to render multiple instances of the icon, this will do that.
+Otherwise, it will render a texture that shows [ICON] x Cost.
+In order to take advantage of texture caching, your icon texture must have a unique name.</p>
+</div>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetPiece_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetPiece*"></a>
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetPiece_DiskCardGame_Card_System_String_" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.GetPiece(DiskCardGame.Card,System.String)">
+  GetPiece(Card, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a specific child GameObject instance of a particular card</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject GetPiece(this Card card, string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <span class="xref">Card</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The Unity path to the object you want.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="InscryptionCommunityPatch_Card_Part3CardCostRender_GetPiece_DiskCardGame_Card_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The Part3CardCostRender class contains a number of constants that point to important parts of the card.</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_UpdateCardCostComplex" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.UpdateCardCostComplex">
+  UpdateCardCostComplex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hook into this event to directly modify the game object that is created to hold your custom cost. Do this ONLY if you want to do something more complex than displaying a label/texture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;CardInfo, List&lt;Part3CardCostRender.CustomCostRenderInfo&gt;&gt; UpdateCardCostComplex</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<span class="xref">CardInfo</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionCommunityPatch.Card.Part3CardCostRender.html">Part3CardCostRender</a>.<a class="xref" href="InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.html">CustomCostRenderInfo</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionCommunityPatch_Card_Part3CardCostRender_UpdateCardCostSimple" data-uid="InscryptionCommunityPatch.Card.Part3CardCostRender.UpdateCardCostSimple">
+  UpdateCardCostSimple
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hook into this event to be able to add a new custom cost to a card. In your delegate, create a new CustomCostRenderInfo object with the appropriate textures (or no textures if you will use the UpdateCardCostComplex event as well).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;CardInfo, List&lt;Part3CardCostRender.CustomCostRenderInfo&gt;&gt; UpdateCardCostSimple</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<span class="xref">CardInfo</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionCommunityPatch.Card.Part3CardCostRender.html">Part3CardCostRender</a>.<a class="xref" href="InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.html">CustomCostRenderInfo</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
