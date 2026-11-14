@@ -3253,6 +3253,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "DiscordIcon.png",
+      "output": {
+        "resource": {
+          "relative_path": "DiscordIcon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "README.md",
       "output": {
         "resource": {
