@@ -87,18 +87,38 @@
 
 
 
-  <h1 id="InscryptionAPI_Encounters_CustomNodeData_NodeGenerationCondition" data-uid="InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition" class="text-break">Delegate CustomNodeData.NodeGenerationCondition</h1>
+  <h1 id="InscryptionAPI_Encounters_CustomNodeData_NodeGenerationCondition" data-uid="InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition" class="text-break">
+Delegate CustomNodeData.NodeGenerationCondition  </h1>
+
   <div class="markdown level0 summary"><p>This tells us whether or not the node can actually be generated on the map.
 Simply creating the node is not good enough: the node has to confirm that it can be generated</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Encounters.html">Encounters</a></h6>
-  <h6><strong>Assembly</strong>: InscryptionAPI.dll</h6>
-  <h5 id="InscryptionAPI_Encounters_CustomNodeData_NodeGenerationCondition_syntax">Syntax</h5>
+
+
+
+
+
+  <h6>
+    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Encounters.html">Encounters</a>
+  </h6>
+
+  <h6>
+    <strong>Assembly</strong>: InscryptionAPI.dll
+  </h6>
+
+  <h5 id="InscryptionAPI_Encounters_CustomNodeData_NodeGenerationCondition_syntax">
+  Syntax
+  </h5>
+
   <div class="codewrapper">
     <pre><code class="lang- hljs">public delegate bool CustomNodeData.NodeGenerationCondition(int gridY, List&lt;NodeData&gt; previousNodes)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+
+  <h5 class="parameters">
+  Parameters
+  </h5>
+
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -107,22 +127,33 @@ Simply creating the node is not good enough: the node has to confirm that it can
         <th>Description</th>
       </tr>
     </thead>
+
     <tbody>
+
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">gridY</span></td>
+        <td>
+          <span class="parametername">gridY</span>
+        </td>
         <td><p>How deep into the map the node will be. Higher numbers are further away from the start.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;</td>
-        <td><span class="parametername">previousNodes</span></td>
+        <td>
+          <span class="parametername">previousNodes</span>
+        </td>
         <td><p>All nodes that have previously been confirmed to be added to the map.</p>
 </td>
       </tr>
+
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+
+  <h5 class="returns">
+  Returns
+  </h5>
+
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -130,6 +161,7 @@ Simply creating the node is not good enough: the node has to confirm that it can
         <th>Description</th>
       </tr>
     </thead>
+
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
@@ -138,6 +170,12 @@ Simply creating the node is not good enough: the node has to confirm that it can
       </tr>
     </tbody>
   </table>
+
+
+
+
+
+
 
 
 
