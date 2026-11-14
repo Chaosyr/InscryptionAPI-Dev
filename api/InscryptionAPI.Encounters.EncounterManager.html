@@ -344,7 +344,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -353,9 +352,13 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><span class="xref">EncounterBlueprintData</span></td>
         <td>
-          <span class="parametername">newEncounter</span>
+          <div class="parameter-type">
+          <span class="xref">EncounterBlueprintData</span>
+          </div>
+          <div class="parametername">
+          newEncounter
+          </div>
         </td>
         <td><p>The encounter to add.</p>
 </td>
@@ -399,7 +402,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -408,9 +410,13 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span></td>
         <td>
-          <span class="parametername">card</span>
+          <div class="parameter-type">
+          <span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span>
+          </div>
+          <div class="parametername">
+          card
+          </div>
         </td>
         <td><p>The CardBlueprint that will be used this turn. If null, creates an empty turn.</p>
 </td>
@@ -472,7 +478,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -481,9 +486,13 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><span class="xref">CardBlueprint</span>[]</td>
         <td>
-          <span class="parametername">cards</span>
+          <div class="parameter-type">
+          <span class="xref">CardBlueprint</span>[]
+          </div>
+          <div class="parametername">
+          cards
+          </div>
         </td>
         <td><p>The CardBlueprints that will be used this turn.</p>
 </td>
@@ -545,7 +554,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -554,9 +562,13 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td>
-          <span class="parametername">cardName</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+          </div>
+          <div class="parametername">
+          cardName
+          </div>
         </td>
         <td><p>The name of the card that will be played this turn.</p>
 </td>
@@ -618,7 +630,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -627,9 +638,13 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
         <td>
-          <span class="parametername">cardNames</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]
+          </div>
+          <div class="parametername">
+          cardNames
+          </div>
         </td>
         <td><p>The names of the cards that will be played this turn.</p>
 </td>
@@ -691,7 +706,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -700,17 +714,25 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td>
-          <span class="parametername">name</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+          </div>
+          <div class="parametername">
+          name
+          </div>
         </td>
         <td><p>The internal name of your encounter - used to find and reference it.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td>
-          <span class="parametername">addToPool</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
+          </div>
+          <div class="parametername">
+          addToPool
+          </div>
         </td>
         <td><p>If true, the created instance will be added to the encounter pool.</p>
 </td>
@@ -772,7 +794,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -781,57 +802,85 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td>
-          <span class="parametername">cardName</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+          </div>
+          <div class="parametername">
+          cardName
+          </div>
         </td>
         <td><p>The internal name of the card to use.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td>
-          <span class="parametername">randomReplaceChance</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          randomReplaceChance
+          </div>
         </td>
         <td><p>The integer probability of this card getting replaced by a card from the encounter's <code>randomReplacementCards</code>.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td>
-          <span class="parametername">difficultyReplace</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
+          </div>
+          <div class="parametername">
+          difficultyReplace
+          </div>
         </td>
         <td><p>Whether to replace this card when a certain difficulty threshold is met.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td>
-          <span class="parametername">difficultyReplaceReq</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          difficultyReplaceReq
+          </div>
         </td>
         <td><p>The difficulty threshold for the <code>replacement</code> card to be used instead.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td>
-          <span class="parametername">replacement</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+          </div>
+          <div class="parametername">
+          replacement
+          </div>
         </td>
         <td><p>The name of the replacement card for the difficulty replacement.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td>
-          <span class="parametername">minDifficulty</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          minDifficulty
+          </div>
         </td>
         <td><p>The minimum difficulty for this card to appear.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td>
-          <span class="parametername">maxDifficulty</span>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          maxDifficulty
+          </div>
         </td>
         <td><p>The maximum difficulty for this card to appear.</p>
 </td>
@@ -893,7 +942,6 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
   <table class="api-parameters">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
@@ -902,9 +950,13 @@ Class EncounterManager  <a class="header-action link-secondary" title="View sour
     <tbody>
 
       <tr>
-        <td><span class="xref">EncounterBlueprintData</span></td>
         <td>
-          <span class="parametername">encounter</span>
+          <div class="parameter-type">
+          <span class="xref">EncounterBlueprintData</span>
+          </div>
+          <div class="parametername">
+          encounter
+          </div>
         </td>
         <td><p>The encounter to remove.</p>
 </td>
