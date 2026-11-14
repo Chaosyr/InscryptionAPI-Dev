@@ -13,6 +13,3236 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_blood_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_blood_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_blood_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_blood_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_blood_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_blood_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_blood_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_blood_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_child.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_child.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_fungus.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_fungus.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_smoke.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_smoke.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_smoke_abilityhole.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_smoke_abilityhole.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_snelk_main.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_snelk_main.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/BaseGameDecals/decal_stitches.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/BaseGameDecals/decal_stitches.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/PixelGemifiedBlue.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/PixelGemifiedBlue.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/PixelGemifiedDecal.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/PixelGemifiedDecal.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/PixelGemifiedGreen.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/PixelGemifiedGreen.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/PixelGemifiedOrange.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/PixelGemifiedOrange.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_evolve_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_evolve_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_evolve_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_evolve_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_evolve_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_evolve_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_transformer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_transformer_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_transformer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_transformer_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_transformer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_transformer_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_transformer_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_transformer_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_transformer_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_transformer_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ability_transformer_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ability_transformer_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ascension_card_none_darker.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ascension_card_none_darker.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/ascensionicon_none.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/ascensionicon_none.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/customhoveringitem",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/customhoveringitem"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/customitem",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/customitem"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/customtotemtop",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/customtotemtop"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/empty_rewardCardBack.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/empty_rewardCardBack.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/mapevent_missing.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/mapevent_missing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/maskFlat",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/maskFlat"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/rulebookitemicon_cardinbottle.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/rulebookitemicon_cardinbottle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/runeroundedbottom",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/runeroundedbottom"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/starterdeck_icon_none.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/starterdeck_icon_none.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionAPI/Assets/tribeicon_none.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/api/assets/tribeicon_none.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Act3CostCubeBackground.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Act3CostCubeBackground.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedDealDamage.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedDealDamage.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedDrawSkeleton.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedDrawSkeleton.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedEnergyToBones.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedEnergyToBones.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedHeal.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedHeal.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedRandomPowerBone.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedRandomPowerBone.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedRandomPowerEnergy.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedRandomPowerEnergy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedSacrificeDrawCards.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedSacrificeDrawCards.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedStatsUp.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedStatsUp.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ActivatedStatsUpEnergy.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ActivatedStatsUpEnergy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Ant_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Ant_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/AquaSquirrel_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/AquaSquirrel_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Bee_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Bee_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/BloodCostIcon_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/BloodCostIcon_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/BloodCostIcon_small_unlit.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/BloodCostIcon_small_unlit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/BombSpawner.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/BombSpawner.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/BoneCostIcon_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/BoneCostIcon_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/BrokenEgg_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/BrokenEgg_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/CatUndead_fix_emission.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/CatUndead_fix_emission.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ConduitEnergy.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ConduitEnergy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ConduitFactory.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ConduitFactory.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/ConduitHeal.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/ConduitHeal.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/CostTextureBackground.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/CostTextureBackground.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Dam_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Dam_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/DausBell_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/DausBell_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/DefaultTail_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/DefaultTail_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_0_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_0_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_1_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_1_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_2_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_2_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_3_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_3_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_4_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_4_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_5_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_5_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_6_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_6_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_7_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_7_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_8_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_8_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_9_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_9_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Display_x_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Display_x_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/DoubleDeath.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/DoubleDeath.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/DrawNewHand.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/DrawNewHand.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/EmptyVessel_BlueGem_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/EmptyVessel_BlueGem_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/EmptyVessel_GreenGem_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/EmptyVessel_GreenGem_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/EmptyVessel_OrangeGem_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/EmptyVessel_OrangeGem_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/EmptyVessel_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/EmptyVessel_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/GainGemTriple.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/GainGemTriple.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/GreenGem.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/GreenGem.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Ijiraq_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Ijiraq_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Loot.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Loot.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelAllStrike.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelAllStrike.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelBeesOnHit.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelBeesOnHit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelBuffEnemy.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelBuffEnemy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelCellBuffSelf.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelCellBuffSelf.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelCellDrawRandomCardOnDeath.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelCellDrawRandomCardOnDeath.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelCellTriStrike.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelCellTriStrike.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelConduitSpawnGems.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelConduitSpawnGems.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelCorpseEater.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelCorpseEater.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelCreateBells.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelCreateBells.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelCreateDams.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelCreateDams.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelDeleteFile.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelDeleteFile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelDrawAnt.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelDrawAnt.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelDrawRandomCardOnDeath.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelDrawRandomCardOnDeath.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelDrawVesselOnHit.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelDrawVesselOnHit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelExplodeGems.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelExplodeGems.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelGainGemTriple.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelGainGemTriple.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelLatchBrittle.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelLatchBrittle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelLatchDeathShield.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelLatchDeathShield.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelLatchExplodeOnDeath.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelLatchExplodeOnDeath.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelMadeOfStone.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelMadeOfStone.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelMoveBeside.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelMoveBeside.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelPermaDeath.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelPermaDeath.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelRandomAbility.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelRandomAbility.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelRandomConsumable.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelRandomConsumable.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelShieldGems.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelShieldGems.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelSniper.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelSniper.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelSquirrelOrbit.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelSquirrelOrbit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelSwapStats.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelSwapStats.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelTailOnHit.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelTailOnHit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/PixelTransformer.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/PixelTransformer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/RavenEgg_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/RavenEgg_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/SevenSegment_small.pdn",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/SevenSegment_small.pdn"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/SkeletonStrafe.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/SkeletonStrafe.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/SkinkTail_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/SkinkTail_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/SquirrelStrafe.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/SquirrelStrafe.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_0.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_0_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_0_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_1_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_1_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_2_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_2_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_3_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_3_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_4_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_4_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_5_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_5_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_6_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_6_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_7_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_7_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_8_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_8_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Stack_9_med.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Stack_9_med.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Tail_Bird_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Tail_Bird_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Tail_Furry_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Tail_Furry_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/Tail_Insect_pixel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/Tail_Insect_pixel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/act1_gemify_attack.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/act1_gemify_attack.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/act1_gemify_base.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/act1_gemify_base.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/act1_gemify_cost.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/act1_gemify_cost.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/act1_gemify_health.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/act1_gemify_health.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/backButton.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/backButton.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/backButton_disabled.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/backButton_disabled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/backButton_down.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/backButton_down.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/backButton_hover.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/backButton_hover.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_14.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/blood_cost_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/blood_cost_9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_14.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_15.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_16.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/bone_cost_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/bone_cost_9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/empty_cost.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/empty_cost.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energyCost.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energyCost.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/energy_cost_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/energy_cost_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/forwardButton.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/forwardButton.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/forwardButton_disabled.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/forwardButton_disabled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/forwardButton_down.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/forwardButton_down.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/forwardButton_hover.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/forwardButton_hover.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/moxCost.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/moxCost.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/moxCostBlue.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/moxCostBlue.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/moxCostGreen.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/moxCostGreen.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/moxCostOrange.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/moxCostOrange.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_b.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_b_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_b_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_b_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_b_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_b_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_b_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_g.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_g.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_g_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_g_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_g_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_g_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_g_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_g_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_o.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_o.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_o_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_o_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_o_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_o_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/mox_cost_o_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/mox_cost_o_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/p03_face_blood_resource.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/p03_face_blood_resource.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/p03_face_bones_resource.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/p03_face_bones_resource.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_14.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_15.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_L_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_L_9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_base.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_base.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_base_large.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_base_large.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blank.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blank.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blank_large.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blank_large.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_14.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_blood_large_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_blood_large_9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_14.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_15.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_16.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_bone_large_9.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_bone_large_9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_energy_large_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_energy_large_7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_evolve_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_evolve_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_evolve_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_evolve_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_evolve_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_evolve_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_evolve_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_evolve_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_evolve_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_evolve_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_evolve_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_evolve_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_heat.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_heat.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_life.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_life.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_green_large.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_green_large.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_large_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_large_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_large_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_large_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_large_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_large_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_large_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_large_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_blue_orange_large.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_blue_orange_large.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_grand_large.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_grand_large.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_large_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_large_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_large_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_large_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_large_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_large_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_large_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_large_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_green_orange_large.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_green_orange_large.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_large_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_large_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_large_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_large_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_large_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_large_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_mox_orange_large_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_mox_orange_large_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_transformer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_transformer_1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_transformer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_transformer_2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_transformer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_transformer_3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_transformer_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_transformer_4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_transformer_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_transformer_5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/pixel_transformer_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/pixel_transformer_6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/shadowed_display_archive.zip",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/shadowed_display_archive.zip"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/stack_gbc.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/stack_gbc.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/stack_gbc_alt.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/stack_gbc_alt.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/testCost.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/testCost.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../InscryptionCommunityPatch/Assets/tribeicon_squirrel.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/community/assets/tribeicon_squirrel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "../LICENSE.md",
       "output": {
         "resource": {
