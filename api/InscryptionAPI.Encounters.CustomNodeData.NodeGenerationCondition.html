@@ -119,59 +119,59 @@ Simply creating the node is not good enough: the node has to confirm that it can
   Parameters
   </h5>
 
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
+  <dl class="parameters three-column">
+    <div class="dl-header">
+      <span>Name</span>
+      <span>Type</span>
+      <span>Description</span>
+    </div>
 
-    <tbody>
+    <div class="dl-row">
+      <dt>
+        <span class="parametername">gridY</span>
+      </dt>
+      <dd>
+        <span class="parameter-type"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></span>
+      </dd>
+      <dd>
+      <p>How deep into the map the node will be. Higher numbers are further away from the start.</p>
 
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td>
-          <span class="parametername">gridY</span>
-        </td>
-        <td><p>How deep into the map the node will be. Higher numbers are further away from the start.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;</td>
-        <td>
-          <span class="parametername">previousNodes</span>
-        </td>
-        <td><p>All nodes that have previously been confirmed to be added to the map.</p>
-</td>
-      </tr>
+      </dd>
+    </div>
+    <div class="dl-row">
+      <dt>
+        <span class="parametername">previousNodes</span>
+      </dt>
+      <dd>
+        <span class="parameter-type"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;</span>
+      </dd>
+      <dd>
+      <p>All nodes that have previously been confirmed to be added to the map.</p>
 
-    </tbody>
-  </table>
+      </dd>
+    </div>
+  </dl>
 
   <h5 class="returns">
   Returns
   </h5>
 
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
+  <dl class="parameters two-column">
+    <div class="dl-header">
+      <span>Type</span>
+      <span>Description</span>
+    </div>
 
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><p>TRUE if the node is able to be added to the map. FALSE if it is not.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+    <div class="dl-row">
+      <dt>
+        <span class="parameter-type"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></span>
+      </dt>
+      <dd>
+      <p>TRUE if the node is able to be added to the map. FALSE if it is not.</p>
 
-
+      </dd>
+    </div>
+  </dl>
 
 
 
