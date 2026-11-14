@@ -1384,11 +1384,6 @@
     "title": "Inscryption API Documentation | InscryptionAPI",
     "summary": "Inscryption API Documentation Hello, and welcome to the documentation section for the Inscryption API! This section documents the various classes and members of the Inscryption API, providing information on what they do."
   },
-  "apipatcher/index.html": {
-    "href": "apipatcher/index.html",
-    "title": "APIPatcher Documentation | InscryptionAPI",
-    "summary": "APIPatcher Documentation Hello, and welcome to the documentation section for the APIPatcher! This section documents the various classes and members of the APIPatcher, providing information on what they do."
-  },
   "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.html": {
     "href": "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.html",
     "title": "Class Act1LatchAbilityFix | InscryptionAPI",

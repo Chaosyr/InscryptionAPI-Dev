@@ -3919,16 +3919,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "apipatcher/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "apipatcher/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "ManagedReference",
       "source_relative_path": "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.yml",
       "output": {
