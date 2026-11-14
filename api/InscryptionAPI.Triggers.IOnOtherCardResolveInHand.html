@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand" class="text-break">
-Interface IOnOtherCardResolveInHand  </h1>
+Interface IOnOtherCardResolveInHand  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Trigger that is triggered when any card gets played, but unlike normal OnOtherCardResolveOnBoard this one only works in hand.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Trigger that is triggered when any card gets played, but unlike normal OnOtherCardResolveOnBoard this one only works in hand.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_syntax">
   Syntax
@@ -122,6 +120,16 @@ Interface IOnOtherCardResolveInHand  </h1>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -129,7 +137,7 @@ Interface IOnOtherCardResolveInHand  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_OnOtherCardResolveInHand_" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand.OnOtherCardResolveInHand*"></a>
+  <a id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_OnOtherCardResolveInHand_" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand.OnOtherCardResolveInHand*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_OnOtherCardResolveInHand_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand.OnOtherCardResolveInHand(DiskCardGame.PlayableCard)">
   OnOtherCardResolveInHand(PlayableCard)
@@ -141,22 +149,52 @@ Interface IOnOtherCardResolveInHand  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator OnOtherCardResolveInHand(PlayableCard resolvingCard)</code></pre>
+    <pre><code class="lang- hljs">IEnumerator OnOtherCardResolveInHand(PlayableCard resolvingCard)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>resolvingCard</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that got played.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">resolvingCard</span>
+        </td>
+        <td><p>The card that got played.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -168,7 +206,11 @@ Interface IOnOtherCardResolveInHand  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_RespondsToOtherCardResolveInHand_" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand.RespondsToOtherCardResolveInHand*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_RespondsToOtherCardResolveInHand_" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand.RespondsToOtherCardResolveInHand*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand_RespondsToOtherCardResolveInHand_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand.RespondsToOtherCardResolveInHand(DiskCardGame.PlayableCard)">
   RespondsToOtherCardResolveInHand(PlayableCard)
@@ -180,22 +222,56 @@ Interface IOnOtherCardResolveInHand  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToOtherCardResolveInHand(PlayableCard resolvingCard)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToOtherCardResolveInHand(PlayableCard resolvingCard)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>resolvingCard</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that got played.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">resolvingCard</span>
+        </td>
+        <td><p>The card that got played.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should trigger when any card gets played, but only if this card is in hand. .</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should trigger when any card gets played, but only if this card is in hand. .</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

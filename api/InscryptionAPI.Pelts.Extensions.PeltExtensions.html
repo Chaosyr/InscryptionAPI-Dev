@@ -88,36 +88,34 @@
 
 
   <h1 id="InscryptionAPI_Pelts_Extensions_PeltExtensions" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions" class="text-break">
-Class PeltExtensions  </h1>
+Class PeltExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Pelts/PeltExtensions.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Pelts.html">Pelts</a>.<a class="xref" href="InscryptionAPI.Pelts.Extensions.html">Extensions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">PeltExtensions</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Pelts.html">Pelts</a>.<a class="xref" href="InscryptionAPI.Pelts.Extensions.html">Extensions</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_syntax">
   Syntax
@@ -134,6 +132,34 @@ Class PeltExtensions  </h1>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -142,7 +168,7 @@ Class PeltExtensions  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPrice_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPrice*"></a>
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPrice_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPrice*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPrice_InscryptionAPI_Pelts_PeltManager_PeltData_System_Int32_System_Int32_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPrice(InscryptionAPI.Pelts.PeltManager.PeltData,System.Int32,System.Int32)">
   SetBuyPrice(PeltData, int, int)
@@ -154,28 +180,68 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetBuyPrice(this PeltManager.PeltData peltData, int baseBuyPrice, int maxBuyPrice = 0)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetBuyPrice(this PeltManager.PeltData peltData, int baseBuyPrice, int maxBuyPrice = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>baseBuyPrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The base price of the pelt before calculations occur.</p>
-</dd>
-    <dt><code>maxBuyPrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The highest price the pelt can be offered for - only considers values above 0.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">baseBuyPrice</span>
+        </td>
+        <td><p>The base price of the pelt before calculations occur.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">maxBuyPrice</span>
+        </td>
+        <td><p>The highest price the pelt can be offered for - only considers values above 0.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -187,7 +253,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPriceAdjustment_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPriceAdjustment*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPriceAdjustment_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPriceAdjustment*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPriceAdjustment_InscryptionAPI_Pelts_PeltManager_PeltData_System_Func_System_Int32_System_Int32__" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPriceAdjustment(InscryptionAPI.Pelts.PeltManager.PeltData,System.Func{System.Int32,System.Int32})">
   SetBuyPriceAdjustment(PeltData, Func&lt;int, int&gt;)
@@ -199,24 +269,59 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetBuyPriceAdjustment(this PeltManager.PeltData peltData, Func&lt;int, int&gt; buyPriceAdjustment)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetBuyPriceAdjustment(this PeltManager.PeltData peltData, Func&lt;int, int&gt; buyPriceAdjustment)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>buyPriceAdjustment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td>
+          <span class="parametername">buyPriceAdjustment</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -228,7 +333,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPriceModifiers_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPriceModifiers*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPriceModifiers_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPriceModifiers*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetBuyPriceModifiers_InscryptionAPI_Pelts_PeltManager_PeltData_System_Int32_System_Int32_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetBuyPriceModifiers(InscryptionAPI.Pelts.PeltManager.PeltData,System.Int32,System.Int32)">
   SetBuyPriceModifiers(PeltData, int, int)
@@ -240,28 +349,68 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetBuyPriceModifiers(this PeltManager.PeltData peltData, int bossPriceCut = 2, int challengePriceHike = 2)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetBuyPriceModifiers(this PeltManager.PeltData peltData, int bossPriceCut = 2, int challengePriceHike = 2)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>bossPriceCut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The price divider for when the Trapper and Trader have been defeated. Default value halves the price.</p>
-</dd>
-    <dt><code>challengePriceHike</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The price multiplier for when the Expensive Pelts challenge is active. Default value doubles the price.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">bossPriceCut</span>
+        </td>
+        <td><p>The price divider for when the Trapper and Trader have been defeated. Default value halves the price.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">challengePriceHike</span>
+        </td>
+        <td><p>The price multiplier for when the Expensive Pelts challenge is active. Default value doubles the price.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -273,7 +422,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetCardChoices_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetCardChoices*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetCardChoices_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetCardChoices*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetCardChoices_InscryptionAPI_Pelts_PeltManager_PeltData_System_Func_System_Collections_Generic_List_DiskCardGame_CardInfo___" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetCardChoices(InscryptionAPI.Pelts.PeltManager.PeltData,System.Func{System.Collections.Generic.List{DiskCardGame.CardInfo}})">
   SetCardChoices(PeltData, Func&lt;List&lt;CardInfo&gt;&gt;)
@@ -285,24 +438,59 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetCardChoices(this PeltManager.PeltData peltData, Func&lt;List&lt;CardInfo&gt;&gt; getCardChoices)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetCardChoices(this PeltManager.PeltData peltData, Func&lt;List&lt;CardInfo&gt;&gt; getCardChoices)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>getCardChoices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;&gt;</td>
+        <td>
+          <span class="parametername">getCardChoices</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -314,7 +502,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetIsSoldByTrapper_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetIsSoldByTrapper*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetIsSoldByTrapper_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetIsSoldByTrapper*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetIsSoldByTrapper_InscryptionAPI_Pelts_PeltManager_PeltData_System_Boolean_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetIsSoldByTrapper(InscryptionAPI.Pelts.PeltManager.PeltData,System.Boolean)">
   SetIsSoldByTrapper(PeltData, bool)
@@ -326,25 +518,60 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetIsSoldByTrapper(this PeltManager.PeltData peltData, bool soldByTrapper = true)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetIsSoldByTrapper(this PeltManager.PeltData peltData, bool soldByTrapper = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>soldByTrapper</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the pelt should be sellable by the Trapper.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">soldByTrapper</span>
+        </td>
+        <td><p>Whether the pelt should be sellable by the Trapper.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -356,7 +583,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetMaxBuyPrice_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetMaxBuyPrice*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetMaxBuyPrice_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetMaxBuyPrice*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetMaxBuyPrice_InscryptionAPI_Pelts_PeltManager_PeltData_System_Int32_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetMaxBuyPrice(InscryptionAPI.Pelts.PeltManager.PeltData,System.Int32)">
   SetMaxBuyPrice(PeltData, int)
@@ -368,25 +599,60 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetMaxBuyPrice(this PeltManager.PeltData peltData, int maxBuyPrice)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetMaxBuyPrice(this PeltManager.PeltData peltData, int maxBuyPrice)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>maxBuyPrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The highest price the pelt can be offered for - only considers values above 0r.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">maxBuyPrice</span>
+        </td>
+        <td><p>The highest price the pelt can be offered for - only considers values above 0r.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -398,7 +664,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetModifyCardChoiceAtTrader_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetModifyCardChoiceAtTrader*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetModifyCardChoiceAtTrader_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetModifyCardChoiceAtTrader*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetModifyCardChoiceAtTrader_InscryptionAPI_Pelts_PeltManager_PeltData_System_Action_DiskCardGame_CardInfo__" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetModifyCardChoiceAtTrader(InscryptionAPI.Pelts.PeltManager.PeltData,System.Action{DiskCardGame.CardInfo})">
   SetModifyCardChoiceAtTrader(PeltData, Action&lt;CardInfo&gt;)
@@ -410,25 +680,60 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetModifyCardChoiceAtTrader(this PeltManager.PeltData peltData, Action&lt;CardInfo&gt; modifyCardChoiceAtTrader)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetModifyCardChoiceAtTrader(this PeltManager.PeltData peltData, Action&lt;CardInfo&gt; modifyCardChoiceAtTrader)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>modifyCardChoiceAtTrader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">CardInfo</span>&gt;</dt>
-    <dd><p>The Func used to change a card at the trader.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">CardInfo</span>&gt;</td>
+        <td>
+          <span class="parametername">modifyCardChoiceAtTrader</span>
+        </td>
+        <td><p>The Func used to change a card at the trader.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -440,7 +745,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetNumberOfTraderChoices_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetNumberOfTraderChoices*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetNumberOfTraderChoices_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetNumberOfTraderChoices*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetNumberOfTraderChoices_InscryptionAPI_Pelts_PeltManager_PeltData_System_Int32_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetNumberOfTraderChoices(InscryptionAPI.Pelts.PeltManager.PeltData,System.Int32)">
   SetNumberOfTraderChoices(PeltData, int)
@@ -452,24 +761,59 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetNumberOfTraderChoices(this PeltManager.PeltData peltData, int numOfChoices)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetNumberOfTraderChoices(this PeltManager.PeltData peltData, int numOfChoices)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>numOfChoices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numOfChoices</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -481,7 +825,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetPluginGuid_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetPluginGuid*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetPluginGuid_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetPluginGuid*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetPluginGuid_InscryptionAPI_Pelts_PeltManager_PeltData_System_String_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetPluginGuid(InscryptionAPI.Pelts.PeltManager.PeltData,System.String)">
   SetPluginGuid(PeltData, string)
@@ -493,25 +841,60 @@ Class PeltExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetPluginGuid(this PeltManager.PeltData peltData, string pluginGuid)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetPluginGuid(this PeltManager.PeltData peltData, string pluginGuid)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>pluginGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The GUID of the plugin this pelt is associated with.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>
+          <span class="parametername">pluginGuid</span>
+        </td>
+        <td><p>The GUID of the plugin this pelt is associated with.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -523,7 +906,11 @@ Class PeltExtensions  </h1>
 
 
 
-  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetTierName_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetTierName*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetTierName_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetTierName*" data-overload></a>
 
   <h3 id="InscryptionAPI_Pelts_Extensions_PeltExtensions_SetTierName_InscryptionAPI_Pelts_PeltManager_PeltData_System_String_" data-uid="InscryptionAPI.Pelts.Extensions.PeltExtensions.SetTierName(InscryptionAPI.Pelts.PeltManager.PeltData,System.String)">
   SetTierName(PeltData, string)
@@ -536,25 +923,64 @@ Also used to determine the eventId of the corresponding DialogueEvent.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PeltManager.PeltData SetTierName(this PeltManager.PeltData peltData, string tierName)</code></pre>
+    <pre><code class="lang- hljs">public static PeltManager.PeltData SetTierName(this PeltManager.PeltData peltData, string tierName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>peltData</code> <a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The PeltData to access.</p>
-</dd>
-    <dt><code>tierName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name that will be spoken by the Trader and used to reference the custom dialogue event.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td>
+          <span class="parametername">peltData</span>
+        </td>
+        <td><p>The PeltData to access.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>
+          <span class="parametername">tierName</span>
+        </td>
+        <td><p>The name that will be spoken by the Trader and used to reference the custom dialogue event.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></dt>
-    <dd><p>The same PeltData so a chain can continue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Pelts.PeltManager.html">PeltManager</a>.<a class="xref" href="InscryptionAPI.Pelts.PeltManager.PeltData.html">PeltData</a></td>
+        <td><p>The same PeltData so a chain can continue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

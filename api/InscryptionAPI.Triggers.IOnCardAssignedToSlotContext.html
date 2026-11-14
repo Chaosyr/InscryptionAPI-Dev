@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext" class="text-break">
-Interface IOnCardAssignedToSlotContext  </h1>
+Interface IOnCardAssignedToSlotContext  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Trigger that is triggered after any card is assigned to a slot. The difference between this and normal OnOtherCardAssignedToSlot is that this trigger also provides information about the new and old slot.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Trigger that is triggered after any card is assigned to a slot. The difference between this and normal OnOtherCardAssignedToSlot is that this trigger also provides information about the new and old slot.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_syntax">
   Syntax
@@ -122,6 +120,16 @@ Interface IOnCardAssignedToSlotContext  </h1>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -129,7 +137,7 @@ Interface IOnCardAssignedToSlotContext  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_OnCardAssignedToSlotContext_" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.OnCardAssignedToSlotContext*"></a>
+  <a id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_OnCardAssignedToSlotContext_" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.OnCardAssignedToSlotContext*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_OnCardAssignedToSlotContext_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.OnCardAssignedToSlotContext(DiskCardGame.PlayableCard,DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   OnCardAssignedToSlotContext(PlayableCard, CardSlot, CardSlot)
@@ -141,28 +149,68 @@ Interface IOnCardAssignedToSlotContext  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator OnCardAssignedToSlotContext(PlayableCard card, CardSlot oldSlot, CardSlot newSlot)</code></pre>
+    <pre><code class="lang- hljs">IEnumerator OnCardAssignedToSlotContext(PlayableCard card, CardSlot oldSlot, CardSlot newSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that got assigned to a new slot.</p>
-</dd>
-    <dt><code>oldSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot for the card before it moved.</p>
-</dd>
-    <dt><code>newSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot for the card after it moved.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The card that got assigned to a new slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">oldSlot</span>
+        </td>
+        <td><p>The slot for the card before it moved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">newSlot</span>
+        </td>
+        <td><p>The slot for the card after it moved.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -174,7 +222,11 @@ Interface IOnCardAssignedToSlotContext  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_RespondsToCardAssignedToSlotContext_" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.RespondsToCardAssignedToSlotContext*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_RespondsToCardAssignedToSlotContext_" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.RespondsToCardAssignedToSlotContext*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext_RespondsToCardAssignedToSlotContext_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.RespondsToCardAssignedToSlotContext(DiskCardGame.PlayableCard,DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   RespondsToCardAssignedToSlotContext(PlayableCard, CardSlot, CardSlot)
@@ -186,28 +238,72 @@ Interface IOnCardAssignedToSlotContext  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToCardAssignedToSlotContext(PlayableCard card, CardSlot oldSlot, CardSlot newSlot)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToCardAssignedToSlotContext(PlayableCard card, CardSlot oldSlot, CardSlot newSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that got assigned to a new slot.</p>
-</dd>
-    <dt><code>oldSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot for the card before it moved.</p>
-</dd>
-    <dt><code>newSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot for the card after it moved.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The card that got assigned to a new slot.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">oldSlot</span>
+        </td>
+        <td><p>The slot for the card before it moved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">newSlot</span>
+        </td>
+        <td><p>The slot for the card after it moved.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should trigger when any card gets assigned to a new slot.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should trigger when any card gets assigned to a new slot.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

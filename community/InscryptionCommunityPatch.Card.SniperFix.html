@@ -88,36 +88,34 @@
 
 
   <h1 id="InscryptionCommunityPatch_Card_SniperFix" data-uid="InscryptionCommunityPatch.Card.SniperFix" class="text-break">
-Class SniperFix  </h1>
+Class SniperFix  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Vanilla Ability Patches/SniperFix.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.Card.html">Card</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionCommunityPatch.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">SniperFix</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.Card.html">Card</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionCommunityPatch.dll
-  </h6>
 
   <h5 id="InscryptionCommunityPatch_Card_SniperFix_syntax">
   Syntax
@@ -135,6 +133,34 @@ public class SniperFix</code></pre>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -143,7 +169,7 @@ public class SniperFix</code></pre>
 </h2>
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_CanKillCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CanKillCard*"></a>
+  <a id="InscryptionCommunityPatch_Card_SniperFix_CanKillCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CanKillCard*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_CanKillCard_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_CardSlot_System_Nullable_System_Int32__" data-uid="InscryptionCommunityPatch.Card.SniperFix.CanKillCard(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.CardSlot,System.Nullable{System.Int32})">
   CanKillCard(PlayableCard, int, CardSlot, int?)
@@ -154,26 +180,71 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CanKillCard(PlayableCard pc, int numAttacks, CardSlot slot, int? overrideAttacks = null)</code></pre>
+    <pre><code class="lang- hljs">public static bool CanKillCard(PlayableCard pc, int numAttacks, CardSlot slot, int? overrideAttacks = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pc</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>overrideAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">pc</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
+        <td>
+          <span class="parametername">overrideAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -185,7 +256,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_CanWin_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CanWin*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_CanWin_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CanWin*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_CanWin_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CanWin(System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   CanWin(List&lt;CardSlot&gt;, List&lt;CardSlot&gt;, CardSlot, int)
@@ -196,26 +271,71 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CanWin(List&lt;CardSlot&gt; opposingSlots, List&lt;CardSlot&gt; playerSlots, CardSlot slot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static bool CanWin(List&lt;CardSlot&gt; opposingSlots, List&lt;CardSlot&gt; playerSlots, CardSlot slot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>playerSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">playerSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -227,7 +347,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_CardIsDeadOrHasRepulsive_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CardIsDeadOrHasRepulsive*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_CardIsDeadOrHasRepulsive_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CardIsDeadOrHasRepulsive*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_CardIsDeadOrHasRepulsive_DiskCardGame_PlayableCard_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.CardIsDeadOrHasRepulsive(DiskCardGame.PlayableCard,System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   CardIsDeadOrHasRepulsive(PlayableCard, List&lt;CardSlot&gt;, CardSlot, int)
@@ -238,26 +362,71 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool CardIsDeadOrHasRepulsive(PlayableCard pc, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static bool CardIsDeadOrHasRepulsive(PlayableCard pc, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pc</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">pc</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -269,7 +438,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_DoAttackTargetSlotsLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.DoAttackTargetSlotsLogic*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_DoAttackTargetSlotsLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.DoAttackTargetSlotsLogic*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_DoAttackTargetSlotsLogic_DiskCardGame_CombatPhaseManager_InscryptionCommunityPatch_Card_Part1SniperVisualizer_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.DoAttackTargetSlotsLogic(DiskCardGame.CombatPhaseManager,InscryptionCommunityPatch.Card.Part1SniperVisualizer,System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   DoAttackTargetSlotsLogic(CombatPhaseManager, Part1SniperVisualizer, List&lt;CardSlot&gt;, CardSlot, CardSlot)
@@ -280,28 +453,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator DoAttackTargetSlotsLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, CardSlot opposingSlot)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator DoAttackTargetSlotsLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, CardSlot opposingSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">CombatPhaseManager</span></dt>
-    <dd></dd>
-    <dt><code>visualizer</code> <a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>opposingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CombatPhaseManager</span></td>
+        <td>
+          <span class="parametername">instance</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></td>
+        <td>
+          <span class="parametername">visualizer</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">opposingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -313,7 +536,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_DoSniperLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.DoSniperLogic*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_DoSniperLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.DoSniperLogic*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_DoSniperLogic_DiskCardGame_CombatPhaseManager_InscryptionCommunityPatch_Card_Part1SniperVisualizer_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.DoSniperLogic(DiskCardGame.CombatPhaseManager,InscryptionCommunityPatch.Card.Part1SniperVisualizer,System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   DoSniperLogic(CombatPhaseManager, Part1SniperVisualizer, List&lt;CardSlot&gt;, CardSlot, int)
@@ -324,28 +551,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator DoSniperLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator DoSniperLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">CombatPhaseManager</span></dt>
-    <dd></dd>
-    <dt><code>visualizer</code> <a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CombatPhaseManager</span></td>
+        <td>
+          <span class="parametername">instance</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></td>
+        <td>
+          <span class="parametername">visualizer</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -357,7 +634,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetAttackCount_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetAttackCount*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetAttackCount_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetAttackCount*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetAttackCount_DiskCardGame_PlayableCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetAttackCount(DiskCardGame.PlayableCard)">
   GetAttackCount(PlayableCard)
@@ -369,22 +650,52 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetAttackCount(PlayableCard card)</code></pre>
+    <pre><code class="lang- hljs">public static int GetAttackCount(PlayableCard card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card with sniper on it</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The card with sniper on it</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>An integer indicating the number of times the card should attack</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>An integer indicating the number of times the card should attack</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -396,7 +707,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetFirstAvailableOpenSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstAvailableOpenSlot*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetFirstAvailableOpenSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstAvailableOpenSlot*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetFirstAvailableOpenSlot_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstAvailableOpenSlot(System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   GetFirstAvailableOpenSlot(List&lt;CardSlot&gt;, List&lt;CardSlot&gt;, CardSlot, int)
@@ -407,26 +722,71 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CardSlot GetFirstAvailableOpenSlot(List&lt;CardSlot&gt; opposingSlots, List&lt;CardSlot&gt; playerSlots, CardSlot slot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static CardSlot GetFirstAvailableOpenSlot(List&lt;CardSlot&gt; opposingSlots, List&lt;CardSlot&gt; playerSlots, CardSlot slot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>playerSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">playerSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -438,7 +798,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetFirstStrongestAttackableCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstStrongestAttackableCard*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetFirstStrongestAttackableCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstStrongestAttackableCard*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetFirstStrongestAttackableCard_System_Boolean_System_Collections_Generic_List_DiskCardGame_PlayableCard__System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstStrongestAttackableCard(System.Boolean,System.Collections.Generic.List{DiskCardGame.PlayableCard},System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   GetFirstStrongestAttackableCard(bool, List&lt;PlayableCard&gt;, List&lt;CardSlot&gt;, CardSlot, int)
@@ -449,28 +813,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlayableCard GetFirstStrongestAttackableCard(bool anyCards, List&lt;PlayableCard&gt; playerCards, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static PlayableCard GetFirstStrongestAttackableCard(bool anyCards, List&lt;PlayableCard&gt; playerCards, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>anyCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>playerCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">anyCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</td>
+        <td>
+          <span class="parametername">playerCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -482,7 +896,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetFirstStrongestAttackableCardNoPreferences_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstStrongestAttackableCardNoPreferences*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetFirstStrongestAttackableCardNoPreferences_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstStrongestAttackableCardNoPreferences*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetFirstStrongestAttackableCardNoPreferences_System_Boolean_System_Collections_Generic_List_DiskCardGame_PlayableCard__System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetFirstStrongestAttackableCardNoPreferences(System.Boolean,System.Collections.Generic.List{DiskCardGame.PlayableCard},System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   GetFirstStrongestAttackableCardNoPreferences(bool, List&lt;PlayableCard&gt;, List&lt;CardSlot&gt;, CardSlot, int)
@@ -493,28 +911,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlayableCard GetFirstStrongestAttackableCardNoPreferences(bool anyCards, List&lt;PlayableCard&gt; playerCards, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static PlayableCard GetFirstStrongestAttackableCardNoPreferences(bool anyCards, List&lt;PlayableCard&gt; playerCards, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>anyCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>playerCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">anyCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</td>
+        <td>
+          <span class="parametername">playerCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -526,7 +994,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetSorted_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetSorted*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetSorted_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetSorted*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetSorted__1_System_Collections_Generic_List___0__System_Comparison___0__" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetSorted``1(System.Collections.Generic.List{``0},System.Comparison{``0})">
   GetSorted&lt;T&gt;(List&lt;T&gt;, Comparison&lt;T&gt;)
@@ -537,28 +1009,79 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; GetSorted&lt;T&gt;(List&lt;T&gt; unsorted, Comparison&lt;T&gt; sort)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;T&gt; GetSorted&lt;T&gt;(List&lt;T&gt; unsorted, Comparison&lt;T&gt; sort)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>unsorted</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
-    <dd></dd>
-    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison</a>&lt;T&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">unsorted</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.comparison-1">Comparison</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">sort</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -569,7 +1092,9 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetStrongestKillableCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetStrongestKillableCard*"></a>
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetStrongestKillableCard_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetStrongestKillableCard*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetStrongestKillableCard_System_Boolean_System_Collections_Generic_List_DiskCardGame_PlayableCard__System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetStrongestKillableCard(System.Boolean,System.Collections.Generic.List{DiskCardGame.PlayableCard},System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   GetStrongestKillableCard(bool, List&lt;PlayableCard&gt;, List&lt;CardSlot&gt;, CardSlot, int)
@@ -580,28 +1105,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlayableCard GetStrongestKillableCard(bool anyCards, List&lt;PlayableCard&gt; playerCards, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static PlayableCard GetStrongestKillableCard(bool anyCards, List&lt;PlayableCard&gt; playerCards, List&lt;CardSlot&gt; opposingSlots, CardSlot slot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>anyCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>playerCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">anyCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</td>
+        <td>
+          <span class="parametername">playerCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -613,7 +1188,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_GetValidTargets_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetValidTargets*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_GetValidTargets_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetValidTargets*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_GetValidTargets_System_Boolean_DiskCardGame_CardSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.GetValidTargets(System.Boolean,DiskCardGame.CardSlot)">
   GetValidTargets(bool, CardSlot)
@@ -624,22 +1203,57 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;CardSlot&gt; GetValidTargets(bool playerIsAttacker, CardSlot attackingSlot)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;CardSlot&gt; GetValidTargets(bool playerIsAttacker, CardSlot attackingSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>playerIsAttacker</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">playerIsAttacker</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -651,7 +1265,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_NumCardTargets_" data-uid="InscryptionCommunityPatch.Card.SniperFix.NumCardTargets*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_NumCardTargets_" data-uid="InscryptionCommunityPatch.Card.SniperFix.NumCardTargets*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_NumCardTargets_DiskCardGame_PlayableCard_System_Collections_Generic_List_DiskCardGame_CardSlot__" data-uid="InscryptionCommunityPatch.Card.SniperFix.NumCardTargets(DiskCardGame.PlayableCard,System.Collections.Generic.List{DiskCardGame.CardSlot})">
   NumCardTargets(PlayableCard, List&lt;CardSlot&gt;)
@@ -662,22 +1280,57 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int NumCardTargets(PlayableCard pc, List&lt;CardSlot&gt; opposingSlots)</code></pre>
+    <pre><code class="lang- hljs">public static int NumCardTargets(PlayableCard pc, List&lt;CardSlot&gt; opposingSlots)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pc</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">pc</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -689,7 +1342,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_OpponentSelectTargetSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.OpponentSelectTargetSlot*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_OpponentSelectTargetSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.OpponentSelectTargetSlot*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_OpponentSelectTargetSlot_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_PlayableCard__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.OpponentSelectTargetSlot(System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.PlayableCard},DiskCardGame.CardSlot,System.Int32)">
   OpponentSelectTargetSlot(List&lt;CardSlot&gt;, List&lt;CardSlot&gt;, List&lt;PlayableCard&gt;, CardSlot, int)
@@ -700,28 +1357,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CardSlot OpponentSelectTargetSlot(List&lt;CardSlot&gt; opposingSlots, List&lt;CardSlot&gt; playerSlots, List&lt;PlayableCard&gt; playerCards, CardSlot attackingSlot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static CardSlot OpponentSelectTargetSlot(List&lt;CardSlot&gt; opposingSlots, List&lt;CardSlot&gt; playerSlots, List&lt;PlayableCard&gt; playerCards, CardSlot attackingSlot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>playerSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>playerCards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">playerSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">PlayableCard</span>&gt;</td>
+        <td>
+          <span class="parametername">playerCards</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -733,7 +1440,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_OpponentSniperLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.OpponentSniperLogic*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_OpponentSniperLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.OpponentSniperLogic*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_OpponentSniperLogic_DiskCardGame_CombatPhaseManager_InscryptionCommunityPatch_Card_Part1SniperVisualizer_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.OpponentSniperLogic(DiskCardGame.CombatPhaseManager,InscryptionCommunityPatch.Card.Part1SniperVisualizer,System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   OpponentSniperLogic(CombatPhaseManager, Part1SniperVisualizer, List&lt;CardSlot&gt;, CardSlot, int)
@@ -744,28 +1455,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator OpponentSniperLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator OpponentSniperLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">CombatPhaseManager</span></dt>
-    <dd></dd>
-    <dt><code>visualizer</code> <a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CombatPhaseManager</span></td>
+        <td>
+          <span class="parametername">instance</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></td>
+        <td>
+          <span class="parametername">visualizer</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -777,7 +1538,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_PlayerSlotCursorEnterCallback_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerSlotCursorEnterCallback*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_PlayerSlotCursorEnterCallback_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerSlotCursorEnterCallback*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_PlayerSlotCursorEnterCallback_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerSlotCursorEnterCallback(System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   PlayerSlotCursorEnterCallback(List&lt;CardSlot&gt;, CardSlot, CardSlot)
@@ -788,18 +1553,46 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void PlayerSlotCursorEnterCallback(List&lt;CardSlot&gt; opposingSlots, CardSlot targetSlot, CardSlot attackingSlot)</code></pre>
+    <pre><code class="lang- hljs">public static void PlayerSlotCursorEnterCallback(List&lt;CardSlot&gt; opposingSlots, CardSlot targetSlot, CardSlot attackingSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>targetSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">targetSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -812,7 +1605,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_PlayerSniperLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerSniperLogic*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_PlayerSniperLogic_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerSniperLogic*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_PlayerSniperLogic_DiskCardGame_CombatPhaseManager_InscryptionCommunityPatch_Card_Part1SniperVisualizer_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerSniperLogic(DiskCardGame.CombatPhaseManager,InscryptionCommunityPatch.Card.Part1SniperVisualizer,System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,System.Int32)">
   PlayerSniperLogic(CombatPhaseManager, Part1SniperVisualizer, List&lt;CardSlot&gt;, CardSlot, int)
@@ -823,28 +1620,78 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator PlayerSniperLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, int numAttacks)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator PlayerSniperLogic(CombatPhaseManager instance, Part1SniperVisualizer visualizer, List&lt;CardSlot&gt; opposingSlots, CardSlot attackingSlot, int numAttacks)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">CombatPhaseManager</span></dt>
-    <dd></dd>
-    <dt><code>visualizer</code> <a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></dt>
-    <dd></dd>
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>numAttacks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CombatPhaseManager</span></td>
+        <td>
+          <span class="parametername">instance</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionCommunityPatch.Card.Part1SniperVisualizer.html">Part1SniperVisualizer</a></td>
+        <td>
+          <span class="parametername">visualizer</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">numAttacks</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -856,7 +1703,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_PlayerTargetSelectedCallback_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerTargetSelectedCallback*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_PlayerTargetSelectedCallback_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerTargetSelectedCallback*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_PlayerTargetSelectedCallback_System_Collections_Generic_List_DiskCardGame_CardSlot__DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.PlayerTargetSelectedCallback(System.Collections.Generic.List{DiskCardGame.CardSlot},DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   PlayerTargetSelectedCallback(List&lt;CardSlot&gt;, CardSlot, CardSlot)
@@ -867,18 +1718,46 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void PlayerTargetSelectedCallback(List&lt;CardSlot&gt; opposingSlots, CardSlot targetSlot, CardSlot attackingSlot)</code></pre>
+    <pre><code class="lang- hljs">public static void PlayerTargetSelectedCallback(List&lt;CardSlot&gt; opposingSlots, CardSlot targetSlot, CardSlot attackingSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>opposingSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd></dd>
-    <dt><code>targetSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">opposingSlots</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">targetSlot</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -891,7 +1770,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_SniperAttack_" data-uid="InscryptionCommunityPatch.Card.SniperFix.SniperAttack*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_SniperAttack_" data-uid="InscryptionCommunityPatch.Card.SniperFix.SniperAttack*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_SniperAttack_DiskCardGame_CombatPhaseManager_DiskCardGame_CardSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.SniperAttack(DiskCardGame.CombatPhaseManager,DiskCardGame.CardSlot)">
   SniperAttack(CombatPhaseManager, CardSlot)
@@ -902,22 +1785,57 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator SniperAttack(CombatPhaseManager instance, CardSlot slot)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator SniperAttack(CombatPhaseManager instance, CardSlot slot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">CombatPhaseManager</span></dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CombatPhaseManager</span></td>
+        <td>
+          <span class="parametername">instance</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -929,7 +1847,11 @@ public class SniperFix</code></pre>
 
 
 
-  <a id="InscryptionCommunityPatch_Card_SniperFix_WillDieFromSharp_" data-uid="InscryptionCommunityPatch.Card.SniperFix.WillDieFromSharp*"></a>
+
+
+
+
+  <a id="InscryptionCommunityPatch_Card_SniperFix_WillDieFromSharp_" data-uid="InscryptionCommunityPatch.Card.SniperFix.WillDieFromSharp*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_Card_SniperFix_WillDieFromSharp_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_" data-uid="InscryptionCommunityPatch.Card.SniperFix.WillDieFromSharp(DiskCardGame.PlayableCard,DiskCardGame.CardSlot)">
   WillDieFromSharp(PlayableCard, CardSlot)
@@ -940,22 +1862,61 @@ public class SniperFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool WillDieFromSharp(PlayableCard pc, CardSlot slot)</code></pre>
+    <pre><code class="lang- hljs">public static bool WillDieFromSharp(PlayableCard pc, CardSlot slot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>pc</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>slot</code> <span class="xref">CardSlot</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">pc</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slot</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

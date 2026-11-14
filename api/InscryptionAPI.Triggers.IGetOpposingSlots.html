@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IGetOpposingSlots" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots" class="text-break">
-Interface IGetOpposingSlots  </h1>
+Interface IGetOpposingSlots  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Run whenever a card is asked what its opposing slots are as part of the attack sequence</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Run whenever a card is asked what its opposing slots are as part of the attack sequence</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IGetOpposingSlots_syntax">
   Syntax
@@ -122,6 +120,16 @@ Interface IGetOpposingSlots  </h1>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -129,7 +137,7 @@ Interface IGetOpposingSlots  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IGetOpposingSlots_GetOpposingSlots_" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.GetOpposingSlots*"></a>
+  <a id="InscryptionAPI_Triggers_IGetOpposingSlots_GetOpposingSlots_" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.GetOpposingSlots*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IGetOpposingSlots_GetOpposingSlots_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.GetOpposingSlots(System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot})">
   GetOpposingSlots(List&lt;CardSlot&gt;, List&lt;CardSlot&gt;)
@@ -141,25 +149,62 @@ Interface IGetOpposingSlots  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">List&lt;CardSlot&gt; GetOpposingSlots(List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; otherAddedSlots)</code></pre>
+    <pre><code class="lang- hljs">List&lt;CardSlot&gt; GetOpposingSlots(List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; otherAddedSlots)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The set of original card slots that the card would attack (as set by abilities in the base game).</p>
-</dd>
-    <dt><code>otherAddedSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Slots that have been added by other custom abilities.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>The set of original card slots that the card would attack (as set by abilities in the base game).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">otherAddedSlots</span>
+        </td>
+        <td><p>Slots that have been added by other custom abilities.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The list of card slots you want to attack.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td><p>The list of card slots you want to attack.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
 
 
 
@@ -176,7 +221,9 @@ Only return the default attack slot if you want to attack it an additional time.
 
 
 
-  <a id="InscryptionAPI_Triggers_IGetOpposingSlots_RemoveDefaultAttackSlot_" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.RemoveDefaultAttackSlot*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_IGetOpposingSlots_RemoveDefaultAttackSlot_" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.RemoveDefaultAttackSlot*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IGetOpposingSlots_RemoveDefaultAttackSlot" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.RemoveDefaultAttackSlot">
   RemoveDefaultAttackSlot()
@@ -189,15 +236,29 @@ If false, it means they should be in addition to the default opposing slot.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RemoveDefaultAttackSlot()</code></pre>
+    <pre><code class="lang- hljs">bool RemoveDefaultAttackSlot()</code></pre>
   </div>
 
 
+
+
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -209,7 +270,11 @@ If false, it means they should be in addition to the default opposing slot.</p>
 
 
 
-  <a id="InscryptionAPI_Triggers_IGetOpposingSlots_RespondsToGetOpposingSlots_" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.RespondsToGetOpposingSlots*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IGetOpposingSlots_RespondsToGetOpposingSlots_" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.RespondsToGetOpposingSlots*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IGetOpposingSlots_RespondsToGetOpposingSlots" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots.RespondsToGetOpposingSlots">
   RespondsToGetOpposingSlots()
@@ -221,16 +286,34 @@ If false, it means they should be in addition to the default opposing slot.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToGetOpposingSlots()</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToGetOpposingSlots()</code></pre>
   </div>
 
 
+
+
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True to provide opposing slots, False to leave the slots as default.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True to provide opposing slots, False to leave the slots as default.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Triggers_ISetupAttackSequence" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence" class="text-break">
-Interface ISetupAttackSequence  </h1>
+Interface ISetupAttackSequence  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L458"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Data collection trigger that collects data related to attacked slots.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Data collection trigger that collects data related to attacked slots.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_ISetupAttackSequence_syntax">
   Syntax
@@ -122,6 +120,16 @@ Interface ISetupAttackSequence  </h1>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -129,7 +137,7 @@ Interface ISetupAttackSequence  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_ISetupAttackSequence_CollectModifyAttackSlots_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.CollectModifyAttackSlots*"></a>
+  <a id="InscryptionAPI_Triggers_ISetupAttackSequence_CollectModifyAttackSlots_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.CollectModifyAttackSlots*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_ISetupAttackSequence_CollectModifyAttackSlots_DiskCardGame_PlayableCard_InscryptionAPI_Triggers_OpposingSlotTriggerPriority_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__System_Int32__System_Boolean__" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.CollectModifyAttackSlots(DiskCardGame.PlayableCard,InscryptionAPI.Triggers.OpposingSlotTriggerPriority,System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot},System.Int32@,System.Boolean@)">
   CollectModifyAttackSlots(PlayableCard, OpposingSlotTriggerPriority, List&lt;CardSlot&gt;, List&lt;CardSlot&gt;, ref int, ref bool)
@@ -141,37 +149,92 @@ Interface ISetupAttackSequence  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">List&lt;CardSlot&gt; CollectModifyAttackSlots(PlayableCard card, OpposingSlotTriggerPriority modType, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots, ref int attackCount, ref bool didRemoveDefaultSlot)</code></pre>
+    <pre><code class="lang- hljs">List&lt;CardSlot&gt; CollectModifyAttackSlots(PlayableCard card, OpposingSlotTriggerPriority modType, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots, ref int attackCount, ref bool didRemoveDefaultSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>Card whose slots will be modified.</p>
-</dd>
-    <dt><code>modType</code> <a class="xref" href="InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html">OpposingSlotTriggerPriority</a></dt>
-    <dd><p>Type of modification that is currently triggering.</p>
-</dd>
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Original slots for attack.</p>
-</dd>
-    <dt><code>currentSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Current slots that are targeted.</p>
-</dd>
-    <dt><code>attackCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>How many attacks the card does.</p>
-</dd>
-    <dt><code>didRemoveDefaultSlot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if the original (opposing) slot was removed by Bifurcated Strike or any other ability that does it.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>Card whose slots will be modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html">OpposingSlotTriggerPriority</a></td>
+        <td>
+          <span class="parametername">modType</span>
+        </td>
+        <td><p>Type of modification that is currently triggering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>Original slots for attack.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">currentSlots</span>
+        </td>
+        <td><p>Current slots that are targeted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">attackCount</span>
+        </td>
+        <td><p>How many attacks the card does.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">didRemoveDefaultSlot</span>
+        </td>
+        <td><p>True if the original (opposing) slot was removed by Bifurcated Strike or any other ability that does it.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Modified data about targeted slots for attack.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td><p>Modified data about targeted slots for attack.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -183,7 +246,11 @@ Interface ISetupAttackSequence  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_ISetupAttackSequence_GetTriggerPriority_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.GetTriggerPriority*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_ISetupAttackSequence_GetTriggerPriority_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.GetTriggerPriority*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_ISetupAttackSequence_GetTriggerPriority_DiskCardGame_PlayableCard_InscryptionAPI_Triggers_OpposingSlotTriggerPriority_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__System_Int32_System_Boolean_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.GetTriggerPriority(DiskCardGame.PlayableCard,InscryptionAPI.Triggers.OpposingSlotTriggerPriority,System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot},System.Int32,System.Boolean)">
   GetTriggerPriority(PlayableCard, OpposingSlotTriggerPriority, List&lt;CardSlot&gt;, List&lt;CardSlot&gt;, int, bool)
@@ -195,37 +262,92 @@ Interface ISetupAttackSequence  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GetTriggerPriority(PlayableCard card, OpposingSlotTriggerPriority modType, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots, int attackCount, bool didRemoveDefaultSlot)</code></pre>
+    <pre><code class="lang- hljs">int GetTriggerPriority(PlayableCard card, OpposingSlotTriggerPriority modType, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots, int attackCount, bool didRemoveDefaultSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>Card whose slots will be modified.</p>
-</dd>
-    <dt><code>modType</code> <a class="xref" href="InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html">OpposingSlotTriggerPriority</a></dt>
-    <dd><p>Type of modification that is currently triggering.</p>
-</dd>
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Original slots for attack.</p>
-</dd>
-    <dt><code>currentSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Current slots that are targeted. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
-</dd>
-    <dt><code>attackCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>How many attacks the card does. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
-</dd>
-    <dt><code>didRemoveDefaultSlot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if the original (opposing) slot was removed by Bifurcated Strike or any other ability that does it. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>Card whose slots will be modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html">OpposingSlotTriggerPriority</a></td>
+        <td>
+          <span class="parametername">modType</span>
+        </td>
+        <td><p>Type of modification that is currently triggering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>Original slots for attack.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">currentSlots</span>
+        </td>
+        <td><p>Current slots that are targeted. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">attackCount</span>
+        </td>
+        <td><p>How many attacks the card does. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">didRemoveDefaultSlot</span>
+        </td>
+        <td><p>True if the original (opposing) slot was removed by Bifurcated Strike or any other ability that does it. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The priority for this trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The priority for this trigger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -237,7 +359,11 @@ Interface ISetupAttackSequence  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_ISetupAttackSequence_RespondsToModifyAttackSlots_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.RespondsToModifyAttackSlots*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_ISetupAttackSequence_RespondsToModifyAttackSlots_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.RespondsToModifyAttackSlots*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_ISetupAttackSequence_RespondsToModifyAttackSlots_DiskCardGame_PlayableCard_InscryptionAPI_Triggers_OpposingSlotTriggerPriority_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__System_Int32_System_Boolean_" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence.RespondsToModifyAttackSlots(DiskCardGame.PlayableCard,InscryptionAPI.Triggers.OpposingSlotTriggerPriority,System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot},System.Int32,System.Boolean)">
   RespondsToModifyAttackSlots(PlayableCard, OpposingSlotTriggerPriority, List&lt;CardSlot&gt;, List&lt;CardSlot&gt;, int, bool)
@@ -249,37 +375,96 @@ Interface ISetupAttackSequence  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToModifyAttackSlots(PlayableCard card, OpposingSlotTriggerPriority modType, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots, int attackCount, bool didRemoveDefaultSlot)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToModifyAttackSlots(PlayableCard card, OpposingSlotTriggerPriority modType, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots, int attackCount, bool didRemoveDefaultSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>Card whose slots will be modified.</p>
-</dd>
-    <dt><code>modType</code> <a class="xref" href="InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html">OpposingSlotTriggerPriority</a></dt>
-    <dd><p>Type of modification that is currently triggering.</p>
-</dd>
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Original slots for attack.</p>
-</dd>
-    <dt><code>currentSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>Current slots that are targeted.</p>
-</dd>
-    <dt><code>attackCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>How many attacks the card does.</p>
-</dd>
-    <dt><code>didRemoveDefaultSlot</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if the original (opposing) slot was removed by Bifurcated Strike or any other ability that does it.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>Card whose slots will be modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html">OpposingSlotTriggerPriority</a></td>
+        <td>
+          <span class="parametername">modType</span>
+        </td>
+        <td><p>Type of modification that is currently triggering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>Original slots for attack.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">currentSlots</span>
+        </td>
+        <td><p>Current slots that are targeted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">attackCount</span>
+        </td>
+        <td><p>How many attacks the card does.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">didRemoveDefaultSlot</span>
+        </td>
+        <td><p>True if the original (opposing) slot was removed by Bifurcated Strike or any other ability that does it.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this trigger will collect data from CollectModifyAttackSlots.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this trigger will collect data from CollectModifyAttackSlots.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

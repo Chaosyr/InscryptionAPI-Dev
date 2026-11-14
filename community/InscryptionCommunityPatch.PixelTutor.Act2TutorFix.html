@@ -88,37 +88,35 @@
 
 
   <h1 id="InscryptionCommunityPatch_PixelTutor_Act2TutorFix" data-uid="InscryptionCommunityPatch.PixelTutor.Act2TutorFix" class="text-break">
-Class Act2TutorFix  </h1>
+Class Act2TutorFix  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/PixelTutor/Act2TutorFix.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Patches in our Act 2 <span class="xref">DiskCardGame.Tutor</span> related UI, that way it doesn't break when used in Act 2.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.PixelTutor.html">PixelTutor</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionCommunityPatch.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Patches in our Act 2 <span class="xref">DiskCardGame.Tutor</span> related UI, that way it doesn't break when used in Act 2.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">Act2TutorFix</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionCommunityPatch.html">InscryptionCommunityPatch</a>.<a class="xref" href="InscryptionCommunityPatch.PixelTutor.html">PixelTutor</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionCommunityPatch.dll
-  </h6>
 
   <h5 id="InscryptionCommunityPatch_PixelTutor_Act2TutorFix_syntax">
   Syntax
@@ -136,6 +134,34 @@ public static class Act2TutorFix</code></pre>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -144,7 +170,7 @@ public static class Act2TutorFix</code></pre>
 </h2>
 
 
-  <a id="InscryptionCommunityPatch_PixelTutor_Act2TutorFix_ChoosePixelCard_" data-uid="InscryptionCommunityPatch.PixelTutor.Act2TutorFix.ChoosePixelCard*"></a>
+  <a id="InscryptionCommunityPatch_PixelTutor_Act2TutorFix_ChoosePixelCard_" data-uid="InscryptionCommunityPatch.PixelTutor.Act2TutorFix.ChoosePixelCard*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_PixelTutor_Act2TutorFix_ChoosePixelCard_DiskCardGame_Deck_System_Action_DiskCardGame_CardInfo__" data-uid="InscryptionCommunityPatch.PixelTutor.Act2TutorFix.ChoosePixelCard(DiskCardGame.Deck,System.Action{DiskCardGame.CardInfo})">
   ChoosePixelCard(Deck, Action&lt;CardInfo&gt;)
@@ -156,25 +182,64 @@ public static class Act2TutorFix</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator ChoosePixelCard(Deck instance, Action&lt;CardInfo&gt; cardSelectedCallback)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator ChoosePixelCard(Deck instance, Action&lt;CardInfo&gt; cardSelectedCallback)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>instance</code> <span class="xref">Deck</span></dt>
-    <dd><p>The current instance of the <span class="xref">DiskCardGame.Deck</span>.</p>
-</dd>
-    <dt><code>cardSelectedCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">CardInfo</span>&gt;</dt>
-    <dd><p>The call back used when a Card is Selected.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">Deck</span></td>
+        <td>
+          <span class="parametername">instance</span>
+        </td>
+        <td><p>The current instance of the <span class="xref">DiskCardGame.Deck</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<span class="xref">CardInfo</span>&gt;</td>
+        <td>
+          <span class="parametername">cardSelectedCallback</span>
+        </td>
+        <td><p>The call back used when a Card is Selected.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>The callback passed in triggered when a card is selected.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>The callback passed in triggered when a card is selected.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

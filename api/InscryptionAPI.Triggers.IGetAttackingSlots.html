@@ -88,24 +88,22 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IGetAttackingSlots" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots" class="text-break">
-Interface IGetAttackingSlots  </h1>
+Interface IGetAttackingSlots  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L652"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Used when changing what CardSlots are queued for attacking.
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Used when changing what CardSlots are queued for attacking.
 Triggers before null and Powerless cards are removed, so no making empty slots attack and no making Attack-less cards attack.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IGetAttackingSlots_syntax">
   Syntax
@@ -123,6 +121,16 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -130,7 +138,7 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IGetAttackingSlots_GetAttackingSlots_" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.GetAttackingSlots*"></a>
+  <a id="InscryptionAPI_Triggers_IGetAttackingSlots_GetAttackingSlots_" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.GetAttackingSlots*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IGetAttackingSlots_GetAttackingSlots_System_Boolean_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.GetAttackingSlots(System.Boolean,System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot})">
   GetAttackingSlots(bool, List&lt;CardSlot&gt;, List&lt;CardSlot&gt;)
@@ -142,28 +150,68 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">List&lt;CardSlot&gt; GetAttackingSlots(bool playerIsAttacker, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots)</code></pre>
+    <pre><code class="lang- hljs">List&lt;CardSlot&gt; GetAttackingSlots(bool playerIsAttacker, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>playerIsAttacker</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the player is current attacking.</p>
-</dd>
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The vanilla list of attacking CardSlots.</p>
-</dd>
-    <dt><code>currentSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The current list of attacking CardSlots.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">playerIsAttacker</span>
+        </td>
+        <td><p>Whether the player is current attacking.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>The vanilla list of attacking CardSlots.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">currentSlots</span>
+        </td>
+        <td><p>The current list of attacking CardSlots.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The new list of attacking CardSlots.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td><p>The new list of attacking CardSlots.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -175,7 +223,11 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
 
 
 
-  <a id="InscryptionAPI_Triggers_IGetAttackingSlots_RespondsToGetAttackingSlots_" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.RespondsToGetAttackingSlots*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IGetAttackingSlots_RespondsToGetAttackingSlots_" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.RespondsToGetAttackingSlots*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IGetAttackingSlots_RespondsToGetAttackingSlots_System_Boolean_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.RespondsToGetAttackingSlots(System.Boolean,System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot})">
   RespondsToGetAttackingSlots(bool, List&lt;CardSlot&gt;, List&lt;CardSlot&gt;)
@@ -187,28 +239,68 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToGetAttackingSlots(bool playerIsAttacker, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToGetAttackingSlots(bool playerIsAttacker, List&lt;CardSlot&gt; originalSlots, List&lt;CardSlot&gt; currentSlots)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>playerIsAttacker</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the player is current attacking.</p>
-</dd>
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The vanilla list of attacking CardSlots; a copy of the current attacker's side of the board.</p>
-</dd>
-    <dt><code>currentSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The current list of attacking CardSlots, after modifications and the like.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">playerIsAttacker</span>
+        </td>
+        <td><p>Whether the player is current attacking.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>The vanilla list of attacking CardSlots; a copy of the current attacker's side of the board.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">currentSlots</span>
+        </td>
+        <td><p>The current list of attacking CardSlots, after modifications and the like.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should modify the amount of damage taken by a card.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should modify the amount of damage taken by a card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -220,7 +312,11 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
 
 
 
-  <a id="InscryptionAPI_Triggers_IGetAttackingSlots_TriggerPriority_" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.TriggerPriority*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IGetAttackingSlots_TriggerPriority_" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.TriggerPriority*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IGetAttackingSlots_TriggerPriority_System_Boolean_System_Collections_Generic_List_DiskCardGame_CardSlot__" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots.TriggerPriority(System.Boolean,System.Collections.Generic.List{DiskCardGame.CardSlot})">
   TriggerPriority(bool, List&lt;CardSlot&gt;)
@@ -232,25 +328,64 @@ Triggers before null and Powerless cards are removed, so no making empty slots a
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int TriggerPriority(bool playerIsAttacker, List&lt;CardSlot&gt; originalSlots)</code></pre>
+    <pre><code class="lang- hljs">int TriggerPriority(bool playerIsAttacker, List&lt;CardSlot&gt; originalSlots)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>playerIsAttacker</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the player is current attacking.</p>
-</dd>
-    <dt><code>originalSlots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</dt>
-    <dd><p>The vanilla list of attacking CardSlots.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">playerIsAttacker</span>
+        </td>
+        <td><p>Whether the player is current attacking.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
+        <td>
+          <span class="parametername">originalSlots</span>
+        </td>
+        <td><p>The vanilla list of attacking CardSlots.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The trigger priority int.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The trigger priority int.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

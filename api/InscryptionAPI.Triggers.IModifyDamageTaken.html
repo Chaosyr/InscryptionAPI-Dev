@@ -88,24 +88,22 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IModifyDamageTaken" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken" class="text-break">
-Interface IModifyDamageTaken  </h1>
+Interface IModifyDamageTaken  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L685"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Data collection trigger that modifies the damage taken by any card.
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Data collection trigger that modifies the damage taken by any card.
 Should be used instead of ICardTakenDamageModifier.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IModifyDamageTaken_syntax">
   Syntax
@@ -123,6 +121,16 @@ Should be used instead of ICardTakenDamageModifier.</p>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -130,7 +138,7 @@ Should be used instead of ICardTakenDamageModifier.</p>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_OnModifyDamageTaken_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.OnModifyDamageTaken*"></a>
+  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_OnModifyDamageTaken_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.OnModifyDamageTaken*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken_OnModifyDamageTaken_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_System_Int32_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.OnModifyDamageTaken(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard,System.Int32)">
   OnModifyDamageTaken(PlayableCard, int, PlayableCard, int)
@@ -142,31 +150,76 @@ Should be used instead of ICardTakenDamageModifier.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int OnModifyDamageTaken(PlayableCard target, int damage, PlayableCard attacker, int originalDamage)</code></pre>
+    <pre><code class="lang- hljs">int OnModifyDamageTaken(PlayableCard target, int damage, PlayableCard attacker, int originalDamage)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that took damage.</p>
-</dd>
-    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The current amount of damage to be delt.</p>
-</dd>
-    <dt><code>attacker</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The attacking card.</p>
-</dd>
-    <dt><code>originalDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The original amount of damage to be delt.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">target</span>
+        </td>
+        <td><p>The card that took damage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">damage</span>
+        </td>
+        <td><p>The current amount of damage to be delt.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">attacker</span>
+        </td>
+        <td><p>The attacking card.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">originalDamage</span>
+        </td>
+        <td><p>The original amount of damage to be delt.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The new amount of damage taken by a card.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The new amount of damage taken by a card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -178,7 +231,11 @@ Should be used instead of ICardTakenDamageModifier.</p>
 
 
 
-  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_RespondsToModifyDamageTaken_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.RespondsToModifyDamageTaken*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_RespondsToModifyDamageTaken_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.RespondsToModifyDamageTaken*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken_RespondsToModifyDamageTaken_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_System_Int32_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.RespondsToModifyDamageTaken(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard,System.Int32)">
   RespondsToModifyDamageTaken(PlayableCard, int, PlayableCard, int)
@@ -190,31 +247,76 @@ Should be used instead of ICardTakenDamageModifier.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToModifyDamageTaken(PlayableCard target, int damage, PlayableCard attacker, int originalDamage)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToModifyDamageTaken(PlayableCard target, int damage, PlayableCard attacker, int originalDamage)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that took damage.</p>
-</dd>
-    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The current amount of damage to be delt.</p>
-</dd>
-    <dt><code>attacker</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The attacking card.</p>
-</dd>
-    <dt><code>originalDamage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The original amount of damage to be delt.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">target</span>
+        </td>
+        <td><p>The card that took damage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">damage</span>
+        </td>
+        <td><p>The current amount of damage to be delt.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">attacker</span>
+        </td>
+        <td><p>The attacking card.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">originalDamage</span>
+        </td>
+        <td><p>The original amount of damage to be delt.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should modify the amount of damage taken by a card.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should modify the amount of damage taken by a card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -226,7 +328,11 @@ Should be used instead of ICardTakenDamageModifier.</p>
 
 
 
-  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_TriggerPriority_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.TriggerPriority*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_TriggerPriority_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.TriggerPriority*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken_TriggerPriority_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.TriggerPriority(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
   TriggerPriority(PlayableCard, int, PlayableCard)
@@ -238,28 +344,72 @@ Should be used instead of ICardTakenDamageModifier.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int TriggerPriority(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
+    <pre><code class="lang- hljs">int TriggerPriority(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card that took damage.</p>
-</dd>
-    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The amount of damage to be delt. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
-</dd>
-    <dt><code>attacker</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The attacking card.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">target</span>
+        </td>
+        <td><p>The card that took damage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">damage</span>
+        </td>
+        <td><p>The amount of damage to be delt. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">attacker</span>
+        </td>
+        <td><p>The attacking card.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The trigger priority int.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The trigger priority int.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

@@ -88,37 +88,35 @@
 
 
   <h1 id="InscryptionAPI_Helpers_Extensions_GameObjectExtensions" data-uid="InscryptionAPI.Helpers.Extensions.GameObjectExtensions" class="text-break">
-Class GameObjectExtensions  </h1>
+Class GameObjectExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/GameObjectExtensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>An Extensions Class for the <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Helpers.html">Helpers</a>.<a class="xref" href="InscryptionAPI.Helpers.Extensions.html">Extensions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>An Extensions Class for the <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">GameObjectExtensions</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Helpers.html">Helpers</a>.<a class="xref" href="InscryptionAPI.Helpers.Extensions.html">Extensions</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Helpers_Extensions_GameObjectExtensions_syntax">
   Syntax
@@ -135,6 +133,34 @@ Class GameObjectExtensions  </h1>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -143,7 +169,7 @@ Class GameObjectExtensions  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Helpers_Extensions_GameObjectExtensions_FindChild_" data-uid="InscryptionAPI.Helpers.Extensions.GameObjectExtensions.FindChild*"></a>
+  <a id="InscryptionAPI_Helpers_Extensions_GameObjectExtensions_FindChild_" data-uid="InscryptionAPI.Helpers.Extensions.GameObjectExtensions.FindChild*" data-overload></a>
 
   <h3 id="InscryptionAPI_Helpers_Extensions_GameObjectExtensions_FindChild_UnityEngine_GameObject_System_String_" data-uid="InscryptionAPI.Helpers.Extensions.GameObjectExtensions.FindChild(UnityEngine.GameObject,System.String)">
   FindChild(GameObject, string)
@@ -155,25 +181,64 @@ Class GameObjectExtensions  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObject FindChild(this GameObject parent, string name)</code></pre>
+    <pre><code class="lang- hljs">public static GameObject FindChild(this GameObject parent, string name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>parent</code> <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></dt>
-    <dd><p>The <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a> we want to find the children of.</p>
-</dd>
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the child <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a> we are looking for within the children.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
+        <td>
+          <span class="parametername">parent</span>
+        </td>
+        <td><p>The <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a> we want to find the children of.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>
+          <span class="parametername">name</span>
+        </td>
+        <td><p>The name of the child <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a> we are looking for within the children.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></dt>
-    <dd><p>A <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a> with the name being looked for.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
+        <td><p>A <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/GameObject.html">GameObject</a> with the name being looked for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

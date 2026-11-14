@@ -88,40 +88,38 @@
 
 
   <h1 id="InscryptionAPI_Nodes_Func" data-uid="InscryptionAPI.Nodes.Func" class="text-break">
-Class Func  </h1>
+Class Func  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Selection condition that is satisfied when the delegate given to it returns true.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Nodes.html">Nodes</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Selection condition that is satisfied when the delegate given to it returns true.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-      <div class="inheritance-level level1">
+      <div class="inheritance-level" style="--inheritance-level: 1">
       <span class="xref">NodeData</span>.<span class="xref">SelectionCondition</span>
       </div>
-
-      <div class="inheritance-level level2">
-        <span class="xref">Func</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Nodes.html">Nodes</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Nodes_Func_syntax">
   Syntax
@@ -138,6 +136,42 @@ Class Func  </h1>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
 
 
 
@@ -146,7 +180,7 @@ Class Func  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Nodes_Func__ctor_" data-uid="InscryptionAPI.Nodes.Func.#ctor*"></a>
+  <a id="InscryptionAPI_Nodes_Func__ctor_" data-uid="InscryptionAPI.Nodes.Func.#ctor*" data-overload></a>
 
   <h3 id="InscryptionAPI_Nodes_Func__ctor_System_Func_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData__System_Boolean__" data-uid="InscryptionAPI.Nodes.Func.#ctor(System.Func{System.Int32,System.Collections.Generic.List{DiskCardGame.NodeData},System.Boolean})">
   Func(Func&lt;int, List&lt;NodeData&gt;, bool&gt;)
@@ -158,15 +192,37 @@ Class Func  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func(Func&lt;int, List&lt;NodeData&gt;, bool&gt; del)</code></pre>
+    <pre><code class="lang- hljs">public Func(Func&lt;int, List&lt;NodeData&gt;, bool&gt; del)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>del</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>The target delegate for the condition.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">del</span>
+        </td>
+        <td><p>The target delegate for the condition.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+
 
 
 
@@ -183,7 +239,7 @@ Class Func  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Nodes_Func_Satisfied_" data-uid="InscryptionAPI.Nodes.Func.Satisfied*"></a>
+  <a id="InscryptionAPI_Nodes_Func_Satisfied_" data-uid="InscryptionAPI.Nodes.Func.Satisfied*" data-overload></a>
 
   <h3 id="InscryptionAPI_Nodes_Func_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData__" data-uid="InscryptionAPI.Nodes.Func.Satisfied(System.Int32,System.Collections.Generic.List{DiskCardGame.NodeData})">
   Satisfied(int, List&lt;NodeData&gt;)
@@ -194,22 +250,61 @@ Class Func  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Satisfied(int gridY, List&lt;NodeData&gt; previousNodes)</code></pre>
+    <pre><code class="lang- hljs">public override bool Satisfied(int gridY, List&lt;NodeData&gt; previousNodes)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>gridY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>previousNodes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">gridY</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">NodeData</span>&gt;</td>
+        <td>
+          <span class="parametername">previousNodes</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

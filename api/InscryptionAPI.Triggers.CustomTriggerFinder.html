@@ -88,38 +88,36 @@
 
 
   <h1 id="InscryptionAPI_Triggers_CustomTriggerFinder" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder" class="text-break">
-Class CustomTriggerFinder  </h1>
+Class CustomTriggerFinder  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Finds custom trigger recievers that exists on the board/in the hand
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Finds custom trigger recievers that exists on the board/in the hand
 Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.Card.IActivateWhenFacedown.html">IActivateWhenFacedown</a> to alter this default</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">CustomTriggerFinder</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_CustomTriggerFinder_syntax">
   Syntax
@@ -136,6 +134,34 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -144,7 +170,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CallAll_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallAll*"></a>
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CallAll_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallAll*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CallAll__1_System_Boolean_System_Func___0_System_Boolean__System_Action___0__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallAll``1(System.Boolean,System.Func{``0,System.Boolean},System.Action{``0})">
   CallAll&lt;T&gt;(bool, Func&lt;T, bool&gt;, Action&lt;T&gt;)
@@ -156,35 +182,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TriggerReceiver&gt; CallAll&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; CallAll&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>triggerFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should also call cards that are facedown, false otherwise.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>call</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
-    <dd><p>Call function that triggers the event you want to trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">triggerFacedown</span>
+        </td>
+        <td><p>True if this should also call cards that are facedown, false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">call</span>
+        </td>
+        <td><p>Call function that triggers the event you want to trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</dt>
-    <dd><p>The list of all called triggers.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</td>
+        <td><p>The list of all called triggers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -195,7 +277,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CallInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallInHand*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CallInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallInHand*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CallInHand__1_System_Func___0_System_Boolean__System_Action___0__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallInHand``1(System.Func{``0,System.Boolean},System.Action{``0})">
   CallInHand&lt;T&gt;(Func&lt;T, bool&gt;, Action&lt;T&gt;)
@@ -207,32 +291,83 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TriggerReceiver&gt; CallInHand&lt;T&gt;(Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; CallInHand&lt;T&gt;(Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>call</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
-    <dd><p>Call function that triggers the event you want to trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">call</span>
+        </td>
+        <td><p>Call function that triggers the event you want to trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</dt>
-    <dd><p>The list of all called triggers.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</td>
+        <td><p>The list of all called triggers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -243,7 +378,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CallOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallOnBoard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CallOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallOnBoard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CallOnBoard__1_System_Boolean_System_Func___0_System_Boolean__System_Action___0__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CallOnBoard``1(System.Boolean,System.Func{``0,System.Boolean},System.Action{``0})">
   CallOnBoard&lt;T&gt;(bool, Func&lt;T, bool&gt;, Action&lt;T&gt;)
@@ -255,35 +392,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TriggerReceiver&gt; CallOnBoard&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; CallOnBoard&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>triggerFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should also call cards that are facedown, false otherwise.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>call</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
-    <dd><p>Call function that triggers the event you want to trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">triggerFacedown</span>
+        </td>
+        <td><p>True if this should also call cards that are facedown, false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">call</span>
+        </td>
+        <td><p>Call function that triggers the event you want to trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</dt>
-    <dd><p>The list of all called triggers.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</td>
+        <td><p>The list of all called triggers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -294,7 +487,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Call_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Call*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Call_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Call*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_Call__1_DiskCardGame_CardTriggerHandler_System_Func___0_System_Boolean__System_Action___0__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Call``1(DiskCardGame.CardTriggerHandler,System.Func{``0,System.Boolean},System.Action{``0})">
   Call&lt;T&gt;(CardTriggerHandler, Func&lt;T, bool&gt;, Action&lt;T&gt;)
@@ -306,35 +501,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TriggerReceiver&gt; Call&lt;T&gt;(this CardTriggerHandler self, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; Call&lt;T&gt;(this CardTriggerHandler self, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>self</code> <span class="xref">CardTriggerHandler</span></dt>
-    <dd><p>The card trigger handler to call.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>call</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
-    <dd><p>Call function that triggers the event you want to trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardTriggerHandler</span></td>
+        <td>
+          <span class="parametername">self</span>
+        </td>
+        <td><p>The card trigger handler to call.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">call</span>
+        </td>
+        <td><p>Call function that triggers the event you want to trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</dt>
-    <dd><p>The list of all called triggers.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</td>
+        <td><p>The list of all called triggers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -345,7 +596,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Call_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Call*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Call_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Call*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_Call__1_DiskCardGame_PlayableCard_System_Func___0_System_Boolean__System_Action___0__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Call``1(DiskCardGame.PlayableCard,System.Func{``0,System.Boolean},System.Action{``0})">
   Call&lt;T&gt;(PlayableCard, Func&lt;T, bool&gt;, Action&lt;T&gt;)
@@ -357,35 +610,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TriggerReceiver&gt; Call&lt;T&gt;(this PlayableCard self, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; Call&lt;T&gt;(this PlayableCard self, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>self</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card to call.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>call</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
-    <dd><p>Call function that triggers the event you want to trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">self</span>
+        </td>
+        <td><p>The card to call.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td>
+          <span class="parametername">call</span>
+        </td>
+        <td><p>Call function that triggers the event you want to trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</dt>
-    <dd><p>The list of all called triggers.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">TriggerReceiver</span>&gt;</td>
+        <td><p>The list of all called triggers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -396,7 +705,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataAll_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataAll*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataAll_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataAll*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataAll__2_System_Boolean_System_Func___0_System_Boolean__System_Func___0___1__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataAll``2(System.Boolean,System.Func{``0,System.Boolean},System.Func{``0,``1})">
   CollectDataAll&lt;T, T2&gt;(bool, Func&lt;T, bool&gt;, Func&lt;T, T2&gt;)
@@ -408,38 +719,98 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataAll&lt;T, T2&gt;(bool collectFromFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataAll&lt;T, T2&gt;(bool collectFromFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>collectFromFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should also collect from cards that are facedown, false otherwise.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>collect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</dt>
-    <dd><p>Collect function that returns the information that will be collected.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">collectFromFacedown</span>
+        </td>
+        <td><p>True if this should also collect from cards that are facedown, false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</td>
+        <td>
+          <span class="parametername">collect</span>
+        </td>
+        <td><p>Collect function that returns the information that will be collected.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</dt>
-    <dd><p>The list of all collected information.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</td>
+        <td><p>The list of all collected information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-    <dt><code>T2</code></dt>
-    <dd><p>The object type to collect.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="parametername">T2</span>
+        </td>
+        <td><p>The object type to collect.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -450,7 +821,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataInHand*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataInHand*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataInHand__2_System_Func___0_System_Boolean__System_Func___0___1__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataInHand``2(System.Func{``0,System.Boolean},System.Func{``0,``1})">
   CollectDataInHand&lt;T, T2&gt;(Func&lt;T, bool&gt;, Func&lt;T, T2&gt;)
@@ -462,35 +835,90 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataInHand&lt;T, T2&gt;(Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataInHand&lt;T, T2&gt;(Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>collect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</dt>
-    <dd><p>Collect function that returns the information that will be collected.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</td>
+        <td>
+          <span class="parametername">collect</span>
+        </td>
+        <td><p>Collect function that returns the information that will be collected.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</dt>
-    <dd><p>The list of all collected information.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</td>
+        <td><p>The list of all collected information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-    <dt><code>T2</code></dt>
-    <dd><p>The object type to collect.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="parametername">T2</span>
+        </td>
+        <td><p>The object type to collect.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -501,7 +929,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataOnBoard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataOnBoard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectDataOnBoard__2_System_Boolean_System_Func___0_System_Boolean__System_Func___0___1__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectDataOnBoard``2(System.Boolean,System.Func{``0,System.Boolean},System.Func{``0,``1})">
   CollectDataOnBoard&lt;T, T2&gt;(bool, Func&lt;T, bool&gt;, Func&lt;T, T2&gt;)
@@ -513,38 +943,98 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataOnBoard&lt;T, T2&gt;(bool collectFromFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataOnBoard&lt;T, T2&gt;(bool collectFromFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>collectFromFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should also collect from cards that are facedown, false otherwise.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>collect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</dt>
-    <dd><p>Collect function that returns the information that will be collected.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">collectFromFacedown</span>
+        </td>
+        <td><p>True if this should also collect from cards that are facedown, false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</td>
+        <td>
+          <span class="parametername">collect</span>
+        </td>
+        <td><p>Collect function that returns the information that will be collected.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</dt>
-    <dd><p>The list of all collected information.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</td>
+        <td><p>The list of all collected information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-    <dt><code>T2</code></dt>
-    <dd><p>The object type to collect.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="parametername">T2</span>
+        </td>
+        <td><p>The object type to collect.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -555,7 +1045,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectData_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectData*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectData_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectData*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectData__2_DiskCardGame_CardTriggerHandler_System_Func___0_System_Boolean__System_Func___0___1__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectData``2(DiskCardGame.CardTriggerHandler,System.Func{``0,System.Boolean},System.Func{``0,``1})">
   CollectData&lt;T, T2&gt;(CardTriggerHandler, Func&lt;T, bool&gt;, Func&lt;T, T2&gt;)
@@ -567,38 +1059,98 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectData&lt;T, T2&gt;(this CardTriggerHandler self, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectData&lt;T, T2&gt;(this CardTriggerHandler self, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>self</code> <span class="xref">CardTriggerHandler</span></dt>
-    <dd><p>The trigger handler to collect from.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>collect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</dt>
-    <dd><p>Collect function that returns the information that will be collected.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardTriggerHandler</span></td>
+        <td>
+          <span class="parametername">self</span>
+        </td>
+        <td><p>The trigger handler to collect from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</td>
+        <td>
+          <span class="parametername">collect</span>
+        </td>
+        <td><p>Collect function that returns the information that will be collected.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</dt>
-    <dd><p>The list of all collected information.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</td>
+        <td><p>The list of all collected information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-    <dt><code>T2</code></dt>
-    <dd><p>The object type to collect.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="parametername">T2</span>
+        </td>
+        <td><p>The object type to collect.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -609,7 +1161,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectData_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectData*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectData_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectData*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CollectData__2_DiskCardGame_PlayableCard_System_Func___0_System_Boolean__System_Func___0___1__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CollectData``2(DiskCardGame.PlayableCard,System.Func{``0,System.Boolean},System.Func{``0,``1})">
   CollectData&lt;T, T2&gt;(PlayableCard, Func&lt;T, bool&gt;, Func&lt;T, T2&gt;)
@@ -621,38 +1175,98 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectData&lt;T, T2&gt;(this PlayableCard self, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
+    <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectData&lt;T, T2&gt;(this PlayableCard self, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>self</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card to collect from.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>collect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</dt>
-    <dd><p>Collect function that returns the information that will be collected.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">self</span>
+        </td>
+        <td><p>The card to collect from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T2&gt;</td>
+        <td>
+          <span class="parametername">collect</span>
+        </td>
+        <td><p>Collect function that returns the information that will be collected.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</dt>
-    <dd><p>The list of all collected information.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;(<span class="xref">TriggerReceiver</span>, T2)&gt;</td>
+        <td><p>The list of all collected information.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-    <dt><code>T2</code></dt>
-    <dd><p>The object type to collect.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <span class="parametername">T2</span>
+        </td>
+        <td><p>The object type to collect.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -663,7 +1277,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CustomTriggerSequence_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CustomTriggerSequence*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_CustomTriggerSequence_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CustomTriggerSequence*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_CustomTriggerSequence_DiskCardGame_TriggerReceiver_System_Collections_IEnumerator_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.CustomTriggerSequence(DiskCardGame.TriggerReceiver,System.Collections.IEnumerator)">
   CustomTriggerSequence(TriggerReceiver, IEnumerator)
@@ -675,25 +1291,60 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator CustomTriggerSequence(this TriggerReceiver receiver, IEnumerator triggerCoroutine)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator CustomTriggerSequence(this TriggerReceiver receiver, IEnumerator triggerCoroutine)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>receiver</code> <span class="xref">TriggerReceiver</span></dt>
-    <dd><p>The receiver that is triggering.</p>
-</dd>
-    <dt><code>triggerCoroutine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>The trigger coroutine called by that receiver.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">TriggerReceiver</span></td>
+        <td>
+          <span class="parametername">receiver</span>
+        </td>
+        <td><p>The receiver that is triggering.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td>
+          <span class="parametername">triggerCoroutine</span>
+        </td>
+        <td><p>The trigger coroutine called by that receiver.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -705,7 +1356,11 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindGlobalTriggers_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindGlobalTriggers*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindGlobalTriggers_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindGlobalTriggers*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindGlobalTriggers__1_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindGlobalTriggers``1(DiskCardGame.PlayableCard)">
   FindGlobalTriggers&lt;T&gt;(PlayableCard)
@@ -717,29 +1372,75 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindGlobalTriggers&lt;T&gt;(PlayableCard excluding = null)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindGlobalTriggers&lt;T&gt;(PlayableCard excluding = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>excluding</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>Card to exclude from the hand search.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">excluding</span>
+        </td>
+        <td><p>Card to exclude from the hand search.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -750,7 +1451,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindGlobalTriggers_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindGlobalTriggers*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindGlobalTriggers_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindGlobalTriggers*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindGlobalTriggers__1_System_Boolean_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindGlobalTriggers``1(System.Boolean,DiskCardGame.PlayableCard)">
   FindGlobalTriggers&lt;T&gt;(bool, PlayableCard)
@@ -762,31 +1465,82 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindGlobalTriggers&lt;T&gt;(bool findFacedown, PlayableCard excluding = null)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindGlobalTriggers&lt;T&gt;(bool findFacedown, PlayableCard excluding = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>findFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>excluding</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>Card to exclude from the hand search.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">findFacedown</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">excluding</span>
+        </td>
+        <td><p>Card to exclude from the hand search.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -797,7 +1551,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInHandExcluding_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInHandExcluding*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInHandExcluding_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInHandExcluding*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInHandExcluding__1_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInHandExcluding``1(DiskCardGame.PlayableCard)">
   FindTriggersInHandExcluding&lt;T&gt;(PlayableCard)
@@ -809,29 +1565,75 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersInHandExcluding&lt;T&gt;(PlayableCard card)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersInHandExcluding&lt;T&gt;(PlayableCard card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>Card to exclude from the search.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>Card to exclude from the search.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T in the hand.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T in the hand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -842,7 +1644,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInHand*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInHand*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInHand__1" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInHand``1">
   FindTriggersInHand&lt;T&gt;()
@@ -854,23 +1658,53 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersInHand&lt;T&gt;()</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersInHand&lt;T&gt;()</code></pre>
   </div>
 
 
+
+
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T in the hand.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T in the hand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -881,7 +1715,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInQueue_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInQueue*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInQueue_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInQueue*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersInQueue__1" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersInQueue``1">
   FindTriggersInQueue&lt;T&gt;()
@@ -893,23 +1729,53 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersInQueue&lt;T&gt;()</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersInQueue&lt;T&gt;()</code></pre>
   </div>
 
 
+
+
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T in the opponent's queue.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T in the opponent's queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of reciever to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The type of reciever to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -920,7 +1786,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnBoard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnBoard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnBoard__1" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnBoard``1">
   FindTriggersOnBoard&lt;T&gt;()
@@ -932,23 +1800,53 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersOnBoard&lt;T&gt;()</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnBoard&lt;T&gt;()</code></pre>
   </div>
 
 
+
+
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T in the hand.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T in the hand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -959,7 +1857,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnBoard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnBoard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnBoard__1_System_Boolean_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnBoard``1(System.Boolean)">
   FindTriggersOnBoard&lt;T&gt;(bool)
@@ -971,28 +1871,74 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersOnBoard&lt;T&gt;(bool findFacedown)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnBoard&lt;T&gt;(bool findFacedown)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>findFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">findFacedown</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T in the hand.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T in the hand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1003,7 +1949,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnCard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnCard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnCard__1_DiskCardGame_CardTriggerHandler_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnCard``1(DiskCardGame.CardTriggerHandler)">
   FindTriggersOnCard&lt;T&gt;(CardTriggerHandler)
@@ -1015,29 +1963,75 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersOnCard&lt;T&gt;(this CardTriggerHandler card)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnCard&lt;T&gt;(this CardTriggerHandler card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">CardTriggerHandler</span></dt>
-    <dd><p>The card to search.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardTriggerHandler</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The card to search.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T on the card.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T on the card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of reciever to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The type of reciever to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1048,7 +2042,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnCard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnCard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_FindTriggersOnCard__1_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.FindTriggersOnCard``1(DiskCardGame.PlayableCard)">
   FindTriggersOnCard&lt;T&gt;(PlayableCard)
@@ -1060,29 +2056,75 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindTriggersOnCard&lt;T&gt;(this PlayableCard card)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnCard&lt;T&gt;(this PlayableCard card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card to search.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The card to search.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>All trigger recievers of type T on the card.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>All trigger recievers of type T on the card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The type of reciever to search for</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The type of reciever to search for</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1093,7 +2135,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerAll_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerAll*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerAll_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerAll*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerAll__1_System_Boolean_System_Func___0_System_Boolean__System_Func___0_System_Collections_IEnumerator__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerAll``1(System.Boolean,System.Func{``0,System.Boolean},System.Func{``0,System.Collections.IEnumerator})">
   TriggerAll&lt;T&gt;(bool, Func&lt;T, bool&gt;, Func&lt;T, IEnumerator&gt;)
@@ -1105,35 +2149,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator TriggerAll&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator TriggerAll&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>triggerFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should also trigger cards that are facedown, false otherwise.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</dt>
-    <dd><p>Trigger function that triggers the coroutine for the trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">triggerFacedown</span>
+        </td>
+        <td><p>True if this should also trigger cards that are facedown, false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</td>
+        <td>
+          <span class="parametername">trigger</span>
+        </td>
+        <td><p>Trigger function that triggers the coroutine for the trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1144,7 +2244,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerInHand*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerInHand_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerInHand*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerInHand__1_System_Func___0_System_Boolean__System_Func___0_System_Collections_IEnumerator__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerInHand``1(System.Func{``0,System.Boolean},System.Func{``0,System.Collections.IEnumerator})">
   TriggerInHand&lt;T&gt;(Func&lt;T, bool&gt;, Func&lt;T, IEnumerator&gt;)
@@ -1156,32 +2258,83 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator TriggerInHand&lt;T&gt;(Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator TriggerInHand&lt;T&gt;(Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</dt>
-    <dd><p>Trigger function that triggers the coroutine for the trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</td>
+        <td>
+          <span class="parametername">trigger</span>
+        </td>
+        <td><p>Trigger function that triggers the coroutine for the trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1192,7 +2345,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerOnBoard*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerOnBoard_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerOnBoard*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_TriggerOnBoard__1_System_Boolean_System_Func___0_System_Boolean__System_Func___0_System_Collections_IEnumerator__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.TriggerOnBoard``1(System.Boolean,System.Func{``0,System.Boolean},System.Func{``0,System.Collections.IEnumerator})">
   TriggerOnBoard&lt;T&gt;(bool, Func&lt;T, bool&gt;, Func&lt;T, IEnumerator&gt;)
@@ -1204,35 +2359,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator TriggerOnBoard&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator TriggerOnBoard&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>triggerFacedown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should also trigger cards that are facedown, false otherwise.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</dt>
-    <dd><p>Trigger function that triggers the coroutine for the trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">triggerFacedown</span>
+        </td>
+        <td><p>True if this should also trigger cards that are facedown, false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</td>
+        <td>
+          <span class="parametername">trigger</span>
+        </td>
+        <td><p>Trigger function that triggers the coroutine for the trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1243,7 +2454,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Trigger_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Trigger*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Trigger_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Trigger*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_Trigger__1_DiskCardGame_CardTriggerHandler_System_Func___0_System_Boolean__System_Func___0_System_Collections_IEnumerator__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Trigger``1(DiskCardGame.CardTriggerHandler,System.Func{``0,System.Boolean},System.Func{``0,System.Collections.IEnumerator})">
   Trigger&lt;T&gt;(CardTriggerHandler, Func&lt;T, bool&gt;, Func&lt;T, IEnumerator&gt;)
@@ -1255,35 +2468,91 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator Trigger&lt;T&gt;(this CardTriggerHandler handler, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator Trigger&lt;T&gt;(this CardTriggerHandler handler, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>handler</code> <span class="xref">CardTriggerHandler</span></dt>
-    <dd><p>The card trigger handler to search for triggers.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</dt>
-    <dd><p>Trigger function that triggers the coroutine for the trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardTriggerHandler</span></td>
+        <td>
+          <span class="parametername">handler</span>
+        </td>
+        <td><p>The card trigger handler to search for triggers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</td>
+        <td>
+          <span class="parametername">trigger</span>
+        </td>
+        <td><p>Trigger function that triggers the coroutine for the trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
 
 
@@ -1294,7 +2563,9 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Trigger_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Trigger*"></a>
+
+
+  <a id="InscryptionAPI_Triggers_CustomTriggerFinder_Trigger_" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Trigger*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder_Trigger__1_DiskCardGame_PlayableCard_System_Func___0_System_Boolean__System_Func___0_System_Collections_IEnumerator__" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder.Trigger``1(DiskCardGame.PlayableCard,System.Func{``0,System.Boolean},System.Func{``0,System.Collections.IEnumerator})">
   Trigger&lt;T&gt;(PlayableCard, Func&lt;T, bool&gt;, Func&lt;T, IEnumerator&gt;)
@@ -1306,35 +2577,93 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator Trigger&lt;T&gt;(this PlayableCard card, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator Trigger&lt;T&gt;(this PlayableCard card, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The card trigger handler to search for triggers.</p>
-</dd>
-    <dt><code>respond</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>Check function that needs to return true for a trigger to get triggered.</p>
-</dd>
-    <dt><code>trigger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</dt>
-    <dd><p>Trigger function that triggers the coroutine for the trigger.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The card trigger handler to search for triggers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
+        <td>
+          <span class="parametername">respond</span>
+        </td>
+        <td><p>Check function that needs to return true for a trigger to get triggered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a>&gt;</td>
+        <td>
+          <span class="parametername">trigger</span>
+        </td>
+        <td><p>Trigger function that triggers the coroutine for the trigger.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>The trigger type to search for.</p>
-</dd>
-  </dl>
+
+  <table class="api-type-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <span class="parametername">T</span>
+        </td>
+        <td><p>The trigger type to search for.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
 
 
 

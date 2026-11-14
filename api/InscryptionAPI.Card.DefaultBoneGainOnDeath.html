@@ -88,38 +88,36 @@
 
 
   <h1 id="InscryptionAPI_Card_DefaultBoneGainOnDeath" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath" class="text-break">
-Class DefaultBoneGainOnDeath  </h1>
+Class DefaultBoneGainOnDeath  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DefaultBoneGainOnDeath.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Class for handling exposing the bone-on-death behaviour present in the vanilla PlayableCard.Die method.
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Card.html">Card</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Class for handling exposing the bone-on-death behaviour present in the vanilla PlayableCard.Die method.
 Allows for modifying the default behaviour through Harmony patches.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">DefaultBoneGainOnDeath</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Card.html">Card</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Card_DefaultBoneGainOnDeath_syntax">
   Syntax
@@ -137,6 +135,42 @@ public class DefaultBoneGainOnDeath</code></pre>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
 
 
 
@@ -145,7 +179,7 @@ public class DefaultBoneGainOnDeath</code></pre>
 </h2>
 
 
-  <a id="InscryptionAPI_Card_DefaultBoneGainOnDeath_DoDefaultBoneGain_" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath.DoDefaultBoneGain*"></a>
+  <a id="InscryptionAPI_Card_DefaultBoneGainOnDeath_DoDefaultBoneGain_" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath.DoDefaultBoneGain*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_DefaultBoneGainOnDeath_DoDefaultBoneGain_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_System_Int32_" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath.DoDefaultBoneGain(DiskCardGame.PlayableCard,DiskCardGame.CardSlot,System.Int32)">
   DoDefaultBoneGain(PlayableCard, CardSlot, int)
@@ -157,27 +191,67 @@ public class DefaultBoneGainOnDeath</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerator DoDefaultBoneGain(PlayableCard card, CardSlot slotBeforeDeath, int amount)</code></pre>
+    <pre><code class="lang- hljs">public static IEnumerator DoDefaultBoneGain(PlayableCard card, CardSlot slotBeforeDeath, int amount)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The PlayableCard that has died.</p>
-</dd>
-    <dt><code>slotBeforeDeath</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The CardSlot of card.</p>
-</dd>
-    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>How many Bones to drop whenever a player's card dies (default is 1).</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The PlayableCard that has died.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slotBeforeDeath</span>
+        </td>
+        <td><p>The CardSlot of card.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">amount</span>
+        </td>
+        <td><p>How many Bones to drop whenever a player's card dies (default is 1).</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -189,7 +263,11 @@ public class DefaultBoneGainOnDeath</code></pre>
 
 
 
-  <a id="InscryptionAPI_Card_DefaultBoneGainOnDeath_ShouldDoDefaultBoneGain_" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath.ShouldDoDefaultBoneGain*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Card_DefaultBoneGainOnDeath_ShouldDoDefaultBoneGain_" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath.ShouldDoDefaultBoneGain*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_DefaultBoneGainOnDeath_ShouldDoDefaultBoneGain_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Card.DefaultBoneGainOnDeath.ShouldDoDefaultBoneGain(DiskCardGame.PlayableCard,DiskCardGame.CardSlot)">
   ShouldDoDefaultBoneGain(PlayableCard, CardSlot)
@@ -201,25 +279,64 @@ public class DefaultBoneGainOnDeath</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ShouldDoDefaultBoneGain(PlayableCard card, CardSlot slotBeforeDeath)</code></pre>
+    <pre><code class="lang- hljs">public static bool ShouldDoDefaultBoneGain(PlayableCard card, CardSlot slotBeforeDeath)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>card</code> <span class="xref">PlayableCard</span></dt>
-    <dd><p>The PlayableCard that has died.</p>
-</dd>
-    <dt><code>slotBeforeDeath</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The CardSlot of card.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">card</span>
+        </td>
+        <td><p>The PlayableCard that has died.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">slotBeforeDeath</span>
+        </td>
+        <td><p>The CardSlot of card.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if card should give a Bone (calls DoDefaultBoneGain).</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if card should give a Bone (calls DoDefaultBoneGain).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Encounters_ICustomExhaustSequence" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence" class="text-break">
-Interface ICustomExhaustSequence  </h1>
+Interface ICustomExhaustSequence  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/ICustomExhaustSequence.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>An interface that implements custom logic when the player has exhausted both of their draw piles.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Encounters.html">Encounters</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>An interface that implements custom logic when the player has exhausted both of their draw piles.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Encounters.html">Encounters</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Encounters_ICustomExhaustSequence_syntax">
   Syntax
@@ -121,21 +119,28 @@ Interface ICustomExhaustSequence  </h1>
 
 
 
-  <h5 id="InscryptionAPI_Encounters_ICustomExhaustSequence_remarks">
-    <strong>Remarks</strong>
-  </h5>
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
+
+  <h2 id="InscryptionAPI_Encounters_ICustomExhaustSequence_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>Only for Opponents and SpecialSequences.</p>
 </div>
-
-
 
 
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="InscryptionAPI_Encounters_ICustomExhaustSequence_DoCustomExhaustSequence_" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence.DoCustomExhaustSequence*"></a>
+  <a id="InscryptionAPI_Encounters_ICustomExhaustSequence_DoCustomExhaustSequence_" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence.DoCustomExhaustSequence*" data-overload></a>
 
   <h3 id="InscryptionAPI_Encounters_ICustomExhaustSequence_DoCustomExhaustSequence_DiskCardGame_CardDrawPiles_" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence.DoCustomExhaustSequence(DiskCardGame.CardDrawPiles)">
   DoCustomExhaustSequence(CardDrawPiles)
@@ -147,22 +152,52 @@ Interface ICustomExhaustSequence  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator DoCustomExhaustSequence(CardDrawPiles drawPiles)</code></pre>
+    <pre><code class="lang- hljs">IEnumerator DoCustomExhaustSequence(CardDrawPiles drawPiles)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>drawPiles</code> <span class="xref">CardDrawPiles</span></dt>
-    <dd><p>The CardDrawPiles instance for this scene.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardDrawPiles</span></td>
+        <td>
+          <span class="parametername">drawPiles</span>
+        </td>
+        <td><p>The CardDrawPiles instance for this scene.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>An enumeration of Unity events.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>An enumeration of Unity events.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -174,7 +209,11 @@ Interface ICustomExhaustSequence  </h1>
 
 
 
-  <a id="InscryptionAPI_Encounters_ICustomExhaustSequence_RespondsToCustomExhaustSequence_" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence.RespondsToCustomExhaustSequence*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Encounters_ICustomExhaustSequence_RespondsToCustomExhaustSequence_" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence.RespondsToCustomExhaustSequence*" data-overload></a>
 
   <h3 id="InscryptionAPI_Encounters_ICustomExhaustSequence_RespondsToCustomExhaustSequence_DiskCardGame_CardDrawPiles_" data-uid="InscryptionAPI.Encounters.ICustomExhaustSequence.RespondsToCustomExhaustSequence(DiskCardGame.CardDrawPiles)">
   RespondsToCustomExhaustSequence(CardDrawPiles)
@@ -185,20 +224,54 @@ Interface ICustomExhaustSequence  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToCustomExhaustSequence(CardDrawPiles drawPiles)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToCustomExhaustSequence(CardDrawPiles drawPiles)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>drawPiles</code> <span class="xref">CardDrawPiles</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardDrawPiles</span></td>
+        <td>
+          <span class="parametername">drawPiles</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

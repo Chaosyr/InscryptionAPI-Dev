@@ -88,37 +88,35 @@
 
 
   <h1 id="InscryptionAPI_Helpers_TranspilerHelpers" data-uid="InscryptionAPI.Helpers.TranspilerHelpers" class="text-break">
-Class TranspilerHelpers  </h1>
+Class TranspilerHelpers  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/TranspilerHelpers.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>A Helper Set related to the Transpiler.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Helpers.html">Helpers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A Helper Set related to the Transpiler.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-
-      <div class="inheritance-level level1">
-        <span class="xref">TranspilerHelpers</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Helpers.html">Helpers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Helpers_TranspilerHelpers_syntax">
   Syntax
@@ -135,6 +133,34 @@ Class TranspilerHelpers  </h1>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -143,7 +169,7 @@ Class TranspilerHelpers  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Helpers_TranspilerHelpers_LogCodeInstructions_" data-uid="InscryptionAPI.Helpers.TranspilerHelpers.LogCodeInstructions*"></a>
+  <a id="InscryptionAPI_Helpers_TranspilerHelpers_LogCodeInstructions_" data-uid="InscryptionAPI.Helpers.TranspilerHelpers.LogCodeInstructions*" data-overload></a>
 
   <h3 id="InscryptionAPI_Helpers_TranspilerHelpers_LogCodeInstructions_System_Collections_Generic_List_HarmonyLib_CodeInstruction__System_String_" data-uid="InscryptionAPI.Helpers.TranspilerHelpers.LogCodeInstructions(System.Collections.Generic.List{HarmonyLib.CodeInstruction},System.String)">
   LogCodeInstructions(List&lt;CodeInstruction&gt;, string)
@@ -155,18 +181,45 @@ Class TranspilerHelpers  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogCodeInstructions(this List&lt;CodeInstruction&gt; codes, string prefix = null)</code></pre>
+    <pre><code class="lang- hljs">public static void LogCodeInstructions(this List&lt;CodeInstruction&gt; codes, string prefix = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>codes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CodeInstruction</span>&gt;</dt>
-    <dd><p>The List of OpCodes to Log.</p>
-</dd>
-    <dt><code>prefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>An Optional Prefix to help indicate where the Logs Originate, or what the OpCodes relate to.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CodeInstruction</span>&gt;</td>
+        <td>
+          <span class="parametername">codes</span>
+        </td>
+        <td><p>The List of OpCodes to Log.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td>
+          <span class="parametername">prefix</span>
+        </td>
+        <td><p>An Optional Prefix to help indicate where the Logs Originate, or what the OpCodes relate to.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+
 
 
 

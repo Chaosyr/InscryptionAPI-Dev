@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot" class="text-break">
-Interface IOnPostSingularSlotAttackSlot  </h1>
+Interface IOnPostSingularSlotAttackSlot  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Trigger that is triggered after a slot does an individual attack.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Trigger that is triggered after a slot does an individual attack.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_syntax">
   Syntax
@@ -122,6 +120,16 @@ Interface IOnPostSingularSlotAttackSlot  </h1>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -129,7 +137,7 @@ Interface IOnPostSingularSlotAttackSlot  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_OnPostSingularSlotAttackSlot_" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.OnPostSingularSlotAttackSlot*"></a>
+  <a id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_OnPostSingularSlotAttackSlot_" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.OnPostSingularSlotAttackSlot*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_OnPostSingularSlotAttackSlot_DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.OnPostSingularSlotAttackSlot(DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   OnPostSingularSlotAttackSlot(CardSlot, CardSlot)
@@ -141,25 +149,60 @@ Interface IOnPostSingularSlotAttackSlot  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator OnPostSingularSlotAttackSlot(CardSlot attackingSlot, CardSlot targetSlot)</code></pre>
+    <pre><code class="lang- hljs">IEnumerator OnPostSingularSlotAttackSlot(CardSlot attackingSlot, CardSlot targetSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot that has just did the attack.</p>
-</dd>
-    <dt><code>targetSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot that the attacking slot attacked.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td><p>The slot that has just did the attack.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">targetSlot</span>
+        </td>
+        <td><p>The slot that the attacking slot attacked.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd><p>.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -171,7 +214,11 @@ Interface IOnPostSingularSlotAttackSlot  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_RespondsToPostSingularSlotAttackSlot_" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.RespondsToPostSingularSlotAttackSlot*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_RespondsToPostSingularSlotAttackSlot_" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.RespondsToPostSingularSlotAttackSlot*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot_RespondsToPostSingularSlotAttackSlot_DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.RespondsToPostSingularSlotAttackSlot(DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   RespondsToPostSingularSlotAttackSlot(CardSlot, CardSlot)
@@ -183,25 +230,64 @@ Interface IOnPostSingularSlotAttackSlot  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToPostSingularSlotAttackSlot(CardSlot attackingSlot, CardSlot targetSlot)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToPostSingularSlotAttackSlot(CardSlot attackingSlot, CardSlot targetSlot)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>attackingSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot that has just did the attack.</p>
-</dd>
-    <dt><code>targetSlot</code> <span class="xref">CardSlot</span></dt>
-    <dd><p>The slot that the attacking slot attacked.</p>
-</dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">attackingSlot</span>
+        </td>
+        <td><p>The slot that has just did the attack.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CardSlot</span></td>
+        <td>
+          <span class="parametername">targetSlot</span>
+        </td>
+        <td><p>The slot that the attacking slot attacked.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if this should trigger after a slot does an individual attack.</p>
-</dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should trigger after a slot does an individual attack.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

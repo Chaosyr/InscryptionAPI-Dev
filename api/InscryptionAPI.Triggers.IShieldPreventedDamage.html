@@ -88,23 +88,21 @@
 
 
   <h1 id="InscryptionAPI_Triggers_IShieldPreventedDamage" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage" class="text-break">
-Interface IShieldPreventedDamage  </h1>
+Interface IShieldPreventedDamage  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L807"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>Trigger that is called after a shielded card was attacked and lost a shield.</p>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Trigger that is called after a shielded card was attacked and lost a shield.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
 
 
 
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_Triggers_IShieldPreventedDamage_syntax">
   Syntax
@@ -122,6 +120,16 @@ Interface IShieldPreventedDamage  </h1>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
+
 
 
 
@@ -129,7 +137,7 @@ Interface IShieldPreventedDamage  </h1>
 </h2>
 
 
-  <a id="InscryptionAPI_Triggers_IShieldPreventedDamage_OnShieldPreventedDamage_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.OnShieldPreventedDamage*"></a>
+  <a id="InscryptionAPI_Triggers_IShieldPreventedDamage_OnShieldPreventedDamage_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.OnShieldPreventedDamage*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IShieldPreventedDamage_OnShieldPreventedDamage_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.OnShieldPreventedDamage(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
   OnShieldPreventedDamage(PlayableCard, int, PlayableCard)
@@ -140,24 +148,64 @@ Interface IShieldPreventedDamage  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerator OnShieldPreventedDamage(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
+    <pre><code class="lang- hljs">IEnumerator OnShieldPreventedDamage(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>attacker</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">target</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">damage</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">attacker</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -169,7 +217,11 @@ Interface IShieldPreventedDamage  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_IShieldPreventedDamage_RespondsToShieldPreventedDamage_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.RespondsToShieldPreventedDamage*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IShieldPreventedDamage_RespondsToShieldPreventedDamage_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.RespondsToShieldPreventedDamage*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IShieldPreventedDamage_RespondsToShieldPreventedDamage_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.RespondsToShieldPreventedDamage(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
   RespondsToShieldPreventedDamage(PlayableCard, int, PlayableCard)
@@ -180,24 +232,64 @@ Interface IShieldPreventedDamage  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool RespondsToShieldPreventedDamage(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
+    <pre><code class="lang- hljs">bool RespondsToShieldPreventedDamage(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>attacker</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">target</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">damage</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">attacker</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -209,7 +301,11 @@ Interface IShieldPreventedDamage  </h1>
 
 
 
-  <a id="InscryptionAPI_Triggers_IShieldPreventedDamage_ShieldPreventedDamagePriority_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.ShieldPreventedDamagePriority*"></a>
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IShieldPreventedDamage_ShieldPreventedDamagePriority_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.ShieldPreventedDamagePriority*" data-overload></a>
 
   <h3 id="InscryptionAPI_Triggers_IShieldPreventedDamage_ShieldPreventedDamagePriority_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage.ShieldPreventedDamagePriority(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
   ShieldPreventedDamagePriority(PlayableCard, int, PlayableCard)
@@ -220,24 +316,68 @@ Interface IShieldPreventedDamage  </h1>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int ShieldPreventedDamagePriority(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
+    <pre><code class="lang- hljs">int ShieldPreventedDamagePriority(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>target</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-    <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>attacker</code> <span class="xref">PlayableCard</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">target</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td>
+          <span class="parametername">damage</span>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">PlayableCard</span></td>
+        <td>
+          <span class="parametername">attacker</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 

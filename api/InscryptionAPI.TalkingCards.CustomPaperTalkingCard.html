@@ -88,55 +88,61 @@
 
 
   <h1 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard" class="text-break">
-Class CustomPaperTalkingCard  </h1>
+Class CustomPaperTalkingCard  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/TalkingCards/CustomPaperTalkingCard.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
 
-  <div class="markdown level0 summary"><p>An abstract class for the creation of talking cards through the API.
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.TalkingCards.html">TalkingCards</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>An abstract class for the creation of talking cards through the API.
 It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
 
     <div class="inheritance-tree">
-      <div class="inheritance-level level0">
+      <div class="inheritance-level" style="--inheritance-level: 0">
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
       </div>
-      <div class="inheritance-level level1">
+      <div class="inheritance-level" style="--inheritance-level: 1">
       <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.html">Object</a>
       </div>
-      <div class="inheritance-level level2">
+      <div class="inheritance-level" style="--inheritance-level: 2">
       <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.html">Component</a>
       </div>
-      <div class="inheritance-level level3">
+      <div class="inheritance-level" style="--inheritance-level: 3">
       <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Behaviour.html">Behaviour</a>
       </div>
-      <div class="inheritance-level level4">
+      <div class="inheritance-level" style="--inheritance-level: 4">
       <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a>
       </div>
-      <div class="inheritance-level level5">
+      <div class="inheritance-level" style="--inheritance-level: 5">
       <span class="xref">ManagedBehaviourBase</span>
       </div>
-      <div class="inheritance-level level6">
+      <div class="inheritance-level" style="--inheritance-level: 6">
       <span class="xref">ManagedBehaviour</span>
       </div>
-      <div class="inheritance-level level7">
+      <div class="inheritance-level" style="--inheritance-level: 7">
       <span class="xref">TriggerReceiver</span>
       </div>
-      <div class="inheritance-level level8">
+      <div class="inheritance-level" style="--inheritance-level: 8">
       <span class="xref">SpecialCardBehaviour</span>
       </div>
-      <div class="inheritance-level level9">
+      <div class="inheritance-level" style="--inheritance-level: 9">
       <span class="xref">TalkingCard</span>
       </div>
-      <div class="inheritance-level level10">
+      <div class="inheritance-level" style="--inheritance-level: 10">
       <span class="xref">PaperTalkingCard</span>
       </div>
-
-      <div class="inheritance-level level11">
-        <span class="xref">CustomPaperTalkingCard</span>
+    
+      <div class="inheritance-level" style="--inheritance-level: 0">
+        <span class="xref">object</span>
       </div>
-
+    
     </div>
   </div>
 
@@ -148,14 +154,6 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
     </div>
 
   </div>
-
-  <h6>
-    <strong>Namespace</strong>: <a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.TalkingCards.html">TalkingCards</a>
-  </h6>
-
-  <h6>
-    <strong>Assembly</strong>: InscryptionAPI.dll
-  </h6>
 
   <h5 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_syntax">
   Syntax
@@ -172,6 +170,771 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">PaperTalkingCard.clearDialogueTimer</span>
+    </div>
+    <div>
+      <span class="xref">PaperTalkingCard.CLEAR_DIALOGUE_TIME</span>
+    </div>
+    <div>
+      <span class="xref">PaperTalkingCard.ManagedUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">PaperTalkingCard.ResetName()</span>
+    </div>
+    <div>
+      <span class="xref">PaperTalkingCard.IsVisible()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;PlayingDialogue&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;CardCameraParent&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;Text&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;Face&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnSacrificedDialogueId&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnSelectedForCardMergeDialogueId&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnSelectedForCardRemoveDialogueId&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnSelectedForDeckTrialDialogueId&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnDiscoveredInExplorationDialogueId&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;CurrentDialogueSequence&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.pokedDuringDialogue</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.Start()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TalkingCard.TriggerSoloDialogue(string)</a>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.PlayLine(DialogueEvent.Line)</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnDestroy()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.SubscribeToTextEvents()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.ConfigureForPokeInteraction()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.ClearPokeInteraction()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnPokedCard(MainInputInteractable)</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnTextLineComplete()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TalkingCard.SetFaceAnimTrigger(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">TalkingCard.Shake(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TalkingCard.OnTextDisplayedCharacter(string, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TalkingCard.PlaySoloDialogueEvent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">TalkingCard.TryPlayMultiDialogueEvent(string, string)</a>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.InterruptCurrentDialogue()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.RespondsToDrawn()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnDrawn()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.RespondsToPlayFromHand()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnPlayFromHand()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.RespondsToCardGettingAttacked(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnCardGettingAttacked(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.RespondsToSacrifice()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSacrifice()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSelectedForCardMergeHost()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSelectedForCardRemoval()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSelectedForDeckTrial()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnDiscoverInExploration()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;PlayLine&gt;b__56_0()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;PlaySoloDialogueEvent&gt;b__66_0()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;InterruptCurrentDialogue&gt;b__68_0()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnDrawn&gt;b__70_0()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.&lt;OnSelectedForDeckTrial&gt;b__80_0()</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.Priority</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.PlayingDialogue</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.CardCameraParent</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.Text</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.Face</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnDrawnDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnPlayFromHandDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnAttackedDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnBecomeSelectablePositiveDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnBecomeSelectableNegativeDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSacrificedDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSelectedForCardMergeDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSelectedForCardRemoveDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnSelectedForDeckTrialDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnDiscoveredInExplorationDialogueId</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.OnDrawnSpecialOpponentDialogueIds</span>
+    </div>
+    <div>
+      <span class="xref">TalkingCard.CurrentDialogueSequence</span>
+    </div>
+    <div>
+      <span class="xref">SpecialCardBehaviour.OnCleanUp()</span>
+    </div>
+    <div>
+      <span class="xref">SpecialCardBehaviour.OnShownForCardChoiceNode()</span>
+    </div>
+    <div>
+      <span class="xref">SpecialCardBehaviour.OnShownInDeckReview()</span>
+    </div>
+    <div>
+      <span class="xref">SpecialCardBehaviour.PlayableCard</span>
+    </div>
+    <div>
+      <span class="xref">SpecialCardBehaviour.Card</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.&lt;Activating&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.&lt;DestroyAfterActivation&gt;k__BackingField</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.Destroy()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.RespondsToUpkeep(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.OnUpkeep(bool)</a>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToOtherCardDrawn(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnOtherCardDrawn(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToResolveOnBoard()</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnResolveOnBoard()</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToOtherCardResolve(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnOtherCardResolve(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToOtherCardAssignedToSlot(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnOtherCardAssignedToSlot(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToSlotTargetedForAttack(CardSlot, PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnSlotTargetedForAttack(CardSlot, PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToTakeDamage(PlayableCard)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnTakeDamage(PlayableCard)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TriggerReceiver.RespondsToDealDamage(int, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TriggerReceiver.OnDealDamage(int, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TriggerReceiver.RespondsToDealDamageDirectly(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TriggerReceiver.OnDealDamageDirectly(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TriggerReceiver.RespondsToOtherCardDealtDamage(PlayableCard, int, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">TriggerReceiver.OnOtherCardDealtDamage(PlayableCard, int, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.RespondsToDie(bool, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.OnDie(bool, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.RespondsToPreDeathAnimation(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.OnPreDeathAnimation(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.RespondsToOtherCardPreDeath(CardSlot, bool, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.OnOtherCardPreDeath(CardSlot, bool, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.RespondsToOtherCardDie(PlayableCard, CardSlot, bool, PlayableCard)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.OnOtherCardDie(PlayableCard, CardSlot, bool, PlayableCard)</a>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToAttackEnded()</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnAttackEnded()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.RespondsToTurnEnd(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">TriggerReceiver.OnTurnEnd(bool)</a>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.RespondsToActivatedAbility(Ability)</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.OnActivatedAbility()</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.GetRandomSeed()</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.Activating</span>
+    </div>
+    <div>
+      <span class="xref">TriggerReceiver.DestroyAfterActivation</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.ManagedFixedUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.ManagedLateUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.OnEnable()</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.Update()</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.FixedUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.LateUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.ExecutionOrder</span>
+    </div>
+    <div>
+      <span class="xref">ManagedBehaviour.UpdateWhenPaused</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.CancelInvoke.html">MonoBehaviour.CancelInvoke()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine_Auto(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.StopCoroutine.html">MonoBehaviour.StopCoroutine(Coroutine)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour.StopAllCoroutines.html">MonoBehaviour.StopAllCoroutines()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.Internal_CancelInvokeAll(MonoBehaviour)</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.Internal_IsInvokingAll(MonoBehaviour)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeDelayed(MonoBehaviour, string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(MonoBehaviour, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(MonoBehaviour, string)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.IsObjectMonoBehaviour(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutineManaged(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutineManaged2(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopCoroutineManaged(Coroutine)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutineFromEnumeratorManaged(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.GetScriptClassName()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/MonoBehaviour-useGUILayout.html">MonoBehaviour.useGUILayout</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Behaviour-enabled.html">Behaviour.enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Behaviour-isActiveAndEnabled.html">Behaviour.isActiveAndEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentFastPath(Type, IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.GetComponent.html">Component.GetComponent&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.TryGetComponent.html">Component.TryGetComponent&lt;T&gt;(out T)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.GetComponentsInChildren.html">Component.GetComponentsInChildren&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.GetComponentInParent.html">Component.GetComponentInParent&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.GetComponentsInParent.html">Component.GetComponentsInParent&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsForListInternal(Type, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component.GetComponents.html">Component.GetComponents&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component-transform.html">Component.transform</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component-gameObject.html">Component.gameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Component-tag.html">Component.tag</a>
+    </div>
+    <div>
+      <span class="xref">Object.m_CachedPtr</span>
+    </div>
+    <div>
+      <span class="xref">Object.OffsetOfInstanceIDInCPlusPlusObject</span>
+    </div>
+    <div>
+      <span class="xref">Object.objectIsNullMessage</span>
+    </div>
+    <div>
+      <span class="xref">Object.cloneDestroyedMessage</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.GetInstanceID.html">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.GetHashCode.html">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.CompareBaseObjects(Object, Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.EnsureRunningOnMainThread()</span>
+    </div>
+    <div>
+      <span class="xref">Object.IsNativeObjectAlive(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetCachedPtr()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.Instantiate.html">Object.Instantiate&lt;T&gt;(T, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Destroy(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyImmediate(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.DontDestroyOnLoad.html">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.DestroyObject(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyObject(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.FindObjectsOfType.html">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.FindObjectOfType.html">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.CheckNullArgument(object, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object.ToString.html">Object.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">Object.GetOffsetOfInstanceIDInCPlusPlusObject()</span>
+    </div>
+    <div>
+      <span class="xref">Object.CurrentThreadIsMainThread()</span>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_CloneSingle(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Internal_CloneSingleWithParent(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingle(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.ToString(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetName(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.IsPersistent(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Object.SetName(Object, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.DoesObjectWithInstanceIDExist(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.FindObjectFromInstanceID(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.ForceLoadFromInstanceID(int)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingle_Injected(Object, ref Vector3, ref Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingleWithParent_Injected(Object, Transform, ref Vector3, ref Quaternion)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object-name.html">Object.name</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Object-hideFlags.html">Object.hideFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd>
+  </dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="InscryptionAPI.Triggers.CustomTriggerFinder.html#InscryptionAPI_Triggers_CustomTriggerFinder_CustomTriggerSequence_DiskCardGame_TriggerReceiver_System_Collections_IEnumerator_">CustomTriggerFinder.CustomTriggerSequence(TriggerReceiver, IEnumerator)</a>
+  </div>
+  <div>
+      <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+  </div>
+  </dd>
+  </dl>
+
 
 
 
@@ -180,7 +943,7 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 </h2>
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_CardName_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.CardName*"></a>
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_CardName_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.CardName*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_CardName" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.CardName">
   CardName
@@ -192,18 +955,34 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string CardName { get; }</code></pre>
+    <pre><code class="lang- hljs">public abstract string CardName { get; }</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
   <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -212,7 +991,9 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_DialogueAbility_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.DialogueAbility*"></a>
+
+
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_DialogueAbility_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.DialogueAbility*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_DialogueAbility" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.DialogueAbility">
   DialogueAbility
@@ -224,18 +1005,34 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract SpecialTriggeredAbility DialogueAbility { get; }</code></pre>
+    <pre><code class="lang- hljs">public abstract SpecialTriggeredAbility DialogueAbility { get; }</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
   <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">SpecialTriggeredAbility</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">SpecialTriggeredAbility</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -244,7 +1041,9 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_Emotions_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.Emotions*"></a>
+
+
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_Emotions_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.Emotions*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_Emotions" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.Emotions">
   Emotions
@@ -256,18 +1055,34 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract List&lt;EmotionData&gt; Emotions { get; }</code></pre>
+    <pre><code class="lang- hljs">public abstract List&lt;EmotionData&gt; Emotions { get; }</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
   <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionAPI.TalkingCards.Create.EmotionData.html">EmotionData</a>&gt;</dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="InscryptionAPI.TalkingCards.Create.EmotionData.html">EmotionData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -276,7 +1091,9 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_FaceInfo_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.FaceInfo*"></a>
+
+
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_FaceInfo_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.FaceInfo*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_FaceInfo" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.FaceInfo">
   FaceInfo
@@ -288,18 +1105,34 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract FaceInfo FaceInfo { get; }</code></pre>
+    <pre><code class="lang- hljs">public abstract FaceInfo FaceInfo { get; }</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
   <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="InscryptionAPI.TalkingCards.Create.FaceInfo.html">FaceInfo</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="InscryptionAPI.TalkingCards.Create.FaceInfo.html">FaceInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -308,7 +1141,9 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_OnDrawnFallbackDialogueId_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.OnDrawnFallbackDialogueId*"></a>
+
+
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_OnDrawnFallbackDialogueId_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.OnDrawnFallbackDialogueId*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_OnDrawnFallbackDialogueId" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.OnDrawnFallbackDialogueId">
   OnDrawnFallbackDialogueId
@@ -319,18 +1154,34 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string OnDrawnFallbackDialogueId { get; }</code></pre>
+    <pre><code class="lang- hljs">public override string OnDrawnFallbackDialogueId { get; }</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
   <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 
 
@@ -339,7 +1190,9 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_SpeakerType_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.SpeakerType*"></a>
+
+
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_SpeakerType_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.SpeakerType*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_SpeakerType" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.SpeakerType">
   SpeakerType
@@ -350,18 +1203,36 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override DialogueEvent.Speaker SpeakerType { get; }</code></pre>
+    <pre><code class="lang- hljs">public override DialogueEvent.Speaker SpeakerType { get; }</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
   <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">DialogueEvent</span>.<span class="xref">Speaker</span></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span class="xref">DialogueEvent</span>.<span class="xref">Speaker</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
 
 
 
@@ -374,7 +1245,7 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
 </h2>
 
 
-  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_OnShownForCardSelect_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.OnShownForCardSelect*"></a>
+  <a id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_OnShownForCardSelect_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.OnShownForCardSelect*" data-overload></a>
 
   <h3 id="InscryptionAPI_TalkingCards_CustomPaperTalkingCard_OnShownForCardSelect_System_Boolean_" data-uid="InscryptionAPI.TalkingCards.CustomPaperTalkingCard.OnShownForCardSelect(System.Boolean)">
   OnShownForCardSelect(bool)
@@ -385,20 +1256,54 @@ It inherits from PaperTalkingCard and implements ITalkingCard.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IEnumerator OnShownForCardSelect(bool forPositiveEffect)</code></pre>
+    <pre><code class="lang- hljs">public override IEnumerator OnShownForCardSelect(bool forPositiveEffect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>forPositiveEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td>
+          <span class="parametername">forPositiveEffect</span>
+        </td>
+        <td></td>
+      </tr>
+
+    </tbody>
+  </table>
 
   <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd></dd>
-  </dl>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
 
 
 
