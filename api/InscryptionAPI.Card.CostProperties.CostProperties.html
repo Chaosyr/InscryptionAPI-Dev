@@ -1171,16 +1171,16 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
             }
         ];
 
-        const root = document.documentElement;
+        const fontRoot = document.documentElement;
 
         function applyFont(type, font) {
             const storageKey = `docfx-${type}-font`;
 
             localStorage.setItem(storageKey, font);
-            root.setAttribute(`data-${type}-font`, font);
+            fontRoot.setAttribute(`data-${type}-font`, font);
 
             if (font !== 'custom') {
-                root.style.removeProperty(`--${type}-font`);
+                fontRoot.style.removeProperty(`--${type}-font`);
                 return;
             }
 
@@ -1188,14 +1188,14 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
             const customFont = setting?.input.value.trim() || '';
 
             if (customFont && CSS.supports('font-family', JSON.stringify(customFont))) {
-                root.style.setProperty(
+                fontRoot.style.setProperty(
                     `--${type}-font`,
                     `${JSON.stringify(customFont)}, system-ui, sans-serif`
                 );
 
                 localStorage.setItem(`docfx-${type}-font-custom`, customFont);
             } else {
-                root.style.setProperty(`--${type}-font`, 'system-ui, sans-serif');
+                fontRoot.style.setProperty(`--${type}-font`, 'system-ui, sans-serif');
             }
         }
 
