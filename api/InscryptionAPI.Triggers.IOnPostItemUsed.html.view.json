@@ -1,0 +1,1055 @@
+{
+  "uid": "InscryptionAPI.Triggers.IOnPostItemUsed",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(System.String,System.Boolean,System.Boolean)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IOnPostItemUsed",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OnPostItemUsed(string, bool, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "OnPostItemUsed(String, Boolean, Boolean)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IOnPostItemUsed.OnPostItemUsed(string, bool, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "IOnPostItemUsed.OnPostItemUsed(String, Boolean, Boolean)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(string, bool, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(String, Boolean, Boolean)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(System.String,System.Boolean,System.Boolean)\" text=\"OnPostItemUsed(string, bool, bool)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(System.String,System.Boolean,System.Boolean)\" text=\"OnPostItemUsed(string, bool, bool)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator OnPostItemUsed(string itemName, bool success, bool isHammer)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function OnPostItemUsed(itemName As String, success As Boolean, isHammer As Boolean) As IEnumerator"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "itemName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Internal name of the item.</p>\n"
+              },
+              {
+                "id": "success",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Normally true, but false if a targeted use item (e.g. scissors) got the use cancelled.</p>\n"
+              },
+              {
+                "id": "isHammer",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">True if the item is the act 3 hammer, false otherwise.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.IEnumerator",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.IEnumerator"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "OnPostItemUsed",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 422,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "OnPostItemUsed"
+              },
+              {
+                "lang": "vb",
+                "value": "OnPostItemUsed"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IOnPostItemUsed.OnPostItemUsed"
+              },
+              {
+                "lang": "vb",
+                "value": "IOnPostItemUsed.OnPostItemUsed"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed*\" text=\"OnPostItemUsed\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed*\" text=\"OnPostItemUsed\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IOnPostItemUsed_OnPostItemUsed_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Trigger whatever events you want to run after an item is used.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnPostItemUsed_OnPostItemUsed_System_String_System_Boolean_System_Boolean_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(System.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L423",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IOnPostItemUsed_OnPostItemUsed_System_String_System_Boolean_System_Boolean_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(System.String,System.Boolean,System.Boolean)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IOnPostItemUsed",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RespondsToPostItemUsed(string, bool, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "RespondsToPostItemUsed(String, Boolean, Boolean)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IOnPostItemUsed.RespondsToPostItemUsed(string, bool, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "IOnPostItemUsed.RespondsToPostItemUsed(String, Boolean, Boolean)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(string, bool, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(String, Boolean, Boolean)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(System.String,System.Boolean,System.Boolean)\" text=\"RespondsToPostItemUsed(string, bool, bool)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(System.String,System.Boolean,System.Boolean)\" text=\"RespondsToPostItemUsed(string, bool, bool)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "bool RespondsToPostItemUsed(string itemName, bool success, bool isHammer)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function RespondsToPostItemUsed(itemName As String, success As Boolean, isHammer As Boolean) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "itemName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Internal name of the item.</p>\n"
+              },
+              {
+                "id": "success",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Normally true, but false if a targeted use item (e.g. scissors) got the use cancelled.</p>\n"
+              },
+              {
+                "id": "isHammer",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">True if the item is the act 3 hammer, false otherwise.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">True if this should trigger after an item is used.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RespondsToPostItemUsed",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 414,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RespondsToPostItemUsed"
+              },
+              {
+                "lang": "vb",
+                "value": "RespondsToPostItemUsed"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IOnPostItemUsed.RespondsToPostItemUsed"
+              },
+              {
+                "lang": "vb",
+                "value": "IOnPostItemUsed.RespondsToPostItemUsed"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed*\" text=\"RespondsToPostItemUsed\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed*\" text=\"RespondsToPostItemUsed\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IOnPostItemUsed_RespondsToPostItemUsed_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Returns true if this should trigger after an item is used.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnPostItemUsed_RespondsToPostItemUsed_System_String_System_Boolean_System_Boolean_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(System.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L415",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IOnPostItemUsed_RespondsToPostItemUsed_System_String_System_Boolean_System_Boolean_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IOnPostItemUsed"
+    },
+    {
+      "lang": "vb",
+      "value": "IOnPostItemUsed"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IOnPostItemUsed"
+    },
+    {
+      "lang": "vb",
+      "value": "IOnPostItemUsed"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Triggers.IOnPostItemUsed"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Triggers.IOnPostItemUsed"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Triggers/Interfaces.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "IOnPostItemUsed",
+    "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+    "startLine": 405,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after any item is used.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IOnPostItemUsed"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IOnPostItemUsed"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Triggers.IOnPostItemUsed.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<IOnPostItemUsed>(IOnPostItemUsed, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of IOnPostItemUsed)(IOnPostItemUsed, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<IOnPostItemUsed>(IOnPostItemUsed, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of IOnPostItemUsed)(IOnPostItemUsed, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Triggers.IOnPostItemUsed>(InscryptionAPI.Triggers.IOnPostItemUsed, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Triggers.IOnPostItemUsed)(InscryptionAPI.Triggers.IOnPostItemUsed, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnPostItemUsed.html\">IOnPostItemUsed</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnPostItemUsed.html\">IOnPostItemUsed</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnPostItemUsed.html\">IOnPostItemUsed</a>)(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnPostItemUsed.html\">IOnPostItemUsed</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Triggers.IOnPostItemUsed.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Triggers.IOnPostItemUsed.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnPostItemUsed.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnPostItemUsed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L406",
+  "description": "Trigger that is triggered after any item is used.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Triggers_IOnPostItemUsed",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": true,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

@@ -1,0 +1,532 @@
+{
+  "uid": "InscryptionAPI.Boons",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Boons.BoonBehaviour",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Boons.BoonBehaviour.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BoonBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "BoonBehaviour"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoonBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "BoonBehaviour"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Boons.BoonBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Boons.BoonBehaviour"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Boons.BoonBehaviour\" text=\"BoonBehaviour\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Boons.BoonBehaviour\" text=\"BoonBehaviour\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all custom Boons</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Boons_BoonBehaviour",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Boons.BoonManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Boons.BoonManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BoonManager"
+            },
+            {
+              "lang": "vb",
+              "value": "BoonManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoonManager"
+            },
+            {
+              "lang": "vb",
+              "value": "BoonManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Boons.BoonManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Boons.BoonManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Boons.BoonManager\" text=\"BoonManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Boons.BoonManager\" text=\"BoonManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonManager.yml\" sourcestartlinenumber=\"1\">This manager handles the creation of new Boons and ensures they are properly attached to battles.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Boons_BoonManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Boons.BoonManager.FullBoon",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Boons",
+          "href": "InscryptionAPI.Boons.BoonManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BoonManager.FullBoon"
+            },
+            {
+              "lang": "vb",
+              "value": "BoonManager.FullBoon"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoonManager.FullBoon"
+            },
+            {
+              "lang": "vb",
+              "value": "BoonManager.FullBoon"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Boons.BoonManager.FullBoon"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Boons.BoonManager.FullBoon"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Boons.BoonManager.html\">BoonManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Boons.BoonManager.FullBoon.html\">FullBoon</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Boons.BoonManager.html\">BoonManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Boons.BoonManager.FullBoon.html\">FullBoon</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonManager.FullBoon.yml\" sourcestartlinenumber=\"1\">Maps custom BoonData objects to the trigger handler that manages them.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Boons_BoonManager_FullBoon",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Boons.DeckInfoExtensions",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Boons.DeckInfoExtensions.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DeckInfoExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "DeckInfoExtensions"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "DeckInfoExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "DeckInfoExtensions"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Boons.DeckInfoExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Boons.DeckInfoExtensions"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Boons.DeckInfoExtensions\" text=\"DeckInfoExtensions\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Boons.DeckInfoExtensions\" text=\"DeckInfoExtensions\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Boons.DeckInfoExtensions.yml\" sourcestartlinenumber=\"1\">This contains helper extension methods for the DeckInfo class</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Boons_DeckInfoExtensions",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Boons"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Boons"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Boons"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Boons"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Boons"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Boons"
+    }
+  ],
+  "type": "namespace",
+  "documentation": {
+    "remote": {
+      "path": "docs/namespace/InscryptionAPI.Boons.md",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "path": "namespace/InscryptionAPI.Boons.md",
+    "startLine": 1,
+    "endLine": 4
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Boons.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing Boons, which provide unique passive effects during battles.</p>\n",
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Boons.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Boons.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/blob/main/docs/namespace/InscryptionAPI.Boons.md/#L2",
+  "sourceurl": "",
+  "description": "This namespace is dedicated to managing Boons, which provide unique passive effects during battles.",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Boons",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

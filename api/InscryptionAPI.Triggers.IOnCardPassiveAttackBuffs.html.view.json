@@ -1,0 +1,961 @@
+{
+  "uid": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(DiskCardGame.PlayableCard,System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CollectCardPassiveAttackBuffs(PlayableCard, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "CollectCardPassiveAttackBuffs(PlayableCard, Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(PlayableCard, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(PlayableCard, Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(DiskCardGame.PlayableCard, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(DiskCardGame.PlayableCard, Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(DiskCardGame.PlayableCard,System.Int32)\" text=\"CollectCardPassiveAttackBuffs(PlayableCard, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(DiskCardGame.PlayableCard,System.Int32)\" text=\"CollectCardPassiveAttackBuffs(PlayableCard, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "int CollectCardPassiveAttackBuffs(PlayableCard card, int currentValue)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function CollectCardPassiveAttackBuffs(card As PlayableCard, currentValue As Integer) As Integer"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "card",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">Card the buffs will be given to.</p>\n"
+              },
+              {
+                "id": "currentValue",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">The current buff value.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">The new attack buff value for a card.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CollectCardPassiveAttackBuffs",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 575,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CollectCardPassiveAttackBuffs"
+              },
+              {
+                "lang": "vb",
+                "value": "CollectCardPassiveAttackBuffs"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs"
+              },
+              {
+                "lang": "vb",
+                "value": "IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs*\" text=\"CollectCardPassiveAttackBuffs\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs*\" text=\"CollectCardPassiveAttackBuffs\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs_CollectCardPassiveAttackBuffs_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">Returns the new attack buff value for a card.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs_CollectCardPassiveAttackBuffs_DiskCardGame_PlayableCard_System_Int32_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.CollectCardPassiveAttackBuffs(DiskCardGame.PlayableCard%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L576",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs_CollectCardPassiveAttackBuffs_DiskCardGame_PlayableCard_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(DiskCardGame.PlayableCard,System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RespondsToCardPassiveAttackBuffs(PlayableCard, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "RespondsToCardPassiveAttackBuffs(PlayableCard, Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(PlayableCard, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(PlayableCard, Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(DiskCardGame.PlayableCard, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(DiskCardGame.PlayableCard, Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(DiskCardGame.PlayableCard,System.Int32)\" text=\"RespondsToCardPassiveAttackBuffs(PlayableCard, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(DiskCardGame.PlayableCard,System.Int32)\" text=\"RespondsToCardPassiveAttackBuffs(PlayableCard, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "bool RespondsToCardPassiveAttackBuffs(PlayableCard card, int currentValue)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function RespondsToCardPassiveAttackBuffs(card As PlayableCard, currentValue As Integer) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "card",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">Card the buffs will be given to.</p>\n"
+              },
+              {
+                "id": "currentValue",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">The current buff value.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">True if this should modify the passive attack buffs given to a card.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RespondsToCardPassiveAttackBuffs",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 568,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RespondsToCardPassiveAttackBuffs"
+              },
+              {
+                "lang": "vb",
+                "value": "RespondsToCardPassiveAttackBuffs"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs"
+              },
+              {
+                "lang": "vb",
+                "value": "IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs*\" text=\"RespondsToCardPassiveAttackBuffs\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs*\" text=\"RespondsToCardPassiveAttackBuffs\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs_RespondsToCardPassiveAttackBuffs_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">Returns true if this should modify the passive attack buffs given to a card.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs_RespondsToCardPassiveAttackBuffs_DiskCardGame_PlayableCard_System_Int32_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.RespondsToCardPassiveAttackBuffs(DiskCardGame.PlayableCard%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L569",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs_RespondsToCardPassiveAttackBuffs_DiskCardGame_PlayableCard_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IOnCardPassiveAttackBuffs"
+    },
+    {
+      "lang": "vb",
+      "value": "IOnCardPassiveAttackBuffs"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IOnCardPassiveAttackBuffs"
+    },
+    {
+      "lang": "vb",
+      "value": "IOnCardPassiveAttackBuffs"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Triggers/Interfaces.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "IOnCardPassiveAttackBuffs",
+    "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+    "startLine": 560,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">Data collection trigger that modifies the passive attack buffs of any card.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IOnCardPassiveAttackBuffs"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IOnCardPassiveAttackBuffs"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<IOnCardPassiveAttackBuffs>(IOnCardPassiveAttackBuffs, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of IOnCardPassiveAttackBuffs)(IOnCardPassiveAttackBuffs, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<IOnCardPassiveAttackBuffs>(IOnCardPassiveAttackBuffs, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of IOnCardPassiveAttackBuffs)(IOnCardPassiveAttackBuffs, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs>(InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs)(InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.html\">IOnCardPassiveAttackBuffs</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.html\">IOnCardPassiveAttackBuffs</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.html\">IOnCardPassiveAttackBuffs</a>)(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.html\">IOnCardPassiveAttackBuffs</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L561",
+  "description": "Data collection trigger that modifies the passive attack buffs of any card.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": true,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

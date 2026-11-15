@@ -1,0 +1,369 @@
+{
+  "uid": "InscryptionCommunityPatch.PixelTutor",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.PixelTutor.Act2TutorFix",
+          "isExtensionMethod": false,
+          "href": "InscryptionCommunityPatch.PixelTutor.Act2TutorFix.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Act2TutorFix"
+            },
+            {
+              "lang": "vb",
+              "value": "Act2TutorFix"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Act2TutorFix"
+            },
+            {
+              "lang": "vb",
+              "value": "Act2TutorFix"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.PixelTutor.Act2TutorFix"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.PixelTutor.Act2TutorFix"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.PixelTutor.Act2TutorFix\" text=\"Act2TutorFix\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.PixelTutor.Act2TutorFix\" text=\"Act2TutorFix\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.yml\" sourcestartlinenumber=\"1\">Patches in our Act 2 <xref href=\"DiskCardGame.Tutor\" data-throw-if-not-resolved=\"false\"></xref> related UI, that way it doesn't break when used in Act 2.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_PixelTutor_Act2TutorFix",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray",
+          "isExtensionMethod": false,
+          "href": "InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PixelPlayableCardArray"
+            },
+            {
+              "lang": "vb",
+              "value": "PixelPlayableCardArray"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "PixelPlayableCardArray"
+            },
+            {
+              "lang": "vb",
+              "value": "PixelPlayableCardArray"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray\" text=\"PixelPlayableCardArray\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray\" text=\"PixelPlayableCardArray\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.yml\" sourcestartlinenumber=\"1\">Handles the UI related to the Act 2 <xref href=\"DiskCardGame.Tutor\" data-throw-if-not-resolved=\"false\"></xref> patched in by <xref href=\"InscryptionCommunityPatch.PixelTutor.Act2TutorFix\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_PixelTutor_PixelPlayableCardArray",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.PixelTutor"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.PixelTutor"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.PixelTutor"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.PixelTutor"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.PixelTutor"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.PixelTutor"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "InscryptionCommunityPatch"
+  ],
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "community/InscryptionCommunityPatch.PixelTutor.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "community/InscryptionCommunityPatch.PixelTutor.html",
+  "_rel": "../",
+  "_tocKey": "~/community/toc.yml",
+  "_tocPath": "community/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "",
+  "sourceurl": "",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionCommunityPatch_PixelTutor",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

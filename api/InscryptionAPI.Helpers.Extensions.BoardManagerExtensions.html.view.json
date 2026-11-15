@@ -1,0 +1,3779 @@
+{
+  "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Helpers.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.CardSlot})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetCardSlots(BoardManager, bool, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetCardSlots(BoardManager, Boolean, Predicate(Of CardSlot))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetCardSlots(BoardManager, bool, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetCardSlots(BoardManager, Boolean, Predicate(Of CardSlot))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots(DiskCardGame.BoardManager, bool, System.Predicate<DiskCardGame.CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots(DiskCardGame.BoardManager, Boolean, System.Predicate(Of DiskCardGame.CardSlot))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetCardSlots(BoardManager, bool, Predicate&lt;CardSlot&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetCardSlots(BoardManager, bool, Predicate&lt;CardSlot&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<CardSlot> GetCardSlots(this BoardManager manager, bool getPlayerCards, Predicate<CardSlot> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetCardSlots(manager As BoardManager, getPlayerCards As Boolean, filterOnPredicate As Predicate(Of CardSlot) = Nothing) As List(Of CardSlot)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "getPlayerCards",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Whether to retrieve player card slots.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.CardSlot}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.CardSlot)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each card slot.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.CardSlot}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.CardSlot)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of relevant card slots on the board.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetCardSlots",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 91,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetCardSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "GetCardSlots"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetCardSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetCardSlots"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots*\" text=\"GetCardSlots\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots*\" text=\"GetCardSlots\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCardSlots_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all player or opponent card slots on the board.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCardSlots_DiskCardGame_BoardManager_System_Boolean_System_Predicate_DiskCardGame_CardSlot__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCardSlots(DiskCardGame.BoardManager%2CSystem.Boolean%2CSystem.Predicate%7BDiskCardGame.CardSlot%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L92",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCardSlots_DiskCardGame_BoardManager_System_Boolean_System_Predicate_DiskCardGame_CardSlot__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.PlayableCard})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetCards(BoardManager, bool, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetCards(BoardManager, Boolean, Predicate(Of PlayableCard))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetCards(BoardManager, bool, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetCards(BoardManager, Boolean, Predicate(Of PlayableCard))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager, bool, System.Predicate<DiskCardGame.PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager, Boolean, System.Predicate(Of DiskCardGame.PlayableCard))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetCards(BoardManager, bool, Predicate&lt;PlayableCard&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetCards(BoardManager, bool, Predicate&lt;PlayableCard&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<PlayableCard> GetCards(this BoardManager manager, bool getPlayerCards, Predicate<PlayableCard> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetCards(manager As BoardManager, getPlayerCards As Boolean, filterOnPredicate As Predicate(Of PlayableCard) = Nothing) As List(Of PlayableCard)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "getPlayerCards",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Whether to retrieve player cards.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.PlayableCard}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.PlayableCard)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each card.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.PlayableCard}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.PlayableCard)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of relevant cards on the board.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetCards",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 32,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetCards"
+              },
+              {
+                "lang": "vb",
+                "value": "GetCards"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetCards"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetCards"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards*\" text=\"GetCards\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards*\" text=\"GetCards\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCards_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all player or opponent cards on the board.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCards_DiskCardGame_BoardManager_System_Boolean_System_Predicate_DiskCardGame_PlayableCard__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager%2CSystem.Boolean%2CSystem.Predicate%7BDiskCardGame.PlayableCard%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L33",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCards_DiskCardGame_BoardManager_System_Boolean_System_Predicate_DiskCardGame_PlayableCard__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetCards(BoardManager, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetCards(BoardManager, Predicate(Of PlayableCard))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetCards(BoardManager, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetCards(BoardManager, Predicate(Of PlayableCard))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager, System.Predicate<DiskCardGame.PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager, System.Predicate(Of DiskCardGame.PlayableCard))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetCards(BoardManager, Predicate&lt;PlayableCard&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetCards(BoardManager, Predicate&lt;PlayableCard&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<PlayableCard> GetCards(this BoardManager manager, Predicate<PlayableCard> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetCards(manager As BoardManager, filterOnPredicate As Predicate(Of PlayableCard) = Nothing) As List(Of PlayableCard)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.PlayableCard}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.PlayableCard)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each card.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.PlayableCard}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.PlayableCard)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of relevant cards on the board.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetCards",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 40,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetCards"
+              },
+              {
+                "lang": "vb",
+                "value": "GetCards"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetCards"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetCards"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards*\" text=\"GetCards\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards*\" text=\"GetCards\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCards_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all cards on the board that match the predicate, if given.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCards_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_PlayableCard__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetCards(DiskCardGame.BoardManager%2CSystem.Predicate%7BDiskCardGame.PlayableCard%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L41",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetCards_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_PlayableCard__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.CardSlot})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetOpenSlots(BoardManager, bool, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetOpenSlots(BoardManager, Boolean, Predicate(Of CardSlot))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetOpenSlots(BoardManager, bool, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetOpenSlots(BoardManager, Boolean, Predicate(Of CardSlot))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager, bool, System.Predicate<DiskCardGame.CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager, Boolean, System.Predicate(Of DiskCardGame.CardSlot))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetOpenSlots(BoardManager, bool, Predicate&lt;CardSlot&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager,System.Boolean,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetOpenSlots(BoardManager, bool, Predicate&lt;CardSlot&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<CardSlot> GetOpenSlots(this BoardManager manager, bool getPlayerSlots, Predicate<CardSlot> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetOpenSlots(manager As BoardManager, getPlayerSlots As Boolean, filterOnPredicate As Predicate(Of CardSlot) = Nothing) As List(Of CardSlot)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "getPlayerSlots",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Whether to retrieve player slots.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.CardSlot}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.CardSlot)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each slot.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.CardSlot}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.CardSlot)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of relevant card slots with no cards.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetOpenSlots",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 66,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "GetOpenSlots"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetOpenSlots"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots*\" text=\"GetOpenSlots\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots*\" text=\"GetOpenSlots\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpenSlots_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all slots on the player or opponent's side of the board that are not occupied by a card.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpenSlots_DiskCardGame_BoardManager_System_Boolean_System_Predicate_DiskCardGame_CardSlot__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager%2CSystem.Boolean%2CSystem.Predicate%7BDiskCardGame.CardSlot%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L67",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpenSlots_DiskCardGame_BoardManager_System_Boolean_System_Predicate_DiskCardGame_CardSlot__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetOpenSlots(BoardManager, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetOpenSlots(BoardManager, Predicate(Of CardSlot))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetOpenSlots(BoardManager, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetOpenSlots(BoardManager, Predicate(Of CardSlot))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager, System.Predicate<DiskCardGame.CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager, System.Predicate(Of DiskCardGame.CardSlot))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetOpenSlots(BoardManager, Predicate&lt;CardSlot&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetOpenSlots(BoardManager, Predicate&lt;CardSlot&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<CardSlot> GetOpenSlots(this BoardManager manager, Predicate<CardSlot> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetOpenSlots(manager As BoardManager, filterOnPredicate As Predicate(Of CardSlot) = Nothing) As List(Of CardSlot)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.CardSlot}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.CardSlot)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each slot.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.CardSlot}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.CardSlot)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of relevant card slots with no cards.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetOpenSlots",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 74,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "GetOpenSlots"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetOpenSlots"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots*\" text=\"GetOpenSlots\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots*\" text=\"GetOpenSlots\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpenSlots_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all slots on the board that are not occupied by a card.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpenSlots_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_CardSlot__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpenSlots(DiskCardGame.BoardManager%2CSystem.Predicate%7BDiskCardGame.CardSlot%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L75",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpenSlots_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_CardSlot__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetOpponentCards(BoardManager, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetOpponentCards(BoardManager, Predicate(Of PlayableCard))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetOpponentCards(BoardManager, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetOpponentCards(BoardManager, Predicate(Of PlayableCard))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards(DiskCardGame.BoardManager, System.Predicate<DiskCardGame.PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards(DiskCardGame.BoardManager, System.Predicate(Of DiskCardGame.PlayableCard))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetOpponentCards(BoardManager, Predicate&lt;PlayableCard&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetOpponentCards(BoardManager, Predicate&lt;PlayableCard&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<PlayableCard> GetOpponentCards(this BoardManager manager, Predicate<PlayableCard> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetOpponentCards(manager As BoardManager, filterOnPredicate As Predicate(Of PlayableCard) = Nothing) As List(Of PlayableCard)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.PlayableCard}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.PlayableCard)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each card.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.PlayableCard}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.PlayableCard)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of opponent cards on the board.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetOpponentCards",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 23,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetOpponentCards"
+              },
+              {
+                "lang": "vb",
+                "value": "GetOpponentCards"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetOpponentCards"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetOpponentCards"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards*\" text=\"GetOpponentCards\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards*\" text=\"GetOpponentCards\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpponentCards_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all opponent cards on the board.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpponentCards_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_PlayableCard__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentCards(DiskCardGame.BoardManager%2CSystem.Predicate%7BDiskCardGame.PlayableCard%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L24",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpponentCards_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_PlayableCard__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetOpponentOpenSlots(BoardManager, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetOpponentOpenSlots(BoardManager, Predicate(Of CardSlot))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetOpponentOpenSlots(BoardManager, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetOpponentOpenSlots(BoardManager, Predicate(Of CardSlot))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots(DiskCardGame.BoardManager, System.Predicate<DiskCardGame.CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots(DiskCardGame.BoardManager, System.Predicate(Of DiskCardGame.CardSlot))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetOpponentOpenSlots(BoardManager, Predicate&lt;CardSlot&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetOpponentOpenSlots(BoardManager, Predicate&lt;CardSlot&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<CardSlot> GetOpponentOpenSlots(this BoardManager manager, Predicate<CardSlot> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetOpponentOpenSlots(manager As BoardManager, filterOnPredicate As Predicate(Of CardSlot) = Nothing) As List(Of CardSlot)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.CardSlot}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.CardSlot)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each slot.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.CardSlot}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.CardSlot)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of opponent slots with no cards.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetOpponentOpenSlots",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 57,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetOpponentOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "GetOpponentOpenSlots"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetOpponentOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetOpponentOpenSlots"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots*\" text=\"GetOpponentOpenSlots\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots*\" text=\"GetOpponentOpenSlots\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpponentOpenSlots_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all opponent slots that are not occupied by a card.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpponentOpenSlots_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_CardSlot__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetOpponentOpenSlots(DiskCardGame.BoardManager%2CSystem.Predicate%7BDiskCardGame.CardSlot%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L58",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetOpponentOpenSlots_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_CardSlot__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetPlayerCards(BoardManager, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetPlayerCards(BoardManager, Predicate(Of PlayableCard))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetPlayerCards(BoardManager, Predicate<PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetPlayerCards(BoardManager, Predicate(Of PlayableCard))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards(DiskCardGame.BoardManager, System.Predicate<DiskCardGame.PlayableCard>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards(DiskCardGame.BoardManager, System.Predicate(Of DiskCardGame.PlayableCard))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetPlayerCards(BoardManager, Predicate&lt;PlayableCard&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.PlayableCard})\" text=\"GetPlayerCards(BoardManager, Predicate&lt;PlayableCard&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<PlayableCard> GetPlayerCards(this BoardManager manager, Predicate<PlayableCard> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetPlayerCards(manager As BoardManager, filterOnPredicate As Predicate(Of PlayableCard) = Nothing) As List(Of PlayableCard)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.PlayableCard}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of PlayableCard)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.PlayableCard>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.PlayableCard)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each card.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.PlayableCard}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of PlayableCard)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.PlayableCard>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.PlayableCard)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of player cards on the board.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetPlayerCards",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 15,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetPlayerCards"
+              },
+              {
+                "lang": "vb",
+                "value": "GetPlayerCards"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetPlayerCards"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetPlayerCards"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards*\" text=\"GetPlayerCards\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards*\" text=\"GetPlayerCards\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetPlayerCards_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all player cards on the board.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetPlayerCards_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_PlayableCard__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerCards(DiskCardGame.BoardManager%2CSystem.Predicate%7BDiskCardGame.PlayableCard%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L16",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetPlayerCards_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_PlayableCard__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetPlayerOpenSlots(BoardManager, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetPlayerOpenSlots(BoardManager, Predicate(Of CardSlot))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetPlayerOpenSlots(BoardManager, Predicate<CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetPlayerOpenSlots(BoardManager, Predicate(Of CardSlot))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots(DiskCardGame.BoardManager, System.Predicate<DiskCardGame.CardSlot>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots(DiskCardGame.BoardManager, System.Predicate(Of DiskCardGame.CardSlot))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetPlayerOpenSlots(BoardManager, Predicate&lt;CardSlot&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots(DiskCardGame.BoardManager,System.Predicate{DiskCardGame.CardSlot})\" text=\"GetPlayerOpenSlots(BoardManager, Predicate&lt;CardSlot&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<CardSlot> GetPlayerOpenSlots(this BoardManager manager, Predicate<CardSlot> filterOnPredicate = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetPlayerOpenSlots(manager As BoardManager, filterOnPredicate As Predicate(Of CardSlot) = Nothing) As List(Of CardSlot)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "filterOnPredicate",
+                "type": {
+                  "uid": "System.Predicate{DiskCardGame.CardSlot}",
+                  "definition": "System.Predicate`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Predicate<CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Predicate(Of CardSlot)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Predicate<DiskCardGame.CardSlot>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Predicate(Of DiskCardGame.CardSlot)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.predicate-1\">Predicate</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The predicate to filter on each slot.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.CardSlot}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.CardSlot)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list of player slots with no cards.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetPlayerOpenSlots",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 49,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetPlayerOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "GetPlayerOpenSlots"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetPlayerOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetPlayerOpenSlots"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots*\" text=\"GetPlayerOpenSlots\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots*\" text=\"GetPlayerOpenSlots\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetPlayerOpenSlots_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve all player slots that are not occupied by a card.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetPlayerOpenSlots_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_CardSlot__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetPlayerOpenSlots(DiskCardGame.BoardManager%2CSystem.Predicate%7BDiskCardGame.CardSlot%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L50",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetPlayerOpenSlots_DiskCardGame_BoardManager_System_Predicate_DiskCardGame_CardSlot__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy(DiskCardGame.BoardManager,System.Boolean)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetSlotsCopy(BoardManager, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetSlotsCopy(BoardManager, Boolean)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "BoardManagerExtensions.GetSlotsCopy(BoardManager, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "BoardManagerExtensions.GetSlotsCopy(BoardManager, Boolean)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy(DiskCardGame.BoardManager, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy(DiskCardGame.BoardManager, Boolean)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy(DiskCardGame.BoardManager,System.Boolean)\" text=\"GetSlotsCopy(BoardManager, bool)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy(DiskCardGame.BoardManager,System.Boolean)\" text=\"GetSlotsCopy(BoardManager, bool)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<CardSlot> GetSlotsCopy(this BoardManager manager, bool getPlayerSlotsCopy)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetSlotsCopy(manager As BoardManager, getPlayerSlotsCopy As Boolean) As List(Of CardSlot)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "manager",
+                "type": {
+                  "uid": "DiskCardGame.BoardManager",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "BoardManager"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.BoardManager"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.BoardManager"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.BoardManager\" text=\"BoardManager\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Manager instance to access.</p>\n"
+              },
+              {
+                "id": "getPlayerSlotsCopy",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Whether to retrieve PlayerSlotsCopy or OpponentSlotsCopy.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.CardSlot}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of CardSlot)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.CardSlot>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.CardSlot)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.CardSlot\" text=\"CardSlot\"/>)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">The list corresponding to the player or opponent's side of the board.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetSlotsCopy",
+            "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+            "startLine": 82,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetSlotsCopy"
+              },
+              {
+                "lang": "vb",
+                "value": "GetSlotsCopy"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "BoardManagerExtensions.GetSlotsCopy"
+              },
+              {
+                "lang": "vb",
+                "value": "BoardManagerExtensions.GetSlotsCopy"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy*\" text=\"GetSlotsCopy\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy*\" text=\"GetSlotsCopy\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetSlotsCopy_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">Retrieve a copy of the board slots for the player or opponent's side of the board.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetSlotsCopy_DiskCardGame_BoardManager_System_Boolean_.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.GetSlotsCopy(DiskCardGame.BoardManager%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L83",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions_GetSlotsCopy_DiskCardGame_BoardManager_System_Boolean_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "BoardManagerExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "BoardManagerExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "BoardManagerExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "BoardManagerExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "BoardManagerExtensions",
+    "path": "../InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Helpers.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">An extensions class for the Board Manager.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class BoardManagerExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module BoardManagerExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_BoardManagerExtensions.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.BoardManagerExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/BoardManagerExtensions.cs/#L8",
+  "description": "An extensions class for the Board Manager.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Helpers_Extensions_BoardManagerExtensions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

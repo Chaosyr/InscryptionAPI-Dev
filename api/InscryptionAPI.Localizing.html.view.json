@@ -1,0 +1,540 @@
+{
+  "uid": "InscryptionAPI.Localizing",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Localizing.LocalizationManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Localizing.LocalizationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Localizing.LocalizationManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Localizing.LocalizationManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Localizing.LocalizationManager\" text=\"LocalizationManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Localizing.LocalizationManager\" text=\"LocalizationManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Localizing_LocalizationManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Localizing.LocalizationManager.CustomLanguage",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Localizing.LocalizationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager.CustomLanguage"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager.CustomLanguage"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager.CustomLanguage"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager.CustomLanguage"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Localizing.LocalizationManager.CustomLanguage"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Localizing.LocalizationManager.CustomLanguage"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.html\">LocalizationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.CustomLanguage.html\">CustomLanguage</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.html\">LocalizationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.CustomLanguage.html\">CustomLanguage</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Localizing_LocalizationManager_CustomLanguage",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Localizing.LocalizationManager.CustomTranslation",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Localizing",
+          "href": "InscryptionAPI.Localizing.LocalizationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager.CustomTranslation"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager.CustomTranslation"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager.CustomTranslation"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager.CustomTranslation"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Localizing.LocalizationManager.CustomTranslation"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Localizing.LocalizationManager.CustomTranslation"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.html\">LocalizationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.CustomTranslation.html\">CustomTranslation</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.html\">LocalizationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.CustomTranslation.html\">CustomTranslation</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Localizing_LocalizationManager_CustomTranslation",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    },
+    {
+      "inEnum": true,
+      "typePropertyName": "inEnum",
+      "id": "enums",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Localizing.LocalizationManager.FontReplacementType",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Localizing",
+          "href": "InscryptionAPI.Localizing.LocalizationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager.FontReplacementType"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager.FontReplacementType"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "LocalizationManager.FontReplacementType"
+            },
+            {
+              "lang": "vb",
+              "value": "LocalizationManager.FontReplacementType"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Localizing.LocalizationManager.FontReplacementType"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Localizing.LocalizationManager.FontReplacementType"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.html\">LocalizationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.html\">FontReplacementType</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.html\">LocalizationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.html\">FontReplacementType</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.yml\" sourcestartlinenumber=\"1\">The list of Fonts used in Inscryption.</p>\n",
+          "type": "enum",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Localizing_LocalizationManager_FontReplacementType",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": true,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Localizing"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Localizing"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Localizing"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Localizing"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Localizing"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Localizing"
+    }
+  ],
+  "type": "namespace",
+  "documentation": {
+    "remote": {
+      "path": "docs/namespace/InscryptionAPI.Localizing.md",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "path": "namespace/InscryptionAPI.Localizing.md",
+    "startLine": 1,
+    "endLine": 4
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Localizing.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom language localisations. Allows for adding custom languages not supported by Unity, or adding translations for pre-existing languages not supported by base Inscryption.</p>\n",
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Localizing.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Localizing.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/blob/main/docs/namespace/InscryptionAPI.Localizing.md/#L2",
+  "sourceurl": "",
+  "description": "This namespace is dedicated to managing custom language localisations. Allows for adding custom languages not supported by Unity, or adding translations for pre-existing languages not supported by base Inscryption.",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Localizing",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

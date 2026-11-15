@@ -1,0 +1,1515 @@
+{
+  "uid": "APIPlugin",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "APIPlugin.AbilityIdentifier",
+          "isExtensionMethod": false,
+          "parent": "APIPlugin",
+          "href": "APIPlugin.AbilityIdentifier.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AbilityIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "AbilityIdentifier"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AbilityIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "AbilityIdentifier"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.AbilityIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.AbilityIdentifier"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.AbilityIdentifier\" text=\"AbilityIdentifier\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.AbilityIdentifier\" text=\"AbilityIdentifier\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_AbilityIdentifier",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.AbilityInfoUtils",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.AbilityInfoUtils.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AbilityInfoUtils"
+            },
+            {
+              "lang": "vb",
+              "value": "AbilityInfoUtils"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AbilityInfoUtils"
+            },
+            {
+              "lang": "vb",
+              "value": "AbilityInfoUtils"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.AbilityInfoUtils"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.AbilityInfoUtils"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.AbilityInfoUtils\" text=\"AbilityInfoUtils\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.AbilityInfoUtils\" text=\"AbilityInfoUtils\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_AbilityInfoUtils",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.CardUtils",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.CardUtils.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CardUtils"
+            },
+            {
+              "lang": "vb",
+              "value": "CardUtils"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CardUtils"
+            },
+            {
+              "lang": "vb",
+              "value": "CardUtils"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.CardUtils"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.CardUtils"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.CardUtils\" text=\"CardUtils\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.CardUtils\" text=\"CardUtils\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_CardUtils",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.CustomCard",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.CustomCard.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomCard"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomCard"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CustomCard"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomCard"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.CustomCard"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.CustomCard"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.CustomCard\" text=\"CustomCard\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.CustomCard\" text=\"CustomCard\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_CustomCard",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.CustomRegion",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.CustomRegion.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomRegion"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomRegion"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CustomRegion"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomRegion"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.CustomRegion"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.CustomRegion"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.CustomRegion\" text=\"CustomRegion\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.CustomRegion\" text=\"CustomRegion\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_CustomRegion",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.EvolveIdentifier",
+          "isExtensionMethod": false,
+          "parent": "APIPlugin",
+          "href": "APIPlugin.EvolveIdentifier.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EvolveIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "EvolveIdentifier"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EvolveIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "EvolveIdentifier"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.EvolveIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.EvolveIdentifier"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.EvolveIdentifier\" text=\"EvolveIdentifier\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.EvolveIdentifier\" text=\"EvolveIdentifier\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_EvolveIdentifier",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.IceCubeIdentifier",
+          "isExtensionMethod": false,
+          "parent": "APIPlugin",
+          "href": "APIPlugin.IceCubeIdentifier.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IceCubeIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "IceCubeIdentifier"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IceCubeIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "IceCubeIdentifier"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.IceCubeIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.IceCubeIdentifier"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.IceCubeIdentifier\" text=\"IceCubeIdentifier\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.IceCubeIdentifier\" text=\"IceCubeIdentifier\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_IceCubeIdentifier",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.IgnoreMappingAttribute",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.IgnoreMappingAttribute.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "IgnoreMappingAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "IgnoreMappingAttribute"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IgnoreMappingAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "IgnoreMappingAttribute"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.IgnoreMappingAttribute"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.IgnoreMappingAttribute"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.IgnoreMappingAttribute\" text=\"IgnoreMappingAttribute\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.IgnoreMappingAttribute\" text=\"IgnoreMappingAttribute\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_IgnoreMappingAttribute",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.NewAbility",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.NewAbility.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewAbility"
+            },
+            {
+              "lang": "vb",
+              "value": "NewAbility"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NewAbility"
+            },
+            {
+              "lang": "vb",
+              "value": "NewAbility"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.NewAbility"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.NewAbility"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.NewAbility\" text=\"NewAbility\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.NewAbility\" text=\"NewAbility\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_NewAbility",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.NewCard",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.NewCard.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewCard"
+            },
+            {
+              "lang": "vb",
+              "value": "NewCard"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NewCard"
+            },
+            {
+              "lang": "vb",
+              "value": "NewCard"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.NewCard"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.NewCard"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.NewCard\" text=\"NewCard\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.NewCard\" text=\"NewCard\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_NewCard",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.NewCardAppearanceBehaviour",
+          "isExtensionMethod": false,
+          "parent": "APIPlugin",
+          "href": "APIPlugin.NewCardAppearanceBehaviour.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewCardAppearanceBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "NewCardAppearanceBehaviour"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NewCardAppearanceBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "NewCardAppearanceBehaviour"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.NewCardAppearanceBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.NewCardAppearanceBehaviour"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.NewCardAppearanceBehaviour\" text=\"NewCardAppearanceBehaviour\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.NewCardAppearanceBehaviour\" text=\"NewCardAppearanceBehaviour\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_NewCardAppearanceBehaviour",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.NewEncounter",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.NewEncounter.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewEncounter"
+            },
+            {
+              "lang": "vb",
+              "value": "NewEncounter"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NewEncounter"
+            },
+            {
+              "lang": "vb",
+              "value": "NewEncounter"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.NewEncounter"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.NewEncounter"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.NewEncounter\" text=\"NewEncounter\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.NewEncounter\" text=\"NewEncounter\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_NewEncounter",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.NewRegion",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.NewRegion.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewRegion"
+            },
+            {
+              "lang": "vb",
+              "value": "NewRegion"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NewRegion"
+            },
+            {
+              "lang": "vb",
+              "value": "NewRegion"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.NewRegion"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.NewRegion"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.NewRegion\" text=\"NewRegion\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.NewRegion\" text=\"NewRegion\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_NewRegion",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.NewSpecialAbility",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.NewSpecialAbility.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewSpecialAbility"
+            },
+            {
+              "lang": "vb",
+              "value": "NewSpecialAbility"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NewSpecialAbility"
+            },
+            {
+              "lang": "vb",
+              "value": "NewSpecialAbility"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.NewSpecialAbility"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.NewSpecialAbility"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.NewSpecialAbility\" text=\"NewSpecialAbility\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.NewSpecialAbility\" text=\"NewSpecialAbility\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_NewSpecialAbility",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.SpecialAbilityIdentifier",
+          "isExtensionMethod": false,
+          "parent": "APIPlugin",
+          "href": "APIPlugin.SpecialAbilityIdentifier.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SpecialAbilityIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "SpecialAbilityIdentifier"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SpecialAbilityIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "SpecialAbilityIdentifier"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.SpecialAbilityIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.SpecialAbilityIdentifier"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.SpecialAbilityIdentifier\" text=\"SpecialAbilityIdentifier\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.SpecialAbilityIdentifier\" text=\"SpecialAbilityIdentifier\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_SpecialAbilityIdentifier",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.TailIdentifier",
+          "isExtensionMethod": false,
+          "parent": "APIPlugin",
+          "href": "APIPlugin.TailIdentifier.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TailIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "TailIdentifier"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TailIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "TailIdentifier"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.TailIdentifier"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.TailIdentifier"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"APIPlugin.TailIdentifier\" text=\"TailIdentifier\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"APIPlugin.TailIdentifier\" text=\"TailIdentifier\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_TailIdentifier",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "APIPlugin.TypeMapper`2",
+          "isExtensionMethod": false,
+          "href": "APIPlugin.TypeMapper-2.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TypeMapper<S, D>"
+            },
+            {
+              "lang": "vb",
+              "value": "TypeMapper(Of S, D)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TypeMapper<S, D>"
+            },
+            {
+              "lang": "vb",
+              "value": "TypeMapper(Of S, D)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "APIPlugin.TypeMapper<S, D>"
+            },
+            {
+              "lang": "vb",
+              "value": "APIPlugin.TypeMapper(Of S, D)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"APIPlugin.TypeMapper-2.html\">TypeMapper</a>&lt;S, D&gt;"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"APIPlugin.TypeMapper-2.html\">TypeMapper</a>(Of S, D)"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "APIPlugin_TypeMapper_2",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "APIPlugin"
+    },
+    {
+      "lang": "vb",
+      "value": "APIPlugin"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "APIPlugin"
+    },
+    {
+      "lang": "vb",
+      "value": "APIPlugin"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "APIPlugin"
+    },
+    {
+      "lang": "vb",
+      "value": "APIPlugin"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/APIPlugin.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/APIPlugin.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "",
+  "sourceurl": "",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "APIPlugin",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

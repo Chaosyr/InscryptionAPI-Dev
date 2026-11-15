@@ -1,0 +1,446 @@
+{
+  "uid": "InscryptionCommunityPatch.ResourceManagers",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer",
+          "isExtensionMethod": false,
+          "href": "InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Act3BonesDisplayer"
+            },
+            {
+              "lang": "vb",
+              "value": "Act3BonesDisplayer"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Act3BonesDisplayer"
+            },
+            {
+              "lang": "vb",
+              "value": "Act3BonesDisplayer"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer\" text=\"Act3BonesDisplayer\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer\" text=\"Act3BonesDisplayer\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.yml\" sourcestartlinenumber=\"1\">This patch handles adding the Bones Displayer to the Drone.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_ResourceManagers_Act3BonesDisplayer",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone",
+          "isExtensionMethod": false,
+          "href": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EnergyDrone"
+            },
+            {
+              "lang": "vb",
+              "value": "EnergyDrone"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EnergyDrone"
+            },
+            {
+              "lang": "vb",
+              "value": "EnergyDrone"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.ResourceManagers.EnergyDrone\" text=\"EnergyDrone\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.ResourceManagers.EnergyDrone\" text=\"EnergyDrone\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.yml\" sourcestartlinenumber=\"1\">This patch handles information related to the Drone Configuration for Act 1.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_ResourceManagers_EnergyDrone",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo",
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.ResourceManagers",
+          "href": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EnergyDrone.EnergyConfigInfo"
+            },
+            {
+              "lang": "vb",
+              "value": "EnergyDrone.EnergyConfigInfo"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EnergyDrone.EnergyConfigInfo"
+            },
+            {
+              "lang": "vb",
+              "value": "EnergyDrone.EnergyConfigInfo"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html\">EnergyDrone</a>.<a class=\"xref\" href=\"InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.html\">EnergyConfigInfo</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html\">EnergyDrone</a>.<a class=\"xref\" href=\"InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.html\">EnergyConfigInfo</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.yml\" sourcestartlinenumber=\"1\">Class containing information on the resource energy drone. Controls whether the Energy Drone will appear in non-Act 3 acts.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_ResourceManagers_EnergyDrone_EnergyConfigInfo",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.ResourceManagers"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.ResourceManagers"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.ResourceManagers"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.ResourceManagers"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.ResourceManagers"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.ResourceManagers"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "InscryptionCommunityPatch"
+  ],
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "community/InscryptionCommunityPatch.ResourceManagers.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "community/InscryptionCommunityPatch.ResourceManagers.html",
+  "_rel": "../",
+  "_tocKey": "~/community/toc.yml",
+  "_tocPath": "community/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "",
+  "sourceurl": "",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionCommunityPatch_ResourceManagers",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

@@ -1,0 +1,1575 @@
+{
+  "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Masks",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Masks"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Masks"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Masks"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Masks"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Masks"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Masks"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Masks\" text=\"Masks\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Masks\" text=\"Masks\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Angler",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Angler"
+            },
+            {
+              "lang": "vb",
+              "value": "Angler"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Angler"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Angler"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Angler"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Angler"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Angler\" text=\"Angler\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Angler\" text=\"Angler\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Angler = 3"
+              },
+              {
+                "lang": "vb",
+                "value": "Angler = 3"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Angler",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 14,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Angler.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Angler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L15",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Angler",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Doctor",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Doctor"
+            },
+            {
+              "lang": "vb",
+              "value": "Doctor"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Doctor"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Doctor"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Doctor"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Doctor"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Doctor\" text=\"Doctor\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Doctor\" text=\"Doctor\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Doctor = 6"
+              },
+              {
+                "lang": "vb",
+                "value": "Doctor = 6"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Doctor",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 17,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Doctor.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Doctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L18",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Doctor",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.FlatMask",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "FlatMask"
+            },
+            {
+              "lang": "vb",
+              "value": "FlatMask"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.FlatMask"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.FlatMask"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.FlatMask"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.FlatMask"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.FlatMask\" text=\"FlatMask\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.FlatMask\" text=\"FlatMask\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "FlatMask = 101"
+              },
+              {
+                "lang": "vb",
+                "value": "FlatMask = 101"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "FlatMask",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 19,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_FlatMask.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.FlatMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L20",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_FlatMask",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Prospector",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Prospector"
+            },
+            {
+              "lang": "vb",
+              "value": "Prospector"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Prospector"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Prospector"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Prospector"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Prospector"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Prospector\" text=\"Prospector\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Prospector\" text=\"Prospector\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Prospector = 1"
+              },
+              {
+                "lang": "vb",
+                "value": "Prospector = 1"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Prospector",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 12,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Prospector.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Prospector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L13",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Prospector",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Sphere",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Sphere"
+            },
+            {
+              "lang": "vb",
+              "value": "Sphere"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Sphere"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Sphere"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Sphere"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Sphere"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Sphere\" text=\"Sphere\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Sphere\" text=\"Sphere\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Sphere = 102"
+              },
+              {
+                "lang": "vb",
+                "value": "Sphere = 102"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Sphere",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 20,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Sphere.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Sphere%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L21",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Sphere",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Trader",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Trader"
+            },
+            {
+              "lang": "vb",
+              "value": "Trader"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Trader"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Trader"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Trader"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Trader"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Trader\" text=\"Trader\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Trader\" text=\"Trader\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Trader = 5"
+              },
+              {
+                "lang": "vb",
+                "value": "Trader = 5"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Trader",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 16,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Trader.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Trader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L17",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Trader",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Trapper",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Trapper"
+            },
+            {
+              "lang": "vb",
+              "value": "Trapper"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Trapper"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Trapper"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Trapper"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Trapper"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Trapper\" text=\"Trapper\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Trapper\" text=\"Trapper\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Trapper = 4"
+              },
+              {
+                "lang": "vb",
+                "value": "Trapper = 4"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Trapper",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 15,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Trapper.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Trapper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L16",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Trapper",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Masks.MaskManager.ModelType.Woodcarver",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Masks.MaskManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Woodcarver"
+            },
+            {
+              "lang": "vb",
+              "value": "Woodcarver"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "MaskManager.ModelType.Woodcarver"
+            },
+            {
+              "lang": "vb",
+              "value": "MaskManager.ModelType.Woodcarver"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Woodcarver"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Masks.MaskManager.ModelType.Woodcarver"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Woodcarver\" text=\"Woodcarver\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Masks.MaskManager.ModelType.Woodcarver\" text=\"Woodcarver\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "Woodcarver = 2"
+              },
+              {
+                "lang": "vb",
+                "value": "Woodcarver = 2"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Masks.MaskManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "MaskManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.html\">MaskManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Masks/MaskManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Woodcarver",
+            "path": "../InscryptionAPI/Masks/MaskManager.cs",
+            "startLine": 13,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Masks",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType_Woodcarver.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType.Woodcarver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L14",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Masks_MaskManager_ModelType_Woodcarver",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "MaskManager.ModelType"
+    },
+    {
+      "lang": "vb",
+      "value": "MaskManager.ModelType"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "MaskManager.ModelType"
+    },
+    {
+      "lang": "vb",
+      "value": "MaskManager.ModelType"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Masks.MaskManager.ModelType"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Masks/MaskManager.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "ModelType",
+    "path": "../InscryptionAPI/Masks/MaskManager.cs",
+    "startLine": 10,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Masks",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Masks"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Masks"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Masks"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Masks"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Masks"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Masks"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Masks\" text=\"Masks\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Masks\" text=\"Masks\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum MaskManager.ModelType"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum MaskManager.ModelType"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Masks.MaskManager.ModelType.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<ModelType>(ModelType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of ModelType)(ModelType, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<MaskManager.ModelType>(MaskManager.ModelType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of MaskManager.ModelType)(MaskManager.ModelType, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Masks.MaskManager.ModelType>(InscryptionAPI.Masks.MaskManager.ModelType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Masks.MaskManager.ModelType)(InscryptionAPI.Masks.MaskManager.ModelType, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>)(<a class=\"xref\" href=\"InscryptionAPI.Masks.MaskManager.ModelType.html\">ModelType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Masks.MaskManager.ModelType.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Masks.MaskManager.ModelType.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Masks_MaskManager_ModelType.md&value=---%0Auid%3A%20InscryptionAPI.Masks.MaskManager.ModelType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Masks/MaskManager.cs/#L11",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Masks_MaskManager_ModelType",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inEnum": true,
+  "isEnum": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

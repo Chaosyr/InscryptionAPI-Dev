@@ -1,0 +1,2072 @@
+{
+  "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Helpers.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom``1(System.Collections.Generic.List{``0})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetRandom<T>(List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetRandom(Of T)(List(Of T))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ListExtensions.GetRandom<T>(List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "ListExtensions.GetRandom(Of T)(List(Of T))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom<T>(System.Collections.Generic.List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom(Of T)(System.Collections.Generic.List(Of T))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom``1(System.Collections.Generic.List{``0})\" text=\"GetRandom&lt;T&gt;(List&lt;T&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom``1(System.Collections.Generic.List{``0})\" text=\"GetRandom&lt;T&gt;(List&lt;T&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static T GetRandom<T>(this List<T> list)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetRandom(Of T)(list As List(Of T)) As T"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.List{{T}}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of T)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;T&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of T)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are using to get a Random Item from.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "T",
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The type of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are operating on, for example <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> where T is <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> would result in the Type being <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "{T}",
+                "definition": "T",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">A Random element from the passed <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"UnityEngine.Random.Range(System.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetRandom",
+            "path": "../InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+            "startLine": 61,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetRandom"
+              },
+              {
+                "lang": "vb",
+                "value": "GetRandom"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ListExtensions.GetRandom"
+              },
+              {
+                "lang": "vb",
+                "value": "ListExtensions.GetRandom"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom*\" text=\"GetRandom\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom*\" text=\"GetRandom\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_GetRandom_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">A function used to get a Random item from the <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_ListExtensions_GetRandom__1_System_Collections_Generic_List___0__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.ListExtensions.GetRandom%60%601(System.Collections.Generic.List%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/ListExtensions.cs/#L62",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_GetRandom__1_System_Collections_Generic_List___0__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom``1(System.Collections.Generic.List{``0},System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetSeededRandom<T>(List<T>, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetSeededRandom(Of T)(List(Of T), Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ListExtensions.GetSeededRandom<T>(List<T>, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "ListExtensions.GetSeededRandom(Of T)(List(Of T), Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom<T>(System.Collections.Generic.List<T>, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom(Of T)(System.Collections.Generic.List(Of T), Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom``1(System.Collections.Generic.List{``0},System.Int32)\" text=\"GetSeededRandom&lt;T&gt;(List&lt;T&gt;, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom``1(System.Collections.Generic.List{``0},System.Int32)\" text=\"GetSeededRandom&lt;T&gt;(List&lt;T&gt;, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static T GetSeededRandom<T>(this List<T> list, int seed)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetSeededRandom(Of T)(list As List(Of T), seed As Integer) As T"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.List{{T}}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of T)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;T&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of T)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are using to get a Seeded Random Item from.</p>\n"
+              },
+              {
+                "id": "seed",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "T",
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The type of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are operating on, for example <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> where T is <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> would result in the Type being <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "{T}",
+                "definition": "T",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">A Seeded Random element from the passed <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"DiskCardGame.SeededRandom.Range(System.Int32%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetSeededRandom",
+            "path": "../InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+            "startLine": 73,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetSeededRandom"
+              },
+              {
+                "lang": "vb",
+                "value": "GetSeededRandom"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ListExtensions.GetSeededRandom"
+              },
+              {
+                "lang": "vb",
+                "value": "ListExtensions.GetSeededRandom"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom*\" text=\"GetSeededRandom\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom*\" text=\"GetSeededRandom\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_GetSeededRandom_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">A function used to get a Seeded Random item from the <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_ListExtensions_GetSeededRandom__1_System_Collections_Generic_List___0__System_Int32_.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.ListExtensions.GetSeededRandom%60%601(System.Collections.Generic.List%7B%60%600%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/ListExtensions.cs/#L74",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_GetSeededRandom__1_System_Collections_Generic_List___0__System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst``1(System.Collections.Generic.List{``0})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PopFirst<T>(List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "PopFirst(Of T)(List(Of T))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ListExtensions.PopFirst<T>(List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "ListExtensions.PopFirst(Of T)(List(Of T))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst<T>(System.Collections.Generic.List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst(Of T)(System.Collections.Generic.List(Of T))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst``1(System.Collections.Generic.List{``0})\" text=\"PopFirst&lt;T&gt;(List&lt;T&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst``1(System.Collections.Generic.List{``0})\" text=\"PopFirst&lt;T&gt;(List&lt;T&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static T PopFirst<T>(this List<T> list)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function PopFirst(Of T)(list As List(Of T)) As T"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.List{{T}}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of T)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;T&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of T)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> in which we want to remove the First item of.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "T",
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The type of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are operating on, for example <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> where T is <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> would result in the Type being <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "{T}",
+                "definition": "T",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">Returns the First item of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> after removing it from the <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "PopFirst",
+            "path": "../InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+            "startLine": 15,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PopFirst"
+              },
+              {
+                "lang": "vb",
+                "value": "PopFirst"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ListExtensions.PopFirst"
+              },
+              {
+                "lang": "vb",
+                "value": "ListExtensions.PopFirst"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst*\" text=\"PopFirst\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst*\" text=\"PopFirst\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_PopFirst_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">Removes the First element of the passed <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_ListExtensions_PopFirst__1_System_Collections_Generic_List___0__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.ListExtensions.PopFirst%60%601(System.Collections.Generic.List%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/ListExtensions.cs/#L16",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_PopFirst__1_System_Collections_Generic_List___0__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast``1(System.Collections.Generic.List{``0})",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PopLast<T>(List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "PopLast(Of T)(List(Of T))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ListExtensions.PopLast<T>(List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "ListExtensions.PopLast(Of T)(List(Of T))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast<T>(System.Collections.Generic.List<T>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast(Of T)(System.Collections.Generic.List(Of T))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast``1(System.Collections.Generic.List{``0})\" text=\"PopLast&lt;T&gt;(List&lt;T&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast``1(System.Collections.Generic.List{``0})\" text=\"PopLast&lt;T&gt;(List&lt;T&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static T PopLast<T>(this List<T> list)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function PopLast(Of T)(list As List(Of T)) As T"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "list",
+                "type": {
+                  "uid": "System.Collections.Generic.List{{T}}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of T)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<T>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of T)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;T&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of T)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> in which we want to remove the Last item of.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "T",
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The type of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are operating on, for example <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> where T is <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> would result in the Type being <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "{T}",
+                "definition": "T",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "T"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "T"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">Returns the Last item of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> after removing it from the <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "PopLast",
+            "path": "../InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+            "startLine": 28,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PopLast"
+              },
+              {
+                "lang": "vb",
+                "value": "PopLast"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ListExtensions.PopLast"
+              },
+              {
+                "lang": "vb",
+                "value": "ListExtensions.PopLast"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast*\" text=\"PopLast\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast*\" text=\"PopLast\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_PopLast_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">Removes the Last element of the passed <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_ListExtensions_PopLast__1_System_Collections_Generic_List___0__.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.ListExtensions.PopLast%60%601(System.Collections.Generic.List%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/ListExtensions.cs/#L29",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_PopLast__1_System_Collections_Generic_List___0__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": true,
+          "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Repeat<T>(T, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "Repeat(Of T)(T, Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ListExtensions.Repeat<T>(T, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "ListExtensions.Repeat(Of T)(T, Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<T>(T, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of T)(T, Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)\" text=\"Repeat&lt;T&gt;(T, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)\" text=\"Repeat&lt;T&gt;(T, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<T> Repeat<T>(this T toRepeat, int times)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Repeat(Of T)(toRepeat As T, times As Integer) As List(Of T)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "toRepeat",
+                "type": {
+                  "uid": "{T}",
+                  "definition": "T",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "T"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "T"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "T"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "T"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "T"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "T"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"{T}\" text=\"T\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The Item in which we want to repeat.</p>\n"
+              },
+              {
+                "id": "times",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The amount of times we want to repeat it.</p>\n"
+              }
+            ],
+            "typeParameters": [
+              {
+                "id": "T",
+                "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">The type of <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> we are operating on, for example <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> where T is <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> would result in the Type being <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{{T}}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<T>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of T)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<T>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of T)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<T>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of T)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;T&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of T)"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">A new <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> of the item specified by toRepeat repeated for the amount of times specified by the times parameter.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Repeat",
+            "path": "../InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+            "startLine": 42,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Helpers.Extensions",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Repeat"
+              },
+              {
+                "lang": "vb",
+                "value": "Repeat"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ListExtensions.Repeat"
+              },
+              {
+                "lang": "vb",
+                "value": "ListExtensions.Repeat"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat*\" text=\"Repeat\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat*\" text=\"Repeat\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">Repeatedly adds the specified item to a <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref> X times.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/ListExtensions.cs/#L43",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ListExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "ListExtensions"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ListExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "ListExtensions"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Helpers.Extensions.ListExtensions"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Helpers.Extensions.ListExtensions"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "ListExtensions",
+    "path": "../InscryptionAPI/Helpers/Extensions/ListExtensions.cs",
+    "startLine": 7,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Helpers.Extensions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Helpers.Extensions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Helpers\" text=\"Helpers\"/>.<xref uid=\"InscryptionAPI.Helpers.Extensions\" text=\"Extensions\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">An Extensions Class for the <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class ListExtensions"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module ListExtensions"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Helpers.Extensions.ListExtensions.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_Extensions_ListExtensions.md&value=---%0Auid%3A%20InscryptionAPI.Helpers.Extensions.ListExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Helpers/Extensions/ListExtensions.cs/#L8",
+  "description": "An Extensions Class for the .",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Helpers_Extensions_ListExtensions",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

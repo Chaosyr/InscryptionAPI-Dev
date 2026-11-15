@@ -1,0 +1,2242 @@
+{
+  "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionCommunityPatch.Card",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomCostRenderInfo(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.New(String)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo(string)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.New(String)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String)\" text=\"CustomCostRenderInfo(string)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String)\" text=\"CustomCostRenderInfo(string)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public CustomCostRenderInfo(string costId)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(costId As String)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "costId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">A unique ID for this cost. Use this to identify the render info at a later step</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": ".ctor",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 55,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "remarks": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">You should only use this constructor if you plan to build a custom gameobject for your cost.</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*\" text=\"CustomCostRenderInfo\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*\" text=\"CustomCostRenderInfo\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Creates a blank custom cost render information object</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_System_String_.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L56",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_System_String_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": true,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String,System.Tuple{UnityEngine.Texture2D,UnityEngine.Texture2D})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomCostRenderInfo(string, Tuple<Texture2D, Texture2D>)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, Tuple(Of Texture2D, Texture2D))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo(string, Tuple<Texture2D, Texture2D>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.New(String, Tuple(Of Texture2D, Texture2D))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo(string, System.Tuple<UnityEngine.Texture2D, UnityEngine.Texture2D>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.New(String, System.Tuple(Of UnityEngine.Texture2D, UnityEngine.Texture2D))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String,System.Tuple{UnityEngine.Texture2D,UnityEngine.Texture2D})\" text=\"CustomCostRenderInfo(string, Tuple&lt;Texture2D, Texture2D&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String,System.Tuple{UnityEngine.Texture2D,UnityEngine.Texture2D})\" text=\"CustomCostRenderInfo(string, Tuple&lt;Texture2D, Texture2D&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public CustomCostRenderInfo(string costId, Tuple<Texture2D, Texture2D> textures)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(costId As String, textures As Tuple(Of Texture2D, Texture2D))"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "costId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">A unique ID for this cost. Use this to identify the render info at a later step</p>\n"
+              },
+              {
+                "id": "textures",
+                "type": {
+                  "uid": "System.Tuple{UnityEngine.Texture2D,UnityEngine.Texture2D}",
+                  "definition": "System.Tuple`2",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Tuple<Texture2D, Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Tuple(Of Texture2D, Texture2D)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Tuple<Texture2D, Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Tuple(Of Texture2D, Texture2D)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Tuple<UnityEngine.Texture2D, UnityEngine.Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Tuple(Of UnityEngine.Texture2D, UnityEngine.Texture2D)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.tuple-2\">Tuple</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>, <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.tuple-2\">Tuple</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>, <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">A pair of standard and emissive textures. This is the return type of the GetIconifiedCostTexture helper method.</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": ".ctor",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 79,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "remarks": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Use this constructor if you are using the GetIconifiedCostTexture helper to generate a cost texture for you</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*\" text=\"CustomCostRenderInfo\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*\" text=\"CustomCostRenderInfo\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Creates a custom cost render information object with a texture displayer</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_System_String_System_Tuple_UnityEngine_Texture2D_UnityEngine_Texture2D__.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.%23ctor(System.String%2CSystem.Tuple%7BUnityEngine.Texture2D%2CUnityEngine.Texture2D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L80",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_System_String_System_Tuple_UnityEngine_Texture2D_UnityEngine_Texture2D__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": true,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String,UnityEngine.Texture2D,UnityEngine.Texture2D)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomCostRenderInfo(string, Texture2D, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, Texture2D, Texture2D)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo(string, Texture2D, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.New(String, Texture2D, Texture2D)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo(string, UnityEngine.Texture2D, UnityEngine.Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.New(String, UnityEngine.Texture2D, UnityEngine.Texture2D)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String,UnityEngine.Texture2D,UnityEngine.Texture2D)\" text=\"CustomCostRenderInfo(string, Texture2D, Texture2D)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor(System.String,UnityEngine.Texture2D,UnityEngine.Texture2D)\" text=\"CustomCostRenderInfo(string, Texture2D, Texture2D)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public CustomCostRenderInfo(string costId, Texture2D mainCostTexture, Texture2D emissionTexture)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(costId As String, mainCostTexture As Texture2D, emissionTexture As Texture2D)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "costId",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">A unique ID for this cost. Use this to identify the render info at a later step</p>\n"
+              },
+              {
+                "id": "mainCostTexture",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">The standard (albedo) texture for your custom cost</p>\n"
+              },
+              {
+                "id": "emissionTexture",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">The emissive texture for your custom cost</p>\n"
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": ".ctor",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 67,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "remarks": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Use this constructor if you have built your own set of textures to display custom costs</p>\n",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CustomCostRenderInfo"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*\" text=\"CustomCostRenderInfo\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.#ctor*\" text=\"CustomCostRenderInfo\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Creates a custom cost render information object with a texture displayer</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_System_String_UnityEngine_Texture2D_UnityEngine_Texture2D_.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.%23ctor(System.String%2CUnityEngine.Texture2D%2CUnityEngine.Texture2D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L68",
+          "description": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo__ctor_System_String_UnityEngine_Texture2D_UnityEngine_Texture2D_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": true,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CostContainer"
+            },
+            {
+              "lang": "vb",
+              "value": "CostContainer"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer\" text=\"CostContainer\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer\" text=\"CostContainer\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public GameObject CostContainer { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property CostContainer As GameObject"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "UnityEngine.GameObject",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "GameObject"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "GameObject"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "GameObject"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "GameObject"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "UnityEngine.GameObject"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "UnityEngine.GameObject"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"UnityEngine.GameObject\" text=\"GameObject\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"UnityEngine.GameObject\" text=\"GameObject\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CostContainer",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 41,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CostContainer"
+              },
+              {
+                "lang": "vb",
+                "value": "CostContainer"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer*\" text=\"CostContainer\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer*\" text=\"CostContainer\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_CostContainer_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">The game object that holds the custom cost</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_CostContainer.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostContainer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L42",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_CostContainer",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CostId"
+            },
+            {
+              "lang": "vb",
+              "value": "CostId"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CostId"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.CostId"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId\" text=\"CostId\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId\" text=\"CostId\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public string CostId { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property CostId As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CostId",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 26,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CostId"
+              },
+              {
+                "lang": "vb",
+                "value": "CostId"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CostId"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.CostId"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId*\" text=\"CostId\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId*\" text=\"CostId\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_CostId_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Unique ID for this cost</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_CostId.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.CostId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L27",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_CostId",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EmissionTexture"
+            },
+            {
+              "lang": "vb",
+              "value": "EmissionTexture"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture\" text=\"EmissionTexture\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture\" text=\"EmissionTexture\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Texture2D EmissionTexture { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property EmissionTexture As Texture2D"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "UnityEngine.Texture2D",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "UnityEngine.Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "UnityEngine.Texture2D"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "EmissionTexture",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 36,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "EmissionTexture"
+              },
+              {
+                "lang": "vb",
+                "value": "EmissionTexture"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture*\" text=\"EmissionTexture\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture*\" text=\"EmissionTexture\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_EmissionTexture_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">The emission texture for the custom cost</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_EmissionTexture.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.EmissionTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L37",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_EmissionTexture",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MainCostTexture"
+            },
+            {
+              "lang": "vb",
+              "value": "MainCostTexture"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+            },
+            {
+              "lang": "vb",
+              "value": "Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture\" text=\"MainCostTexture\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture\" text=\"MainCostTexture\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Texture2D MainCostTexture { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property MainCostTexture As Texture2D"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "UnityEngine.Texture2D",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "UnityEngine.Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "UnityEngine.Texture2D"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "MainCostTexture",
+            "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+            "startLine": 31,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MainCostTexture"
+              },
+              {
+                "lang": "vb",
+                "value": "MainCostTexture"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+              },
+              {
+                "lang": "vb",
+                "value": "Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture*\" text=\"MainCostTexture\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture*\" text=\"MainCostTexture\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_MainCostTexture_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">The display texture for the custom cost</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_MainCostTexture.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.MainCostTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L32",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo_MainCostTexture",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Part3CardCostRender.CustomCostRenderInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "Part3CardCostRender.CustomCostRenderInfo"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Part3CardCostRender.CustomCostRenderInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "Part3CardCostRender.CustomCostRenderInfo"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "CustomCostRenderInfo",
+    "path": "../InscryptionCommunityPatch/Card/Part3CardCostRender.cs",
+    "startLine": 21,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionCommunityPatch"
+  ],
+  "namespace": {
+    "uid": "InscryptionCommunityPatch.Card",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Contains rendering information for a specific custom cost</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class Part3CardCostRender.CustomCostRenderInfo"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class Part3CardCostRender.CustomCostRenderInfo"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.html",
+  "_rel": "../",
+  "_tocKey": "~/community/toc.yml",
+  "_tocPath": "community/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part3CardCostRender.cs/#L22",
+  "description": "Contains rendering information for a specific custom cost",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionCommunityPatch_Card_Part3CardCostRender_CustomCostRenderInfo",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

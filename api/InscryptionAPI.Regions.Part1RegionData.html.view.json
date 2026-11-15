@@ -1,0 +1,3356 @@
+{
+  "uid": "InscryptionAPI.Regions.Part1RegionData",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Regions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Regions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Regions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Regions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Regions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Regions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Regions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Regions\" text=\"Regions\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Regions\" text=\"Regions\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inConstructor": true,
+      "typePropertyName": "inConstructor",
+      "id": "constructors",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.#ctor(DiskCardGame.RegionData,System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData(RegionData, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(RegionData, Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.Part1RegionData(RegionData, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.New(RegionData, Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.Part1RegionData(DiskCardGame.RegionData, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.New(DiskCardGame.RegionData, Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.#ctor(DiskCardGame.RegionData,System.Int32)\" text=\"Part1RegionData(RegionData, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.#ctor(DiskCardGame.RegionData,System.Int32)\" text=\"Part1RegionData(RegionData, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public Part1RegionData(RegionData region, int tier)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Sub New(region As RegionData, tier As Integer)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "region",
+                "type": {
+                  "uid": "DiskCardGame.RegionData",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "RegionData"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "RegionData"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "RegionData"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "RegionData"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.RegionData"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.RegionData"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.RegionData\" text=\"RegionData\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.RegionData\" text=\"RegionData\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "tier",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": ".ctor",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 24,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.#ctor*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.Part1RegionData"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.Part1RegionData"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.#ctor*\" text=\"Part1RegionData\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.#ctor*\" text=\"Part1RegionData\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData__ctor_"
+          },
+          "level": 0,
+          "type": "constructor",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData__ctor_DiskCardGame_RegionData_System_Int32_.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.%23ctor(DiskCardGame.RegionData%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L25",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData__ctor_DiskCardGame_RegionData_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": true,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllowLockedTerrainCards"
+            },
+            {
+              "lang": "vb",
+              "value": "AllowLockedTerrainCards"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.AllowLockedTerrainCards"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.AllowLockedTerrainCards"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards\" text=\"AllowLockedTerrainCards\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards\" text=\"AllowLockedTerrainCards\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool AllowLockedTerrainCards { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property AllowLockedTerrainCards As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "AllowLockedTerrainCards",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 17,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllowLockedTerrainCards"
+              },
+              {
+                "lang": "vb",
+                "value": "AllowLockedTerrainCards"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.AllowLockedTerrainCards"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.AllowLockedTerrainCards"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards*\" text=\"AllowLockedTerrainCards\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards*\" text=\"AllowLockedTerrainCards\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_AllowLockedTerrainCards_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_AllowLockedTerrainCards.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.AllowLockedTerrainCards%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L18",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_AllowLockedTerrainCards",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllowSacrificableTerrainCards"
+            },
+            {
+              "lang": "vb",
+              "value": "AllowSacrificableTerrainCards"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.AllowSacrificableTerrainCards"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.AllowSacrificableTerrainCards"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards\" text=\"AllowSacrificableTerrainCards\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards\" text=\"AllowSacrificableTerrainCards\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool AllowSacrificableTerrainCards { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property AllowSacrificableTerrainCards As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "AllowSacrificableTerrainCards",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 18,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllowSacrificableTerrainCards"
+              },
+              {
+                "lang": "vb",
+                "value": "AllowSacrificableTerrainCards"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.AllowSacrificableTerrainCards"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.AllowSacrificableTerrainCards"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards*\" text=\"AllowSacrificableTerrainCards\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards*\" text=\"AllowSacrificableTerrainCards\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_AllowSacrificableTerrainCards_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_AllowSacrificableTerrainCards.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.AllowSacrificableTerrainCards%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L19",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_AllowSacrificableTerrainCards",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllowTerrainOnEnemySide"
+            },
+            {
+              "lang": "vb",
+              "value": "AllowTerrainOnEnemySide"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.AllowTerrainOnEnemySide"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.AllowTerrainOnEnemySide"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide\" text=\"AllowTerrainOnEnemySide\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide\" text=\"AllowTerrainOnEnemySide\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool AllowTerrainOnEnemySide { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property AllowTerrainOnEnemySide As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "AllowTerrainOnEnemySide",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 13,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllowTerrainOnEnemySide"
+              },
+              {
+                "lang": "vb",
+                "value": "AllowTerrainOnEnemySide"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.AllowTerrainOnEnemySide"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.AllowTerrainOnEnemySide"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide*\" text=\"AllowTerrainOnEnemySide\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide*\" text=\"AllowTerrainOnEnemySide\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_AllowTerrainOnEnemySide_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_AllowTerrainOnEnemySide.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnEnemySide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L14",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_AllowTerrainOnEnemySide",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllowTerrainOnPlayerSide"
+            },
+            {
+              "lang": "vb",
+              "value": "AllowTerrainOnPlayerSide"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.AllowTerrainOnPlayerSide"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.AllowTerrainOnPlayerSide"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide\" text=\"AllowTerrainOnPlayerSide\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide\" text=\"AllowTerrainOnPlayerSide\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool AllowTerrainOnPlayerSide { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property AllowTerrainOnPlayerSide As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "AllowTerrainOnPlayerSide",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 14,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllowTerrainOnPlayerSide"
+              },
+              {
+                "lang": "vb",
+                "value": "AllowTerrainOnPlayerSide"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.AllowTerrainOnPlayerSide"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.AllowTerrainOnPlayerSide"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide*\" text=\"AllowTerrainOnPlayerSide\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide*\" text=\"AllowTerrainOnPlayerSide\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_AllowTerrainOnPlayerSide_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_AllowTerrainOnPlayerSide.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.AllowTerrainOnPlayerSide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L15",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_AllowTerrainOnPlayerSide",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CanAppearRandomly"
+            },
+            {
+              "lang": "vb",
+              "value": "CanAppearRandomly"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.CanAppearRandomly"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.CanAppearRandomly"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly\" text=\"CanAppearRandomly\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly\" text=\"CanAppearRandomly\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool CanAppearRandomly { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property CanAppearRandomly As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CanAppearRandomly",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 19,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CanAppearRandomly"
+              },
+              {
+                "lang": "vb",
+                "value": "CanAppearRandomly"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.CanAppearRandomly"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.CanAppearRandomly"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly*\" text=\"CanAppearRandomly\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly*\" text=\"CanAppearRandomly\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_CanAppearRandomly_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_CanAppearRandomly.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.CanAppearRandomly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L20",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_CanAppearRandomly",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "DoNotForceReachTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "DoNotForceReachTerrain"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.DoNotForceReachTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.DoNotForceReachTerrain"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain\" text=\"DoNotForceReachTerrain\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain\" text=\"DoNotForceReachTerrain\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool DoNotForceReachTerrain { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property DoNotForceReachTerrain As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "DoNotForceReachTerrain",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 16,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "DoNotForceReachTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "DoNotForceReachTerrain"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.DoNotForceReachTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.DoNotForceReachTerrain"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain*\" text=\"DoNotForceReachTerrain\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain*\" text=\"DoNotForceReachTerrain\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_DoNotForceReachTerrain_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_DoNotForceReachTerrain.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.DoNotForceReachTerrain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L17",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_DoNotForceReachTerrain",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.GUID",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GUID"
+            },
+            {
+              "lang": "vb",
+              "value": "GUID"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.GUID"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.GUID"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.GUID"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.GUID"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.GUID\" text=\"GUID\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.GUID\" text=\"GUID\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public string GUID { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property GUID As String"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GUID",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 8,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.GUID*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GUID"
+              },
+              {
+                "lang": "vb",
+                "value": "GUID"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.GUID"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.GUID"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.GUID"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.GUID"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.GUID*\" text=\"GUID\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.GUID*\" text=\"GUID\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_GUID_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_GUID.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.GUID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L9",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_GUID",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.MaxTerrain",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MaxTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "MaxTerrain"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.MaxTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.MaxTerrain"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.MaxTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.MaxTerrain"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MaxTerrain\" text=\"MaxTerrain\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MaxTerrain\" text=\"MaxTerrain\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int MaxTerrain { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property MaxTerrain As Integer"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "MaxTerrain",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 12,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.MaxTerrain*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MaxTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "MaxTerrain"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.MaxTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.MaxTerrain"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.MaxTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.MaxTerrain"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MaxTerrain*\" text=\"MaxTerrain\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MaxTerrain*\" text=\"MaxTerrain\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_MaxTerrain_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_MaxTerrain.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.MaxTerrain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L13",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_MaxTerrain",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.MinTerrain",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "MinTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "MinTerrain"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.MinTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.MinTerrain"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.MinTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.MinTerrain"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MinTerrain\" text=\"MinTerrain\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MinTerrain\" text=\"MinTerrain\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int MinTerrain { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property MinTerrain As Integer"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "MinTerrain",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 11,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.MinTerrain*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "MinTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "MinTerrain"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.MinTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.MinTerrain"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.MinTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.MinTerrain"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MinTerrain*\" text=\"MinTerrain\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.MinTerrain*\" text=\"MinTerrain\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_MinTerrain_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_MinTerrain.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.MinTerrain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L12",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_MinTerrain",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.Region",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Region"
+            },
+            {
+              "lang": "vb",
+              "value": "Region"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.Region"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.Region"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.Region"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.Region"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Region\" text=\"Region\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Region\" text=\"Region\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public RegionData Region { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property Region As RegionData"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "DiskCardGame.RegionData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "RegionData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "RegionData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "RegionData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "RegionData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.RegionData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.RegionData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.RegionData\" text=\"RegionData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.RegionData\" text=\"RegionData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Region",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 10,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.Region*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Region"
+              },
+              {
+                "lang": "vb",
+                "value": "Region"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.Region"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.Region"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.Region"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.Region"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Region*\" text=\"Region\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Region*\" text=\"Region\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_Region_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_Region.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.Region%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L11",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_Region",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RemoveDefaultReachTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "RemoveDefaultReachTerrain"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.RemoveDefaultReachTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.RemoveDefaultReachTerrain"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain\" text=\"RemoveDefaultReachTerrain\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain\" text=\"RemoveDefaultReachTerrain\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public bool RemoveDefaultReachTerrain { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property RemoveDefaultReachTerrain As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RemoveDefaultReachTerrain",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 15,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RemoveDefaultReachTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "RemoveDefaultReachTerrain"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.RemoveDefaultReachTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.RemoveDefaultReachTerrain"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain*\" text=\"RemoveDefaultReachTerrain\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain*\" text=\"RemoveDefaultReachTerrain\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_RemoveDefaultReachTerrain_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_RemoveDefaultReachTerrain.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.RemoveDefaultReachTerrain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L16",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_RemoveDefaultReachTerrain",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Regions.Part1RegionData.Tier",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Regions.Part1RegionData",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Tier"
+            },
+            {
+              "lang": "vb",
+              "value": "Tier"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part1RegionData.Tier"
+            },
+            {
+              "lang": "vb",
+              "value": "Part1RegionData.Tier"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Regions.Part1RegionData.Tier"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Regions.Part1RegionData.Tier"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Tier\" text=\"Tier\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Tier\" text=\"Tier\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public int Tier { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Property Tier As Integer"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Tier",
+            "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+            "startLine": 9,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Regions",
+          "overload": {
+            "uid": "InscryptionAPI.Regions.Part1RegionData.Tier*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Tier"
+              },
+              {
+                "lang": "vb",
+                "value": "Tier"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part1RegionData.Tier"
+              },
+              {
+                "lang": "vb",
+                "value": "Part1RegionData.Tier"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Regions.Part1RegionData.Tier"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Regions.Part1RegionData.Tier"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Tier*\" text=\"Tier\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Regions.Part1RegionData.Tier*\" text=\"Tier\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Regions_Part1RegionData_Tier_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData_Tier.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData.Tier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L10",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Regions_Part1RegionData_Tier",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Part1RegionData"
+    },
+    {
+      "lang": "vb",
+      "value": "Part1RegionData"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Part1RegionData"
+    },
+    {
+      "lang": "vb",
+      "value": "Part1RegionData"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Regions.Part1RegionData"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Regions.Part1RegionData"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Regions/Part1RegionData.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "Part1RegionData",
+    "path": "../InscryptionAPI/Regions/Part1RegionData.cs",
+    "startLine": 6,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Regions",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Regions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Regions"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Regions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Regions"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Regions"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Regions"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Regions\" text=\"Regions\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Regions\" text=\"Regions\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public class Part1RegionData"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Class Part1RegionData"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Regions.Part1RegionData.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<Part1RegionData>(Part1RegionData, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of Part1RegionData)(Part1RegionData, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<Part1RegionData>(Part1RegionData, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of Part1RegionData)(Part1RegionData, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Regions.Part1RegionData>(InscryptionAPI.Regions.Part1RegionData, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Regions.Part1RegionData)(InscryptionAPI.Regions.Part1RegionData, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Regions.Part1RegionData.html\">Part1RegionData</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Regions.Part1RegionData.html\">Part1RegionData</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Regions.Part1RegionData.html\">Part1RegionData</a>)(<a class=\"xref\" href=\"InscryptionAPI.Regions.Part1RegionData.html\">Part1RegionData</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Regions.Part1RegionData.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Regions.Part1RegionData.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Regions_Part1RegionData.md&value=---%0Auid%3A%20InscryptionAPI.Regions.Part1RegionData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/Part1RegionData.cs/#L7",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Regions_Part1RegionData",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

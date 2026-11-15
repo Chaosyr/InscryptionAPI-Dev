@@ -1,0 +1,927 @@
+{
+  "uid": "InscryptionAPI.Card.IActivateWhenFacedown",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Card",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Card"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Card"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Card"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Card\" text=\"Card\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Card\" text=\"Card\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(System.Type)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Card.IActivateWhenFacedown",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ShouldTriggerCustomWhenFaceDown(Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "ShouldTriggerCustomWhenFaceDown(Type)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(Type)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(System.Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(System.Type)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(System.Type)\" text=\"ShouldTriggerCustomWhenFaceDown(Type)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(System.Type)\" text=\"ShouldTriggerCustomWhenFaceDown(Type)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "bool ShouldTriggerCustomWhenFaceDown(Type customTrigger)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function ShouldTriggerCustomWhenFaceDown(customTrigger As Type) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "customTrigger",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Card/IActivateWhenFacedown.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "ShouldTriggerCustomWhenFaceDown",
+            "path": "../InscryptionAPI/Card/IActivateWhenFacedown.cs",
+            "startLine": 7,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Card",
+          "overload": {
+            "uid": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ShouldTriggerCustomWhenFaceDown"
+              },
+              {
+                "lang": "vb",
+                "value": "ShouldTriggerCustomWhenFaceDown"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown"
+              },
+              {
+                "lang": "vb",
+                "value": "IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown*\" text=\"ShouldTriggerCustomWhenFaceDown\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown*\" text=\"ShouldTriggerCustomWhenFaceDown\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Card_IActivateWhenFacedown_ShouldTriggerCustomWhenFaceDown_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Card_IActivateWhenFacedown_ShouldTriggerCustomWhenFaceDown_System_Type_.md&value=---%0Auid%3A%20InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerCustomWhenFaceDown(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/IActivateWhenFacedown.cs/#L8",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Card_IActivateWhenFacedown_ShouldTriggerCustomWhenFaceDown_System_Type_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger,System.Object[])",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Card.IActivateWhenFacedown",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ShouldTriggerWhenFaceDown(Trigger, object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "ShouldTriggerWhenFaceDown(Trigger, Object())"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IActivateWhenFacedown.ShouldTriggerWhenFaceDown(Trigger, object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "IActivateWhenFacedown.ShouldTriggerWhenFaceDown(Trigger, Object())"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger, object[])"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger, Object())"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger,System.Object[])\" text=\"ShouldTriggerWhenFaceDown(Trigger, object[])\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger,System.Object[])\" text=\"ShouldTriggerWhenFaceDown(Trigger, object[])\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "bool ShouldTriggerWhenFaceDown(Trigger trigger, object[] otherArgs)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function ShouldTriggerWhenFaceDown(trigger As Trigger, otherArgs As Object()) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "trigger",
+                "type": {
+                  "uid": "DiskCardGame.Trigger",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Trigger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Trigger"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Trigger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Trigger"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.Trigger"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.Trigger"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.Trigger\" text=\"Trigger\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.Trigger\" text=\"Trigger\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "otherArgs",
+                "type": {
+                  "uid": "System.Object[]",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "object[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Object()"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>[]"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>()"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Card/IActivateWhenFacedown.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "ShouldTriggerWhenFaceDown",
+            "path": "../InscryptionAPI/Card/IActivateWhenFacedown.cs",
+            "startLine": 6,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Card",
+          "overload": {
+            "uid": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "ShouldTriggerWhenFaceDown"
+              },
+              {
+                "lang": "vb",
+                "value": "ShouldTriggerWhenFaceDown"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IActivateWhenFacedown.ShouldTriggerWhenFaceDown"
+              },
+              {
+                "lang": "vb",
+                "value": "IActivateWhenFacedown.ShouldTriggerWhenFaceDown"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown*\" text=\"ShouldTriggerWhenFaceDown\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown*\" text=\"ShouldTriggerWhenFaceDown\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Card_IActivateWhenFacedown_ShouldTriggerWhenFaceDown_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Card_IActivateWhenFacedown_ShouldTriggerWhenFaceDown_DiskCardGame_Trigger_System_Object___.md&value=---%0Auid%3A%20InscryptionAPI.Card.IActivateWhenFacedown.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/IActivateWhenFacedown.cs/#L7",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Card_IActivateWhenFacedown_ShouldTriggerWhenFaceDown_DiskCardGame_Trigger_System_Object___",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IActivateWhenFacedown"
+    },
+    {
+      "lang": "vb",
+      "value": "IActivateWhenFacedown"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IActivateWhenFacedown"
+    },
+    {
+      "lang": "vb",
+      "value": "IActivateWhenFacedown"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Card.IActivateWhenFacedown"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Card.IActivateWhenFacedown"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Card/IActivateWhenFacedown.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "IActivateWhenFacedown",
+    "path": "../InscryptionAPI/Card/IActivateWhenFacedown.cs",
+    "startLine": 4,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Card",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Card"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Card"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Card"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Card\" text=\"Card\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Card\" text=\"Card\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IActivateWhenFacedown"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IActivateWhenFacedown"
+      }
+    ]
+  },
+  "derivedClasses": [
+    {
+      "isEii": false,
+      "isExtensionMethod": false,
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"InscryptionAPI.Card.ExtendedAbilityBehaviour\" displayProperty=\"name\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"InscryptionAPI.Card.ExtendedAbilityBehaviour\" displayProperty=\"name\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 1
+    }
+  ],
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Card.IActivateWhenFacedown.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<IActivateWhenFacedown>(IActivateWhenFacedown, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of IActivateWhenFacedown)(IActivateWhenFacedown, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<IActivateWhenFacedown>(IActivateWhenFacedown, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of IActivateWhenFacedown)(IActivateWhenFacedown, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Card.IActivateWhenFacedown>(InscryptionAPI.Card.IActivateWhenFacedown, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Card.IActivateWhenFacedown)(InscryptionAPI.Card.IActivateWhenFacedown, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Card.IActivateWhenFacedown.html\">IActivateWhenFacedown</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Card.IActivateWhenFacedown.html\">IActivateWhenFacedown</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Card.IActivateWhenFacedown.html\">IActivateWhenFacedown</a>)(<a class=\"xref\" href=\"InscryptionAPI.Card.IActivateWhenFacedown.html\">IActivateWhenFacedown</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Card.IActivateWhenFacedown.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Card.IActivateWhenFacedown.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Card_IActivateWhenFacedown.md&value=---%0Auid%3A%20InscryptionAPI.Card.IActivateWhenFacedown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/IActivateWhenFacedown.cs/#L5",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Card_IActivateWhenFacedown",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": true,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

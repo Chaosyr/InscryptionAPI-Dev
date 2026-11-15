@@ -1,0 +1,838 @@
+{
+  "uid": "InscryptionAPI.Slots",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationBehaviour",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Slots",
+          "href": "InscryptionAPI.Slots.SlotModificationBehaviour.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationBehaviour"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationBehaviour"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationBehaviour"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationBehaviour\" text=\"SlotModificationBehaviour\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationBehaviour\" text=\"SlotModificationBehaviour\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all slot modification behaviors</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationBehaviour",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationExtensions",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Slots",
+          "href": "InscryptionAPI.Slots.SlotModificationExtensions.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationExtensions"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationExtensions"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationExtensions"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationExtensions\" text=\"SlotModificationExtensions\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationExtensions\" text=\"SlotModificationExtensions\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationExtensions",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationGainAbilityBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationGainAbilityBehaviour"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationGainAbilityBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationGainAbilityBehaviour"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour\" text=\"SlotModificationGainAbilityBehaviour\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour\" text=\"SlotModificationGainAbilityBehaviour\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all slot modification behaviors</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationInteractable",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Slots.SlotModificationInteractable.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationInteractable"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationInteractable"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationInteractable"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationInteractable"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationInteractable"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationInteractable"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationInteractable\" text=\"SlotModificationInteractable\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationInteractable\" text=\"SlotModificationInteractable\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationInteractable.yml\" sourcestartlinenumber=\"1\">Base class for all slot modification behaviors</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationInteractable",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationManager",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Slots",
+          "href": "InscryptionAPI.Slots.SlotModificationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationManager\" text=\"SlotModificationManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Slots.SlotModificationManager\" text=\"SlotModificationManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.yml\" sourcestartlinenumber=\"1\">Manager for card slot modifications</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationManager.Info",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Slots",
+          "href": "InscryptionAPI.Slots.SlotModificationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager.Info"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager.Info"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager.Info"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager.Info"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationManager.Info"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationManager.Info"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.html\">SlotModificationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.Info.html\">Info</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.html\">SlotModificationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.Info.html\">Info</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.Info.yml\" sourcestartlinenumber=\"1\">Contains information about a slot modification.</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationManager_Info",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    },
+    {
+      "inEnum": true,
+      "typePropertyName": "inEnum",
+      "id": "enums",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Slots",
+          "href": "InscryptionAPI.Slots.SlotModificationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager.ModificationMetaCategory"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager.ModificationMetaCategory"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager.ModificationMetaCategory"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager.ModificationMetaCategory"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.html\">SlotModificationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.html\">ModificationMetaCategory</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.html\">SlotModificationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.html\">ModificationMetaCategory</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.yml\" sourcestartlinenumber=\"1\">Used to determine what Acts a modification's rulebook entry should appear in.\nValues correspond to specific AbilityMetaCategory values.</p>\n",
+          "type": "enum",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationManager_ModificationMetaCategory",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": true,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Slots.SlotModificationManager.ModificationType",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Slots",
+          "href": "InscryptionAPI.Slots.SlotModificationManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager.ModificationType"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager.ModificationType"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SlotModificationManager.ModificationType"
+            },
+            {
+              "lang": "vb",
+              "value": "SlotModificationManager.ModificationType"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Slots.SlotModificationManager.ModificationType"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Slots.SlotModificationManager.ModificationType"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.html\">SlotModificationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.ModificationType.html\">ModificationType</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.html\">SlotModificationManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Slots.SlotModificationManager.ModificationType.html\">ModificationType</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.ModificationType.yml\" sourcestartlinenumber=\"1\">Unique identifiers for slot modifications.</p>\n",
+          "type": "enum",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Slots_SlotModificationManager_ModificationType",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": true,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Slots"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Slots"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Slots"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Slots"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Slots"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Slots"
+    }
+  ],
+  "type": "namespace",
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Slots.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Slots.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "",
+  "sourceurl": "",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Slots",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

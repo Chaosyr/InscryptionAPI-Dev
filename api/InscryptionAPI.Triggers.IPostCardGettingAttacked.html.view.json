@@ -1,0 +1,1241 @@
+{
+  "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IPostCardGettingAttacked",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OnPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "OnPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IPostCardGettingAttacked.OnPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "IPostCardGettingAttacked.OnPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked(DiskCardGame.PlayableCard, DiskCardGame.PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked(DiskCardGame.PlayableCard, DiskCardGame.PlayableCard)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)\" text=\"OnPostCardGettingAttacked(PlayableCard, PlayableCard)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)\" text=\"OnPostCardGettingAttacked(PlayableCard, PlayableCard)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator OnPostCardGettingAttacked(PlayableCard target, PlayableCard attacker)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function OnPostCardGettingAttacked(target As PlayableCard, attacker As PlayableCard) As IEnumerator"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "target",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "attacker",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.IEnumerator",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.IEnumerator"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "OnPostCardGettingAttacked",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 827,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "OnPostCardGettingAttacked"
+              },
+              {
+                "lang": "vb",
+                "value": "OnPostCardGettingAttacked"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IPostCardGettingAttacked.OnPostCardGettingAttacked"
+              },
+              {
+                "lang": "vb",
+                "value": "IPostCardGettingAttacked.OnPostCardGettingAttacked"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked*\" text=\"OnPostCardGettingAttacked\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked*\" text=\"OnPostCardGettingAttacked\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked_OnPostCardGettingAttacked_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IPostCardGettingAttacked_OnPostCardGettingAttacked_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IPostCardGettingAttacked.OnPostCardGettingAttacked(DiskCardGame.PlayableCard%2CDiskCardGame.PlayableCard)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L828",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked_OnPostCardGettingAttacked_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IPostCardGettingAttacked",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PostCardGettingAttackedPriority(PlayableCard, PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "PostCardGettingAttackedPriority(PlayableCard, PlayableCard)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IPostCardGettingAttacked.PostCardGettingAttackedPriority(PlayableCard, PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "IPostCardGettingAttacked.PostCardGettingAttackedPriority(PlayableCard, PlayableCard)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority(DiskCardGame.PlayableCard, DiskCardGame.PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority(DiskCardGame.PlayableCard, DiskCardGame.PlayableCard)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)\" text=\"PostCardGettingAttackedPriority(PlayableCard, PlayableCard)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)\" text=\"PostCardGettingAttackedPriority(PlayableCard, PlayableCard)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "int PostCardGettingAttackedPriority(PlayableCard target, PlayableCard attacker)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function PostCardGettingAttackedPriority(target As PlayableCard, attacker As PlayableCard) As Integer"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "target",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "attacker",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Int32",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "int"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Integer"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "PostCardGettingAttackedPriority",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 828,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "PostCardGettingAttackedPriority"
+              },
+              {
+                "lang": "vb",
+                "value": "PostCardGettingAttackedPriority"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IPostCardGettingAttacked.PostCardGettingAttackedPriority"
+              },
+              {
+                "lang": "vb",
+                "value": "IPostCardGettingAttacked.PostCardGettingAttackedPriority"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority*\" text=\"PostCardGettingAttackedPriority\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority*\" text=\"PostCardGettingAttackedPriority\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked_PostCardGettingAttackedPriority_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IPostCardGettingAttacked_PostCardGettingAttackedPriority_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IPostCardGettingAttacked.PostCardGettingAttackedPriority(DiskCardGame.PlayableCard%2CDiskCardGame.PlayableCard)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L829",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked_PostCardGettingAttackedPriority_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IPostCardGettingAttacked",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RespondsToPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "RespondsToPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(PlayableCard, PlayableCard)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(DiskCardGame.PlayableCard, DiskCardGame.PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(DiskCardGame.PlayableCard, DiskCardGame.PlayableCard)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)\" text=\"RespondsToPostCardGettingAttacked(PlayableCard, PlayableCard)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)\" text=\"RespondsToPostCardGettingAttacked(PlayableCard, PlayableCard)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "bool RespondsToPostCardGettingAttacked(PlayableCard target, PlayableCard attacker)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function RespondsToPostCardGettingAttacked(target As PlayableCard, attacker As PlayableCard) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "target",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "attacker",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RespondsToPostCardGettingAttacked",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 826,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RespondsToPostCardGettingAttacked"
+              },
+              {
+                "lang": "vb",
+                "value": "RespondsToPostCardGettingAttacked"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IPostCardGettingAttacked.RespondsToPostCardGettingAttacked"
+              },
+              {
+                "lang": "vb",
+                "value": "IPostCardGettingAttacked.RespondsToPostCardGettingAttacked"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked*\" text=\"RespondsToPostCardGettingAttacked\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked*\" text=\"RespondsToPostCardGettingAttacked\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked_RespondsToPostCardGettingAttacked_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IPostCardGettingAttacked_RespondsToPostCardGettingAttacked_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IPostCardGettingAttacked.RespondsToPostCardGettingAttacked(DiskCardGame.PlayableCard%2CDiskCardGame.PlayableCard)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L827",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked_RespondsToPostCardGettingAttacked_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IPostCardGettingAttacked"
+    },
+    {
+      "lang": "vb",
+      "value": "IPostCardGettingAttacked"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IPostCardGettingAttacked"
+    },
+    {
+      "lang": "vb",
+      "value": "IPostCardGettingAttacked"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Triggers.IPostCardGettingAttacked"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Triggers/Interfaces.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "IPostCardGettingAttacked",
+    "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+    "startLine": 824,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPostCardGettingAttacked.yml\" sourcestartlinenumber=\"1\">Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IPostCardGettingAttacked"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IPostCardGettingAttacked"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Triggers.IPostCardGettingAttacked.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<IPostCardGettingAttacked>(IPostCardGettingAttacked, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of IPostCardGettingAttacked)(IPostCardGettingAttacked, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<IPostCardGettingAttacked>(IPostCardGettingAttacked, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of IPostCardGettingAttacked)(IPostCardGettingAttacked, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Triggers.IPostCardGettingAttacked>(InscryptionAPI.Triggers.IPostCardGettingAttacked, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Triggers.IPostCardGettingAttacked)(InscryptionAPI.Triggers.IPostCardGettingAttacked, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.html\">IPostCardGettingAttacked</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.html\">IPostCardGettingAttacked</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.html\">IPostCardGettingAttacked</a>)(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IPostCardGettingAttacked.html\">IPostCardGettingAttacked</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Triggers.IPostCardGettingAttacked.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Triggers.IPostCardGettingAttacked.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IPostCardGettingAttacked.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IPostCardGettingAttacked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L825",
+  "description": "Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Triggers_IPostCardGettingAttacked",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": true,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

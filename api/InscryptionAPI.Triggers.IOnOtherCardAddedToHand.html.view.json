@@ -1,0 +1,867 @@
+{
+  "uid": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand(DiskCardGame.PlayableCard)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OnOtherCardAddedToHand(PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "OnOtherCardAddedToHand(PlayableCard)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IOnOtherCardAddedToHand.OnOtherCardAddedToHand(PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "IOnOtherCardAddedToHand.OnOtherCardAddedToHand(PlayableCard)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand(DiskCardGame.PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand(DiskCardGame.PlayableCard)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand(DiskCardGame.PlayableCard)\" text=\"OnOtherCardAddedToHand(PlayableCard)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand(DiskCardGame.PlayableCard)\" text=\"OnOtherCardAddedToHand(PlayableCard)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "IEnumerator OnOtherCardAddedToHand(PlayableCard card)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function OnOtherCardAddedToHand(card As PlayableCard) As IEnumerator"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "card",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">The card that was drawn.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.IEnumerator",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "IEnumerator"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.IEnumerator"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.IEnumerator"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Collections.IEnumerator\" text=\"IEnumerator\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "OnOtherCardAddedToHand",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 38,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "OnOtherCardAddedToHand"
+              },
+              {
+                "lang": "vb",
+                "value": "OnOtherCardAddedToHand"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IOnOtherCardAddedToHand.OnOtherCardAddedToHand"
+              },
+              {
+                "lang": "vb",
+                "value": "IOnOtherCardAddedToHand.OnOtherCardAddedToHand"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand*\" text=\"OnOtherCardAddedToHand\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand*\" text=\"OnOtherCardAddedToHand\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IOnOtherCardAddedToHand_OnOtherCardAddedToHand_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">Trigger whatever events you want to run when any card is drawn, <em sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">after</em> being added to the list of cards in hand.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnOtherCardAddedToHand_OnOtherCardAddedToHand_DiskCardGame_PlayableCard_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnOtherCardAddedToHand.OnOtherCardAddedToHand(DiskCardGame.PlayableCard)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L39",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IOnOtherCardAddedToHand_OnOtherCardAddedToHand_DiskCardGame_PlayableCard_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(DiskCardGame.PlayableCard)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RespondsToOtherCardAddedToHand(PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "RespondsToOtherCardAddedToHand(PlayableCard)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(PlayableCard)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(DiskCardGame.PlayableCard)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(DiskCardGame.PlayableCard)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(DiskCardGame.PlayableCard)\" text=\"RespondsToOtherCardAddedToHand(PlayableCard)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(DiskCardGame.PlayableCard)\" text=\"RespondsToOtherCardAddedToHand(PlayableCard)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "bool RespondsToOtherCardAddedToHand(PlayableCard card)"
+              },
+              {
+                "lang": "vb",
+                "value": "Function RespondsToOtherCardAddedToHand(card As PlayableCard) As Boolean"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "card",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                },
+                "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">The card that was drawn.</p>\n"
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              },
+              "description": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">True if this should trigger when any card is drawn, <em sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">after</em> being added to the list of cards in hand.</p>\n"
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Triggers/Interfaces.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RespondsToOtherCardAddedToHand",
+            "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+            "startLine": 32,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Triggers",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RespondsToOtherCardAddedToHand"
+              },
+              {
+                "lang": "vb",
+                "value": "RespondsToOtherCardAddedToHand"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand"
+              },
+              {
+                "lang": "vb",
+                "value": "IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand*\" text=\"RespondsToOtherCardAddedToHand\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand*\" text=\"RespondsToOtherCardAddedToHand\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Triggers_IOnOtherCardAddedToHand_RespondsToOtherCardAddedToHand_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">Returns true if this should trigger when any card is drawn, <em sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">after</em> being added to the list of cards in hand.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnOtherCardAddedToHand_RespondsToOtherCardAddedToHand_DiskCardGame_PlayableCard_.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnOtherCardAddedToHand.RespondsToOtherCardAddedToHand(DiskCardGame.PlayableCard)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L33",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Triggers_IOnOtherCardAddedToHand_RespondsToOtherCardAddedToHand_DiskCardGame_PlayableCard_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "IOnOtherCardAddedToHand"
+    },
+    {
+      "lang": "vb",
+      "value": "IOnOtherCardAddedToHand"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "IOnOtherCardAddedToHand"
+    },
+    {
+      "lang": "vb",
+      "value": "IOnOtherCardAddedToHand"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand"
+    }
+  ],
+  "type": "interface",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Triggers/Interfaces.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "IOnOtherCardAddedToHand",
+    "path": "../InscryptionAPI/Triggers/Interfaces.cs",
+    "startLine": 25,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Triggers",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Triggers"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Triggers"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Triggers\" text=\"Triggers\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when any card is drawn, but after it has been added to the list of cards in hand.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public interface IOnOtherCardAddedToHand"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Interface IOnOtherCardAddedToHand"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<IOnOtherCardAddedToHand>(IOnOtherCardAddedToHand, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of IOnOtherCardAddedToHand)(IOnOtherCardAddedToHand, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<IOnOtherCardAddedToHand>(IOnOtherCardAddedToHand, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of IOnOtherCardAddedToHand)(IOnOtherCardAddedToHand, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Triggers.IOnOtherCardAddedToHand>(InscryptionAPI.Triggers.IOnOtherCardAddedToHand, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Triggers.IOnOtherCardAddedToHand)(InscryptionAPI.Triggers.IOnOtherCardAddedToHand, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.html\">IOnOtherCardAddedToHand</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.html\">IOnOtherCardAddedToHand</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.html\">IOnOtherCardAddedToHand</a>)(<a class=\"xref\" href=\"InscryptionAPI.Triggers.IOnOtherCardAddedToHand.html\">IOnOtherCardAddedToHand</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Triggers_IOnOtherCardAddedToHand.md&value=---%0Auid%3A%20InscryptionAPI.Triggers.IOnOtherCardAddedToHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L26",
+  "description": "Trigger that is triggered when any card is drawn, but after it has been added to the list of cards in hand.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Triggers_IOnOtherCardAddedToHand",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inInterface": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": true,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

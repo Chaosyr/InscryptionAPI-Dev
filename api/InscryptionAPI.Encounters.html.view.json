@@ -1,0 +1,1780 @@
+{
+  "uid": "InscryptionAPI.Encounters",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "children": [
+    {
+      "inClass": true,
+      "typePropertyName": "inClass",
+      "id": "classes",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.AIManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.AIManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AIManager"
+            },
+            {
+              "lang": "vb",
+              "value": "AIManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AIManager"
+            },
+            {
+              "lang": "vb",
+              "value": "AIManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.AIManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.AIManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.AIManager\" text=\"AIManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.AIManager\" text=\"AIManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_AIManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.AIManager.FullAI",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.AIManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AIManager.FullAI"
+            },
+            {
+              "lang": "vb",
+              "value": "AIManager.FullAI"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AIManager.FullAI"
+            },
+            {
+              "lang": "vb",
+              "value": "AIManager.FullAI"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.AIManager.FullAI"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.AIManager.FullAI"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.AIManager.html\">AIManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.AIManager.FullAI.html\">FullAI</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.AIManager.html\">AIManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.AIManager.FullAI.html\">FullAI</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_AIManager_FullAI",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.CachedGCBNPCDescriptor",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.CachedGCBNPCDescriptor.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CachedGCBNPCDescriptor"
+            },
+            {
+              "lang": "vb",
+              "value": "CachedGCBNPCDescriptor"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CachedGCBNPCDescriptor"
+            },
+            {
+              "lang": "vb",
+              "value": "CachedGCBNPCDescriptor"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.CachedGCBNPCDescriptor"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.CachedGCBNPCDescriptor"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.CachedGCBNPCDescriptor\" text=\"CachedGCBNPCDescriptor\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.CachedGCBNPCDescriptor\" text=\"CachedGCBNPCDescriptor\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_CachedGCBNPCDescriptor",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.CustomNodeData",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.CustomNodeData.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomNodeData"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomNodeData"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CustomNodeData"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomNodeData"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.CustomNodeData"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.CustomNodeData"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.CustomNodeData\" text=\"CustomNodeData\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.CustomNodeData\" text=\"CustomNodeData\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.CustomNodeData.yml\" sourcestartlinenumber=\"1\">Represents a node on the map that has been placed by the Inscryption API</p>\n",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_CustomNodeData",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.EncounterBuilder",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.EncounterBuilder.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EncounterBuilder"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterBuilder"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EncounterBuilder"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterBuilder"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.EncounterBuilder"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.EncounterBuilder"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterBuilder\" text=\"EncounterBuilder\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterBuilder\" text=\"EncounterBuilder\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_EncounterBuilder",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.EncounterBuilderBlueprintData",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.EncounterBuilderBlueprintData.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EncounterBuilderBlueprintData"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterBuilderBlueprintData"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EncounterBuilderBlueprintData"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterBuilderBlueprintData"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.EncounterBuilderBlueprintData"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.EncounterBuilderBlueprintData"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterBuilderBlueprintData\" text=\"EncounterBuilderBlueprintData\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterBuilderBlueprintData\" text=\"EncounterBuilderBlueprintData\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_EncounterBuilderBlueprintData",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.EncounterExtensions",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.EncounterExtensions.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EncounterExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterExtensions"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EncounterExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterExtensions"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.EncounterExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.EncounterExtensions"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterExtensions\" text=\"EncounterExtensions\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterExtensions\" text=\"EncounterExtensions\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_EncounterExtensions",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.EncounterManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.EncounterManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "EncounterManager"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "EncounterManager"
+            },
+            {
+              "lang": "vb",
+              "value": "EncounterManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.EncounterManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.EncounterManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterManager\" text=\"EncounterManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.EncounterManager\" text=\"EncounterManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_EncounterManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.NodeManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.NodeManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NodeManager"
+            },
+            {
+              "lang": "vb",
+              "value": "NodeManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NodeManager"
+            },
+            {
+              "lang": "vb",
+              "value": "NodeManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.NodeManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.NodeManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.NodeManager\" text=\"NodeManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.NodeManager\" text=\"NodeManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_NodeManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.NodeManager.NodeInfo",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.NodeManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NodeManager.NodeInfo"
+            },
+            {
+              "lang": "vb",
+              "value": "NodeManager.NodeInfo"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NodeManager.NodeInfo"
+            },
+            {
+              "lang": "vb",
+              "value": "NodeManager.NodeInfo"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.NodeManager.NodeInfo"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.NodeManager.NodeInfo"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.html\">NodeManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.NodeInfo.html\">NodeInfo</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.html\">NodeManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.NodeInfo.html\">NodeInfo</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_NodeManager_NodeInfo",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.OpponentManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager\" text=\"OpponentManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager\" text=\"OpponentManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.FullOpponent",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.OpponentManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.FullOpponent"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.FullOpponent"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.FullOpponent"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.FullOpponent"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.FullOpponent"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.FullOpponent"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_FullOpponent",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.SpecialSequenceManager",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.SpecialSequenceManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SpecialSequenceManager"
+            },
+            {
+              "lang": "vb",
+              "value": "SpecialSequenceManager"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SpecialSequenceManager"
+            },
+            {
+              "lang": "vb",
+              "value": "SpecialSequenceManager"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.SpecialSequenceManager"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.SpecialSequenceManager"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.SpecialSequenceManager\" text=\"SpecialSequenceManager\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.SpecialSequenceManager\" text=\"SpecialSequenceManager\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_SpecialSequenceManager",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.SpecialSequenceManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "SpecialSequenceManager.FullSpecialSequencer"
+            },
+            {
+              "lang": "vb",
+              "value": "SpecialSequenceManager.FullSpecialSequencer"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "SpecialSequenceManager.FullSpecialSequencer"
+            },
+            {
+              "lang": "vb",
+              "value": "SpecialSequenceManager.FullSpecialSequencer"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.SpecialSequenceManager.html\">SpecialSequenceManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer.html\">FullSpecialSequencer</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.SpecialSequenceManager.html\">SpecialSequenceManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer.html\">FullSpecialSequencer</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_SpecialSequenceManager_FullSpecialSequencer",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.TurnBuilder`1",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.TurnBuilder-1.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TurnBuilder<T>"
+            },
+            {
+              "lang": "vb",
+              "value": "TurnBuilder(Of T)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TurnBuilder<T>"
+            },
+            {
+              "lang": "vb",
+              "value": "TurnBuilder(Of T)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.TurnBuilder<T>"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.TurnBuilder(Of T)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.TurnBuilder-1.html\">TurnBuilder</a>&lt;T&gt;"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.TurnBuilder-1.html\">TurnBuilder</a>(Of T)"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_TurnBuilder_1",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.TurnExtensions",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.TurnExtensions.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "TurnExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "TurnExtensions"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "TurnExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "TurnExtensions"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.TurnExtensions"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.TurnExtensions"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.TurnExtensions\" text=\"TurnExtensions\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.TurnExtensions\" text=\"TurnExtensions\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "class",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_TurnExtensions",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": true,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    },
+    {
+      "inInterface": true,
+      "typePropertyName": "inInterface",
+      "id": "interfaces",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.ICustomExhaustSequence",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.ICustomExhaustSequence.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ICustomExhaustSequence"
+            },
+            {
+              "lang": "vb",
+              "value": "ICustomExhaustSequence"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICustomExhaustSequence"
+            },
+            {
+              "lang": "vb",
+              "value": "ICustomExhaustSequence"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.ICustomExhaustSequence"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.ICustomExhaustSequence"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.ICustomExhaustSequence\" text=\"ICustomExhaustSequence\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.ICustomExhaustSequence\" text=\"ICustomExhaustSequence\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.ICustomExhaustSequence.yml\" sourcestartlinenumber=\"1\">An interface that implements custom logic when the player has exhausted both of their draw piles.</p>\n",
+          "type": "interface",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_ICustomExhaustSequence",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": true,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.ICustomNodeSequence",
+          "isExtensionMethod": false,
+          "href": "InscryptionAPI.Encounters.ICustomNodeSequence.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "ICustomNodeSequence"
+            },
+            {
+              "lang": "vb",
+              "value": "ICustomNodeSequence"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ICustomNodeSequence"
+            },
+            {
+              "lang": "vb",
+              "value": "ICustomNodeSequence"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.ICustomNodeSequence"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.ICustomNodeSequence"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.ICustomNodeSequence\" text=\"ICustomNodeSequence\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.ICustomNodeSequence\" text=\"ICustomNodeSequence\"/>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.ICustomNodeSequence.yml\" sourcestartlinenumber=\"1\">A sequencer interface for all custom sequencers compatible with the Inscryption API</p>\n",
+          "type": "interface",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_ICustomNodeSequence",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": true,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    },
+    {
+      "inEnum": true,
+      "typePropertyName": "inEnum",
+      "id": "enums",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.NodeManager.NodePosition",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.NodeManager.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NodeManager.NodePosition"
+            },
+            {
+              "lang": "vb",
+              "value": "NodeManager.NodePosition"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "NodeManager.NodePosition"
+            },
+            {
+              "lang": "vb",
+              "value": "NodeManager.NodePosition"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.NodeManager.NodePosition"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.NodeManager.NodePosition"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.html\">NodeManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.NodePosition.html\">NodePosition</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.html\">NodeManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.NodeManager.NodePosition.html\">NodePosition</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "",
+          "type": "enum",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_NodeManager_NodePosition",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": true,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    },
+    {
+      "inDelegate": true,
+      "typePropertyName": "inDelegate",
+      "id": "delegates",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition",
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters",
+          "href": "InscryptionAPI.Encounters.CustomNodeData.html",
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CustomNodeData.NodeGenerationCondition"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomNodeData.NodeGenerationCondition"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "CustomNodeData.NodeGenerationCondition"
+            },
+            {
+              "lang": "vb",
+              "value": "CustomNodeData.NodeGenerationCondition"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.CustomNodeData.html\">CustomNodeData</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition.html\">NodeGenerationCondition</a>"
+            },
+            {
+              "lang": "vb",
+              "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.CustomNodeData.html\">CustomNodeData</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition.html\">NodeGenerationCondition</a>"
+            }
+          ],
+          "level": 0,
+          "summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition.yml\" sourcestartlinenumber=\"1\">This tells us whether or not the node can actually be generated on the map.\nSimply creating the node is not good enough: the node has to confirm that it can be generated</p>\n",
+          "type": "delegate",
+          "platform": null,
+          "isEii": false,
+          "docurl": "",
+          "sourceurl": "",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "syntax": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_CustomNodeData_NodeGenerationCondition",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": true,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": true,
+          "isMember": false
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Encounters"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Encounters"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Encounters"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Encounters"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Encounters"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Encounters"
+    }
+  ],
+  "type": "namespace",
+  "documentation": {
+    "remote": {
+      "path": "docs/namespace/InscryptionAPI.Encounters.md",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "path": "namespace/InscryptionAPI.Encounters.md",
+    "startLine": 1,
+    "endLine": 4
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Encounters.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom battle encounters and their blueprints.</p>\n",
+  "level": 0,
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Encounters.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Encounters.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/blob/main/docs/namespace/InscryptionAPI.Encounters.md/#L2",
+  "sourceurl": "",
+  "description": "This namespace is dedicated to managing custom battle encounters and their blueprints.",
+  "remarks": "",
+  "conceptual": "",
+  "syntax": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Encounters",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isNamespace": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isClass": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": false,
+  "isMember": false
+}

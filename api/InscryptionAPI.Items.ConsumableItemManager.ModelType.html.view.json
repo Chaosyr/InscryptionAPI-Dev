@@ -1,0 +1,979 @@
+{
+  "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Items",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRune",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BasicRune"
+            },
+            {
+              "lang": "vb",
+              "value": "BasicRune"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.ModelType.BasicRune"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.ModelType.BasicRune"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRune"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRune"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRune\" text=\"BasicRune\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRune\" text=\"BasicRune\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "BasicRune = 1"
+              },
+              {
+                "lang": "vb",
+                "value": "BasicRune = 1"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "BasicRune",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 43,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_ModelType_BasicRune.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRune%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L44",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_ModelType_BasicRune",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRuneWithVeins",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BasicRuneWithVeins"
+            },
+            {
+              "lang": "vb",
+              "value": "BasicRuneWithVeins"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.ModelType.BasicRuneWithVeins"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.ModelType.BasicRuneWithVeins"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRuneWithVeins"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRuneWithVeins"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRuneWithVeins\" text=\"BasicRuneWithVeins\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRuneWithVeins\" text=\"BasicRuneWithVeins\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "BasicRuneWithVeins = 2"
+              },
+              {
+                "lang": "vb",
+                "value": "BasicRuneWithVeins = 2"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "BasicRuneWithVeins",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 44,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_ModelType_BasicRuneWithVeins.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.ModelType.BasicRuneWithVeins%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L45",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_ModelType_BasicRuneWithVeins",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType.CardInABottle",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CardInABottle"
+            },
+            {
+              "lang": "vb",
+              "value": "CardInABottle"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.ModelType.CardInABottle"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.ModelType.CardInABottle"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.CardInABottle"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.CardInABottle"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.CardInABottle\" text=\"CardInABottle\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.CardInABottle\" text=\"CardInABottle\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "CardInABottle = 4"
+              },
+              {
+                "lang": "vb",
+                "value": "CardInABottle = 4"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CardInABottle",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 46,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_ModelType_CardInABottle.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.ModelType.CardInABottle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L47",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_ModelType_CardInABottle",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType.HoveringRune",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "HoveringRune"
+            },
+            {
+              "lang": "vb",
+              "value": "HoveringRune"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.ModelType.HoveringRune"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.ModelType.HoveringRune"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.HoveringRune"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType.HoveringRune"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.HoveringRune\" text=\"HoveringRune\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.HoveringRune\" text=\"HoveringRune\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "HoveringRune = 3"
+              },
+              {
+                "lang": "vb",
+                "value": "HoveringRune = 3"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "HoveringRune",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 45,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_ModelType_HoveringRune.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.ModelType.HoveringRune%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L46",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_ModelType_HoveringRune",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ConsumableItemManager.ModelType"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsumableItemManager.ModelType"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ConsumableItemManager.ModelType"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsumableItemManager.ModelType"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "ModelType",
+    "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+    "startLine": 41,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Items",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum ConsumableItemManager.ModelType"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum ConsumableItemManager.ModelType"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<ModelType>(ModelType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of ModelType)(ModelType, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<ConsumableItemManager.ModelType>(ConsumableItemManager.ModelType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of ConsumableItemManager.ModelType)(ConsumableItemManager.ModelType, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Items.ConsumableItemManager.ModelType>(InscryptionAPI.Items.ConsumableItemManager.ModelType, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Items.ConsumableItemManager.ModelType)(InscryptionAPI.Items.ConsumableItemManager.ModelType, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>)(<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Items.ConsumableItemManager.ModelType.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Items.ConsumableItemManager.ModelType.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_ModelType.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.ModelType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L42",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Items_ConsumableItemManager_ModelType",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inEnum": true,
+  "isEnum": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

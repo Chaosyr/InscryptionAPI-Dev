@@ -1,0 +1,1128 @@
+{
+  "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Ascension",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Ascension"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Ascension"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Ascension"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Ascension"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Ascension"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Ascension"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Ascension\" text=\"Ascension\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Ascension\" text=\"Ascension\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.NoPreference",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NoPreference"
+            },
+            {
+              "lang": "vb",
+              "value": "NoPreference"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AscensionScreenSort.Direction.NoPreference"
+            },
+            {
+              "lang": "vb",
+              "value": "AscensionScreenSort.Direction.NoPreference"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.NoPreference"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.NoPreference"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.NoPreference\" text=\"NoPreference\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.NoPreference\" text=\"NoPreference\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "NoPreference = 3"
+              },
+              {
+                "lang": "vb",
+                "value": "NoPreference = 3"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Ascension/AscensionScreenSort.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "NoPreference",
+            "path": "../InscryptionAPI/Ascension/AscensionScreenSort.cs",
+            "startLine": 9,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Ascension",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Ascension_AscensionScreenSort_Direction_NoPreference.md&value=---%0Auid%3A%20InscryptionAPI.Ascension.AscensionScreenSort.Direction.NoPreference%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Ascension/AscensionScreenSort.cs/#L10",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Ascension_AscensionScreenSort_Direction_NoPreference",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersEnd",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PrefersEnd"
+            },
+            {
+              "lang": "vb",
+              "value": "PrefersEnd"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AscensionScreenSort.Direction.PrefersEnd"
+            },
+            {
+              "lang": "vb",
+              "value": "AscensionScreenSort.Direction.PrefersEnd"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersEnd"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersEnd"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersEnd\" text=\"PrefersEnd\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersEnd\" text=\"PrefersEnd\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "PrefersEnd = 4"
+              },
+              {
+                "lang": "vb",
+                "value": "PrefersEnd = 4"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Ascension/AscensionScreenSort.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "PrefersEnd",
+            "path": "../InscryptionAPI/Ascension/AscensionScreenSort.cs",
+            "startLine": 10,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Ascension",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Ascension_AscensionScreenSort_Direction_PrefersEnd.md&value=---%0Auid%3A%20InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Ascension/AscensionScreenSort.cs/#L11",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Ascension_AscensionScreenSort_Direction_PrefersEnd",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersStart",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "PrefersStart"
+            },
+            {
+              "lang": "vb",
+              "value": "PrefersStart"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AscensionScreenSort.Direction.PrefersStart"
+            },
+            {
+              "lang": "vb",
+              "value": "AscensionScreenSort.Direction.PrefersStart"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersStart"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersStart"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersStart\" text=\"PrefersStart\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersStart\" text=\"PrefersStart\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "PrefersStart = 2"
+              },
+              {
+                "lang": "vb",
+                "value": "PrefersStart = 2"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Ascension/AscensionScreenSort.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "PrefersStart",
+            "path": "../InscryptionAPI/Ascension/AscensionScreenSort.cs",
+            "startLine": 8,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Ascension",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Ascension_AscensionScreenSort_Direction_PrefersStart.md&value=---%0Auid%3A%20InscryptionAPI.Ascension.AscensionScreenSort.Direction.PrefersStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Ascension/AscensionScreenSort.cs/#L9",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Ascension_AscensionScreenSort_Direction_PrefersStart",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresEnd",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RequiresEnd"
+            },
+            {
+              "lang": "vb",
+              "value": "RequiresEnd"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AscensionScreenSort.Direction.RequiresEnd"
+            },
+            {
+              "lang": "vb",
+              "value": "AscensionScreenSort.Direction.RequiresEnd"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresEnd"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresEnd"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresEnd\" text=\"RequiresEnd\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresEnd\" text=\"RequiresEnd\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "RequiresEnd = 5"
+              },
+              {
+                "lang": "vb",
+                "value": "RequiresEnd = 5"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Ascension/AscensionScreenSort.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RequiresEnd",
+            "path": "../InscryptionAPI/Ascension/AscensionScreenSort.cs",
+            "startLine": 11,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Ascension",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Ascension_AscensionScreenSort_Direction_RequiresEnd.md&value=---%0Auid%3A%20InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresEnd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Ascension/AscensionScreenSort.cs/#L12",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Ascension_AscensionScreenSort_Direction_RequiresEnd",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresStart",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RequiresStart"
+            },
+            {
+              "lang": "vb",
+              "value": "RequiresStart"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "AscensionScreenSort.Direction.RequiresStart"
+            },
+            {
+              "lang": "vb",
+              "value": "AscensionScreenSort.Direction.RequiresStart"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresStart"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresStart"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresStart\" text=\"RequiresStart\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresStart\" text=\"RequiresStart\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "RequiresStart = 1"
+              },
+              {
+                "lang": "vb",
+                "value": "RequiresStart = 1"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "AscensionScreenSort.Direction"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.html\">AscensionScreenSort</a>.<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Ascension/AscensionScreenSort.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RequiresStart",
+            "path": "../InscryptionAPI/Ascension/AscensionScreenSort.cs",
+            "startLine": 7,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Ascension",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Ascension_AscensionScreenSort_Direction_RequiresStart.md&value=---%0Auid%3A%20InscryptionAPI.Ascension.AscensionScreenSort.Direction.RequiresStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Ascension/AscensionScreenSort.cs/#L8",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Ascension_AscensionScreenSort_Direction_RequiresStart",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "AscensionScreenSort.Direction"
+    },
+    {
+      "lang": "vb",
+      "value": "AscensionScreenSort.Direction"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "AscensionScreenSort.Direction"
+    },
+    {
+      "lang": "vb",
+      "value": "AscensionScreenSort.Direction"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Ascension.AscensionScreenSort.Direction"
+    }
+  ],
+  "type": "enum",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Ascension/AscensionScreenSort.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "Direction",
+    "path": "../InscryptionAPI/Ascension/AscensionScreenSort.cs",
+    "startLine": 5,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Ascension",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Ascension"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Ascension"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Ascension"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Ascension"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Ascension"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Ascension"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Ascension\" text=\"Ascension\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Ascension\" text=\"Ascension\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public enum AscensionScreenSort.Direction"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Enum AscensionScreenSort.Direction"
+      }
+    ]
+  },
+  "level": 0,
+  "extensionMethods": [
+    {
+      "uid": "InscryptionAPI.Ascension.AscensionScreenSort.Direction.InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(System.Int32)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "definition": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat``1(``0,System.Int32)",
+      "href": "InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Repeat<Direction>(Direction, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "Repeat(Of Direction)(Direction, Integer)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "ListExtensions.Repeat<AscensionScreenSort.Direction>(AscensionScreenSort.Direction, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "ListExtensions.Repeat(Of AscensionScreenSort.Direction)(AscensionScreenSort.Direction, Integer)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat<InscryptionAPI.Ascension.AscensionScreenSort.Direction>(InscryptionAPI.Ascension.AscensionScreenSort.Direction, int)"
+        },
+        {
+          "lang": "vb",
+          "value": "InscryptionAPI.Helpers.Extensions.ListExtensions.Repeat(Of InscryptionAPI.Ascension.AscensionScreenSort.Direction)(InscryptionAPI.Ascension.AscensionScreenSort.Direction, Integer)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>&gt;(<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">int</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_\">Repeat</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>)(<a class=\"xref\" href=\"InscryptionAPI.Ascension.AscensionScreenSort.Direction.html\">Direction</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.int32\">Integer</a>)"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Ascension.AscensionScreenSort.Direction.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Ascension.AscensionScreenSort.Direction.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Ascension_AscensionScreenSort_Direction.md&value=---%0Auid%3A%20InscryptionAPI.Ascension.AscensionScreenSort.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Ascension/AscensionScreenSort.cs/#L6",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Ascension_AscensionScreenSort_Direction",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": false,
+  "inEnum": true,
+  "isEnum": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

@@ -1,0 +1,3578 @@
+{
+  "uid": "InscryptionAPI.Items.ConsumableItemManager",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Items",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.NewConsumableItemDatas",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewConsumableItemDatas"
+            },
+            {
+              "lang": "vb",
+              "value": "NewConsumableItemDatas"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.NewConsumableItemDatas"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.NewConsumableItemDatas"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.NewConsumableItemDatas"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.NewConsumableItemDatas"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewConsumableItemDatas\" text=\"NewConsumableItemDatas\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewConsumableItemDatas\" text=\"NewConsumableItemDatas\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ReadOnlyCollection<ConsumableItemData> NewConsumableItemDatas"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared NewConsumableItemDatas As ReadOnlyCollection(Of ConsumableItemData)"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.Collections.ObjectModel.ReadOnlyCollection{DiskCardGame.ConsumableItemData}",
+                "definition": "System.Collections.ObjectModel.ReadOnlyCollection`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ReadOnlyCollection<ConsumableItemData>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ReadOnlyCollection(Of ConsumableItemData)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ReadOnlyCollection<ConsumableItemData>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ReadOnlyCollection(Of ConsumableItemData)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.ObjectModel.ReadOnlyCollection<DiskCardGame.ConsumableItemData>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.ObjectModel.ReadOnlyCollection(Of DiskCardGame.ConsumableItemData)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1\">ReadOnlyCollection</a>&lt;<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1\">ReadOnlyCollection</a>(Of <xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "NewConsumableItemDatas",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 57,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_NewConsumableItemDatas.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.NewConsumableItemDatas%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L58",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_NewConsumableItemDatas",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.Add(System.String,DiskCardGame.ConsumableItemData)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Add(string, ConsumableItemData)"
+            },
+            {
+              "lang": "vb",
+              "value": "Add(String, ConsumableItemData)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.Add(string, ConsumableItemData)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.Add(String, ConsumableItemData)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.Add(string, DiskCardGame.ConsumableItemData)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.Add(String, DiskCardGame.ConsumableItemData)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.Add(System.String,DiskCardGame.ConsumableItemData)\" text=\"Add(string, ConsumableItemData)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.Add(System.String,DiskCardGame.ConsumableItemData)\" text=\"Add(string, ConsumableItemData)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemData Add(string pluginGUID, ConsumableItemData data)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Add(pluginGUID As String, data As ConsumableItemData) As ConsumableItemData"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "data",
+                "type": {
+                  "uid": "DiskCardGame.ConsumableItemData",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemData"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemData"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemData"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemData"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.ConsumableItemData"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.ConsumableItemData"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "DiskCardGame.ConsumableItemData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Add",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 151,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.Add*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Add"
+              },
+              {
+                "lang": "vb",
+                "value": "Add"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.Add"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.Add"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.Add"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.Add"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.Add*\" text=\"Add\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.Add*\" text=\"Add\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_Add_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_Add_System_String_DiskCardGame_ConsumableItemData_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.Add(System.String%2CDiskCardGame.ConsumableItemData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L152",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_Add_System_String_DiskCardGame_ConsumableItemData_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,InscryptionAPI.Items.ConsumableItemManager.ModelType)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "New(string, string, string, Texture2D, Type, ModelType)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, String, String, Texture2D, Type, ModelType)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.New(string, string, string, Texture2D, Type, ConsumableItemManager.ModelType)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.New(String, String, String, Texture2D, Type, ConsumableItemManager.ModelType)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.New(string, string, string, UnityEngine.Texture2D, System.Type, InscryptionAPI.Items.ConsumableItemManager.ModelType)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.New(String, String, String, UnityEngine.Texture2D, System.Type, InscryptionAPI.Items.ConsumableItemManager.ModelType)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,InscryptionAPI.Items.ConsumableItemManager.ModelType)\" text=\"New(string, string, string, Texture2D, Type, ModelType)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,InscryptionAPI.Items.ConsumableItemManager.ModelType)\" text=\"New(string, string, string, Texture2D, Type, ModelType)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemData New(string pluginGUID, string rulebookName, string rulebookDescription, Texture2D rulebookSprite, Type itemType, ConsumableItemManager.ModelType modelType)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function [New](pluginGUID As String, rulebookName As String, rulebookDescription As String, rulebookSprite As Texture2D, itemType As Type, modelType As ConsumableItemManager.ModelType) As ConsumableItemData"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookSprite",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "itemType",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "modelType",
+                "type": {
+                  "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemManager.ModelType"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemManager.ModelType"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemManager.ModelType"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemManager.ModelType"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "DiskCardGame.ConsumableItemData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "New",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 85,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.New*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "New"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.New"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.New"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New*\" text=\"New\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New*\" text=\"New\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_New_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_New_System_String_System_String_System_String_UnityEngine_Texture2D_System_Type_InscryptionAPI_Items_ConsumableItemManager_ModelType_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.New(System.String%2CSystem.String%2CSystem.String%2CUnityEngine.Texture2D%2CSystem.Type%2CInscryptionAPI.Items.ConsumableItemManager.ModelType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L86",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_New_System_String_System_String_System_String_UnityEngine_Texture2D_System_Type_InscryptionAPI_Items_ConsumableItemManager_ModelType_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,InscryptionAPI.Items.ConsumableItemResource)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "New(string, string, string, Texture2D, Type, ConsumableItemResource)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, String, String, Texture2D, Type, ConsumableItemResource)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.New(string, string, string, Texture2D, Type, ConsumableItemResource)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.New(String, String, String, Texture2D, Type, ConsumableItemResource)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.New(string, string, string, UnityEngine.Texture2D, System.Type, InscryptionAPI.Items.ConsumableItemResource)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.New(String, String, String, UnityEngine.Texture2D, System.Type, InscryptionAPI.Items.ConsumableItemResource)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,InscryptionAPI.Items.ConsumableItemResource)\" text=\"New(string, string, string, Texture2D, Type, ConsumableItemResource)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,InscryptionAPI.Items.ConsumableItemResource)\" text=\"New(string, string, string, Texture2D, Type, ConsumableItemResource)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemData New(string pluginGUID, string rulebookName, string rulebookDescription, Texture2D rulebookSprite, Type itemType, ConsumableItemResource resource)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function [New](pluginGUID As String, rulebookName As String, rulebookDescription As String, rulebookSprite As Texture2D, itemType As Type, resource As ConsumableItemResource) As ConsumableItemData"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookSprite",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "itemType",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "resource",
+                "type": {
+                  "uid": "InscryptionAPI.Items.ConsumableItemResource",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemResource"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemResource"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemResource"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemResource"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "InscryptionAPI.Items.ConsumableItemResource"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "InscryptionAPI.Items.ConsumableItemResource"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemResource\" text=\"ConsumableItemResource\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemResource\" text=\"ConsumableItemResource\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "DiskCardGame.ConsumableItemData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "New",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 76,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.New*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "New"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.New"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.New"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New*\" text=\"New\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New*\" text=\"New\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_New_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_New_System_String_System_String_System_String_UnityEngine_Texture2D_System_Type_InscryptionAPI_Items_ConsumableItemResource_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.New(System.String%2CSystem.String%2CSystem.String%2CUnityEngine.Texture2D%2CSystem.Type%2CInscryptionAPI.Items.ConsumableItemResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L77",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_New_System_String_System_String_System_String_UnityEngine_Texture2D_System_Type_InscryptionAPI_Items_ConsumableItemResource_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,UnityEngine.GameObject)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "New(string, string, string, Texture2D, Type, GameObject)"
+            },
+            {
+              "lang": "vb",
+              "value": "New(String, String, String, Texture2D, Type, GameObject)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.New(string, string, string, Texture2D, Type, GameObject)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.New(String, String, String, Texture2D, Type, GameObject)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.New(string, string, string, UnityEngine.Texture2D, System.Type, UnityEngine.GameObject)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.New(String, String, String, UnityEngine.Texture2D, System.Type, UnityEngine.GameObject)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,UnityEngine.GameObject)\" text=\"New(string, string, string, Texture2D, Type, GameObject)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New(System.String,System.String,System.String,UnityEngine.Texture2D,System.Type,UnityEngine.GameObject)\" text=\"New(string, string, string, Texture2D, Type, GameObject)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemData New(string pluginGUID, string rulebookName, string rulebookDescription, Texture2D rulebookSprite, Type itemType, GameObject prefab)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function [New](pluginGUID As String, rulebookName As String, rulebookDescription As String, rulebookSprite As Texture2D, itemType As Type, prefab As GameObject) As ConsumableItemData"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookDescription",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookSprite",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "itemType",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "prefab",
+                "type": {
+                  "uid": "UnityEngine.GameObject",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "GameObject"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "GameObject"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "GameObject"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "GameObject"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.GameObject"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.GameObject"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.GameObject\" text=\"GameObject\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.GameObject\" text=\"GameObject\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "DiskCardGame.ConsumableItemData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "New",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 61,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.New*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "New"
+              },
+              {
+                "lang": "vb",
+                "value": "New"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.New"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.New"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.New"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.New"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New*\" text=\"New\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.New*\" text=\"New\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_New_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_New_System_String_System_String_System_String_UnityEngine_Texture2D_System_Type_UnityEngine_GameObject_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.New(System.String%2CSystem.String%2CSystem.String%2CUnityEngine.Texture2D%2CSystem.Type%2CUnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L62",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_New_System_String_System_String_System_String_UnityEngine_Texture2D_System_Type_UnityEngine_GameObject_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String,DiskCardGame.CardInfo,UnityEngine.Texture2D)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewCardInABottle(string, CardInfo, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "NewCardInABottle(String, CardInfo, Texture2D)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.NewCardInABottle(string, CardInfo, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.NewCardInABottle(String, CardInfo, Texture2D)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(string, DiskCardGame.CardInfo, UnityEngine.Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(String, DiskCardGame.CardInfo, UnityEngine.Texture2D)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String,DiskCardGame.CardInfo,UnityEngine.Texture2D)\" text=\"NewCardInABottle(string, CardInfo, Texture2D)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String,DiskCardGame.CardInfo,UnityEngine.Texture2D)\" text=\"NewCardInABottle(string, CardInfo, Texture2D)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemData NewCardInABottle(string pluginGUID, CardInfo cardInfo, Texture2D rulebookTexture = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function NewCardInABottle(pluginGUID As String, cardInfo As CardInfo, rulebookTexture As Texture2D = Nothing) As ConsumableItemData"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "cardInfo",
+                "type": {
+                  "uid": "DiskCardGame.CardInfo",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.CardInfo"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookTexture",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "DiskCardGame.ConsumableItemData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "NewCardInABottle",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 118,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NewCardInABottle"
+              },
+              {
+                "lang": "vb",
+                "value": "NewCardInABottle"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.NewCardInABottle"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.NewCardInABottle"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle*\" text=\"NewCardInABottle\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle*\" text=\"NewCardInABottle\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_NewCardInABottle_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_NewCardInABottle_System_String_DiskCardGame_CardInfo_UnityEngine_Texture2D_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String%2CDiskCardGame.CardInfo%2CUnityEngine.Texture2D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L119",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_NewCardInABottle_System_String_DiskCardGame_CardInfo_UnityEngine_Texture2D_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String,System.String,UnityEngine.Texture2D)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "NewCardInABottle(string, string, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "NewCardInABottle(String, String, Texture2D)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.NewCardInABottle(string, string, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.NewCardInABottle(String, String, Texture2D)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(string, string, UnityEngine.Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(String, String, UnityEngine.Texture2D)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String,System.String,UnityEngine.Texture2D)\" text=\"NewCardInABottle(string, string, Texture2D)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String,System.String,UnityEngine.Texture2D)\" text=\"NewCardInABottle(string, string, Texture2D)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemData NewCardInABottle(string pluginGUID, string cardName, Texture2D rulebookTexture = null)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function NewCardInABottle(pluginGUID As String, cardName As String, rulebookTexture As Texture2D = Nothing) As ConsumableItemData"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "cardName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookTexture",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "DiskCardGame.ConsumableItemData",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemData"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "DiskCardGame.ConsumableItemData"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"DiskCardGame.ConsumableItemData\" text=\"ConsumableItemData\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "NewCardInABottle",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 106,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "NewCardInABottle"
+              },
+              {
+                "lang": "vb",
+                "value": "NewCardInABottle"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.NewCardInABottle"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.NewCardInABottle"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle*\" text=\"NewCardInABottle\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle*\" text=\"NewCardInABottle\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_NewCardInABottle_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_NewCardInABottle_System_String_System_String_UnityEngine_Texture2D_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.NewCardInABottle(System.String%2CSystem.String%2CUnityEngine.Texture2D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L107",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_NewCardInABottle_System_String_System_String_UnityEngine_Texture2D_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab(System.String,System.String,InscryptionAPI.Items.ConsumableItemResource)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Items.ConsumableItemManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RegisterPrefab(string, string, ConsumableItemResource)"
+            },
+            {
+              "lang": "vb",
+              "value": "RegisterPrefab(String, String, ConsumableItemResource)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "ConsumableItemManager.RegisterPrefab(string, string, ConsumableItemResource)"
+            },
+            {
+              "lang": "vb",
+              "value": "ConsumableItemManager.RegisterPrefab(String, String, ConsumableItemResource)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab(string, string, InscryptionAPI.Items.ConsumableItemResource)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab(String, String, InscryptionAPI.Items.ConsumableItemResource)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab(System.String,System.String,InscryptionAPI.Items.ConsumableItemResource)\" text=\"RegisterPrefab(string, string, ConsumableItemResource)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab(System.String,System.String,InscryptionAPI.Items.ConsumableItemResource)\" text=\"RegisterPrefab(string, string, ConsumableItemResource)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static ConsumableItemManager.ModelType RegisterPrefab(string pluginGUID, string rulebookName, ConsumableItemResource resource)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function RegisterPrefab(pluginGUID As String, rulebookName As String, resource As ConsumableItemResource) As ConsumableItemManager.ModelType"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "pluginGUID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "rulebookName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "resource",
+                "type": {
+                  "uid": "InscryptionAPI.Items.ConsumableItemResource",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemResource"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemResource"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "ConsumableItemResource"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "ConsumableItemResource"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "InscryptionAPI.Items.ConsumableItemResource"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "InscryptionAPI.Items.ConsumableItemResource"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemResource\" text=\"ConsumableItemResource\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemResource\" text=\"ConsumableItemResource\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ConsumableItemManager.ModelType"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Items.ConsumableItemManager.ModelType"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.html\">ConsumableItemManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Items.ConsumableItemManager.ModelType.html\">ModelType</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RegisterPrefab",
+            "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+            "startLine": 163,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Items",
+          "overload": {
+            "uid": "InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RegisterPrefab"
+              },
+              {
+                "lang": "vb",
+                "value": "RegisterPrefab"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "ConsumableItemManager.RegisterPrefab"
+              },
+              {
+                "lang": "vb",
+                "value": "ConsumableItemManager.RegisterPrefab"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab*\" text=\"RegisterPrefab\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab*\" text=\"RegisterPrefab\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Items_ConsumableItemManager_RegisterPrefab_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager_RegisterPrefab_System_String_System_String_InscryptionAPI_Items_ConsumableItemResource_.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager.RegisterPrefab(System.String%2CSystem.String%2CInscryptionAPI.Items.ConsumableItemResource)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L164",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Items_ConsumableItemManager_RegisterPrefab_System_String_System_String_InscryptionAPI_Items_ConsumableItemResource_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "ConsumableItemManager"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsumableItemManager"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "ConsumableItemManager"
+    },
+    {
+      "lang": "vb",
+      "value": "ConsumableItemManager"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Items.ConsumableItemManager"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Items.ConsumableItemManager"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Items/ConsumableItemManager.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "ConsumableItemManager",
+    "path": "../InscryptionAPI/Items/ConsumableItemManager.cs",
+    "startLine": 12,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Items",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Items"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Items"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Items\" text=\"Items\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class ConsumableItemManager"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module ConsumableItemManager"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Items.ConsumableItemManager.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Items.ConsumableItemManager.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Items_ConsumableItemManager.md&value=---%0Auid%3A%20InscryptionAPI.Items.ConsumableItemManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L13",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Items_ConsumableItemManager",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

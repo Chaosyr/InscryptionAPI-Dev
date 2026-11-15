@@ -1,0 +1,2359 @@
+{
+  "uid": "InscryptionAPI.Encounters.OpponentManager",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionAPI.Encounters",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Encounters"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Encounters"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Encounters"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Encounters"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Encounters"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Encounters"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Encounters\" text=\"Encounters\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Encounters\" text=\"Encounters\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inField": true,
+      "typePropertyName": "inField",
+      "id": "fields",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.BaseGameOpponents",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters.OpponentManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "BaseGameOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "BaseGameOpponents"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.BaseGameOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.BaseGameOpponents"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.BaseGameOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.BaseGameOpponents"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.BaseGameOpponents\" text=\"BaseGameOpponents\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.BaseGameOpponents\" text=\"BaseGameOpponents\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static readonly ReadOnlyCollection<OpponentManager.FullOpponent> BaseGameOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared ReadOnly BaseGameOpponents As ReadOnlyCollection(Of OpponentManager.FullOpponent)"
+              }
+            ],
+            "return": null,
+            "fieldValue": {
+              "type": {
+                "uid": "System.Collections.ObjectModel.ReadOnlyCollection{InscryptionAPI.Encounters.OpponentManager.FullOpponent}",
+                "definition": "System.Collections.ObjectModel.ReadOnlyCollection`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "ReadOnlyCollection<OpponentManager.FullOpponent>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ReadOnlyCollection(Of OpponentManager.FullOpponent)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "ReadOnlyCollection<OpponentManager.FullOpponent>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "ReadOnlyCollection(Of OpponentManager.FullOpponent)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.ObjectModel.ReadOnlyCollection<InscryptionAPI.Encounters.OpponentManager.FullOpponent>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.ObjectModel.ReadOnlyCollection(Of InscryptionAPI.Encounters.OpponentManager.FullOpponent)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1\">ReadOnlyCollection</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1\">ReadOnlyCollection</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "BaseGameOpponents",
+            "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+            "startLine": 39,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Encounters",
+          "level": 0,
+          "type": "field",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager_BaseGameOpponents.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager.BaseGameOpponents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L40",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_BaseGameOpponents",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": true,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.AllOpponents",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters.OpponentManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "AllOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "AllOpponents"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.AllOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.AllOpponents"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.AllOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.AllOpponents"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.AllOpponents\" text=\"AllOpponents\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.AllOpponents\" text=\"AllOpponents\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<OpponentManager.FullOpponent> AllOpponents { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Property AllOpponents As List(Of OpponentManager.FullOpponent)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.List{InscryptionAPI.Encounters.OpponentManager.FullOpponent}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<OpponentManager.FullOpponent>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of OpponentManager.FullOpponent)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<OpponentManager.FullOpponent>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of OpponentManager.FullOpponent)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<InscryptionAPI.Encounters.OpponentManager.FullOpponent>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of InscryptionAPI.Encounters.OpponentManager.FullOpponent)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "AllOpponents",
+            "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+            "startLine": 78,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Encounters",
+          "overload": {
+            "uid": "InscryptionAPI.Encounters.OpponentManager.AllOpponents*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "AllOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "AllOpponents"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OpponentManager.AllOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "OpponentManager.AllOpponents"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Encounters.OpponentManager.AllOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Encounters.OpponentManager.AllOpponents"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.AllOpponents*\" text=\"AllOpponents\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.AllOpponents*\" text=\"AllOpponents\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Encounters_OpponentManager_AllOpponents_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager_AllOpponents.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager.AllOpponents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L79",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_AllOpponents",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.RunStateOpponents",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters.OpponentManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RunStateOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "RunStateOpponents"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.RunStateOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.RunStateOpponents"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.RunStateOpponents"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.RunStateOpponents"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.RunStateOpponents\" text=\"RunStateOpponents\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.RunStateOpponents\" text=\"RunStateOpponents\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<Opponent.Type> RunStateOpponents { get; set; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Property RunStateOpponents As List(Of Opponent.Type)"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Collections.Generic.List{DiskCardGame.Opponent.Type}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Opponent.Type>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Opponent.Type)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Opponent.Type>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Opponent.Type)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<DiskCardGame.Opponent.Type>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of DiskCardGame.Opponent.Type)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.Opponent\" text=\"Opponent\"/>.<xref uid=\"DiskCardGame.Opponent.Type\" text=\"Type\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.Opponent\" text=\"Opponent\"/>.<xref uid=\"DiskCardGame.Opponent.Type\" text=\"Type\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RunStateOpponents",
+            "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+            "startLine": 92,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Encounters",
+          "overload": {
+            "uid": "InscryptionAPI.Encounters.OpponentManager.RunStateOpponents*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RunStateOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "RunStateOpponents"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OpponentManager.RunStateOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "OpponentManager.RunStateOpponents"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Encounters.OpponentManager.RunStateOpponents"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Encounters.OpponentManager.RunStateOpponents"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.RunStateOpponents*\" text=\"RunStateOpponents\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.RunStateOpponents*\" text=\"RunStateOpponents\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Encounters_OpponentManager_RunStateOpponents_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager_RunStateOpponents.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager.RunStateOpponents%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L93",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_RunStateOpponents",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.Add(System.String,System.String,System.String,System.Type)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters.OpponentManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Add(string, string, string, Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "Add(String, String, String, Type)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.Add(string, string, string, Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.Add(String, String, String, Type)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.Add(string, string, string, System.Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.Add(String, String, String, System.Type)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add(System.String,System.String,System.String,System.Type)\" text=\"Add(string, string, string, Type)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add(System.String,System.String,System.String,System.Type)\" text=\"Add(string, string, string, Type)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static OpponentManager.FullOpponent Add(string guid, string opponentName, string sequencerID, Type opponentType)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Add(guid As String, opponentName As String, sequencerID As String, opponentType As Type) As OpponentManager.FullOpponent"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "guid",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "opponentName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "sequencerID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "opponentType",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "InscryptionAPI.Encounters.OpponentManager.FullOpponent",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "OpponentManager.FullOpponent"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OpponentManager.FullOpponent"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "OpponentManager.FullOpponent"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OpponentManager.FullOpponent"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Encounters.OpponentManager.FullOpponent"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Encounters.OpponentManager.FullOpponent"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Add",
+            "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+            "startLine": 80,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Encounters",
+          "overload": {
+            "uid": "InscryptionAPI.Encounters.OpponentManager.Add*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Add"
+              },
+              {
+                "lang": "vb",
+                "value": "Add"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OpponentManager.Add"
+              },
+              {
+                "lang": "vb",
+                "value": "OpponentManager.Add"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Encounters.OpponentManager.Add"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Encounters.OpponentManager.Add"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add*\" text=\"Add\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add*\" text=\"Add\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Encounters_OpponentManager_Add_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager_Add_System_String_System_String_System_String_System_Type_.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager.Add(System.String%2CSystem.String%2CSystem.String%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L81",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_Add_System_String_System_String_System_String_System_Type_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.Add(System.String,System.String,System.String,System.Type,System.Collections.Generic.List{UnityEngine.Texture2D})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters.OpponentManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "Add(string, string, string, Type, List<Texture2D>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Add(String, String, String, Type, List(Of Texture2D))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.Add(string, string, string, Type, List<Texture2D>)"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.Add(String, String, String, Type, List(Of Texture2D))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.Add(string, string, string, System.Type, System.Collections.Generic.List<UnityEngine.Texture2D>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.Add(String, String, String, System.Type, System.Collections.Generic.List(Of UnityEngine.Texture2D))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add(System.String,System.String,System.String,System.Type,System.Collections.Generic.List{UnityEngine.Texture2D})\" text=\"Add(string, string, string, Type, List&lt;Texture2D&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add(System.String,System.String,System.String,System.Type,System.Collections.Generic.List{UnityEngine.Texture2D})\" text=\"Add(string, string, string, Type, List&lt;Texture2D&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static OpponentManager.FullOpponent Add(string guid, string opponentName, string sequencerID, Type opponentType, List<Texture2D> nodeAnimation)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function Add(guid As String, opponentName As String, sequencerID As String, opponentType As Type, nodeAnimation As List(Of Texture2D)) As OpponentManager.FullOpponent"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "guid",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "opponentName",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "sequencerID",
+                "type": {
+                  "uid": "System.String",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "string"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "String"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "opponentType",
+                "type": {
+                  "uid": "System.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "nodeAnimation",
+                "type": {
+                  "uid": "System.Collections.Generic.List{UnityEngine.Texture2D}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of Texture2D)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of Texture2D)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<UnityEngine.Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of UnityEngine.Texture2D)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "InscryptionAPI.Encounters.OpponentManager.FullOpponent",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "OpponentManager.FullOpponent"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OpponentManager.FullOpponent"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "OpponentManager.FullOpponent"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "OpponentManager.FullOpponent"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "InscryptionAPI.Encounters.OpponentManager.FullOpponent"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "InscryptionAPI.Encounters.OpponentManager.FullOpponent"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.html\">OpponentManager</a>.<a class=\"xref\" href=\"InscryptionAPI.Encounters.OpponentManager.FullOpponent.html\">FullOpponent</a>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "Add",
+            "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+            "startLine": 85,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Encounters",
+          "overload": {
+            "uid": "InscryptionAPI.Encounters.OpponentManager.Add*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "Add"
+              },
+              {
+                "lang": "vb",
+                "value": "Add"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OpponentManager.Add"
+              },
+              {
+                "lang": "vb",
+                "value": "OpponentManager.Add"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Encounters.OpponentManager.Add"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Encounters.OpponentManager.Add"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add*\" text=\"Add\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.Add*\" text=\"Add\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Encounters_OpponentManager_Add_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager_Add_System_String_System_String_System_String_System_Type_System_Collections_Generic_List_UnityEngine_Texture2D__.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager.Add(System.String%2CSystem.String%2CSystem.String%2CSystem.Type%2CSystem.Collections.Generic.List%7BUnityEngine.Texture2D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L86",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_Add_System_String_System_String_System_String_System_Type_System_Collections_Generic_List_UnityEngine_Texture2D__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss(DiskCardGame.Opponent.Type)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionAPI.Encounters.OpponentManager",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "OriginalGetSequencerIdForBoss(Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "OriginalGetSequencerIdForBoss(Type)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "OpponentManager.OriginalGetSequencerIdForBoss(Opponent.Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "OpponentManager.OriginalGetSequencerIdForBoss(Opponent.Type)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss(DiskCardGame.Opponent.Type)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss(DiskCardGame.Opponent.Type)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss(DiskCardGame.Opponent.Type)\" text=\"OriginalGetSequencerIdForBoss(Type)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss(DiskCardGame.Opponent.Type)\" text=\"OriginalGetSequencerIdForBoss(Type)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "[HarmonyReversePatch(HarmonyReversePatchType.Original)]\n[HarmonyPatch(typeof(BossBattleSequencer), \"GetSequencerIdForBoss\")]\npublic static string OriginalGetSequencerIdForBoss(Opponent.Type bossType)"
+              },
+              {
+                "lang": "vb",
+                "value": "<HarmonyReversePatch(HarmonyReversePatchType.Original)>\n<HarmonyPatch(GetType(BossBattleSequencer), \"GetSequencerIdForBoss\")>\nPublic Shared Function OriginalGetSequencerIdForBoss(bossType As Opponent.Type) As String"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "bossType",
+                "type": {
+                  "uid": "DiskCardGame.Opponent.Type",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Opponent.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Opponent.Type"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Opponent.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Opponent.Type"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.Opponent.Type"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.Opponent.Type"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.Opponent\" text=\"Opponent\"/>.<xref uid=\"DiskCardGame.Opponent.Type\" text=\"Type\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.Opponent\" text=\"Opponent\"/>.<xref uid=\"DiskCardGame.Opponent.Type\" text=\"Type\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.String",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "string"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "String"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.String\" text=\"string\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "OriginalGetSequencerIdForBoss",
+            "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+            "startLine": 161,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionAPI"
+          ],
+          "namespace": "InscryptionAPI.Encounters",
+          "overload": {
+            "uid": "InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "OriginalGetSequencerIdForBoss"
+              },
+              {
+                "lang": "vb",
+                "value": "OriginalGetSequencerIdForBoss"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "OpponentManager.OriginalGetSequencerIdForBoss"
+              },
+              {
+                "lang": "vb",
+                "value": "OpponentManager.OriginalGetSequencerIdForBoss"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss*\" text=\"OriginalGetSequencerIdForBoss\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss*\" text=\"OriginalGetSequencerIdForBoss\"/>"
+              }
+            ],
+            "id": "InscryptionAPI_Encounters_OpponentManager_OriginalGetSequencerIdForBoss_"
+          },
+          "level": 0,
+          "attributes": [
+            {
+              "type": "HarmonyLib.HarmonyReversePatch",
+              "ctor": "HarmonyLib.HarmonyReversePatch.#ctor(HarmonyLib.HarmonyReversePatchType)",
+              "arguments": [
+                {
+                  "type": "HarmonyLib.HarmonyReversePatchType",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "HarmonyLib.HarmonyPatch",
+              "ctor": "HarmonyLib.HarmonyPatch.#ctor(System.Type,System.String)",
+              "arguments": [
+                {
+                  "type": "System.Type",
+                  "value": "DiskCardGame.BossBattleSequencer"
+                },
+                {
+                  "type": "System.String",
+                  "value": "GetSequencerIdForBoss"
+                }
+              ]
+            }
+          ],
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager_OriginalGetSequencerIdForBoss_DiskCardGame_Opponent_Type_.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager.OriginalGetSequencerIdForBoss(DiskCardGame.Opponent.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L162",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionAPI_Encounters_OpponentManager_OriginalGetSequencerIdForBoss_DiskCardGame_Opponent_Type_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "OpponentManager"
+    },
+    {
+      "lang": "vb",
+      "value": "OpponentManager"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "OpponentManager"
+    },
+    {
+      "lang": "vb",
+      "value": "OpponentManager"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionAPI.Encounters.OpponentManager"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionAPI.Encounters.OpponentManager"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionAPI/Encounters/OpponentManager.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "OpponentManager",
+    "path": "../InscryptionAPI/Encounters/OpponentManager.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionAPI"
+  ],
+  "namespace": {
+    "uid": "InscryptionAPI.Encounters",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Encounters"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Encounters"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Encounters"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Encounters"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionAPI.Encounters"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionAPI.Encounters"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Encounters\" text=\"Encounters\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionAPI\" text=\"InscryptionAPI\"/>.<xref uid=\"InscryptionAPI.Encounters\" text=\"Encounters\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "[HarmonyPatch]\npublic static class OpponentManager"
+      },
+      {
+        "lang": "vb",
+        "value": "<HarmonyPatch>\nPublic Module OpponentManager"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "attributes": [
+    {
+      "type": "HarmonyLib.HarmonyPatch",
+      "ctor": "HarmonyLib.HarmonyPatch.#ctor",
+      "arguments": []
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "api/InscryptionAPI.Encounters.OpponentManager.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "api/InscryptionAPI.Encounters.OpponentManager.html",
+  "_rel": "../",
+  "_tocKey": "~/api/toc.yml",
+  "_tocPath": "api/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Encounters_OpponentManager.md&value=---%0Auid%3A%20InscryptionAPI.Encounters.OpponentManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/OpponentManager.cs/#L15",
+  "summary": "",
+  "description": "",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "example": "",
+  "seealso": [],
+  "id": "InscryptionAPI_Encounters_OpponentManager",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}

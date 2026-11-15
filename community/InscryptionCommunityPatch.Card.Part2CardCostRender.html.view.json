@@ -1,0 +1,4059 @@
+{
+  "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+  "isEii": false,
+  "isExtensionMethod": false,
+  "parent": {
+    "uid": "InscryptionCommunityPatch.Card",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "children": [
+    {
+      "inProperty": true,
+      "typePropertyName": "inProperty",
+      "id": "properties",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "RightAct2Cost"
+            },
+            {
+              "lang": "vb",
+              "value": "RightAct2Cost"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.RightAct2Cost"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.RightAct2Cost"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost\" text=\"RightAct2Cost\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost\" text=\"RightAct2Cost\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static bool RightAct2Cost { get; }"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared ReadOnly Property RightAct2Cost As Boolean"
+              }
+            ],
+            "parameters": [],
+            "return": null,
+            "propertyValue": {
+              "type": {
+                "uid": "System.Boolean",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "bool"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Boolean"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "RightAct2Cost",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 29,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "RightAct2Cost"
+              },
+              {
+                "lang": "vb",
+                "value": "RightAct2Cost"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.RightAct2Cost"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.RightAct2Cost"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost*\" text=\"RightAct2Cost\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost*\" text=\"RightAct2Cost\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_RightAct2Cost_"
+          },
+          "level": 0,
+          "type": "property",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_RightAct2Cost.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L30",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_RightAct2Cost",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": true,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inMethod": true,
+      "typePropertyName": "inMethod",
+      "id": "methods",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(System.Int32,UnityEngine.Texture2D)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CombineIconAndCount(int, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "CombineIconAndCount(Integer, Texture2D)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.CombineIconAndCount(int, Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.CombineIconAndCount(Integer, Texture2D)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(int, UnityEngine.Texture2D)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(Integer, UnityEngine.Texture2D)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(System.Int32,UnityEngine.Texture2D)\" text=\"CombineIconAndCount(int, Texture2D)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(System.Int32,UnityEngine.Texture2D)\" text=\"CombineIconAndCount(int, Texture2D)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Texture2D CombineIconAndCount(int cardCost, Texture2D artCost)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function CombineIconAndCount(cardCost As Integer, artCost As Texture2D) As Texture2D"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "cardCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "artCost",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "UnityEngine.Texture2D",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "UnityEngine.Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "UnityEngine.Texture2D"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CombineIconAndCount",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 225,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CombineIconAndCount"
+              },
+              {
+                "lang": "vb",
+                "value": "CombineIconAndCount"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.CombineIconAndCount"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.CombineIconAndCount"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount*\" text=\"CombineIconAndCount\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount*\" text=\"CombineIconAndCount\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_CombineIconAndCount_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_CombineIconAndCount_System_Int32_UnityEngine_Texture2D_.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(System.Int32%2CUnityEngine.Texture2D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L226",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_CombineIconAndCount_System_Int32_UnityEngine_Texture2D_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List{UnityEngine.Texture2D},UnityEngine.Texture2D,System.Boolean,System.Int32)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CombineVanillaCostTextures(List<Texture2D>, Texture2D, bool, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "CombineVanillaCostTextures(List(Of Texture2D), Texture2D, Boolean, Integer)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.CombineVanillaCostTextures(List<Texture2D>, Texture2D, bool, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.CombineVanillaCostTextures(List(Of Texture2D), Texture2D, Boolean, Integer)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List<UnityEngine.Texture2D>, UnityEngine.Texture2D, bool, int)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List(Of UnityEngine.Texture2D), UnityEngine.Texture2D, Boolean, Integer)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List{UnityEngine.Texture2D},UnityEngine.Texture2D,System.Boolean,System.Int32)\" text=\"CombineVanillaCostTextures(List&lt;Texture2D&gt;, Texture2D, bool, int)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List{UnityEngine.Texture2D},UnityEngine.Texture2D,System.Boolean,System.Int32)\" text=\"CombineVanillaCostTextures(List&lt;Texture2D&gt;, Texture2D, bool, int)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Texture2D CombineVanillaCostTextures(List<Texture2D> textures, Texture2D baseTexture, bool leftOriented, int yOffset)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function CombineVanillaCostTextures(textures As List(Of Texture2D), baseTexture As Texture2D, leftOriented As Boolean, yOffset As Integer) As Texture2D"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "textures",
+                "type": {
+                  "uid": "System.Collections.Generic.List{UnityEngine.Texture2D}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of Texture2D)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of Texture2D)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<UnityEngine.Texture2D>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of UnityEngine.Texture2D)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                    }
+                  ]
+                },
+                "description": ""
+              },
+              {
+                "id": "baseTexture",
+                "type": {
+                  "uid": "UnityEngine.Texture2D",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Texture2D"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "UnityEngine.Texture2D"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "UnityEngine.Texture2D"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                    }
+                  ]
+                },
+                "description": ""
+              },
+              {
+                "id": "leftOriented",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                },
+                "description": ""
+              },
+              {
+                "id": "yOffset",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                },
+                "description": ""
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "UnityEngine.Texture2D",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Texture2D"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "UnityEngine.Texture2D"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "UnityEngine.Texture2D"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>"
+                  }
+                ]
+              },
+              "description": ""
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CombineVanillaCostTextures",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 85,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CombineVanillaCostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "CombineVanillaCostTextures"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.CombineVanillaCostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.CombineVanillaCostTextures"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures*\" text=\"CombineVanillaCostTextures\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures*\" text=\"CombineVanillaCostTextures\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_CombineVanillaCostTextures_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml\" sourcestartlinenumber=\"1\">A variant of TextureHelper.CombineTextures specifically designed for combining vanilla cost textures.\nEach cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in width, and this method compensates for any textures thinner than 24 px.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_CombineVanillaCostTextures_System_Collections_Generic_List_UnityEngine_Texture2D__UnityEngine_Texture2D_System_Boolean_System_Int32_.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List%7BUnityEngine.Texture2D%7D%2CUnityEngine.Texture2D%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L86",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_CombineVanillaCostTextures_System_Collections_Generic_List_UnityEngine_Texture2D__UnityEngine_Texture2D_System_Boolean_System_Int32_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "CostTextures(CardInfo, PlayableCard, int, int, int, List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "CostTextures(CardInfo, PlayableCard, Integer, Integer, Integer, List(Of GemType))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.CostTextures(CardInfo, PlayableCard, int, int, int, List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.CostTextures(CardInfo, PlayableCard, Integer, Integer, Integer, List(Of GemType))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo, DiskCardGame.PlayableCard, int, int, int, System.Collections.Generic.List<DiskCardGame.GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo, DiskCardGame.PlayableCard, Integer, Integer, Integer, System.Collections.Generic.List(Of DiskCardGame.GemType))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"CostTextures(CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"CostTextures(CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<Texture2D> CostTextures(CardInfo cardInfo, PlayableCard playableCard, int bloodCost, int bonesCost, int energyCost, List<GemType> gemsCost)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function CostTextures(cardInfo As CardInfo, playableCard As PlayableCard, bloodCost As Integer, bonesCost As Integer, energyCost As Integer, gemsCost As List(Of GemType)) As List(Of Texture2D)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "cardInfo",
+                "type": {
+                  "uid": "DiskCardGame.CardInfo",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.CardInfo"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "playableCard",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "bloodCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "bonesCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "energyCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "gemsCost",
+                "type": {
+                  "uid": "System.Collections.Generic.List{DiskCardGame.GemType}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<DiskCardGame.GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of DiskCardGame.GemType)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{UnityEngine.Texture2D}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<UnityEngine.Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of UnityEngine.Texture2D)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "CostTextures",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 168,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "CostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "CostTextures"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.CostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.CostTextures"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures*\" text=\"CostTextures\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures*\" text=\"CostTextures\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_CostTextures_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_CostTextures_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo%2CDiskCardGame.PlayableCard%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Collections.Generic.List%7BDiskCardGame.GemType%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L169",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_CostTextures_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Boolean)",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, Boolean)"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, Boolean)"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer, DiskCardGame.CardInfo, DiskCardGame.PlayableCard, bool)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer, DiskCardGame.CardInfo, DiskCardGame.PlayableCard, Boolean)"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Boolean)\" text=\"FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, bool)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Boolean)\" text=\"FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, bool)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static Sprite FinalVanillaCostSprite(PixelCardDisplayer display, CardInfo cardInfo, PlayableCard playableCard, bool leftOriented)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function FinalVanillaCostSprite(display As PixelCardDisplayer, cardInfo As CardInfo, playableCard As PlayableCard, leftOriented As Boolean) As Sprite"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "display",
+                "type": {
+                  "uid": "GBC.PixelCardDisplayer",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PixelCardDisplayer"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PixelCardDisplayer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PixelCardDisplayer"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PixelCardDisplayer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "GBC.PixelCardDisplayer"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "GBC.PixelCardDisplayer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"GBC.PixelCardDisplayer\" text=\"PixelCardDisplayer\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"GBC.PixelCardDisplayer\" text=\"PixelCardDisplayer\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "cardInfo",
+                "type": {
+                  "uid": "DiskCardGame.CardInfo",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.CardInfo"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "playableCard",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "leftOriented",
+                "type": {
+                  "uid": "System.Boolean",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "bool"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Boolean"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Boolean\" text=\"bool\"/>"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "UnityEngine.Sprite",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Sprite"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Sprite"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Sprite"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Sprite"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "UnityEngine.Sprite"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "UnityEngine.Sprite"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<xref uid=\"UnityEngine.Sprite\" text=\"Sprite\"/>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<xref uid=\"UnityEngine.Sprite\" text=\"Sprite\"/>"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "FinalVanillaCostSprite",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 31,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "FinalVanillaCostSprite"
+              },
+              {
+                "lang": "vb",
+                "value": "FinalVanillaCostSprite"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.FinalVanillaCostSprite"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.FinalVanillaCostSprite"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite*\" text=\"FinalVanillaCostSprite\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite*\" text=\"FinalVanillaCostSprite\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_FinalVanillaCostSprite_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_FinalVanillaCostSprite_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Boolean_.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer%2CDiskCardGame.CardInfo%2CDiskCardGame.PlayableCard%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L32",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_FinalVanillaCostSprite_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Boolean_",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetMoxTextures(List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetMoxTextures(List(Of GemType))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.GetMoxTextures(List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.GetMoxTextures(List(Of GemType))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List<DiskCardGame.GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List(Of DiskCardGame.GemType))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"GetMoxTextures(List&lt;GemType&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"GetMoxTextures(List&lt;GemType&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<Texture2D> GetMoxTextures(List<GemType> gemsCost)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetMoxTextures(gemsCost As List(Of GemType)) As List(Of Texture2D)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "gemsCost",
+                "type": {
+                  "uid": "System.Collections.Generic.List{DiskCardGame.GemType}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<DiskCardGame.GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of DiskCardGame.GemType)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{UnityEngine.Texture2D}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<UnityEngine.Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of UnityEngine.Texture2D)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetMoxTextures",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 316,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetMoxTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "GetMoxTextures"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.GetMoxTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.GetMoxTextures"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures*\" text=\"GetMoxTextures\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures*\" text=\"GetMoxTextures\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_GetMoxTextures_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_GetMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List%7BDiskCardGame.GemType%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L317",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_GetMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "GetVanillaMoxTextures(List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "GetVanillaMoxTextures(List(Of GemType))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.GetVanillaMoxTextures(List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.GetVanillaMoxTextures(List(Of GemType))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List<DiskCardGame.GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List(Of DiskCardGame.GemType))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"GetVanillaMoxTextures(List&lt;GemType&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"GetVanillaMoxTextures(List&lt;GemType&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<Texture2D> GetVanillaMoxTextures(List<GemType> gemsCost)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function GetVanillaMoxTextures(gemsCost As List(Of GemType)) As List(Of Texture2D)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "gemsCost",
+                "type": {
+                  "uid": "System.Collections.Generic.List{DiskCardGame.GemType}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<DiskCardGame.GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of DiskCardGame.GemType)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{UnityEngine.Texture2D}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<UnityEngine.Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of UnityEngine.Texture2D)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "GetVanillaMoxTextures",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 261,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "GetVanillaMoxTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "GetVanillaMoxTextures"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.GetVanillaMoxTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.GetVanillaMoxTextures"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures*\" text=\"GetVanillaMoxTextures\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures*\" text=\"GetVanillaMoxTextures\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_GetVanillaMoxTextures_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_GetVanillaMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List%7BDiskCardGame.GemType%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L262",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_GetVanillaMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, int, int, int, List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, Integer, Integer, Integer, List(Of GemType))"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, int, int, int, List<GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, Integer, Integer, Integer, List(Of GemType))"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer, DiskCardGame.CardInfo, DiskCardGame.PlayableCard, int, int, int, System.Collections.Generic.List<DiskCardGame.GemType>)"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer, DiskCardGame.CardInfo, DiskCardGame.PlayableCard, Integer, Integer, Integer, System.Collections.Generic.List(Of DiskCardGame.GemType))"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})\" text=\"VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static List<Texture2D> VanillaCostTextures(PixelCardDisplayer display, CardInfo cardInfo, PlayableCard playableCard, int bloodCost, int bonesCost, int energyCost, List<GemType> gemsCost)"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Function VanillaCostTextures(display As PixelCardDisplayer, cardInfo As CardInfo, playableCard As PlayableCard, bloodCost As Integer, bonesCost As Integer, energyCost As Integer, gemsCost As List(Of GemType)) As List(Of Texture2D)"
+              }
+            ],
+            "parameters": [
+              {
+                "id": "display",
+                "type": {
+                  "uid": "GBC.PixelCardDisplayer",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PixelCardDisplayer"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PixelCardDisplayer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PixelCardDisplayer"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PixelCardDisplayer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "GBC.PixelCardDisplayer"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "GBC.PixelCardDisplayer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"GBC.PixelCardDisplayer\" text=\"PixelCardDisplayer\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"GBC.PixelCardDisplayer\" text=\"PixelCardDisplayer\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "cardInfo",
+                "type": {
+                  "uid": "DiskCardGame.CardInfo",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "CardInfo"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.CardInfo"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.CardInfo"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "playableCard",
+                "type": {
+                  "uid": "DiskCardGame.PlayableCard",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "PlayableCard"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "DiskCardGame.PlayableCard"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "DiskCardGame.PlayableCard"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "bloodCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "bonesCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "energyCost",
+                "type": {
+                  "uid": "System.Int32",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "int"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "Integer"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<xref uid=\"System.Int32\" text=\"int\"/>"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "gemsCost",
+                "type": {
+                  "uid": "System.Collections.Generic.List{DiskCardGame.GemType}",
+                  "definition": "System.Collections.Generic.List`1",
+                  "name": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "nameWithType": [
+                    {
+                      "lang": "csharp",
+                      "value": "List<GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "List(Of GemType)"
+                    }
+                  ],
+                  "fullName": [
+                    {
+                      "lang": "csharp",
+                      "value": "System.Collections.Generic.List<DiskCardGame.GemType>"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "System.Collections.Generic.List(Of DiskCardGame.GemType)"
+                    }
+                  ],
+                  "specName": [
+                    {
+                      "lang": "csharp",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>&gt;"
+                    },
+                    {
+                      "lang": "vb",
+                      "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"DiskCardGame.GemType\" text=\"GemType\"/>)"
+                    }
+                  ]
+                }
+              }
+            ],
+            "return": {
+              "type": {
+                "uid": "System.Collections.Generic.List{UnityEngine.Texture2D}",
+                "definition": "System.Collections.Generic.List`1",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "List<Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "List(Of Texture2D)"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Collections.Generic.List<UnityEngine.Texture2D>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Collections.Generic.List(Of UnityEngine.Texture2D)"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>)"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "VanillaCostTextures",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 105,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "overload": {
+            "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures*",
+            "name": [
+              {
+                "lang": "csharp",
+                "value": "VanillaCostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "VanillaCostTextures"
+              }
+            ],
+            "nameWithType": [
+              {
+                "lang": "csharp",
+                "value": "Part2CardCostRender.VanillaCostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "Part2CardCostRender.VanillaCostTextures"
+              }
+            ],
+            "fullName": [
+              {
+                "lang": "csharp",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures"
+              },
+              {
+                "lang": "vb",
+                "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures"
+              }
+            ],
+            "specName": [
+              {
+                "lang": "csharp",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures*\" text=\"VanillaCostTextures\"/>"
+              },
+              {
+                "lang": "vb",
+                "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures*\" text=\"VanillaCostTextures\"/>"
+              }
+            ],
+            "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_VanillaCostTextures_"
+          },
+          "level": 0,
+          "type": "method",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_VanillaCostTextures_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer%2CDiskCardGame.CardInfo%2CDiskCardGame.PlayableCard%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Collections.Generic.List%7BDiskCardGame.GemType%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L106",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_VanillaCostTextures_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": true,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": false,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    },
+    {
+      "inEvent": true,
+      "typePropertyName": "inEvent",
+      "id": "events",
+      "children": [
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "UpdateCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "UpdateCardCost"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.UpdateCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.UpdateCardCost"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost\" text=\"UpdateCardCost\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost\" text=\"UpdateCardCost\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static event Action<CardInfo, List<Texture2D>> UpdateCardCost"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Event UpdateCardCost As Action(Of CardInfo, List(Of Texture2D))"
+              }
+            ],
+            "return": null,
+            "eventType": {
+              "type": {
+                "uid": "System.Action{DiskCardGame.CardInfo,System.Collections.Generic.List{UnityEngine.Texture2D}}",
+                "definition": "System.Action`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<CardInfo, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of CardInfo, List(Of Texture2D))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<CardInfo, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of CardInfo, List(Of Texture2D))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Action<DiskCardGame.CardInfo, System.Collections.Generic.List<UnityEngine.Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Action(Of DiskCardGame.CardInfo, System.Collections.Generic.List(Of UnityEngine.Texture2D))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>&lt;<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>(Of <xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "UpdateCardCost",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 16,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "level": 0,
+          "type": "event",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateCardCost.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L17",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateCardCost",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": true,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "UpdatePlayableCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "UpdatePlayableCardCost"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.UpdatePlayableCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.UpdatePlayableCardCost"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost\" text=\"UpdatePlayableCardCost\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost\" text=\"UpdatePlayableCardCost\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static event Action<PlayableCard, List<Texture2D>> UpdatePlayableCardCost"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Event UpdatePlayableCardCost As Action(Of PlayableCard, List(Of Texture2D))"
+              }
+            ],
+            "return": null,
+            "eventType": {
+              "type": {
+                "uid": "System.Action{DiskCardGame.PlayableCard,System.Collections.Generic.List{UnityEngine.Texture2D}}",
+                "definition": "System.Action`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<PlayableCard, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of PlayableCard, List(Of Texture2D))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<PlayableCard, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of PlayableCard, List(Of Texture2D))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Action<DiskCardGame.PlayableCard, System.Collections.Generic.List<UnityEngine.Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Action(Of DiskCardGame.PlayableCard, System.Collections.Generic.List(Of UnityEngine.Texture2D))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "UpdatePlayableCardCost",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 22,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "level": 0,
+          "type": "event",
+          "summary": "",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_UpdatePlayableCardCost.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L23",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "example": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_UpdatePlayableCardCost",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": true,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "UpdateVanillaCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "UpdateVanillaCardCost"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.UpdateVanillaCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.UpdateVanillaCardCost"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost\" text=\"UpdateVanillaCardCost\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost\" text=\"UpdateVanillaCardCost\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static event Action<CardInfo, List<Texture2D>> UpdateVanillaCardCost"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Event UpdateVanillaCardCost As Action(Of CardInfo, List(Of Texture2D))"
+              }
+            ],
+            "return": null,
+            "eventType": {
+              "type": {
+                "uid": "System.Action{DiskCardGame.CardInfo,System.Collections.Generic.List{UnityEngine.Texture2D}}",
+                "definition": "System.Action`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<CardInfo, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of CardInfo, List(Of Texture2D))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<CardInfo, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of CardInfo, List(Of Texture2D))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Action<DiskCardGame.CardInfo, System.Collections.Generic.List<UnityEngine.Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Action(Of DiskCardGame.CardInfo, System.Collections.Generic.List(Of UnityEngine.Texture2D))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>&lt;<xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>(Of <xref uid=\"DiskCardGame.CardInfo\" text=\"CardInfo\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "UpdateVanillaCardCost",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 20,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "level": 0,
+          "type": "event",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml\" sourcestartlinenumber=\"1\">For textures that are 24 x 13 in size.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateVanillaCardCost.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L21",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateVanillaCardCost",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": true,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        },
+        {
+          "uid": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost",
+          "isEii": false,
+          "isExtensionMethod": false,
+          "parent": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+          "isExternal": false,
+          "name": [
+            {
+              "lang": "csharp",
+              "value": "UpdateVanillaPlayableCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "UpdateVanillaPlayableCardCost"
+            }
+          ],
+          "nameWithType": [
+            {
+              "lang": "csharp",
+              "value": "Part2CardCostRender.UpdateVanillaPlayableCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "Part2CardCostRender.UpdateVanillaPlayableCardCost"
+            }
+          ],
+          "fullName": [
+            {
+              "lang": "csharp",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost"
+            },
+            {
+              "lang": "vb",
+              "value": "InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost"
+            }
+          ],
+          "specName": [
+            {
+              "lang": "csharp",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost\" text=\"UpdateVanillaPlayableCardCost\"/>"
+            },
+            {
+              "lang": "vb",
+              "value": "<xref uid=\"InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost\" text=\"UpdateVanillaPlayableCardCost\"/>"
+            }
+          ],
+          "syntax": {
+            "content": [
+              {
+                "lang": "csharp",
+                "value": "public static event Action<PlayableCard, List<Texture2D>> UpdateVanillaPlayableCardCost"
+              },
+              {
+                "lang": "vb",
+                "value": "Public Shared Event UpdateVanillaPlayableCardCost As Action(Of PlayableCard, List(Of Texture2D))"
+              }
+            ],
+            "return": null,
+            "eventType": {
+              "type": {
+                "uid": "System.Action{DiskCardGame.PlayableCard,System.Collections.Generic.List{UnityEngine.Texture2D}}",
+                "definition": "System.Action`2",
+                "name": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<PlayableCard, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of PlayableCard, List(Of Texture2D))"
+                  }
+                ],
+                "nameWithType": [
+                  {
+                    "lang": "csharp",
+                    "value": "Action<PlayableCard, List<Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "Action(Of PlayableCard, List(Of Texture2D))"
+                  }
+                ],
+                "fullName": [
+                  {
+                    "lang": "csharp",
+                    "value": "System.Action<DiskCardGame.PlayableCard, System.Collections.Generic.List<UnityEngine.Texture2D>>"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "System.Action(Of DiskCardGame.PlayableCard, System.Collections.Generic.List(Of UnityEngine.Texture2D))"
+                  }
+                ],
+                "specName": [
+                  {
+                    "lang": "csharp",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>&lt;<xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>&lt;<xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>&gt;&gt;"
+                  },
+                  {
+                    "lang": "vb",
+                    "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.action-2\">Action</a>(Of <xref uid=\"DiskCardGame.PlayableCard\" text=\"PlayableCard\"/>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1\">List</a>(Of <xref uid=\"UnityEngine.Texture2D\" text=\"Texture2D\"/>))"
+                  }
+                ]
+              }
+            }
+          },
+          "source": {
+            "remote": {
+              "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+              "branch": "main",
+              "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+            },
+            "id": "UpdateVanillaPlayableCardCost",
+            "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+            "startLine": 27,
+            "endLine": 0
+          },
+          "assemblies": [
+            "InscryptionCommunityPatch"
+          ],
+          "namespace": "InscryptionCommunityPatch.Card",
+          "example": [],
+          "level": 0,
+          "type": "event",
+          "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml\" sourcestartlinenumber=\"1\">For textures that are 24 x 13 in size.</p>\n",
+          "platform": null,
+          "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateVanillaPlayableCardCost.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+          "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L28",
+          "description": "",
+          "remarks": "",
+          "conceptual": "",
+          "implements": "",
+          "seealso": [],
+          "id": "InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateVanillaPlayableCardCost",
+          "hideTitleType": false,
+          "hideSubtitle": false,
+          "isNamespace": false,
+          "isClass": false,
+          "isStruct": false,
+          "isInterface": false,
+          "isEnum": false,
+          "isDelegate": false,
+          "isConstructor": false,
+          "isMethod": false,
+          "isProperty": false,
+          "isField": false,
+          "isEvent": true,
+          "isOperator": false,
+          "isType": false,
+          "isMember": true
+        }
+      ]
+    }
+  ],
+  "langs": [
+    "csharp",
+    "vb"
+  ],
+  "name": [
+    {
+      "lang": "csharp",
+      "value": "Part2CardCostRender"
+    },
+    {
+      "lang": "vb",
+      "value": "Part2CardCostRender"
+    }
+  ],
+  "nameWithType": [
+    {
+      "lang": "csharp",
+      "value": "Part2CardCostRender"
+    },
+    {
+      "lang": "vb",
+      "value": "Part2CardCostRender"
+    }
+  ],
+  "fullName": [
+    {
+      "lang": "csharp",
+      "value": "InscryptionCommunityPatch.Card.Part2CardCostRender"
+    },
+    {
+      "lang": "vb",
+      "value": "InscryptionCommunityPatch.Card.Part2CardCostRender"
+    }
+  ],
+  "type": "class",
+  "source": {
+    "remote": {
+      "path": "InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+      "branch": "main",
+      "repo": "https://github.com/Chaosyr/InscryptionAPI-Dev"
+    },
+    "id": "Part2CardCostRender",
+    "path": "../InscryptionCommunityPatch/Card/Part2CardCostRender.cs",
+    "startLine": 14,
+    "endLine": 0
+  },
+  "assemblies": [
+    "InscryptionCommunityPatch"
+  ],
+  "namespace": {
+    "uid": "InscryptionCommunityPatch.Card",
+    "isEii": false,
+    "isExtensionMethod": false,
+    "name": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "nameWithType": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "fullName": [
+      {
+        "lang": "csharp",
+        "value": "InscryptionCommunityPatch.Card"
+      },
+      {
+        "lang": "vb",
+        "value": "InscryptionCommunityPatch.Card"
+      }
+    ],
+    "specName": [
+      {
+        "lang": "csharp",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      },
+      {
+        "lang": "vb",
+        "value": "<xref uid=\"InscryptionCommunityPatch\" text=\"InscryptionCommunityPatch\"/>.<xref uid=\"InscryptionCommunityPatch.Card\" text=\"Card\"/>"
+      }
+    ],
+    "level": 0
+  },
+  "summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act 2 to add support for mixed costs and custom costs.\nAlso reduces the size of card costs so they take up less space on the card.</p>\n",
+  "example": [],
+  "syntax": {
+    "content": [
+      {
+        "lang": "csharp",
+        "value": "public static class Part2CardCostRender"
+      },
+      {
+        "lang": "vb",
+        "value": "Public Module Part2CardCostRender"
+      }
+    ]
+  },
+  "inheritance": [
+    {
+      "uid": "System.Object",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object"
+        },
+        {
+          "lang": "vb",
+          "value": "Object"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        },
+        {
+          "lang": "vb",
+          "value": "<xref uid=\"System.Object\" text=\"object\"/>"
+        }
+      ],
+      "level": 0,
+      "index": 0
+    }
+  ],
+  "level": 1,
+  "inheritedMembers": [
+    {
+      "uid": "System.Object.ToString",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.tostring",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "ToString()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ToString()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ToString()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.tostring\">ToString</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.Equals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Equals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.Equals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.Equals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)\">Equals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.ReferenceEquals(System.Object,System.Object)",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.referenceequals",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "ReferenceEquals(Object, Object)"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.ReferenceEquals(object, object)"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.ReferenceEquals(Object, Object)"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">object</a>)"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.referenceequals\">ReferenceEquals</a>(<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>, <a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object\">Object</a>)"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetHashCode",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gethashcode",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetHashCode()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetHashCode()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetHashCode()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gethashcode\">GetHashCode</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.GetType",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.gettype",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "GetType()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.GetType()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.GetType()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.gettype\">GetType</a>()"
+        }
+      ],
+      "level": 0
+    },
+    {
+      "uid": "System.Object.MemberwiseClone",
+      "isEii": false,
+      "isExtensionMethod": false,
+      "parent": "System.Object",
+      "isExternal": true,
+      "href": "https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone",
+      "name": [
+        {
+          "lang": "csharp",
+          "value": "MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "MemberwiseClone()"
+        }
+      ],
+      "nameWithType": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "fullName": [
+        {
+          "lang": "csharp",
+          "value": "object.MemberwiseClone()"
+        },
+        {
+          "lang": "vb",
+          "value": "Object.MemberwiseClone()"
+        }
+      ],
+      "specName": [
+        {
+          "lang": "csharp",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        },
+        {
+          "lang": "vb",
+          "value": "<a class=\"xref\" href=\"https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone\">MemberwiseClone</a>()"
+        }
+      ],
+      "level": 0
+    }
+  ],
+  "_appBaseUrl": "https://Chaosyr.github.io/InscryptionAPI-Dev/",
+  "_appFaviconPath": "images/favicon.ico",
+  "_appLogoPath": "images/logo.svg",
+  "_appName": "Inscryption Modding Wiki",
+  "_appTitle": "InscryptionAPI",
+  "_disableBreadcrumb": true,
+  "_disableContribution": true,
+  "_enableNewTab": true,
+  "_enableSearch": true,
+  "_gitContribute": {
+    "repo": "https://github.com/InscryptionModding/InscryptionAPI",
+    "branch": "main",
+    "apiSpecFolder": "docs/apiSpec"
+  },
+  "_noindex": false,
+  "_systemKeys": [
+    "uid",
+    "isEii",
+    "isExtensionMethod",
+    "parent",
+    "children",
+    "href",
+    "langs",
+    "name",
+    "nameWithType",
+    "fullName",
+    "type",
+    "source",
+    "documentation",
+    "assemblies",
+    "namespace",
+    "summary",
+    "remarks",
+    "example",
+    "syntax",
+    "overridden",
+    "overload",
+    "exceptions",
+    "seealso",
+    "see",
+    "inheritance",
+    "derivedClasses",
+    "level",
+    "implements",
+    "inheritedMembers",
+    "extensionMethods",
+    "conceptual",
+    "platform",
+    "attributes",
+    "additionalNotes"
+  ],
+  "_key": "community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml",
+  "_navKey": "~/toc.yml",
+  "_navPath": "toc.html",
+  "_navRel": "../toc.html",
+  "_path": "community/InscryptionCommunityPatch.Card.Part2CardCostRender.html",
+  "_rel": "../",
+  "_tocKey": "~/community/toc.yml",
+  "_tocPath": "community/toc.html",
+  "_tocRel": "toc.html",
+  "__global": {
+    "namespacesInSubtitle": "Namespaces",
+    "classesInSubtitle": "Classes",
+    "structsInSubtitle": "Structs",
+    "interfacesInSubtitle": "Interfaces",
+    "enumsInSubtitle": "Enums",
+    "delegatesInSubtitle": "Delegates",
+    "constructorsInSubtitle": "Constructors",
+    "fieldsInSubtitle": "Fields",
+    "propertiesInSubtitle": "Properties",
+    "methodsInSubtitle": "Methods",
+    "eventsInSubtitle": "Events",
+    "operatorsInSubtitle": "Operators",
+    "eiisInSubtitle": "Explicit Interface Implementations",
+    "functionsInSubtitle": "Functions",
+    "variablesInSubtitle": "Variables",
+    "typeAliasesInSubtitle": "Type Aliases",
+    "membersInSubtitle": "Members",
+    "improveThisDoc": "Edit this page",
+    "viewSource": "View Source",
+    "inheritance": "Inheritance",
+    "derived": "Derived",
+    "inheritedMembers": "Inherited Members",
+    "package": "Package",
+    "namespace": "Namespace",
+    "assembly": "Assembly",
+    "syntax": "Syntax",
+    "overrides": "Overrides",
+    "implements": "Implements",
+    "remarks": "Remarks",
+    "examples": "Examples",
+    "seealso": "See Also",
+    "declaration": "Declaration",
+    "parameters": "Parameters",
+    "typeParameters": "Type Parameters",
+    "type": "Type",
+    "name": "Name",
+    "description": "Description",
+    "returns": "Returns",
+    "fieldValue": "Field Value",
+    "propertyValue": "Property Value",
+    "eventType": "Event Type",
+    "variableValue": "Variable Value",
+    "typeAliasType": "Type Alias Type",
+    "exceptions": "Exceptions",
+    "condition": "Condition",
+    "extensionMethods": "Extension Methods",
+    "note": "Note",
+    "warning": "Warning",
+    "tip": "Tip",
+    "important": "Important",
+    "caution": "Caution",
+    "tocToggleButton": "Show / Hide Table of Contents",
+    "tocFilter": "Filter by title",
+    "search": "Search",
+    "searchResults": "Search Results for",
+    "searchResultsCount": "{count} results for \"{query}\"",
+    "searchNoResults": "No results for \"{query}\"",
+    "pageFirst": "First",
+    "pagePrev": "Previous",
+    "pageNext": "Next",
+    "pageLast": "Last",
+    "inThisArticle": "In this article",
+    "nextArticle": "Next",
+    "prevArticle": "Previous",
+    "backToTop": "Back to top",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto",
+    "changeTheme": "Change theme",
+    "copy": "Copy",
+    "downloadPdf": "Download PDF",
+    "_shared": {}
+  },
+  "yamlmime": "ManagedReference",
+  "docurl": "https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionCommunityPatch_Card_Part2CardCostRender.md&value=---%0Auid%3A%20InscryptionCommunityPatch.Card.Part2CardCostRender%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A",
+  "sourceurl": "https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L15",
+  "description": "Modifies how card costs are rendered in Act 2 to add support for mixed costs and custom costs. Also reduces the size of card costs so they take up less space on the card.",
+  "remarks": "",
+  "conceptual": "",
+  "implements": "",
+  "seealso": [],
+  "id": "InscryptionCommunityPatch_Card_Part2CardCostRender",
+  "hideTitleType": false,
+  "hideSubtitle": false,
+  "isClass": true,
+  "inClass": true,
+  "_disableToc": false,
+  "_disableNextArticle": true,
+  "isNamespace": false,
+  "isStruct": false,
+  "isInterface": false,
+  "isEnum": false,
+  "isDelegate": false,
+  "isConstructor": false,
+  "isMethod": false,
+  "isProperty": false,
+  "isField": false,
+  "isEvent": false,
+  "isOperator": false,
+  "isType": true,
+  "isMember": false
+}
