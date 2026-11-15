@@ -1,105 +1,196 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-      <title>Struct CustomLine | InscryptionAPI </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Struct CustomLine | InscryptionAPI ">
-      
-      
 
-      <!-- Open Graph / Discord Embeds -->
-      <meta property="og:type" content="website">
-      <meta property="og:site_name" content="InscryptionAPI">
-      <meta property="og:title" content="Struct CustomLine">
-      
-      
-      <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
-      <!-- Twitter / Large Preview -->
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Struct CustomLine">
-      
-      
-      <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
+    <title>Struct CustomLine | InscryptionAPI </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Struct CustomLine | InscryptionAPI ">
 
-      <link rel="icon" href="../images/favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_CustomLine.md&amp;value=---%0Auid%3A%20InscryptionAPI.Helpers.CustomLine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../public/docfx.min.js"></script>
 
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
+    <!-- Open Graph / Discord Embeds -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="InscryptionAPI">
+    <meta property="og:title" content="Struct CustomLine">
 
-  </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+
+    <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
+
+    <!-- Twitter / Large Preview -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Struct CustomLine">
+
+
+
+    <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
+
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../public/docfx.min.css">
+    <link rel="stylesheet" href="../public/main.css">
+
+    <meta name="docfx:navrel" content="../toc.html">
+    <meta name="docfx:tocrel" content="toc.html">
+
+
+    <meta name="docfx:rel" content="../">
+
+
+
+    <meta name="docfx:docurl" content="https://github.com/InscryptionModding/InscryptionAPI/new/main/docs/apiSpec/new?filename=InscryptionAPI_Helpers_CustomLine.md&amp;value=---%0Auid%3A%20InscryptionAPI.Helpers.CustomLine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+    <meta name="loc:inThisArticle" content="In this article">
+    <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+    <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+    <meta name="loc:tocFilter" content="Filter by title">
+    <meta name="loc:nextArticle" content="Next">
+    <meta name="loc:prevArticle" content="Previous">
+    <meta name="loc:themeLight" content="Light">
+    <meta name="loc:themeDark" content="Dark">
+    <meta name="loc:themeAuto" content="Auto">
+    <meta name="loc:changeTheme" content="Change theme">
+    <meta name="loc:copy" content="Copy">
+    <meta name="loc:downloadPdf" content="Download PDF">
+
+    <script type="module" src="./../public/docfx.min.js"></script>
+
+    <script>
+        const theme = localStorage.getItem('theme') || 'auto';
+
+        document.documentElement.setAttribute(
+            'data-bs-theme',
+            theme === 'auto'
+                ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+                : theme
+        );
+    </script>
+
+    <script>
+        const root = document.documentElement;
+
+        const availableFonts = [
+            'dpcomic',
+            'comic-sans',
+            'sans-serif',
+            'monospace',
+            'system',
+            'custom'
+        ];
+
+        const documentFont = localStorage.getItem('docfx-document-font') || 'dpcomic';
+        const codeFont = localStorage.getItem('docfx-code-font') || 'dpcomic';
+
+        root.setAttribute(
+            'data-document-font',
+            availableFonts.includes(documentFont) ? documentFont : 'dpcomic'
+        );
+
+        root.setAttribute(
+            'data-code-font',
+            availableFonts.includes(codeFont) ? codeFont : 'dpcomic'
+        );
+
+        function restoreCustomFont(type) {
+            const font = localStorage.getItem(`docfx-${type}-font-custom`);
+
+            if (font && font.trim()) {
+                root.style.setProperty(
+                    `--${type}-font`,
+                    `${JSON.stringify(font.trim())}, system-ui, sans-serif`
+                );
+            }
+        }
+
+        if (documentFont === 'custom') {
+            restoreCustomFont('document');
+        }
+
+        if (codeFont === 'custom') {
+            restoreCustomFont('code');
+        }
+    </script>
+
+</head>
+
+<body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding Wiki">
-            Inscryption Modding Wiki
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-              </form>
+        <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+            <div class="container-xxl flex-nowrap">
+                <a class="navbar-brand" href="../index.html">
+                    <img id="logo" class="svg" src="../images/logo.svg" alt="Inscryption Modding Wiki">
+                    Inscryption Modding Wiki
+                </a>
+
+                <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-three-dots"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navpanel">
+                    <div id="navbar">
+                        <form class="search" role="search" id="search">
+                            <i class="bi bi-search"></i>
+                            <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+                        </form>
+
+                        <div class="font-settings">
+                            <label for="document-font-selector">Document Font</label>
+
+                            <select id="document-font-selector" class="form-select">
+                                <option value="dpcomic">DPComic</option>
+                                <option value="comic-sans">Comic Sans (Dyslexia)</option>
+                                <option value="sans-serif">Sans Serif</option>
+                                <option value="monospace">Monospace</option>
+                                <option value="system">System</option>
+                                <option value="custom">Custom...</option>
+                            </select>
+
+                            <input id="document-font-custom" class="form-control" type="text" placeholder="Installed font name" autocomplete="off" hidden>
+
+                            <label for="code-font-selector">Code Font</label>
+
+                            <select id="code-font-selector" class="form-select">
+                                <option value="dpcomic">DPComic</option>
+                                <option value="comic-sans">Comic Sans (Dyslexia)</option>
+                                <option value="sans-serif">Sans Serif</option>
+                                <option value="monospace">Monospace</option>
+                                <option value="system">System</option>
+                                <option value="custom">Custom...</option>
+                            </select>
+
+                            <input id="code-font-custom" class="form-control" type="text" placeholder="Installed font name" autocomplete="off" hidden>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </nav>
+        </nav>
     </header>
 
     <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
+        <div class="toc-offcanvas">
+            <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
 
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+                </div>
 
+                <div class="offcanvas-body">
+                    <nav class="toc" id="toc"></nav>
+                </div>
+            </div>
         </div>
 
-        <article data-uid="InscryptionAPI.Helpers.CustomLine">
+        <div class="content">
+            <div class="actionbar">
+                <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+                    <i class="bi bi-list"></i>
+                </button>
+
+            </div>
+
+            <article data-uid="InscryptionAPI.Helpers.CustomLine">
 
 
 
@@ -765,22 +856,106 @@ public struct CustomLine</code></pre>
 </article>
 
 
+        </div>
 
-      </div>
-
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
+        <div class="affix">
+            <nav id="affix"></nav>
+        </div>
     </main>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
     <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        <div class="container-xxl">
+            <div class="flex-fill">
+                
+                <span>
+                    Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+                </span>
+            </div>
         </div>
-      </div>
     </footer>
-  </body>
+
+    <script>
+        const fontSettings = [
+            {
+                type: 'document',
+                selector: document.getElementById('document-font-selector'),
+                input: document.getElementById('document-font-custom')
+            },
+            {
+                type: 'code',
+                selector: document.getElementById('code-font-selector'),
+                input: document.getElementById('code-font-custom')
+            }
+        ];
+
+        const root = document.documentElement;
+
+        function applyFont(type, font) {
+            const storageKey = `docfx-${type}-font`;
+
+            localStorage.setItem(storageKey, font);
+            root.setAttribute(`data-${type}-font`, font);
+
+            if (font !== 'custom') {
+                root.style.removeProperty(`--${type}-font`);
+                return;
+            }
+
+            const setting = fontSettings.find(setting => setting.type === type);
+            const customFont = setting?.input.value.trim() || '';
+
+            if (customFont && CSS.supports('font-family', JSON.stringify(customFont))) {
+                root.style.setProperty(
+                    `--${type}-font`,
+                    `${JSON.stringify(customFont)}, system-ui, sans-serif`
+                );
+
+                localStorage.setItem(`docfx-${type}-font-custom`, customFont);
+            } else {
+                root.style.setProperty(`--${type}-font`, 'system-ui, sans-serif');
+            }
+        }
+
+        fontSettings.forEach(setting => {
+            const { type, selector, input } = setting;
+
+            if (!selector || !input) return;
+
+            const storageKey = `docfx-${type}-font`;
+            const customStorageKey = `docfx-${type}-font-custom`;
+
+            const currentFont = localStorage.getItem(storageKey) || 'dpcomic';
+            const customFont = localStorage.getItem(customStorageKey) || '';
+
+            selector.value = currentFont;
+            input.value = customFont;
+
+            input.hidden = currentFont !== 'custom';
+
+            selector.addEventListener('change', () => {
+                const font = selector.value;
+
+                input.hidden = font !== 'custom';
+
+                applyFont(type, font);
+
+                if (font === 'custom') {
+                    input.focus();
+                }
+            });
+
+            input.addEventListener('input', () => {
+                const customFont = input.value.trim();
+
+                localStorage.setItem(customStorageKey, customFont);
+
+                if (selector.value === 'custom') {
+                    applyFont(type, 'custom');
+                }
+            });
+        });
+    </script>
+</body>
 </html>
