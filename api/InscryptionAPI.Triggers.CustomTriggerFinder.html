@@ -277,13 +277,21 @@ Class CustomTriggerFinder  <a class="header-action link-secondary" title="View s
   <dl><dt>Assembly</dt><dd>InscryptionAPI.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Finds custom trigger recievers that exists on the board/in the hand
+  <div class="markdown summary">
+    <p>A brief description of this type and its intended purpose.</p>
+  <p>Finds custom trigger recievers that exists on the board/in the hand
 Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.Card.IActivateWhenFacedown.html">IActivateWhenFacedown</a> to alter this default</p>
-</div>
-  <div class="markdown conceptual"></div>
+
+  </div>
+
+  <div class="markdown conceptual">
+    <p>Additional conceptual information explaining this type, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
+    <p>Displays the inheritance hierarchy of this class, including its base types and any types derived from it.</p>
 
     <div class="inheritance-tree">
       <div class="inheritance-level" style="--inheritance-level: 0">
@@ -303,6 +311,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <h5 id="InscryptionAPI_Triggers_CustomTriggerFinder_syntax">
   Syntax
   </h5>
+  <p>Displays the declaration syntax for this type, including its name, modifiers, and other relevant declarations.</p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static class CustomTriggerFinder</code></pre>
@@ -311,16 +320,13 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <div style="display:none">
-      DEBUG: isMethod=False
-  </div>
-
 
 
 
 
   <details class="typelist inheritedMembers">
     <summary>Inherited Members (Click me to Expand)</summary>
+    <p>Lists the members inherited from this type's base classes, providing access to functionality defined elsewhere in the inheritance hierarchy.</p>
     <div class="typelist-content">
 
       <div>
@@ -366,16 +372,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L258"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls triggers from all cards, both on board and in hand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Calls triggers from all cards, both on board and in hand.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; CallAll&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -427,12 +440,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -452,7 +461,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -493,16 +502,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L309"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls triggers from all cards in hand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Calls triggers from all cards in hand.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; CallInHand&lt;T&gt;(Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -542,12 +558,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -567,7 +579,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -608,16 +620,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L284"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls triggers from all cards on board.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Calls triggers from all cards on board.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; CallOnBoard&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -669,12 +688,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -694,7 +709,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -735,16 +750,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls all triggers on a card trigger handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Calls all triggers on a card trigger handler.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; Call&lt;T&gt;(this CardTriggerHandler self, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -796,12 +818,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -821,7 +839,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -862,16 +880,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L332"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls all triggers on a card.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Calls all triggers on a card.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;TriggerReceiver&gt; Call&lt;T&gt;(this PlayableCard self, Func&lt;T, bool&gt; respond, Action&lt;T&gt; call)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -923,12 +948,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -948,7 +969,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -989,16 +1010,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Collects data from all cards, both in hand and on board.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Collects data from all cards, both in hand and on board.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataAll&lt;T, T2&gt;(bool collectFromFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1050,12 +1078,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1075,7 +1099,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1123,16 +1147,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L197"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Collects data from all cards in hand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Collects data from all cards in hand.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataInHand&lt;T, T2&gt;(Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1172,12 +1203,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1197,7 +1224,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1245,16 +1272,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Collects data from all cards on board.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Collects data from all cards on board.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectDataOnBoard&lt;T, T2&gt;(bool collectFromFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1306,12 +1340,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1331,7 +1361,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1379,16 +1409,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Collects data from all triggers on a card trigger handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Collects data from all triggers on a card trigger handler.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectData&lt;T, T2&gt;(this CardTriggerHandler self, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1440,12 +1477,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1465,7 +1498,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1513,16 +1546,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L220"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Collects data from all triggers on a card.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Collects data from all triggers on a card.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;(TriggerReceiver, T2)&gt; CollectData&lt;T, T2&gt;(this PlayableCard self, Func&lt;T, bool&gt; respond, Func&lt;T, T2&gt; collect)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1574,12 +1614,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1599,7 +1635,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1647,16 +1683,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Same as normal coroutine, but also handles stack size, number of triggers this battle and destruction of a receiver after activation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Same as normal coroutine, but also handles stack size, number of triggers this battle and destruction of a receiver after activation.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerator CustomTriggerSequence(this TriggerReceiver receiver, IEnumerator triggerCoroutine)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1696,12 +1739,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1741,16 +1780,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L389"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds all trigger recievers, on the board and in the hand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Finds all trigger recievers, on the board and in the hand</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindGlobalTriggers&lt;T&gt;(PlayableCard excluding = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1778,12 +1824,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1803,7 +1845,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1844,16 +1886,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L367"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds all trigger recievers, on the board and in the hand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Finds all trigger recievers, on the board and in the hand</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindGlobalTriggers&lt;T&gt;(bool findFacedown, PlayableCard excluding = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1892,12 +1941,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -1917,7 +1962,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1958,16 +2003,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L439"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Find all trigger recievers in the hand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Find all trigger recievers in the hand</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersInHandExcluding&lt;T&gt;(PlayableCard card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -1995,12 +2047,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2020,7 +2068,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2061,9 +2109,16 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L399"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Find all trigger recievers in the hand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Find all trigger recievers in the hand</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersInHand&lt;T&gt;()</code></pre>
@@ -2072,12 +2127,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2097,7 +2148,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2138,9 +2189,16 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L478"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds all trigger recievers on a cards in the opponent's queue</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Finds all trigger recievers on a cards in the opponent's queue</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersInQueue&lt;T&gt;()</code></pre>
@@ -2149,12 +2207,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2174,7 +2228,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2215,9 +2269,16 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L410"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Find all trigger recievers in the hand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Find all trigger recievers in the hand</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnBoard&lt;T&gt;()</code></pre>
@@ -2226,12 +2287,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
 
 
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2251,7 +2308,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2292,16 +2349,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L420"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Find all trigger recievers in the hand</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Find all trigger recievers in the hand</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnBoard&lt;T&gt;(bool findFacedown)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -2328,12 +2392,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2353,7 +2413,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2394,16 +2454,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L465"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds all trigger recievers on a card</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Finds all trigger recievers on a card</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnCard&lt;T&gt;(this CardTriggerHandler card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -2431,12 +2498,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2456,7 +2519,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2497,16 +2560,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L451"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds all trigger recievers on a card</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Finds all trigger recievers on a card</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerable&lt;T&gt; FindTriggersOnCard&lt;T&gt;(this PlayableCard card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -2534,12 +2604,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2559,7 +2625,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2600,16 +2666,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Triggers the triggers of type T on all cards, both in hand and on board.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Triggers the triggers of type T on all cards, both in hand and on board.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerator TriggerAll&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -2661,12 +2734,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2686,7 +2755,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2727,16 +2796,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Triggers the triggers of type T on all cards in hand.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Triggers the triggers of type T on all cards in hand.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerator TriggerInHand&lt;T&gt;(Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -2776,12 +2852,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2801,7 +2873,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2842,16 +2914,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Triggers the triggers of type T on all cards on board.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Triggers the triggers of type T on all cards on board.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerator TriggerOnBoard&lt;T&gt;(bool triggerFacedown, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -2903,12 +2982,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -2928,7 +3003,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -2969,16 +3044,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Triggers the triggers of type T on a card trigger handler.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Triggers the triggers of type T on a card trigger handler.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerator Trigger&lt;T&gt;(this CardTriggerHandler handler, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -3030,12 +3112,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -3055,7 +3133,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
@@ -3096,16 +3174,23 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/CustomTriggerFinder.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Triggers the triggers of type T on a card.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
+  <div class="markdown level1 summary">
+    <p>A brief description of this member and its intended purpose.</p>
+  <p>Triggers the triggers of type T on a card.</p>
+
+  </div>
+
+  <div class="markdown level1 conceptual">
+    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
+  
+  </div>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static IEnumerator Trigger&lt;T&gt;(this PlayableCard card, Func&lt;T, bool&gt; respond, Func&lt;T, IEnumerator&gt; trigger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>The following are all of the parameters belonging to this Class Member.</p>
+  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
 
   <table class="api-parameters">
     <thead>
@@ -3157,12 +3242,8 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </tbody>
   </table>
 
-  <div style="display:none">
-      DEBUG: isMethod=True
-  </div>
-
   <h4 class="section">Returns</h4>
-  <p>The following are all of the returns belonging to this Class Member.</p>
+  <p>Describes the value returned by this member, including its type and purpose.</p>
 
   <table class="api-returns">
     <thead>
@@ -3182,7 +3263,7 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>The following are all of the type parameters belonging to this Class Member.</p>
+  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
 
   <table class="api-type-parameters">
     <thead>
