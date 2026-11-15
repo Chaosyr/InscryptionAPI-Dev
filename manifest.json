@@ -3272,6 +3272,3870 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.AbilityIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.AbilityIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.AbilityIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.AbilityInfoUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.AbilityInfoUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.AbilityInfoUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.CardUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.CardUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.CardUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.CustomCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.CustomCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.CustomCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.CustomRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.CustomRegion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.CustomRegion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.EvolveIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.EvolveIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.EvolveIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.IceCubeIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.IceCubeIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.IceCubeIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.IgnoreMappingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.IgnoreMappingAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.IgnoreMappingAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewCardAppearanceBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewCardAppearanceBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewCardAppearanceBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewEncounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewEncounter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewEncounter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewRegion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewRegion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.NewSpecialAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.NewSpecialAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.NewSpecialAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.SpecialAbilityIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.SpecialAbilityIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.SpecialAbilityIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.TailIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.TailIdentifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.TailIdentifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.TypeMapper-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.TypeMapper-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin.TypeMapper<S, D>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/APIPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/APIPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "APIPlugin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.AscensionChallengePaginator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.AscensionChallengePaginator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.AscensionChallengePaginator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.AscensionChallengePaginatorSetupifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.AscensionChallengePaginatorSetupifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.AscensionChallengePaginatorSetupifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.AscensionRunSetupScreenBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.AscensionRunSetupScreenBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.AscensionRunSetupScreenBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.AscensionScreenManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.AscensionScreenManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.AscensionScreenManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.AscensionScreenSort.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.AscensionScreenSort.Direction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.AscensionScreenSort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.AscensionScreenSort.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.AscensionScreenSort",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.ChallengeBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.ChallengeBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.ChallengeBehaviour",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.ChallengeBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all custom Challenge Handlers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.ChallengeDisplayerPlus.PrefixedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.ChallengeDisplayerPlus.PrefixedString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.ChallengeDisplayerPlus.PrefixedString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.ChallengeDisplayerPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.ChallengeDisplayerPlus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.ChallengeDisplayerPlus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.ChallengeManager.FullChallenge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.ChallengeManager.FullChallenge.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.ChallengeManager.FullChallenge",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.ChallengeManager.FullChallenge.yml\" sourcestartlinenumber=\"1\">Class that stores full info about challenges, including unlock level, stackability, handlers and incompatible/dependant challenges.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.ChallengeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.ChallengeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.ChallengeManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.ChallengeManager.yml\" sourcestartlinenumber=\"1\">The core class for handling and adding challenges,</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.StarterDeckExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.StarterDeckExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.StarterDeckExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.StarterDeckManager.FullStarterDeck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.StarterDeckManager.FullStarterDeck.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.StarterDeckManager.FullStarterDeck",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.StarterDeckManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.StarterDeckManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.StarterDeckManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.StarterDeckPaginator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.StarterDeckPaginator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension.StarterDeckPaginator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Ascension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Ascension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Ascension",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Ascension.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing systems relating specifically to Kaycee's Mod, such as challenges and starter decks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Boons.BoonBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Boons.BoonBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Boons.BoonBehaviour",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all custom Boons</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Boons.BoonManager.FullBoon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Boons.BoonManager.FullBoon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Boons.BoonManager.FullBoon",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonManager.FullBoon.yml\" sourcestartlinenumber=\"1\">Maps custom BoonData objects to the trigger handler that manages them.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Boons.BoonManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Boons.BoonManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Boons.BoonManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonManager.yml\" sourcestartlinenumber=\"1\">This manager handles the creation of new Boons and ensures they are properly attached to battles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Boons.DeckInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Boons.DeckInfoExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Boons.DeckInfoExtensions",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Boons.DeckInfoExtensions.yml\" sourcestartlinenumber=\"1\">This contains helper extension methods for the DeckInfo class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Boons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Boons.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Boons",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Boons.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing Boons, which provide unique passive effects during battles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.APIDeathShield.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.APIDeathShield.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.APIDeathShield",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.APIDeathShield.yml\" sourcestartlinenumber=\"1\">A custom AbilityBehaviour that's attached to the DeathShield ability so it functions with the API's shield logic changes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.AbilityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.AbilityExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.AbilityExtensions",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.AbilityExtensions.yml\" sourcestartlinenumber=\"1\">Helper extension methods for abilities</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.AbilityManager.FullAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.AbilityManager.FullAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.AbilityManager.FullAbility",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.AbilityManager.FullAbility.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about an ability in order to be able to use it in-game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.AbilityManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.AbilityManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.AbilityManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.AbilityManager.yml\" sourcestartlinenumber=\"1\">This manager class handles the creation and management of mod-added abilities (sigils).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.ActivatedDamageShieldBehaviour",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">A custom class combining <a href=\"InscryptionAPI.Card.DamageShieldBehaviour\" sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">DamageShieldBehaviour</a> and <a href=\"InscryptionAPI.Card.ExtendedActivatedBehaviour\" sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">ExtendedActivatedBehaviour</a>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardAppearanceBehaviourManager.FullCardAppearanceBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardAppearanceBehaviourManager.FullCardAppearanceBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardAppearanceBehaviourManager.FullCardAppearanceBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardAppearanceBehaviourManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardAppearanceBehaviourManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardAppearanceBehaviourManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardManager.CardAltPortraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardManager.CardAltPortraits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardManager.CardAltPortraits",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardManager.CardAltPortraits.yml\" sourcestartlinenumber=\"1\">Class for storing the data for custom portrait Sprites added via the API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardManager.yml\" sourcestartlinenumber=\"1\">Class for managing adding, retrieving, tracking custom cards added via the API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardModificationInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardModificationInfoExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardModificationInfoExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CardModificationInfoManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CardModificationInfoManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CardModificationInfoManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardModificationInfoManager.yml\" sourcestartlinenumber=\"1\">Class for managing special CardModificationInfos.\nThese include persistent extended properties and custom costs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CostProperties.CostProperties.RefreshCostMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CostProperties.CostProperties.RefreshCostMonoBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CostProperties.CostProperties.RefreshCostMonoBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CostProperties.CostProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CostProperties.CostProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CostProperties.CostProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.CostProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.CostProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.CostProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.DamageShieldBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.DamageShieldBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.DamageShieldBehaviour",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">A custom class implementing shield-giving behaviour.\nWith the most recent API versions, shield-giving sigils like DeathShield/Nano Armour/ Armoured can now stack and instead use a counter rather than a simple boolean.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.DeathCardManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.DeathCardManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.DeathCardManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.DefaultBoneGainOnDeath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.DefaultBoneGainOnDeath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.DefaultBoneGainOnDeath",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DefaultBoneGainOnDeath.yml\" sourcestartlinenumber=\"1\">Class for handling exposing the bone-on-death behaviour present in the vanilla PlayableCard.Die method.\nAllows for modifying the default behaviour through Harmony patches.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.ExtendedAbilityBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.ExtendedAbilityBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.ExtendedAbilityBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.IActivateWhenFacedown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.IActivateWhenFacedown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.IActivateWhenFacedown",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.OpponentGemsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.OpponentGemsManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.OpponentGemsManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.ShieldManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.ShieldManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.ShieldManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ShieldManager.yml\" sourcestartlinenumber=\"1\">This manager class handles the logic for shields.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.SpecialTriggeredAbilityManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.SpecialTriggeredAbilityManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.SpecialTriggeredAbilityManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.StatIconManager.FullStatIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.StatIconManager.FullStatIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.StatIconManager.FullStatIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.StatIconManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.StatIconManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.StatIconManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.TribeManager.TribeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.TribeManager.TribeInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.TribeManager.TribeInfo",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.TribeManager.TribeInfo.yml\" sourcestartlinenumber=\"1\">The internal object used to store all relevant info about a Tribe.\nguid - The mod GUID that added the Tribe.\nname - The internal name of the Tribe.\ntribe - The enum value corresponding to this Tribe.\nicon - The sprite displayed on cards with this Tribe.\ntribeChoice - Whether or not this Tribe can appear at card tribe choice nodes.\ncardBack - The texture displayed at card tribe choice nodes. If null, the API will create one using the icon Sprite.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.TribeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.TribeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.TribeManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.TribeManager.yml\" sourcestartlinenumber=\"1\">This class handles the addition of new tribes into the game</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Card.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to everything card-related, including abilities, appearance behaviours, and more.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.CardCosts.CardCostManager.FullCardCost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.CardCosts.CardCostManager.FullCardCost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.CardCosts.CardCostManager.FullCardCost",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.CardCosts.CardCostManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.CardCosts.CardCostManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.CardCosts.CardCostManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.CardCosts.CardCostManager.yml\" sourcestartlinenumber=\"1\">Class for managing custom card costs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.CardCosts.CustomCardCost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.CardCosts.CustomCardCost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.CardCosts.CustomCardCost",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.CardCosts.CustomCardCost.yml\" sourcestartlinenumber=\"1\">An inheritable class for implementing custom card costs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.CardCosts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.CardCosts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.CardCosts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.CustomLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.CustomLine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue.CustomLine",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.Dialogue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.Dialogue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue.DialogueManager.Dialogue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue.DialogueManager.DialogueColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue.DialogueManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Dialogue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Dialogue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Dialogue",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Dialogue.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom dialogue events, which are used to make Lesh y and other Scrybes talk.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.AIManager.FullAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.AIManager.FullAI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.AIManager.FullAI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.AIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.AIManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.AIManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.CachedGCBNPCDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.CachedGCBNPCDescriptor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.CachedGCBNPCDescriptor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.CustomNodeData.NodeGenerationCondition.yml\" sourcestartlinenumber=\"1\">This tells us whether or not the node can actually be generated on the map.\nSimply creating the node is not good enough: the node has to confirm that it can be generated</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.CustomNodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.CustomNodeData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.CustomNodeData",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.CustomNodeData.yml\" sourcestartlinenumber=\"1\">Represents a node on the map that has been placed by the Inscryption API</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.EncounterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.EncounterBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.EncounterBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.EncounterBuilderBlueprintData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.EncounterBuilderBlueprintData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.EncounterBuilderBlueprintData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.EncounterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.EncounterExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.EncounterExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.EncounterManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.EncounterManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.EncounterManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.ICustomExhaustSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.ICustomExhaustSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.ICustomExhaustSequence",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.ICustomExhaustSequence.yml\" sourcestartlinenumber=\"1\">An interface that implements custom logic when the player has exhausted both of their draw piles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.ICustomNodeSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.ICustomNodeSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.ICustomNodeSequence",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.ICustomNodeSequence.yml\" sourcestartlinenumber=\"1\">A sequencer interface for all custom sequencers compatible with the Inscryption API</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.NodeManager.NodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.NodeManager.NodeInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.NodeManager.NodeInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.NodeManager.NodePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.NodeManager.NodePosition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.NodeManager.NodePosition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.NodeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.NodeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.NodeManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.OpponentManager.FullOpponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.OpponentManager.FullOpponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.OpponentManager.FullOpponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.OpponentManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.OpponentManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.OpponentManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.SpecialSequenceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.SpecialSequenceManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.SpecialSequenceManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.TurnBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.TurnBuilder-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.TurnBuilder<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.TurnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.TurnExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters.TurnExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Encounters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Encounters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Encounters",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Encounters.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom battle encounters and their blueprints.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Guid.GuidManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Guid.GuidManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Guid.GuidManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Guid.GuidManager.yml\" sourcestartlinenumber=\"1\">This class is the GUID Manager used throughout the API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Guid.TypeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Guid.TypeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Guid.TypeManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Guid.TypeManager.yml\" sourcestartlinenumber=\"1\">This is the Manager for Custom Type's related to our GUID System.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Guid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Guid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Guid",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Guid.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing mod GUIDs, including enumeration extensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.AssetBundleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.AssetBundleHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.AssetBundleHelper",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.AssetBundleHelper.yml\" sourcestartlinenumber=\"1\">A Helper Set related to the <xref href=\"UnityEngine.AssetBundle\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.CustomFields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.CustomFields.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.CustomFields",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.CustomFields.yml\" sourcestartlinenumber=\"1\">A Helper Object for Custom Fields.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.CustomLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.CustomLine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.CustomLine",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.DialogueEventGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.DialogueEventGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.DialogueEventGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.Extensions.BoardManagerExtensions",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.BoardManagerExtensions.yml\" sourcestartlinenumber=\"1\">An extensions class for the Board Manager.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.Extensions.CardSlotExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.Extensions.CardSlotExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.Extensions.CardSlotExtensions",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.CardSlotExtensions.yml\" sourcestartlinenumber=\"1\">An extensions class for the Card Slot.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.Extensions.GameObjectExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.Extensions.GameObjectExtensions",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.GameObjectExtensions.yml\" sourcestartlinenumber=\"1\">An Extensions Class for the <xref href=\"UnityEngine.GameObject\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.Extensions.ListExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.Extensions.ListExtensions",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.Extensions.ListExtensions.yml\" sourcestartlinenumber=\"1\">An Extensions Class for the <xref href=\"System.Collections.Generic.List%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.GetEmptyBatterySprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.GetEmptyBatterySprite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.GetEmptyBatterySprite",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.GetEmptyBatterySprite.yml\" sourcestartlinenumber=\"1\">A Patch Class used to Get the Empty Battery Sprite in the GBC section.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.MaterialOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.MaterialOverride.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.MaterialOverride",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.MaterialOverride.yml\" sourcestartlinenumber=\"1\">A Helper Object for Materials on an Object.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.ResourceLookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.ResourceLookup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.ResourceLookup",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.ResourceLookup.yml\" sourcestartlinenumber=\"1\">A Helper Object for ResourceLookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.ResourcesManagerHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.ResourcesManagerHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.ResourcesManagerHelpers",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.ResourcesManagerHelpers.yml\" sourcestartlinenumber=\"1\">A Helper Set related to the <xref href=\"DiskCardGame.ResourcesManager\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.TextureHelper.SpriteType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.TextureHelper.SpriteType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.TextureHelper.SpriteType",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.TextureHelper.SpriteType.yml\" sourcestartlinenumber=\"1\">This is used to indicate what type of sprite you wish to create so that the appropriate size and pivot point can be determined.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.TextureHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.TextureHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.TextureHelper",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.TextureHelper.yml\" sourcestartlinenumber=\"1\">A Helper Set related to the <xref href=\"UnityEngine.Texture2D\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"UnityEngine.Sprite\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.TranspilerHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.TranspilerHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers.TranspilerHelpers",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Helpers.TranspilerHelpers.yml\" sourcestartlinenumber=\"1\">A Helper Set related to the Transpiler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Helpers",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Helpers.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing a number of miscellaneous classes that help deal with various resources such as textures, asset bundles, and resource files.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.InscryptionAPIPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.InscryptionAPIPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.InscryptionAPIPlugin",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.InscryptionAPIPlugin.yml\" sourcestartlinenumber=\"1\">The Entry Point to the Inscryption API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.ConsumableItemManager.ModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.ConsumableItemManager.ModelType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.ConsumableItemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.ConsumableItemManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.ConsumableItemManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.ConsumableItemPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.ConsumableItemPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.ConsumableItemPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.ConsumableItemResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.ConsumableItemResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.ConsumableItemResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.Extensions.ConsumableItemDataExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.Extensions.ConsumableItemDataExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.Extensions.ConsumableItemDataExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Items.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Items",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Items.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom items, which can be obtained and used any act except Act 2. Items provide unique effects when activated and are consumed on use.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.CustomLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.CustomLanguage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Localizing.LocalizationManager.CustomLanguage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.CustomTranslation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.CustomTranslation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Localizing.LocalizationManager.CustomTranslation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Localizing.LocalizationManager.FontReplacementType",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.yml\" sourcestartlinenumber=\"1\">The list of Fonts used in Inscryption.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Localizing.LocalizationManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Localizing.LocalizationManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Localizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Localizing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Localizing",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Localizing.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom language localisations. Allows for adding custom languages not supported by Unity, or adding translations for pre-existing languages not supported by base Inscryption.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Masks.CustomMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Masks.CustomMask.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Masks.CustomMask",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Masks.MaskBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Masks.MaskBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Masks.MaskBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Masks.MaskManager.ModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Masks.MaskManager.ModelType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Masks.MaskManager.ModelType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Masks.MaskManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Masks.MaskManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Masks.MaskManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Masks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Masks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Masks",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Masks.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom masks, which are worn by Leshy during boss battles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.And.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.And.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.And",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.And.yml\" sourcestartlinenumber=\"1\">Selection condition that is satisfied when both of its target conditions are satisfied.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.ChallengeIsActive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.ChallengeIsActive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.ChallengeIsActive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.CustomCardChoiceNodeSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.CustomCardChoiceNodeSequencer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.CustomCardChoiceNodeSequencer",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.CustomCardChoiceNodeSequencer.yml\" sourcestartlinenumber=\"1\">Core class for custom card choice nodes that implements all node-related interfaces for you. ONLY WORKS IN ACT 1.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.CustomNodeSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.CustomNodeSequencer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.CustomNodeSequencer",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.CustomNodeSequencer.yml\" sourcestartlinenumber=\"1\">Core class for miscellaneous non-card related nodes that implements all node-related interfaces for you.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.CustomPreviousNodesContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.CustomPreviousNodesContent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.CustomPreviousNodesContent",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.CustomPreviousNodesContent.yml\" sourcestartlinenumber=\"1\">Selection condition that is satisfied when the previous nodes either contain or don't contain a custom node with a specific name and guid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.CustomPreviousRowContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.CustomPreviousRowContent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.CustomPreviousRowContent",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.CustomPreviousRowContent.yml\" sourcestartlinenumber=\"1\">Selection condition that is satisfied when the previous row of nodes either contains or doesn't contain a custom node with a specific name and guid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.CustomSpecialNodeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.CustomSpecialNodeData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.CustomSpecialNodeData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.EasyAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.EasyAccess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.EasyAccess",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.EasyAccess.yml\" sourcestartlinenumber=\"1\">Provides easy access to act 1 node sequencers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.False.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.False.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.False",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.False.yml\" sourcestartlinenumber=\"1\">Selection condition that is never satisfied.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.Func.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.Func.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.Func",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.Func.yml\" sourcestartlinenumber=\"1\">Selection condition that is satisfied when the delegate given to it returns true.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.GenerationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.GenerationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.GenerationType",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.GenerationType.yml\" sourcestartlinenumber=\"1\">Flags for different types of generation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.ICustomNodeSequencer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.ICustomNodeSequencer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.ICustomNodeSequencer",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.ICustomNodeSequencer.yml\" sourcestartlinenumber=\"1\">Interface for triggering node sequences.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.IDestroyOnEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.IDestroyOnEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.IDestroyOnEnd",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.IDestroyOnEnd.yml\" sourcestartlinenumber=\"1\">Interface for destroying the node sequencer at the end.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.IDoNotReturnToMapOnEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.IDoNotReturnToMapOnEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.IDoNotReturnToMapOnEnd",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.IDoNotReturnToMapOnEnd.yml\" sourcestartlinenumber=\"1\">Interface for not returning to the map after the node sequencer ends.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.IInherit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.IInherit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.IInherit",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.IInherit.yml\" sourcestartlinenumber=\"1\">Interface for inheriting from other node sequencers and setup before the node sequence starts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.NewNodeManager.FullNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.NewNodeManager.FullNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.NewNodeManager.FullNode",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.NewNodeManager.FullNode.yml\" sourcestartlinenumber=\"1\">Represents a new node added by the API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.NewNodeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.NewNodeManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.NewNodeManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.NewNodeManager.yml\" sourcestartlinenumber=\"1\">The new version of NodeManager, used for more advanced node work.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.Not.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.Not.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.Not",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.Not.yml\" sourcestartlinenumber=\"1\">Selection condition that is satisfied when the target condition given to it is not satisfied.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.NumChallengesOfTypeActive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.NumChallengesOfTypeActive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.NumChallengesOfTypeActive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.True.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.True.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes.True",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.True.yml\" sourcestartlinenumber=\"1\">Selection condition that is always satisfied.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Nodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Nodes",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Nodes.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom map nodes. Map nodes need a special sequencer, which controls the game logic when visiting a node. A couple template sequencers are provided in this namespace.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.Extensions.PeltExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.Extensions.PeltExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.Extensions.PeltExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.Patches.TradePeltsSequencer_CreatePeltCards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.Patches.TradePeltsSequencer_CreatePeltCards.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.Patches.TradePeltsSequencer_CreatePeltCards",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.Patches.TradePeltsSequencer_TradePelts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.Patches.TradePeltsSequencer_TradePelts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.Patches.TradePeltsSequencer_TradePelts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.Patches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.Patches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.Patches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.PeltManager.PeltData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.PeltManager.PeltData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.PeltManager.PeltData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.PeltManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.PeltManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts.PeltManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Pelts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Pelts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Pelts",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Pelts.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom pelt data NOT pelt cards. Custom pelt data is used by the Trapper and Trader.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.PixelCard.GBCPackManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.PixelCard.GBCPackManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.PixelCard.GBCPackManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.PixelCard.PixelAppearanceBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.PixelCard.PixelAppearanceBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.PixelCard.PixelAppearanceBehaviour",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.PixelCard.PixelCardManager.PixelDecalData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.PixelCard.PixelCardManager.PixelDecalData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.PixelCard.PixelCardManager.PixelDecalData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.PixelCard.PixelCardManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.PixelCard.PixelCardManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.PixelCard.PixelCardManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.PixelCard.PixelGemificationBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.PixelCard.PixelGemificationBorder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.PixelCard.PixelGemificationBorder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.PixelCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.PixelCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.PixelCard",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.PixelCard.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing a few special classes that expand on Act 2 card functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Regions.Part1RegionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Regions.Part1RegionData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Regions.Part1RegionData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Regions.RegionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Regions.RegionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Regions.RegionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Regions.RegionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Regions.RegionManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Regions.RegionManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Regions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Regions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Regions",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Regions.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom regions, which control the map environment and nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Resource.ResourceBankManager.ResourceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Resource.ResourceBankManager.ResourceData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Resource.ResourceBankManager.ResourceData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Resource.ResourceBankManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Resource.ResourceBankManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Resource.ResourceBankManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Resource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Resource",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Resource.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing classes and members affecting Inscryption's ResourceBank, which stores data such as sounds, prefabs, and textures.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.PageTextInteractable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.PageTextInteractable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.PageTextInteractable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.yml\" sourcestartlinenumber=\"1\">A custom class that associates a RuleBookPageInfo object with a Dictionary of RuleBookDescriptionRedirects. Use if</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookManagerPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookManagerPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookManagerPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookRedirectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookRedirectExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookRedirectExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RuleBookRedirectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RuleBookRedirectManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RuleBookRedirectManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookRedirectManager.yml\" sourcestartlinenumber=\"1\">Controls everything regarding the creation and positioning of page text redirects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.RulebookRedirectPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.RulebookRedirectPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook.RulebookRedirectPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.RuleBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.RuleBook.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.RuleBook",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Saves.ModdedSaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Saves.ModdedSaveData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Saves.ModdedSaveData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Saves.ModdedSaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Saves.ModdedSaveManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Saves.ModdedSaveManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Saves.SaveFileExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Saves.SaveFileExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Saves.SaveFileExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Saves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Saves.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Saves",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Saves.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to the management of save file data, especially modded save data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationBehaviour",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all slot modification behaviors</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all slot modification behaviors</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationInteractable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationInteractable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationInteractable",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationInteractable.yml\" sourcestartlinenumber=\"1\">Base class for all slot modification behaviors</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.Info.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationManager.Info",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.Info.yml\" sourcestartlinenumber=\"1\">Contains information about a slot modification.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.yml\" sourcestartlinenumber=\"1\">Used to determine what Acts a modification's rulebook entry should appear in.\nValues correspond to specific AbilityMetaCategory values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.ModificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.ModificationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationManager.ModificationType",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.ModificationType.yml\" sourcestartlinenumber=\"1\">Unique identifiers for slot modifications.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.SlotModificationManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots.SlotModificationManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.yml\" sourcestartlinenumber=\"1\">Manager for card slot modifications</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Slots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Slots.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Slots",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Sound.GramophoneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Sound.GramophoneManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Sound.GramophoneManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Sound.GramophoneManager.yml\" sourcestartlinenumber=\"1\">A static class that contains helper methods for adding tracks to the Gramophone in Leshy's cabin.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Sound.SoundManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Sound.SoundManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Sound.SoundManager",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Sound.SoundManager.yml\" sourcestartlinenumber=\"1\">A static class that contains helper methods for working with audio.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Sound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Sound.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Sound",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.TalkingCards.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom talking cards. Talking cards use an animated portrait rather than a static Sprite, and will speak using dialogue events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Animation.GeneratePortrait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Animation.GeneratePortrait.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Animation.GeneratePortrait",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Animation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Animation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.DialogueEventStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.DialogueEventStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.DialogueEventStrings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.EmotionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.EmotionData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.EmotionData",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.EmotionData.yml\" sourcestartlinenumber=\"1\">A talking card's emotion (a facial expression, basically). A container for sprites.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.FaceAnim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.FaceAnim.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.FaceAnim",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.FaceAnim.yml\" sourcestartlinenumber=\"1\">A container for sprites for a part of a talking card's face.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.FaceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.FaceData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.FaceData",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.FaceData.yml\" sourcestartlinenumber=\"1\">Data for the creation of a talking card through this API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.FaceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.FaceInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.FaceInfo",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.FaceInfo.yml\" sourcestartlinenumber=\"1\">A bit of information about a talking card: blink rate and voice.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.ITalkingCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.ITalkingCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.ITalkingCard",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.ITalkingCard.yml\" sourcestartlinenumber=\"1\">An interface for the creation of a talking card through this API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.TalkingCardCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.TalkingCardCreator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create.TalkingCardCreator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Create.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Create.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Create",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.CustomDiskTalkingCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.CustomDiskTalkingCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.CustomDiskTalkingCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.CustomPaperTalkingCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.CustomPaperTalkingCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.CustomPaperTalkingCard",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.CustomPaperTalkingCard.yml\" sourcestartlinenumber=\"1\">An abstract class for the creation of talking cards through the API.\nIt inherits from PaperTalkingCard and implements ITalkingCard.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Helpers.AssetHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Helpers.AssetHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Helpers.AssetHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Helpers.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Helpers.StringExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Helpers.StringExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.TalkingCardManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.TalkingCardManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards.TalkingCardManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.TalkingCards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.TalkingCards.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.TalkingCards",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Totems.CustomIconTotemTopPiece.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Totems.CustomIconTotemTopPiece.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Totems.CustomIconTotemTopPiece",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Totems.TotemManager.CustomTotemTop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Totems.TotemManager.CustomTotemTop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Totems.TotemManager.CustomTotemTop",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Totems.TotemManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Totems.TotemManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Totems.TotemManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Totems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Totems.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Totems",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Totems.md\" sourcestartlinenumber=\"5\">This namespace is dedicated to managing custom totems. Totems provide a passive effect to all cards with the Tribe corresponding to the Totem's top piece.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.CustomTriggerFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.CustomTriggerFinder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.CustomTriggerFinder",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.CustomTriggerFinder.yml\" sourcestartlinenumber=\"1\">Finds custom trigger recievers that exists on the board/in the hand\nAlways excludes facedowns by default, use <xref href=\"InscryptionAPI.Card.IActivateWhenFacedown\" data-throw-if-not-resolved=\"false\"></xref> to alter this default</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.DoCombatPhasePatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.DoCombatPhasePatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.DoCombatPhasePatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.ICardTakenDamageModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.ICardTakenDamageModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.ICardTakenDamageModifier",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.ICardTakenDamageModifier.yml\" sourcestartlinenumber=\"1\">Data collection trigger that modifies the damage taken by any card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IGetAttackingSlots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IGetAttackingSlots.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IGetAttackingSlots",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IGetAttackingSlots.yml\" sourcestartlinenumber=\"1\">Used when changing what CardSlots are queued for attacking.\nTriggers before null and Powerless cards are removed, so no making empty slots attack and no making Attack-less cards attack.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IGetOpposingSlots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IGetOpposingSlots.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IGetOpposingSlots",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IGetOpposingSlots.yml\" sourcestartlinenumber=\"1\">Run whenever a card is asked what its opposing slots are as part of the attack sequence</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IItemCanBeUsed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IItemCanBeUsed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IItemCanBeUsed",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IItemCanBeUsed.yml\" sourcestartlinenumber=\"1\">Data collection trigger that collects data about the usability of an item.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IModifyDamageTaken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IModifyDamageTaken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IModifyDamageTaken",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IModifyDamageTaken.yml\" sourcestartlinenumber=\"1\">Data collection trigger that modifies the damage taken by any card.\nShould be used instead of ICardTakenDamageModifier.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IModifyDirectDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IModifyDirectDamage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IModifyDirectDamage",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IModifyDirectDamage.yml\" sourcestartlinenumber=\"1\">Data collection trigger that modifies the damage taken when directly attacked.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnAddedToHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnAddedToHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnAddedToHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnAddedToHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when the card is drawn, but after it has been added to the list of cards in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnBellRung.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnBellRung.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnBellRung",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnBellRung.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after the combat phase starts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnCardAssignedToSlotContext",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardAssignedToSlotContext.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after any card is assigned to a slot. The difference between this and normal OnOtherCardAssignedToSlot is that this trigger also provides information about the new and old slot.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnCardAssignedToSlotNoResolve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnCardAssignedToSlotNoResolve.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnCardAssignedToSlotNoResolve",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardAssignedToSlotNoResolve.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after any card is assigned to a slot, but only if it was assigned to a slot before.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnCardDealtDamageDirectly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnCardDealtDamageDirectly.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnCardDealtDamageDirectly",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardDealtDamageDirectly.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when a card deals direct damage.\nThis is a replacement for the vanilla DealDamageDirectly trigger, which unlike the base-game trigger, triggers for all cards on the board and supplies more information.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs.yml\" sourcestartlinenumber=\"1\">Data collection trigger that modifies the passive attack buffs of any card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnCardPassiveHealthBuffs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnCardPassiveHealthBuffs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnCardPassiveHealthBuffs",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnCardPassiveHealthBuffs.yml\" sourcestartlinenumber=\"1\">Data collection trigger that modifies the passive health buffs of any card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnItemPreventedFromUse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnItemPreventedFromUse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnItemPreventedFromUse",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnItemPreventedFromUse.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when an item is prevented from use using IItemCanBeUsed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnOtherCardAddedToHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAddedToHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when any card is drawn, but after it has been added to the list of cards in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardAssignedToSlotInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardAssignedToSlotInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnOtherCardAssignedToSlotInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardAssignedToSlotInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when any card is assigned to a slot, but unlike normal OnOtherCardAssignedToSlotInHand this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardDealtDamageInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardDealtDamageInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnOtherCardDealtDamageInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardDealtDamageInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when any card deals damage to another card, but unlike normal OnOtherCardDealtDamage this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardDieInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardDieInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnOtherCardDieInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardDieInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after any card dies, but unlike normal OnOtherCardDie this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardPreDeathInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardPreDeathInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnOtherCardPreDeathInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardPreDeathInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered before any card dies, but unlike normal OnOtherCardPreDeath this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardResolveInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnOtherCardResolveInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnOtherCardResolveInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnOtherCardResolveInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when any card gets played, but unlike normal OnOtherCardResolveOnBoard this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPostItemUsed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPostItemUsed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPostItemUsed",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostItemUsed.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after any item is used.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPostScalesChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPostScalesChanged.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPostScalesChanged",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostScalesChanged.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after the scales are changed. Also includes information about the original damage and side that the damage is added at, before those values potentially get changed by IOnPreScalesChangedRef.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after a slot does an individual attack.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPostSlotAttackSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPostSlotAttackSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPostSlotAttackSequence",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPostSlotAttackSequence.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered after a slot does its attacks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPreItemUsed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPreItemUsed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPreItemUsed",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPreItemUsed.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered before any item is used.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPreScalesChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPreScalesChanged.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPreScalesChanged",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPreScalesChanged.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered before the scales are changed, after IOnPreScalesChangedRef. Also includes information about the original damage and side that the damage is added at, before those values potentially get changed by IOnPreScalesChangedRef.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPreScalesChangedRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPreScalesChangedRef.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPreScalesChangedRef",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPreScalesChangedRef.yml\" sourcestartlinenumber=\"1\">Data collection trigger that is triggered before the scales are changed, can be used to change the amount of damage added and to which side it's added.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnPreSlotAttackSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnPreSlotAttackSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnPreSlotAttackSequence",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnPreSlotAttackSequence.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered before a slot does its attacks.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnTurnEndInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnTurnEndInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnTurnEndInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnTurnEndInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when the turn ends, but unlike normal OnTurnEnd this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnTurnEndInQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnTurnEndInQueue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnTurnEndInQueue",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnTurnEndInQueue.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered when the turn ends, but unlike normal OnTurnEnd this one only works on cards in the opponent's queue.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IOnUpkeepInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IOnUpkeepInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IOnUpkeepInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IOnUpkeepInHand.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered each turn, but unlike normal OnUpkeep this one only works in hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IPassiveAttackBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IPassiveAttackBuff.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IPassiveAttackBuff",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPassiveAttackBuff.yml\" sourcestartlinenumber=\"1\">Used when a card wants to provide a passive buff to other cards on the board</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IPassiveHealthBuff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IPassiveHealthBuff.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IPassiveHealthBuff",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPassiveHealthBuff.yml\" sourcestartlinenumber=\"1\">Used when a card wants to provide a passive buff to other cards on the board</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IPostCardGettingAttacked.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IPostCardGettingAttacked.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IPostCardGettingAttacked",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPostCardGettingAttacked.yml\" sourcestartlinenumber=\"1\">Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IPreTakeDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IPreTakeDamage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IPreTakeDamage",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPreTakeDamage.yml\" sourcestartlinenumber=\"1\">Trigger that is triggered right before a card takes damage.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.ISetupAttackSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.ISetupAttackSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.ISetupAttackSequence",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.ISetupAttackSequence.yml\" sourcestartlinenumber=\"1\">Data collection trigger that collects data related to attacked slots.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IShieldPreventedDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IShieldPreventedDamage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IShieldPreventedDamage",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IShieldPreventedDamage.yml\" sourcestartlinenumber=\"1\">Trigger that is called after a shielded card was attacked and lost a shield.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.IShieldPreventedDamageInHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.IShieldPreventedDamageInHand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.IShieldPreventedDamageInHand",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IShieldPreventedDamageInHand.yml\" sourcestartlinenumber=\"1\">Variant of IShieldPreventDamage that triggers for cards in the hand.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.OpposingSlotTriggerPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.OpposingSlotTriggerPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.OpposingSlotTriggerPriority",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.OpposingSlotTriggerPriority.yml\" sourcestartlinenumber=\"1\">Flag that tells IGetOpposingSlots when to trigger.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.SlotAttackSlotPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.SlotAttackSlotPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.SlotAttackSlotPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.TakeDamagePatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.TakeDamagePatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers.TakeDamagePatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Triggers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Triggers",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.Triggers.md\" sourcestartlinenumber=\"5\">Maintains the various custom interface and ability triggers added by the API.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI",
+      "Summary": "\n<p sourcefile=\"namespace/InscryptionAPI.md\" sourcestartlinenumber=\"5\">The parent namespace for everything contained in the API.</p>\n"
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -3282,11 +7146,625 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Act1LatchAbilityFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Act1LatchAbilityFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.ActivatedAbilityHandler3D.yml\" sourcestartlinenumber=\"1\">Fixes the Activated Ability handler in 3D Environments.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.ActivatedAbilityIconFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.ActivatedAbilityIconFix.yml\" sourcestartlinenumber=\"1\">Fixes related to Activated Ability Icons.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.ActivatedAbilityIconInteractable.yml\" sourcestartlinenumber=\"1\">Fixes related to how Activated Ability Interactable's are rendered on cards.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.AllStrikeAbilityFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.AllStrikeAbilityFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.AllStrikeAbilityFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.CardCostRender",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.CardCostRender.yml\" sourcestartlinenumber=\"1\">Fixes the Rendering related to a Card's Cost.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.DefaultEvolveFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.DefaultEvolveFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.DefaultEvolveFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.GreenGemStatIconFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.GreenGemStatIconFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.GreenGemStatIconFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.MergedSigilOnBottom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.MergedSigilOnBottom.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.MergedSigilOnBottom",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.MergedSigilOnBottom.yml\" sourcestartlinenumber=\"1\">Makes it so that Merged Sigils are shown on the Bottom of the Card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.MissingSquirrelTribeIconFix.yml\" sourcestartlinenumber=\"1\">Patches in the Missing Squirrel Tribe Icon.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1CardCostRender",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1GemifyIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1GemifyIndicator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1GemifyIndicator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part1SniperVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part1SniperVisualizer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part1SniperVisualizer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part2CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part2CardCostRender",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part2CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act 2 to add support for mixed costs and custom costs.\nAlso reduces the size of card costs so they take up less space on the card.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part3CardCostRender.CustomCostRenderInfo.yml\" sourcestartlinenumber=\"1\">Contains rendering information for a specific custom cost</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.Part3CardCostRender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.Part3CardCostRender",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.PassiveAttackBuffPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.PassiveAttackBuffPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.PassiveAttackBuffPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.RandomAbilityPatches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.RandomAbilityPatches.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.RandomAbilityPatches",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SacrificeTokensFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SacrificeTokensFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SacrificeTokensFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.SacrificeTokensFix.yml\" sourcestartlinenumber=\"1\">Allows blood costs over 4 to work properly</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SentryInteractionFixes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SentryInteractionFixes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SentryInteractionFixes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SentryTailOnHitFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SentryTailOnHitFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SentryTailOnHitFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.SniperFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.SniperFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.SniperFix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.StackAbilityIcons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.StackAbilityIcons.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.StackAbilityIcons",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.StackAbilityIcons.yml\" sourcestartlinenumber=\"1\">Adds Handling for Stacking Abilities of the same type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.TempModPixelSigilsFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.TempModPixelSigilsFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card.TempModPixelSigilsFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.TempModPixelSigilsFix.yml\" sourcestartlinenumber=\"1\">Lets you add and remove decals via temporary mods</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Card.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Card",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PatchPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PatchPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PatchPlugin",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PatchPlugin.yml\" sourcestartlinenumber=\"1\">The Entry Point for the Community Patch.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PixelTutor.Act2TutorFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PixelTutor.Act2TutorFix.yml\" sourcestartlinenumber=\"1\">Patches in our Act 2 <xref href=\"DiskCardGame.Tutor\" data-throw-if-not-resolved=\"false\"></xref> related UI, that way it doesn't break when used in Act 2.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.PixelTutor.PixelPlayableCardArray.yml\" sourcestartlinenumber=\"1\">Handles the UI related to the Act 2 <xref href=\"DiskCardGame.Tutor\" data-throw-if-not-resolved=\"false\"></xref> patched in by <xref href=\"InscryptionCommunityPatch.PixelTutor.Act2TutorFix\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.PixelTutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.PixelTutor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.PixelTutor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.Act3BonesDisplayer.yml\" sourcestartlinenumber=\"1\">This patch handles adding the Bones Displayer to the Drone.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.yml\" sourcestartlinenumber=\"1\">Class containing information on the resource energy drone. Controls whether the Energy Drone will appear in non-Act 3 acts.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers.EnergyDrone",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.ResourceManagers.EnergyDrone.yml\" sourcestartlinenumber=\"1\">This patch handles information related to the Drone Configuration for Act 1.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.ResourceManagers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.ResourceManagers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.ResourceManagers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Sequencers.TradeableTalkingCardFix.yml\" sourcestartlinenumber=\"1\">This patch fixes Tradable Talking Card related Issues.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Sequencers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Sequencers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Sequencers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.DebugCards.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.DebugCards.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.DebugCards",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.DebugCards.yml\" sourcestartlinenumber=\"1\">This class adds some Debug Cards for testing the Steel Trap Death Patch in the Main API's functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.ExecuteCommunityPatchTests.yml\" sourcestartlinenumber=\"1\">The home of the Community Patch's Tests/</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.SacrificeSquirrels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.SacrificeSquirrels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.SacrificeSquirrels",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.SacrificeSquirrels.yml\" sourcestartlinenumber=\"1\">This is a test related to Boons.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.TestCost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.TestCost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests.TestCost",
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Tests.TestCost.yml\" sourcestartlinenumber=\"1\">This function defines our Testing Cost.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "community/InscryptionCommunityPatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "community/InscryptionCommunityPatch.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionCommunityPatch",
+      "Summary": null
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "community/index.md",
       "output": {
         ".html": {
           "relative_path": "community/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "community/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "community/toc.json"
+        },
+        ".html": {
+          "relative_path": "community/toc.html"
         }
       },
       "version": ""
