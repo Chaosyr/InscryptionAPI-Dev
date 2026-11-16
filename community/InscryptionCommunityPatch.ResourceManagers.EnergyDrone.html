@@ -278,19 +278,16 @@ Class EnergyDrone  <a class="header-action link-secondary" title="View source" h
   </div>
 
   <div class="markdown summary">
-    <p>A brief description of this type and its intended purpose.</p>
+    <h2></h2>
+    <p>The following is a breif description of what this type does, and what it is meant for: </p>
   <p>This patch handles information related to the Drone Configuration for Act 1.</p>
 
   </div>
 
-  <div class="markdown conceptual">
-    <p>Additional conceptual information explaining this type, its behavior, and how it should be used.</p>
-  
-  </div>
 
   <div class="inheritance">
-    <h5>Inheritance</h5>
-    <p>Displays the inheritance hierarchy of this class, including its base types and any types derived from it.</p>
+    <h2>Inheritance</h2>
+    <p>The following is the full inheritence tree for this type: </p>
 
     <div class="inheritance-tree">
       <div class="inheritance-level" style="--inheritance-level: 0">
@@ -307,10 +304,10 @@ Class EnergyDrone  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <h5 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_syntax">
+  <h2 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_syntax">
   Syntax
-  </h5>
-  <p>Displays the declaration syntax for this type, including its name, modifiers, and other relevant declarations.</p>
+  </h2>
+  <p>The following codeblock is the declaration syntax of this type found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">[HarmonyPatch]
@@ -326,7 +323,7 @@ public static class EnergyDrone</code></pre>
 
   <details class="typelist inheritedMembers">
     <summary>Inherited Members (Click me to Expand)</summary>
-    <p>Lists the members inherited from this type's base classes, providing access to functionality defined elsewhere in the inheritance hierarchy.</p>
+    <p>The following are inherited members derived from this type's inheritence: </p>
     <div class="typelist-content">
 
       <div>
@@ -361,6 +358,7 @@ public static class EnergyDrone</code></pre>
 
 
 
+
   <h2 class="section" id="fields">Fields
 </h2>
 
@@ -372,20 +370,21 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Contains the EnergyConfigInfos for each Act with default settings. If you want to directly alter an Act's drone behaviour, please modify GetEnergyConfig instead.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_ZoneConfigs_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Dictionary&lt;CardTemple, EnergyDrone.EnergyConfigInfo&gt; ZoneConfigs</code></pre>
   </div>
-
 
 
 
@@ -416,15 +415,17 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Determines whether the current Scene can have the Drone or not. Verified via <a class="xref" href="InscryptionCommunityPatch.ResourceManagers.EnergyDrone.html#InscryptionCommunityPatch_ResourceManagers_EnergyDrone_SceneCanHaveEnergyDrone_System_String_">SceneCanHaveEnergyDrone(string)</a>.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_CurrentSceneCanHaveEnergyDrone_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static bool CurrentSceneCanHaveEnergyDrone { get; }</code></pre>
@@ -437,18 +438,6 @@ public static class EnergyDrone</code></pre>
 
 
 
-
-  <h4 class="section">Property Value</h4>
-  <p>Describes the value exposed by this property, including its type and purpose.</p>
-
-  <div class="property-value">
-    <div class="parameter-type">
-    <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
-    </div>
-    <div class="markdown">
-    
-    </div>
-  </div>
 
 
 
@@ -467,15 +456,17 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Used to determine whether the current Card Pool has Energy or not.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_PoolHasEnergy_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static bool PoolHasEnergy { get; }</code></pre>
@@ -488,18 +479,6 @@ public static class EnergyDrone</code></pre>
 
 
 
-
-  <h4 class="section">Property Value</h4>
-  <p>Describes the value exposed by this property, including its type and purpose.</p>
-
-  <div class="property-value">
-    <div class="parameter-type">
-    <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
-    </div>
-    <div class="markdown">
-    
-    </div>
-  </div>
 
 
 
@@ -518,15 +497,17 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Used to determine whether the current Card Pool has Mox or not.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_PoolHasGems_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static bool PoolHasGems { get; }</code></pre>
@@ -539,18 +520,6 @@ public static class EnergyDrone</code></pre>
 
 
 
-
-  <h4 class="section">Property Value</h4>
-  <p>Describes the value exposed by this property, including its type and purpose.</p>
-
-  <div class="property-value">
-    <div class="parameter-type">
-    <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
-    </div>
-    <div class="markdown">
-    
-    </div>
-  </div>
 
 
 
@@ -573,22 +542,24 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Determines whether or not a card is a part of the targeted temple passed in through <code>targetTemple</code>, and if they have the meta categories needed in order for them to show up.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_CardIsVisible_DiskCardGame_CardInfo_CardTemple__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static bool CardIsVisible(this CardInfo info, CardTemple targetTemple)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -629,7 +600,7 @@ public static class EnergyDrone</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -661,7 +632,6 @@ public static class EnergyDrone</code></pre>
 
 
 
-
   <a id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_GetEnergyConfig_" data-uid="InscryptionCommunityPatch.ResourceManagers.EnergyDrone.GetEnergyConfig*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_GetEnergyConfig" data-uid="InscryptionCommunityPatch.ResourceManagers.EnergyDrone.GetEnergyConfig">
@@ -670,15 +640,17 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Returns the <a class="xref" href="InscryptionCommunityPatch.ResourceManagers.EnergyDrone.EnergyConfigInfo.html">EnergyDrone.EnergyConfigInfo</a> object corresponding to the current Act.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_GetEnergyConfig_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static EnergyDrone.EnergyConfigInfo GetEnergyConfig()</code></pre>
@@ -688,7 +660,7 @@ public static class EnergyDrone</code></pre>
 
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -719,7 +691,6 @@ public static class EnergyDrone</code></pre>
 
 
 
-
   <a id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_SceneCanHaveEnergyDrone_" data-uid="InscryptionCommunityPatch.ResourceManagers.EnergyDrone.SceneCanHaveEnergyDrone*" data-overload></a>
 
   <h3 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_SceneCanHaveEnergyDrone_System_String_" data-uid="InscryptionCommunityPatch.ResourceManagers.EnergyDrone.SceneCanHaveEnergyDrone(System.String)">
@@ -728,22 +699,24 @@ public static class EnergyDrone</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Validator used to ensure a Scene can have the Drone or not.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionCommunityPatch_ResourceManagers_EnergyDrone_SceneCanHaveEnergyDrone_System_String__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static bool SceneCanHaveEnergyDrone(string sceneName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -772,7 +745,7 @@ public static class EnergyDrone</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -790,8 +763,6 @@ public static class EnergyDrone</code></pre>
       </tr>
     </tbody>
   </table>
-
-
 
 
 

@@ -278,19 +278,16 @@ Class CardManager  <a class="header-action link-secondary" title="View source" h
   </div>
 
   <div class="markdown summary">
-    <p>A brief description of this type and its intended purpose.</p>
+    <h2></h2>
+    <p>The following is a breif description of what this type does, and what it is meant for: </p>
   <p>Class for managing adding, retrieving, tracking custom cards added via the API.</p>
 
   </div>
 
-  <div class="markdown conceptual">
-    <p>Additional conceptual information explaining this type, its behavior, and how it should be used.</p>
-  
-  </div>
 
   <div class="inheritance">
-    <h5>Inheritance</h5>
-    <p>Displays the inheritance hierarchy of this class, including its base types and any types derived from it.</p>
+    <h2>Inheritance</h2>
+    <p>The following is the full inheritence tree for this type: </p>
 
     <div class="inheritance-tree">
       <div class="inheritance-level" style="--inheritance-level: 0">
@@ -307,10 +304,10 @@ Class CardManager  <a class="header-action link-secondary" title="View source" h
 
 
 
-  <h5 id="InscryptionAPI_Card_CardManager_syntax">
+  <h2 id="InscryptionAPI_Card_CardManager_syntax">
   Syntax
-  </h5>
-  <p>Displays the declaration syntax for this type, including its name, modifiers, and other relevant declarations.</p>
+  </h2>
+  <p>The following codeblock is the declaration syntax of this type found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">[HarmonyPatch]
@@ -326,7 +323,7 @@ public static class CardManager</code></pre>
 
   <details class="typelist inheritedMembers">
     <summary>Inherited Members (Click me to Expand)</summary>
-    <p>Lists the members inherited from this type's base classes, providing access to functionality defined elsewhere in the inheritance hierarchy.</p>
+    <p>The following are inherited members derived from this type's inheritence: </p>
     <div class="typelist-content">
 
       <div>
@@ -361,6 +358,7 @@ public static class CardManager</code></pre>
 
 
 
+
   <h2 class="section" id="fields">Fields
 </h2>
 
@@ -372,20 +370,21 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>The set of cards that are in the base game</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_BaseGameCards_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static readonly ReadOnlyCollection&lt;CardInfo&gt; BaseGameCards</code></pre>
   </div>
-
 
 
 
@@ -416,15 +415,17 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>A copy of all cards in the card pool.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_AllCardsCopy_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static List&lt;CardInfo&gt; AllCardsCopy { get; }</code></pre>
@@ -437,18 +438,6 @@ public static class CardManager</code></pre>
 
 
 
-
-  <h4 class="section">Property Value</h4>
-  <p>Describes the value exposed by this property, including its type and purpose.</p>
-
-  <div class="property-value">
-    <div class="parameter-type">
-    <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;
-    </div>
-    <div class="markdown">
-    
-    </div>
-  </div>
 
 
 
@@ -471,22 +460,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Adds a new card to the card pool. If your card's name does not match your mod prefix, it will be updated to match.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_Add_System_String_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static void Add(string modPrefix, CardInfo newCard)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -540,7 +531,6 @@ public static class CardManager</code></pre>
 
 
 
-
   <a id="InscryptionAPI_Card_CardManager_BrokenShieldPortrait_" data-uid="InscryptionAPI.Card.CardManager.BrokenShieldPortrait*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_CardManager_BrokenShieldPortrait_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CardManager.BrokenShieldPortrait(DiskCardGame.CardInfo)">
@@ -549,22 +539,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's portrait used when a card's shield breaks if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_BrokenShieldPortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite BrokenShieldPortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -593,7 +585,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -619,9 +611,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_BrokenShieldPortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Broken shield portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -638,22 +629,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's portrait emission used when a card's shield breaks if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_EmissiveBrokenShieldPortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite EmissiveBrokenShieldPortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -682,7 +675,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -708,9 +701,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_EmissiveBrokenShieldPortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Broken shield portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -727,22 +719,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's portrait emission used when a card on the board can be sacrificed if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_EmissiveSacrificablePortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite EmissiveSacrificablePortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -771,7 +765,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -797,9 +791,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_EmissiveSacrificablePortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Sacrificable portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -816,22 +809,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's portrait emission used when Steel Trap activates if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_EmissiveSteelTrapPortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite EmissiveSteelTrapPortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -860,7 +855,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -886,9 +881,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_EmissiveSteelTrapPortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Steel Trap portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -905,22 +899,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the dictionary of card extended properties associated with the given CardInfo.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_GetCardExtensionTable_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Dictionary&lt;string, string&gt; GetCardExtensionTable(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -949,7 +945,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -981,7 +977,6 @@ public static class CardManager</code></pre>
 
 
 
-
   <a id="InscryptionAPI_Card_CardManager_GetExtendedClass_" data-uid="InscryptionAPI.Card.CardManager.GetExtendedClass*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_CardManager_GetExtendedClass__1_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CardManager.GetExtendedClass``1(DiskCardGame.CardInfo)">
@@ -990,22 +985,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Get a custom extension class that will exist on all clones of a card</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_GetExtendedClass__1_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static T GetExtendedClass&lt;T&gt;(this CardInfo card) where T : class, new()</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1034,7 +1031,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1054,7 +1051,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Type Parameters</h4>
-  <p>Lists the generic type parameters declared by this member, including their names and descriptions.</p>
+  <p>The following table is a full list of Type Parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-type-parameters">
     <thead>
@@ -1087,7 +1084,6 @@ public static class CardManager</code></pre>
 
 
 
-
   <a id="InscryptionAPI_Card_CardManager_LogCardInfo_" data-uid="InscryptionAPI.Card.CardManager.LogCardInfo*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_CardManager_LogCardInfo_DiskCardGame_CardInfo_System_String_" data-uid="InscryptionAPI.Card.CardManager.LogCardInfo(DiskCardGame.CardInfo,System.String)">
@@ -1095,22 +1091,19 @@ public static class CardManager</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardManager.cs/#L611"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
-  
-  </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_LogCardInfo_DiskCardGame_CardInfo_System_String__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static CardInfo LogCardInfo(CardInfo info, string cardInfoName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1149,7 +1142,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1180,7 +1173,6 @@ public static class CardManager</code></pre>
 
 
 
-
   <a id="InscryptionAPI_Card_CardManager_New_" data-uid="InscryptionAPI.Card.CardManager.New*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_CardManager_New_System_String_System_String_System_String_System_Int32_System_Int32_System_String_" data-uid="InscryptionAPI.Card.CardManager.New(System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
@@ -1189,22 +1181,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Adds a new card to the card pool.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_New_System_String_System_String_System_String_System_Int32_System_Int32_System_String__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static CardInfo New(string modPrefix, string name, string displayName, int attack, int health, string description = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1293,7 +1287,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1325,7 +1319,6 @@ public static class CardManager</code></pre>
 
 
 
-
   <a id="InscryptionAPI_Card_CardManager_PixelAlternatePortrait_" data-uid="InscryptionAPI.Card.CardManager.PixelAlternatePortrait*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_CardManager_PixelAlternatePortrait_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CardManager.PixelAlternatePortrait(DiskCardGame.CardInfo)">
@@ -1334,22 +1327,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's alternate portrait in Act 2 if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_PixelAlternatePortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite PixelAlternatePortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1378,7 +1373,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1404,9 +1399,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_PixelAlternatePortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Pixel alternate portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -1423,22 +1417,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's Act 2 portrait used when a card's shield breaks if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_PixelBrokenShieldPortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite PixelBrokenShieldPortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1467,7 +1463,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1493,9 +1489,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_PixelBrokenShieldPortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Pixel broken shield portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -1512,22 +1507,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's Act 2 portrait used when a card on the board can be sacrificed if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_PixelSacrificablePortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite PixelSacrificablePortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1556,7 +1553,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1582,9 +1579,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_PixelSacrificablePortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Pixel sacrificable portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -1601,22 +1597,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's Act 2 portrait used when Steel Trap activates if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_PixelSteelTrapPortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite PixelSteelTrapPortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1645,7 +1643,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1671,9 +1669,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_PixelSteelTrapPortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Pixel Steel Trap portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -1690,22 +1687,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Removes a custom card from the card pool. Cannot be used to remove base game cards.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_Remove_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static void Remove(CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1747,7 +1746,6 @@ public static class CardManager</code></pre>
 
 
 
-
   <a id="InscryptionAPI_Card_CardManager_SacrificablePortrait_" data-uid="InscryptionAPI.Card.CardManager.SacrificablePortrait*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_CardManager_SacrificablePortrait_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CardManager.SacrificablePortrait(DiskCardGame.CardInfo)">
@@ -1756,22 +1754,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's portrait used when a card on the board can be sacrificed if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_SacrificablePortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite SacrificablePortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1800,7 +1800,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1826,9 +1826,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_SacrificablePortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Sacrificable portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -1845,22 +1844,24 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Retrieves the Sprite for the CardInfo's portrait used when Steel Trap activates if it exists.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_SteelTrapPortrait_DiskCardGame_CardInfo__syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static Sprite SteelTrapPortrait(this CardInfo card)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
-  <p>Lists the parameters accepted by this member, including their names, types, and descriptions.</p>
+  <p>The following table is a full list of parameters used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-parameters">
     <thead>
@@ -1889,7 +1890,7 @@ public static class CardManager</code></pre>
   </table>
 
   <h4 class="section">Returns</h4>
-  <p>Describes the value returned by this member, including its type and purpose.</p>
+  <p>The following table is a full list of returns used by this member, in the form of <c>type, name | description</c> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
 
   <table class="api-returns">
     <thead>
@@ -1915,9 +1916,8 @@ public static class CardManager</code></pre>
 
 
 
-
   <h4 class="section" id="InscryptionAPI_Card_CardManager_SteelTrapPortrait_DiskCardGame_CardInfo__remarks">Remarks</h4>
-  <p>Provides additional information, implementation details, and considerations relevant to this member.</p>
+  <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>Steel Trap portraits are added through the API; they are not a vanilla feature.</p>
 </div>
 
@@ -1934,20 +1934,21 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>Re-executes events and rebuilds the card pool.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_SyncCardList_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static void SyncCardList()</code></pre>
   </div>
-
 
 
 
@@ -1977,15 +1978,17 @@ public static class CardManager</code></pre>
   </h3>
 
   <div class="markdown level1 summary">
-    <p>A brief description of this member and its intended purpose.</p>
+    <h4></h4>
+    <p>The following is a breif description of what this member does, and what it is meant for: </p>
   <p>This event runs every time the card list is resynced. By adding listeners to this event, you can modify cards that have been added to the list after your mod was loaded.</p>
 
   </div>
 
-  <div class="markdown level1 conceptual">
-    <p>Additional conceptual information explaining this member, its behavior, and how it should be used.</p>
-  
-  </div>
+
+  <h4 id="InscryptionAPI_Card_CardManager_ModifyCardList_syntax">
+  Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
     <pre><code class="lang- hljs">public static event Func&lt;List&lt;CardInfo&gt;, List&lt;CardInfo&gt;&gt; ModifyCardList</code></pre>
@@ -1998,26 +2001,6 @@ public static class CardManager</code></pre>
 
 
 
-
-
-  <h4 class="section">Event Type</h4>
-  <p>Identifies the delegate type used by this event and describes its purpose.</p>
-
-  <table class="api-returns">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardInfo</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 
 
 
