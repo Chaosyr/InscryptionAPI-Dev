@@ -9,6 +9,7 @@
     <meta name="title" content="Class ConsumableItemManager.FullConsumableItemData | InscryptionAPI ">
 
 
+    <meta name="description" content="A utility class that holds all of the required information about an item in order to be able to use it in-game.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class ConsumableItemManager.FullConsumableItemData">
 
 
+        <meta property="og:description" content="A utility class that holds all of the required information about an item in order to be able to use it in-game.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class ConsumableItemManager.FullConsumableItemData">
 
 
+        <meta name="twitter:description" content="A utility class that holds all of the required information about an item in order to be able to use it in-game.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData" data-uid="InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData" class="text-break">
-Class ConsumableItemManager.FullConsumableItemData  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class ConsumableItemManager.FullConsumableItemData  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class ConsumableItemManager.FullConsumableItemData  <a class="header-action link
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>A utility class that holds all of the required information about an item in order to be able to use it in-game.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -401,9 +410,15 @@ Class ConsumableItemManager.FullConsumableItemData  <a class="header-action link
 
   <h3 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData__ctor_DiskCardGame_ConsumableItemData_" data-uid="InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.#ctor(DiskCardGame.ConsumableItemData)">
   FullConsumableItemData(ConsumableItemData)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new instance of <a class="xref" href="InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.html">ConsumableItemManager.FullConsumableItemData</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData__ctor_DiskCardGame_ConsumableItemData__syntax">
@@ -437,7 +452,8 @@ Class ConsumableItemManager.FullConsumableItemData  <a class="header-action link
           data
           </div>
         </td>
-        <td></td>
+        <td><p>The description object for this item.</p>
+</td>
       </tr>
 
     </tbody>
@@ -464,17 +480,13 @@ Class ConsumableItemManager.FullConsumableItemData  <a class="header-action link
 
   <h3 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData_RulebookDescriptionRedirects" data-uid="InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.RulebookDescriptionRedirects">
   RulebookDescriptionRedirects
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Tracks all rulebook redirects that this ability's description will have. Explanation of the variables is as follows:
-Key (string): the text that will be recoloured to indicate that it's clickable.
-Tuple.Item1 (PageRangeType): the type of page the redirect will go to. Use PageRangeType.Unique if you want to redirect to a custom rulebook page using its pageId.
-Tuple.Item2 (Color): the colour the Key text will be recoloured to.
-Tuple.Item3 (string): the id that the API will match against to find the redirect page. Eg, for ability redirects this will be the Ability id as a string.</p>
+  <p>Tracks all rulebook redirects that this item's description will have.</p>
 
   </div>
 
@@ -508,9 +520,15 @@ Tuple.Item3 (string): the id that the API will match against to find the redirec
 
   <h3 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData_itemData" data-uid="InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.itemData">
   itemData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The description object for this item.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData_itemData_syntax">
@@ -542,9 +560,15 @@ Tuple.Item3 (string): the id that the API will match against to find the redirec
 
   <h3 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData_rulebookMetaCategories" data-uid="InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.rulebookMetaCategories">
   rulebookMetaCategories
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemManager.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Additional metacategories for this item if <span class="xref">DiskCardGame.ConsumableItemData.rulebookCategory</span> was not enough.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Items_ConsumableItemManager_FullConsumableItemData_rulebookMetaCategories_syntax">

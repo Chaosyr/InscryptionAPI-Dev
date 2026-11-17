@@ -285,7 +285,7 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.APIDeathShield.html">APIDeathShield</a></dt>
-      <dd><p>A custom AbilityBehaviour that's attached to the DeathShield ability so it functions with the API's shield logic changes.</p>
+      <dd><p>A custom <span class="xref">DiskCardGame.AbilityBehaviour</span> that's attached to the <span class="xref">DiskCardGame.Ability.DeathShield</span> ability so it functions with the API's shield logic changes.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -295,7 +295,7 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.AbilityManager.html">AbilityManager</a></dt>
-      <dd><p>This manager class handles the creation and management of mod-added abilities (sigils).</p>
+      <dd><p>Manager class that handles the creation and management of mod-added abilities (sigils).</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -305,20 +305,24 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.ActivatedDamageShieldBehaviour.html">ActivatedDamageShieldBehaviour</a></dt>
-      <dd><p>A custom class combining <a href="InscryptionAPI.Card.DamageShieldBehaviour">DamageShieldBehaviour</a> and <a href="InscryptionAPI.Card.ExtendedActivatedBehaviour">ExtendedActivatedBehaviour</a>.</p>
+      <dd><p>A custom class combining <a class="xref" href="InscryptionAPI.Card.DamageShieldBehaviour.html">DamageShieldBehaviour</a> and <a class="xref" href="InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.html">ExtendedActivatedAbilityBehaviour</a>.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardAppearanceBehaviourManager.html">CardAppearanceBehaviourManager</a></dt>
-      <dd></dd>
+      <dd><p>Class for managing custom <span class="xref">DiskCardGame.CardAppearanceBehaviour</span>s.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardAppearanceBehaviourManager.FullCardAppearanceBehaviour.html">CardAppearanceBehaviourManager.FullCardAppearanceBehaviour</a></dt>
-      <dd></dd>
+      <dd><p>A utility class that holds all of the required information about an appearance behaviour
+in order to be able to use it in-game.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardExtensions.html">CardExtensions</a></dt>
-      <dd></dd>
+      <dd><p>Class containing a large number of helper extension methods for PlayableCard and CardInfo objects.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardManager.html">CardManager</a></dt>
@@ -327,67 +331,82 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardManager.CardAltPortraits.html">CardManager.CardAltPortraits</a></dt>
-      <dd><p>Class for storing the data for custom portrait Sprites added via the API.</p>
+      <dd><p>Class for storing the data for custom portrait sprites added via the API.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardModificationInfoExtensions.html">CardModificationInfoExtensions</a></dt>
-      <dd></dd>
+      <dd><p>Class of helper extensions for <span class="xref">DiskCardGame.CardModificationInfo</span> objects.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.CardModificationInfoManager.html">CardModificationInfoManager</a></dt>
-      <dd><p>Class for managing special CardModificationInfos.
+      <dd><p>Class for managing special <span class="xref">DiskCardGame.CardModificationInfo</span>s.
 These include persistent extended properties and custom costs.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.DamageShieldBehaviour.html">DamageShieldBehaviour</a></dt>
       <dd><p>A custom class implementing shield-giving behaviour.
-With the most recent API versions, shield-giving sigils like DeathShield/Nano Armour/ Armoured can now stack and instead use a counter rather than a simple boolean.</p>
+With the most recent API versions, shield-giving sigils like DeathShield/Nano Armour/Armoured can now stack and instead use a counter rather than a simple boolean.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.DeathCardManager.html">DeathCardManager</a></dt>
-      <dd></dd>
+      <dd><p>Class for handling custom death cards.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.DefaultBoneGainOnDeath.html">DefaultBoneGainOnDeath</a></dt>
-      <dd><p>Class for handling exposing the bone-on-death behaviour present in the vanilla PlayableCard.Die method.
+      <dd><p>Class for handling exposing the bone-on-death behaviour present in the vanilla <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Die(bool, PlayableCard, bool)</a> method.
 Allows for modifying the default behaviour through Harmony patches.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.ExtendedAbilityBehaviour.html">ExtendedAbilityBehaviour</a></dt>
-      <dd></dd>
+      <dd><p>Extended subclass of <span class="xref">DiskCardGame.AbilityBehaviour</span> that implements several custom API triggers.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.html">ExtendedActivatedAbilityBehaviour</a></dt>
-      <dd></dd>
+      <dd><p>A version of <span class="xref">DiskCardGame.ActivatedAbilityBehaviour</span> that allows for the creation of activated abilities that cost Blood, Gems, or Health. Also supports dynamic activation costs.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="InscryptionAPI.Card.GainMultipleGems.html">GainMultipleGems</a></dt>
+      <dd><p>Class that allows for easily creating abilities that provide multiple gem types to their owner.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.OpponentGemsManager.html">OpponentGemsManager</a></dt>
-      <dd></dd>
+      <dd><p>Class for handling gems currently possessed by the opponent.
+Allows for abilities and other behaviours that rely on owned gems to correctly work on both sides of the board.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.ShieldManager.html">ShieldManager</a></dt>
-      <dd><p>This manager class handles the logic for shields.</p>
+      <dd><p>Manager class that handles the logic for shields.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.SpecialTriggeredAbilityManager.html">SpecialTriggeredAbilityManager</a></dt>
-      <dd></dd>
+      <dd><p>Class for managing SpecialtriggeredAbilities created through the API.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.html">SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility</a></dt>
-      <dd></dd>
+      <dd><p>A utility class that holds all of the required information about a special ability in order to be able to use it in-game.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.StatIconManager.html">StatIconManager</a></dt>
-      <dd></dd>
+      <dd><p>Manager class for handling stat icons.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.StatIconManager.FullStatIcon.html">StatIconManager.FullStatIcon</a></dt>
-      <dd></dd>
+      <dd><p>A utility class that holds all of the required information about a stat icon in order to be able to use it in-game.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.TribeManager.html">TribeManager</a></dt>
@@ -396,13 +415,7 @@ Allows for modifying the default behaviour through Harmony patches.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.TribeManager.TribeInfo.html">TribeManager.TribeInfo</a></dt>
-      <dd><p>The internal object used to store all relevant info about a Tribe.
-guid - The mod GUID that added the Tribe.
-name - The internal name of the Tribe.
-tribe - The enum value corresponding to this Tribe.
-icon - The sprite displayed on cards with this Tribe.
-tribeChoice - Whether or not this Tribe can appear at card tribe choice nodes.
-cardBack - The texture displayed at card tribe choice nodes. If null, the API will create one using the icon Sprite.</p>
+      <dd><p>A utility class that holds all of the required information about a tribe in order to be able to use it in-game.</p>
 </dd>
     </dl>
     <h3 id="interfaces">
@@ -410,7 +423,8 @@ Interfaces
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Card.IActivateWhenFacedown.html">IActivateWhenFacedown</a></dt>
-      <dd></dd>
+      <dd><p>Custom trigger for determining if an ability trigger should activate when a card is face down.</p>
+</dd>
     </dl>
 
 

@@ -9,6 +9,7 @@
     <meta name="title" content="Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility | InscryptionAPI ">
 
 
+    <meta name="description" content="A utility class that holds all of the required information about a special ability in order to be able to use it in-game.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility">
 
 
+        <meta property="og:description" content="A utility class that holds all of the required information about a special ability in order to be able to use it in-game.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility">
 
 
+        <meta name="twitter:description" content="A utility class that holds all of the required information about a special ability in order to be able to use it in-game.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility" class="text-break">
-Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>A utility class that holds all of the required information about a special ability in order to be able to use it in-game.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -383,9 +392,15 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
 
   <h3 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility__ctor_DiskCardGame_SpecialTriggeredAbility_System_Type_" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.#ctor(DiskCardGame.SpecialTriggeredAbility,System.Type)">
   FullSpecialTriggeredAbility(SpecialTriggeredAbility, Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new instance of <a class="xref" href="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.html">SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility</a> and registers its behaviour type with the <a class="xref" href="InscryptionAPI.Guid.TypeManager.html">TypeManager</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility__ctor_DiskCardGame_SpecialTriggeredAbility_System_Type__syntax">
@@ -394,7 +409,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
   <p>The following codeblock is the declaration syntax of this member found in the code: </p>
 
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public FullSpecialTriggeredAbility(SpecialTriggeredAbility id, Type abilityBehaviour)</code></pre>
+    <pre><code class="lang- hljs">[Obsolete(&quot;Use the constructor that takes a guid parameter instead&quot;)]
+public FullSpecialTriggeredAbility(SpecialTriggeredAbility id, Type abilityBehaviour)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -419,7 +435,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
           id
           </div>
         </td>
-        <td></td>
+        <td><p>The unique ID for this special ability.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -430,7 +447,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
           abilityBehaviour
           </div>
         </td>
-        <td></td>
+        <td><p>A subclass of <span class="xref">DiskCardGame.SpecialCardBehaviour</span> that implements the logic for the ability.</p>
+</td>
       </tr>
 
     </tbody>
@@ -454,9 +472,15 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
 
   <h3 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility__ctor_System_String_System_String_DiskCardGame_SpecialTriggeredAbility_System_Type_" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.#ctor(System.String,System.String,DiskCardGame.SpecialTriggeredAbility,System.Type)">
   FullSpecialTriggeredAbility(string, string, SpecialTriggeredAbility, Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new instance of <a class="xref" href="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.html">SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility</a> and registers its behaviour type with the <a class="xref" href="InscryptionAPI.Guid.TypeManager.html">TypeManager</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility__ctor_System_String_System_String_DiskCardGame_SpecialTriggeredAbility_System_Type__syntax">
@@ -490,7 +514,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
           guid
           </div>
         </td>
-        <td></td>
+        <td><p>The GUID of the mod that added this.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -501,7 +526,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
           name
           </div>
         </td>
-        <td></td>
+        <td><p>The name of this special ability.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -512,7 +538,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
           id
           </div>
         </td>
-        <td></td>
+        <td><p>The unique ID for this special ability.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -523,7 +550,8 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
           abilityBehaviour
           </div>
         </td>
-        <td></td>
+        <td><p>A subclass of <span class="xref">DiskCardGame.SpecialCardBehaviour</span> that implements the logic for the ability.</p>
+</td>
       </tr>
 
     </tbody>
@@ -550,9 +578,15 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
 
   <h3 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_AbilityBehaviour" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.AbilityBehaviour">
   AbilityBehaviour
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>A subclass of <span class="xref">DiskCardGame.SpecialCardBehaviour</span> that implements the logic for this special ability.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_AbilityBehaviour_syntax">
@@ -584,9 +618,15 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
 
   <h3 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_AbilityName" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.AbilityName">
   AbilityName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The name of this special ability. Used internally.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_AbilityName_syntax">
@@ -618,9 +658,15 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
 
   <h3 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_Id" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The unique ID for this special ability.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_Id_syntax">
@@ -652,9 +698,15 @@ Class SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility  <a class="head
 
   <h3 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_ModGUID" data-uid="InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.ModGUID">
   ModGUID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/SpecialTriggeredAbilityManager.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The guid of the mod that added this special ability.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_SpecialTriggeredAbilityManager_FullSpecialTriggeredAbility_ModGUID_syntax">

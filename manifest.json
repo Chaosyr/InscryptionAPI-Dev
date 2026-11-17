@@ -3535,7 +3535,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.AscensionChallengePaginator",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.AscensionChallengePaginator.yml\" sourcestartlinenumber=\"1\">Class that handles adding displaying custom challenges and allows for multiple pages of challenges.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3549,7 +3549,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.AscensionChallengePaginatorSetupifier",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.AscensionChallengePaginatorSetupifier.yml\" sourcestartlinenumber=\"1\">Handles adding the <xref href=\"InscryptionAPI.Ascension.AscensionChallengePaginator\" data-throw-if-not-resolved=\"false\"></xref> to the ascension menu object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3563,7 +3563,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.AscensionRunSetupScreenBase",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.AscensionRunSetupScreenBase.yml\" sourcestartlinenumber=\"1\">Abstract class for creating custom menu screens to be displayed in Kaycee's Mod.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3577,7 +3577,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.AscensionScreenManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.AscensionScreenManager.yml\" sourcestartlinenumber=\"1\">Manager class for handling custom menu screens in Kaycee's Mod.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3591,7 +3591,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.AscensionScreenSort.Direction",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.AscensionScreenSort.Direction.yml\" sourcestartlinenumber=\"1\">Where in the new run sequence a custom screen should appear.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3605,7 +3605,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.AscensionScreenSort",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.AscensionScreenSort.yml\" sourcestartlinenumber=\"1\">Decorates a custom screen and marks how it should be sorted.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3633,7 +3633,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.ChallengeDisplayerPlus.PrefixedString",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.ChallengeDisplayerPlus.PrefixedString.yml\" sourcestartlinenumber=\"1\">Handles displaying challenge dependency strings when hovering over a challenge icon.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3647,7 +3647,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.ChallengeDisplayerPlus",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.ChallengeDisplayerPlus.yml\" sourcestartlinenumber=\"1\">Improved version of <xref href=\"DiskCardGame.AscensionChallengeDisplayer\" data-throw-if-not-resolved=\"false\"></xref> that can handle custom challenges.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3689,7 +3689,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.StarterDeckExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.StarterDeckExtensions.yml\" sourcestartlinenumber=\"1\">Class that stores extensions related to starter decks.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3703,7 +3703,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.StarterDeckManager.FullStarterDeck",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.StarterDeckManager.FullStarterDeck.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a starter deck in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3717,7 +3717,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.StarterDeckManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.StarterDeckManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the creation and management of mod-added starter decks.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3731,7 +3731,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Ascension.StarterDeckPaginator",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Ascension.StarterDeckPaginator.yml\" sourcestartlinenumber=\"1\">Class that handles adding displaying starter decks and allows for multiple pages of starter decks.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3759,7 +3759,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Boons.BoonBehaviour",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all custom Boons</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Boons.BoonBehaviour.yml\" sourcestartlinenumber=\"1\">Base class for all custom Boons.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3829,7 +3829,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.APIDeathShield",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.APIDeathShield.yml\" sourcestartlinenumber=\"1\">A custom AbilityBehaviour that's attached to the DeathShield ability so it functions with the API's shield logic changes.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.APIDeathShield.yml\" sourcestartlinenumber=\"1\">A custom <xref href=\"DiskCardGame.AbilityBehaviour\" data-throw-if-not-resolved=\"false\"></xref> that's attached to the <xref href=\"DiskCardGame.Ability.DeathShield\" data-throw-if-not-resolved=\"false\"></xref> ability so it functions with the API's shield logic changes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3871,7 +3871,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.AbilityManager",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.AbilityManager.yml\" sourcestartlinenumber=\"1\">This manager class handles the creation and management of mod-added abilities (sigils).</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.AbilityManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the creation and management of mod-added abilities (sigils).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3885,7 +3885,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.ActivatedDamageShieldBehaviour",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">A custom class combining <a href=\"InscryptionAPI.Card.DamageShieldBehaviour\" sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">DamageShieldBehaviour</a> and <a href=\"InscryptionAPI.Card.ExtendedActivatedBehaviour\" sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">ExtendedActivatedBehaviour</a>.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">A custom class combining <xref href=\"InscryptionAPI.Card.DamageShieldBehaviour\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3899,7 +3899,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CardAppearanceBehaviourManager.FullCardAppearanceBehaviour",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardAppearanceBehaviourManager.FullCardAppearanceBehaviour.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about an appearance behaviour\nin order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3913,7 +3913,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CardAppearanceBehaviourManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardAppearanceBehaviourManager.yml\" sourcestartlinenumber=\"1\">Class for managing custom <xref href=\"DiskCardGame.CardAppearanceBehaviour\" data-throw-if-not-resolved=\"false\"></xref>s.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3927,7 +3927,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CardExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardExtensions.yml\" sourcestartlinenumber=\"1\">Class containing a large number of helper extension methods for PlayableCard and CardInfo objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3941,7 +3941,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CardManager.CardAltPortraits",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardManager.CardAltPortraits.yml\" sourcestartlinenumber=\"1\">Class for storing the data for custom portrait Sprites added via the API.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardManager.CardAltPortraits.yml\" sourcestartlinenumber=\"1\">Class for storing the data for custom portrait sprites added via the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3969,7 +3969,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CardModificationInfoExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardModificationInfoExtensions.yml\" sourcestartlinenumber=\"1\">Class of helper extensions for <xref href=\"DiskCardGame.CardModificationInfo\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3983,7 +3983,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CardModificationInfoManager",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardModificationInfoManager.yml\" sourcestartlinenumber=\"1\">Class for managing special CardModificationInfos.\nThese include persistent extended properties and custom costs.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CardModificationInfoManager.yml\" sourcestartlinenumber=\"1\">Class for managing special <xref href=\"DiskCardGame.CardModificationInfo\" data-throw-if-not-resolved=\"false\"></xref>s.\nThese include persistent extended properties and custom costs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3997,7 +3997,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CostProperties.CostProperties.RefreshCostMonoBehaviour",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CostProperties.CostProperties.RefreshCostMonoBehaviour.yml\" sourcestartlinenumber=\"1\">Class that's attached to <xref href=\"DiskCardGame.PlayableCard\" data-throw-if-not-resolved=\"false\"></xref> objects to ensure their costs are updated appropriately.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4011,7 +4011,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.CostProperties.CostProperties",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.CostProperties.CostProperties.yml\" sourcestartlinenumber=\"1\">Class that handles dynamic costs on <xref href=\"DiskCardGame.PlayableCard\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4039,7 +4039,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.DamageShieldBehaviour",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">A custom class implementing shield-giving behaviour.\nWith the most recent API versions, shield-giving sigils like DeathShield/Nano Armour/ Armoured can now stack and instead use a counter rather than a simple boolean.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DamageShieldBehaviour.yml\" sourcestartlinenumber=\"1\">A custom class implementing shield-giving behaviour.\nWith the most recent API versions, shield-giving sigils like DeathShield/Nano Armour/Armoured can now stack and instead use a counter rather than a simple boolean.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4053,7 +4053,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.DeathCardManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DeathCardManager.yml\" sourcestartlinenumber=\"1\">Class for handling custom death cards.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4067,7 +4067,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.DefaultBoneGainOnDeath",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DefaultBoneGainOnDeath.yml\" sourcestartlinenumber=\"1\">Class for handling exposing the bone-on-death behaviour present in the vanilla PlayableCard.Die method.\nAllows for modifying the default behaviour through Harmony patches.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.DefaultBoneGainOnDeath.yml\" sourcestartlinenumber=\"1\">Class for handling exposing the bone-on-death behaviour present in the vanilla <xref href=\"DiskCardGame.PlayableCard.Die(System.Boolean%2cDiskCardGame.PlayableCard%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> method.\nAllows for modifying the default behaviour through Harmony patches.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4081,7 +4081,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.ExtendedAbilityBehaviour",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ExtendedAbilityBehaviour.yml\" sourcestartlinenumber=\"1\">Extended subclass of <xref href=\"DiskCardGame.AbilityBehaviour\" data-throw-if-not-resolved=\"false\"></xref> that implements several custom API triggers.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4095,7 +4095,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.yml\" sourcestartlinenumber=\"1\">A version of <xref href=\"DiskCardGame.ActivatedAbilityBehaviour\" data-throw-if-not-resolved=\"false\"></xref> that allows for the creation of activated abilities that cost Blood, Gems, or Health. Also supports dynamic activation costs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/InscryptionAPI.Card.GainMultipleGems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/InscryptionAPI.Card.GainMultipleGems.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InscryptionAPI.Card.GainMultipleGems",
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.GainMultipleGems.yml\" sourcestartlinenumber=\"1\">Class that allows for easily creating abilities that provide multiple gem types to their owner.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4109,7 +4123,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.IActivateWhenFacedown",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.IActivateWhenFacedown.yml\" sourcestartlinenumber=\"1\">Custom trigger for determining if an ability trigger should activate when a card is face down.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4123,7 +4137,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.OpponentGemsManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.OpponentGemsManager.yml\" sourcestartlinenumber=\"1\">Class for handling gems currently possessed by the opponent.\nAllows for abilities and other behaviours that rely on owned gems to correctly work on both sides of the board.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4137,7 +4151,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.ShieldManager",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ShieldManager.yml\" sourcestartlinenumber=\"1\">This manager class handles the logic for shields.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.ShieldManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the logic for shields.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4151,7 +4165,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.SpecialTriggeredAbilityManager.FullSpecialTriggeredAbility.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a special ability in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4165,7 +4179,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.SpecialTriggeredAbilityManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.SpecialTriggeredAbilityManager.yml\" sourcestartlinenumber=\"1\">Class for managing SpecialtriggeredAbilities created through the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4179,7 +4193,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.StatIconManager.FullStatIcon",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.StatIconManager.FullStatIcon.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a stat icon in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4193,7 +4207,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.StatIconManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.StatIconManager.yml\" sourcestartlinenumber=\"1\">Manager class for handling stat icons.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4207,7 +4221,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Card.TribeManager.TribeInfo",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.TribeManager.TribeInfo.yml\" sourcestartlinenumber=\"1\">The internal object used to store all relevant info about a Tribe.\nguid - The mod GUID that added the Tribe.\nname - The internal name of the Tribe.\ntribe - The enum value corresponding to this Tribe.\nicon - The sprite displayed on cards with this Tribe.\ntribeChoice - Whether or not this Tribe can appear at card tribe choice nodes.\ncardBack - The texture displayed at card tribe choice nodes. If null, the API will create one using the icon Sprite.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Card.TribeManager.TribeInfo.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a tribe in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4249,7 +4263,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.CardCosts.CardCostManager.FullCardCost",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.CardCosts.CardCostManager.FullCardCost.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a card cost in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4305,7 +4319,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Dialogue.CustomLine",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Dialogue.CustomLine.yml\" sourcestartlinenumber=\"1\">Struct representing a line of dialogue. Compatible with use in all acts.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4319,7 +4333,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Dialogue.DialogueManager.Dialogue",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Dialogue.DialogueManager.Dialogue.yml\" sourcestartlinenumber=\"1\">Utility class that associates a custom <xref href=\"InscryptionAPI.Dialogue.DialogueManager.Dialogue.DialogueEvent\" data-throw-if-not-resolved=\"false\"></xref> with the GUID of the mod that added it.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4333,35 +4347,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Dialogue.DialogueManager.DialogueColor",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Dialogue.DialogueManager.DialogueColor.yml\" sourcestartlinenumber=\"1\">Utility class for custom colour codes. Used in dialogue to colour text.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4375,7 +4361,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Dialogue.DialogueManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Dialogue.DialogueManager.yml\" sourcestartlinenumber=\"1\">Manager class for handling custom dialogue.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4403,7 +4389,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.AIManager.FullAI",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.AIManager.FullAI.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about an AI in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4417,7 +4403,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.AIManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.AIManager.yml\" sourcestartlinenumber=\"1\">Manager class for custom opponent AIs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4431,7 +4417,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.CachedGCBNPCDescriptor",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.CachedGCBNPCDescriptor.yml\" sourcestartlinenumber=\"1\">Utility class for caching NPCs in Act 2. Primarily used for tracking the last triggered battle NPC.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4473,7 +4459,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.EncounterBuilder",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.EncounterBuilder.yml\" sourcestartlinenumber=\"1\">Utility class that adds extension methods for aiding in constructing encounters.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4487,7 +4473,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.EncounterBuilderBlueprintData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.EncounterBuilderBlueprintData.yml\" sourcestartlinenumber=\"1\">Utility class that builds a basic <xref href=\"DiskCardGame.EncounterBlueprintData\" data-throw-if-not-resolved=\"false\"></xref> and associates it with the region it appears in.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4501,7 +4487,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.EncounterExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.EncounterExtensions.yml\" sourcestartlinenumber=\"1\">Utility class that adds various extension methods to aid in easily creating new battle encounters and custom opponents.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4515,7 +4501,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.EncounterManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.EncounterManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the creation and management of mod-added encounters.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4557,7 +4543,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.NodeManager.NodeInfo",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.NodeManager.NodeInfo.yml\" sourcestartlinenumber=\"1\">Represents a new node added by the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4571,7 +4557,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.NodeManager.NodePosition",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.NodeManager.NodePosition.yml\" sourcestartlinenumber=\"1\">Flags for different types of generation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4585,7 +4571,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.NodeManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.NodeManager.yml\" sourcestartlinenumber=\"1\">Old manager class for managing custom map nodes. Use NewNodeManager instead.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4599,7 +4585,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.OpponentManager.FullOpponent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.OpponentManager.FullOpponent.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about an opponent in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4613,7 +4599,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.OpponentManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.OpponentManager.yml\" sourcestartlinenumber=\"1\">Manager class for adding custom opponents that will appear in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4627,7 +4613,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.SpecialSequenceManager.FullSpecialSequencer.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a special battle sequencer in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4641,7 +4627,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.SpecialSequenceManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.SpecialSequenceManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the creation and management of mod-added special battle sequencers.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4655,7 +4641,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.TurnBuilder<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.TurnBuilder-1.yml\" sourcestartlinenumber=\"1\">Utility class for easily creating turns in an encounter blueprint.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4669,7 +4655,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Encounters.TurnExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Encounters.TurnExtensions.yml\" sourcestartlinenumber=\"1\">Utility class that adds extensions to aid in the creation of encounter blueprint turns.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4991,7 +4977,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Items.ConsumableItemManager.FullConsumableItemData.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about an item in order to be able to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5005,7 +4991,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Items.ConsumableItemManager.ModelType",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Items.ConsumableItemManager.ModelType.yml\" sourcestartlinenumber=\"1\">The different types of default item models added by the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5019,7 +5005,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Items.ConsumableItemManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Items.ConsumableItemManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the creation and management of mod-added consumable items.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5033,7 +5019,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Items.ConsumableItemPatches",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Items.ConsumableItemPatches.yml\" sourcestartlinenumber=\"1\">Class containing patches to make custom items work.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5047,7 +5033,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Items.ConsumableItemResource",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Items.ConsumableItemResource.yml\" sourcestartlinenumber=\"1\">Subclass of <xref href=\"InscryptionAPI.Helpers.ResourceLookup\" data-throw-if-not-resolved=\"false\"></xref> specific to resources used as consumable item models.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5061,7 +5047,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Items.Extensions.ConsumableItemDataExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Items.Extensions.ConsumableItemDataExtensions.yml\" sourcestartlinenumber=\"1\">Utiliy class that manages custom <xref href=\"DiskCardGame.ConsumableItemData\" data-throw-if-not-resolved=\"false\"></xref> objects, and adds extensions for that purpose.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5103,7 +5089,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Localizing.LocalizationManager.CustomLanguage",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.CustomLanguage.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a language in order to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5117,7 +5103,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Localizing.LocalizationManager.CustomTranslation",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.CustomTranslation.yml\" sourcestartlinenumber=\"1\">A utility class that holds all of the required information about a translation in order to use it in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5131,7 +5117,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Localizing.LocalizationManager.FontReplacementType",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.yml\" sourcestartlinenumber=\"1\">The list of Fonts used in Inscryption.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.FontReplacementType.yml\" sourcestartlinenumber=\"1\">The list of Fonts used in Inscryption that have font replacements.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5145,7 +5131,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Localizing.LocalizationManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Localizing.LocalizationManager.yml\" sourcestartlinenumber=\"1\">Manager class that handles the creation of custom language translations for the game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5173,7 +5159,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Masks.CustomMask",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Masks.CustomMask.yml\" sourcestartlinenumber=\"1\">Class for adding custom boss masks for Leshy to use in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5187,7 +5173,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Masks.MaskBehaviour",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Masks.MaskBehaviour.yml\" sourcestartlinenumber=\"1\">Class for implementinglogic for a custom mask and modifying its textures, emissions, etc..</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5201,7 +5187,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Masks.MaskManager.ModelType",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Masks.MaskManager.ModelType.yml\" sourcestartlinenumber=\"1\">IDs of all mask models.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5215,7 +5201,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Masks.MaskManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Masks.MaskManager.yml\" sourcestartlinenumber=\"1\">Manager class for managing custom masks added through the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5257,7 +5243,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Nodes.ChallengeIsActive",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.ChallengeIsActive.yml\" sourcestartlinenumber=\"1\">SelectionCondition for a node that prevents it from appearing unless the given challenge is active.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5327,7 +5313,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Nodes.CustomSpecialNodeData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.CustomSpecialNodeData.yml\" sourcestartlinenumber=\"1\">Subclass of <xref href=\"DiskCardGame.SpecialNodeData\" data-throw-if-not-resolved=\"false\"></xref> that allows for custom node data to be used in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5495,7 +5481,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Nodes.NumChallengesOfTypeActive",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Nodes.NumChallengesOfTypeActive.yml\" sourcestartlinenumber=\"1\">SelectionCondition for a node that prevents it from appearing unless a certain number of the given challenge is present.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5537,7 +5523,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Pelts.Extensions.PeltExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Pelts.Extensions.PeltExtensions.yml\" sourcestartlinenumber=\"1\">Utility class adding extensions to aid in creating new <xref href=\"InscryptionAPI.Pelts.PeltManager.PeltData\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5565,7 +5551,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence.yml\" sourcestartlinenumber=\"1\">Patcher class for modifying the <xref href=\"DiskCardGame.BuyPeltsSequencer.GiveFreePeltSequence\" data-throw-if-not-resolved=\"false\"></xref> method.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5579,7 +5565,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Pelts.Patches.TradePeltsSequencer_CreatePeltCards",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Pelts.Patches.TradePeltsSequencer_CreatePeltCards.yml\" sourcestartlinenumber=\"1\">Patcher clas for modifying <xref href=\"DiskCardGame.TradePeltsSequencer.CreatePeltCards(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5593,7 +5579,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Pelts.Patches.TradePeltsSequencer_TradePelts",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Pelts.Patches.TradePeltsSequencer_TradePelts.yml\" sourcestartlinenumber=\"1\">Patcher class for modifying <xref href=\"DiskCardGame.TradePeltsSequencer.TradePelts(DiskCardGame.TradePeltsNodeData)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5621,7 +5607,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Pelts.PeltManager.PeltData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Pelts.PeltManager.PeltData.yml\" sourcestartlinenumber=\"1\">Utility class containing all data about pelt cards needed for them to be used in-game at the Trapper and Trader.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5635,7 +5621,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Pelts.PeltManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Pelts.PeltManager.yml\" sourcestartlinenumber=\"1\">Manager class for managing new pelt cards that can be bought and traded in Act 1.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5663,7 +5649,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.PixelCard.GBCPackManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.PixelCard.GBCPackManager.yml\" sourcestartlinenumber=\"1\">Manager class for defining and adding custom GBC card packs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5677,7 +5663,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.PixelCard.PixelAppearanceBehaviour",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.PixelCard.PixelAppearanceBehaviour.yml\" sourcestartlinenumber=\"1\">Subclass of <xref href=\"DiskCardGame.CardAppearanceBehaviour\" data-throw-if-not-resolved=\"false\"></xref> that works in Act 2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5691,7 +5677,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.PixelCard.PixelCardManager.PixelDecalData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.PixelCard.PixelCardManager.PixelDecalData.yml\" sourcestartlinenumber=\"1\">Utility class containing all data needed to apply decals to Act 2 cards.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5705,7 +5691,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.PixelCard.PixelCardManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.PixelCard.PixelCardManager.yml\" sourcestartlinenumber=\"1\">Manager class for handling decals, custom appearances, and Gemified in Act 2.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5719,7 +5705,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.PixelCard.PixelGemificationBorder",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.PixelCard.PixelGemificationBorder.yml\" sourcestartlinenumber=\"1\">Class that adds a border to Act 2 cards when they're Gemified that updates as gems are added and removed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5747,7 +5733,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Regions.Part1RegionData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Regions.Part1RegionData.yml\" sourcestartlinenumber=\"1\">Utility class containing all data needed to create a custom <xref href=\"DiskCardGame.RegionData\" data-throw-if-not-resolved=\"false\"></xref> for use in Act 1.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5761,21 +5747,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Regions.RegionExtensions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Regions.RegionExtensions.yml\" sourcestartlinenumber=\"1\">Utility class that adds extensions to aid in creating and modifying <xref href=\"DiskCardGame.RegionData\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5789,7 +5761,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Regions.RegionManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Regions.RegionManager.yml\" sourcestartlinenumber=\"1\">Manager class for handling regions.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5817,7 +5789,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Resource.ResourceBankManager.ResourceData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Resource.ResourceBankManager.ResourceData.yml\" sourcestartlinenumber=\"1\">Utility class containing all data need to add and use custom resources.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5831,7 +5803,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Resource.ResourceBankManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Resource.ResourceBankManager.yml\" sourcestartlinenumber=\"1\">Manager class for adding new resources to the <xref href=\"ResourceBank\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5859,7 +5831,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.PageTextInteractable",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.PageTextInteractable.yml\" sourcestartlinenumber=\"1\">Class for interacting with hyperlinked text in the rulebook.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5873,7 +5845,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManager.FullRuleBookRangeInfo.yml\" sourcestartlinenumber=\"1\">Utility class containing all the data needed for a custom rulebook section.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5887,7 +5859,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo.yml\" sourcestartlinenumber=\"1\">Utility class containing all the data needed to define redirects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5901,7 +5873,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.yml\" sourcestartlinenumber=\"1\">A custom class that associates a RuleBookPageInfo object with a Dictionary of RuleBookDescriptionRedirects. Use if</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.yml\" sourcestartlinenumber=\"1\">A custom class that associates a <xref href=\"DiskCardGame.RuleBookPageInfo\" data-throw-if-not-resolved=\"false\"></xref> object with a Dictionary of <xref href=\"InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo\" data-throw-if-not-resolved=\"false\"></xref>s. Use if</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5915,7 +5887,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RuleBookManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManager.yml\" sourcestartlinenumber=\"1\">Manager class for adding hyperlinks to rulebook entries that redirect to other rulebook pages.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5929,7 +5901,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RuleBookManagerPatches",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookManagerPatches.yml\" sourcestartlinenumber=\"1\">Patcher class for making custom rulebook pages work.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5943,7 +5915,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RuleBookRedirectExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RuleBookRedirectExtensions.yml\" sourcestartlinenumber=\"1\">Utility class that adds extensions to aid in adding rulebook redirects (hyperlinks) to supported game objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5971,7 +5943,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.RuleBook.RulebookRedirectPatches",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.RuleBook.RulebookRedirectPatches.yml\" sourcestartlinenumber=\"1\">Patches to make rulebook hyperlinks/redirects work.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5999,7 +5971,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Saves.ModdedSaveData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Saves.ModdedSaveData.yml\" sourcestartlinenumber=\"1\">Class representing modded game data.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6013,7 +5985,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Saves.ModdedSaveManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Saves.ModdedSaveManager.yml\" sourcestartlinenumber=\"1\">Manager class for <xref href=\"InscryptionAPI.Saves.ModdedSaveData\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6027,7 +5999,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Saves.SaveFileExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Saves.SaveFileExtensions.yml\" sourcestartlinenumber=\"1\">Utility class adding extensions to help with <xref href=\"SaveFile\" data-throw-if-not-resolved=\"false\"></xref> manipulation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6069,7 +6041,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Slots.SlotModificationExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationExtensions.yml\" sourcestartlinenumber=\"1\">Contains extension methods to simplify slot modification management</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6125,7 +6097,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.yml\" sourcestartlinenumber=\"1\">Used to determine what Acts a modification's rulebook entry should appear in.\nValues correspond to specific AbilityMetaCategory values.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Slots.SlotModificationManager.ModificationMetaCategory.yml\" sourcestartlinenumber=\"1\">Used to determine what Acts a modification's rulebook entry should appear in.\nValues of each enum correspond to specific <xref href=\"DiskCardGame.AbilityMetaCategory\" data-throw-if-not-resolved=\"false\"></xref> values, allowing one-way conversion.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6223,7 +6195,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.Animation.GeneratePortrait",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Animation.GeneratePortrait.yml\" sourcestartlinenumber=\"1\">Helper class for creating talking card portraits.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6251,7 +6223,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.Create.DialogueEventStrings",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.DialogueEventStrings.yml\" sourcestartlinenumber=\"1\">Utility class for creating dialogue events used for creating dialogue events using exclusively strings and arrays.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6335,7 +6307,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.Create.TalkingCardCreator",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Create.TalkingCardCreator.yml\" sourcestartlinenumber=\"1\">Class for creating talking cards' animated portraits and special abilities.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6363,7 +6335,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.CustomDiskTalkingCard",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.CustomDiskTalkingCard.yml\" sourcestartlinenumber=\"1\">An abstract class for the creation of Act 3 talking cards through the API.\nIt inherits from <xref href=\"DiskCardGame.DiskTalkingCard\" data-throw-if-not-resolved=\"false\"></xref> and implements <xref href=\"InscryptionAPI.TalkingCards.Create.ITalkingCard\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6377,7 +6349,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.CustomPaperTalkingCard",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.CustomPaperTalkingCard.yml\" sourcestartlinenumber=\"1\">An abstract class for the creation of talking cards through the API.\nIt inherits from PaperTalkingCard and implements ITalkingCard.</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.CustomPaperTalkingCard.yml\" sourcestartlinenumber=\"1\">An abstract class for the creation of talking cards through the API.\nIt inherits from <xref href=\"DiskCardGame.PaperTalkingCard\" data-throw-if-not-resolved=\"false\"></xref> and implements <xref href=\"InscryptionAPI.TalkingCards.Create.ITalkingCard\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6391,7 +6363,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.Helpers.AssetHelpers",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Helpers.AssetHelpers.yml\" sourcestartlinenumber=\"1\">Class of helper methods for the creation of custom talking cards.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6405,7 +6377,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.Helpers.StringExtensions",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.Helpers.StringExtensions.yml\" sourcestartlinenumber=\"1\">Utility class adding new extensions to the <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6433,7 +6405,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.TalkingCards.TalkingCardManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.TalkingCards.TalkingCardManager.yml\" sourcestartlinenumber=\"1\">Manager clas for adding talking cards through the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6461,7 +6433,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Totems.CustomIconTotemTopPiece",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Totems.CustomIconTotemTopPiece.yml\" sourcestartlinenumber=\"1\">Subclass of <xref href=\"DiskCardGame.CompositeTotemPiece\" data-throw-if-not-resolved=\"false\"></xref> with extended functionalities for creating totem tops using simple texture icons.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6475,7 +6447,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Totems.TotemManager.CustomTotemTop",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Totems.TotemManager.CustomTotemTop.yml\" sourcestartlinenumber=\"1\">Utility class containing all data needed for custom totem tops to be used in-game.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6489,7 +6461,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Totems.TotemManager",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Totems.TotemManager.yml\" sourcestartlinenumber=\"1\">Manager class for adding custom totem pieces through the API.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -6531,7 +6503,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Triggers.DoCombatPhasePatches",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.DoCombatPhasePatches.yml\" sourcestartlinenumber=\"1\">Patches to <xref href=\"DiskCardGame.CombatPhaseManager.DoCombatPhase(System.Boolean%2cDiskCardGame.SpecialBattleSequencer)\" data-throw-if-not-resolved=\"false\"></xref> that add negative damage support and modifying attack slots support.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -7007,7 +6979,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Triggers.IPostCardGettingAttacked",
-      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPostCardGettingAttacked.yml\" sourcestartlinenumber=\"1\">Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument</p>\n"
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.IPostCardGettingAttacked.yml\" sourcestartlinenumber=\"1\">Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -7091,21 +7063,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionAPI.Triggers.SlotAttackSlotPatches",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/InscryptionAPI.Triggers.TakeDamagePatches.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/InscryptionAPI.Triggers.TakeDamagePatches.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "InscryptionAPI.Triggers.TakeDamagePatches",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/InscryptionAPI.Triggers.SlotAttackSlotPatches.yml\" sourcestartlinenumber=\"1\">Inserts a null check for <code>opposingSlot.Card</code> after <xref href=\"DiskCardGame.Trigger.CardGettingAttacked\" data-throw-if-not-resolved=\"false\"></xref> is triggered.\n<br>\nTweaks the direct damage logic to subtract from <xref href=\"DiskCardGame.CombatPhaseManager.DamageDealtThisPhase\" data-throw-if-not-resolved=\"false\"></xref> if the opposing and attacking are on the same side.</p>\n"
     },
     {
       "type": "ManagedReference",

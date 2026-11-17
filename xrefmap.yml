@@ -1417,12 +1417,6 @@ references:
   commentId: F:InscryptionAPI.Ascension.AscensionChallengePaginator.challengeObjectsForPages
   fullName: InscryptionAPI.Ascension.AscensionChallengePaginator.challengeObjectsForPages
   nameWithType: AscensionChallengePaginator.challengeObjectsForPages
-- uid: InscryptionAPI.Ascension.AscensionChallengePaginator.initialized
-  name: initialized
-  href: api/InscryptionAPI.Ascension.AscensionChallengePaginator.html#InscryptionAPI_Ascension_AscensionChallengePaginator_initialized
-  commentId: F:InscryptionAPI.Ascension.AscensionChallengePaginator.initialized
-  fullName: InscryptionAPI.Ascension.AscensionChallengePaginator.initialized
-  nameWithType: AscensionChallengePaginator.initialized
 - uid: InscryptionAPI.Ascension.AscensionChallengePaginator.leftArrow
   name: leftArrow
   href: api/InscryptionAPI.Ascension.AscensionChallengePaginator.html#InscryptionAPI_Ascension_AscensionChallengePaginator_leftArrow
@@ -3012,13 +3006,27 @@ references:
 - uid: InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos
   name: AllDeckInfos
   href: api/InscryptionAPI.Ascension.StarterDeckManager.html#InscryptionAPI_Ascension_StarterDeckManager_AllDeckInfos
-  commentId: F:InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos
+  commentId: P:InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos
+  fullName: InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos
+  nameWithType: StarterDeckManager.AllDeckInfos
+- uid: InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos*
+  name: AllDeckInfos
+  href: api/InscryptionAPI.Ascension.StarterDeckManager.html#InscryptionAPI_Ascension_StarterDeckManager_AllDeckInfos_
+  commentId: Overload:InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos
+  isSpec: "True"
   fullName: InscryptionAPI.Ascension.StarterDeckManager.AllDeckInfos
   nameWithType: StarterDeckManager.AllDeckInfos
 - uid: InscryptionAPI.Ascension.StarterDeckManager.AllDecks
   name: AllDecks
   href: api/InscryptionAPI.Ascension.StarterDeckManager.html#InscryptionAPI_Ascension_StarterDeckManager_AllDecks
-  commentId: F:InscryptionAPI.Ascension.StarterDeckManager.AllDecks
+  commentId: P:InscryptionAPI.Ascension.StarterDeckManager.AllDecks
+  fullName: InscryptionAPI.Ascension.StarterDeckManager.AllDecks
+  nameWithType: StarterDeckManager.AllDecks
+- uid: InscryptionAPI.Ascension.StarterDeckManager.AllDecks*
+  name: AllDecks
+  href: api/InscryptionAPI.Ascension.StarterDeckManager.html#InscryptionAPI_Ascension_StarterDeckManager_AllDecks_
+  commentId: Overload:InscryptionAPI.Ascension.StarterDeckManager.AllDecks
+  isSpec: "True"
   fullName: InscryptionAPI.Ascension.StarterDeckManager.AllDecks
   nameWithType: StarterDeckManager.AllDecks
 - uid: InscryptionAPI.Ascension.StarterDeckManager.BaseGameDecks
@@ -4593,22 +4601,6 @@ references:
   commentId: T:InscryptionAPI.Card.AbilityManager
   fullName: InscryptionAPI.Card.AbilityManager
   nameWithType: AbilityManager
-- uid: InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
-  name: AbilityIconInteractable_AssignAbility(IEnumerable<CodeInstruction>)
-  href: api/InscryptionAPI.Card.AbilityManager.html#InscryptionAPI_Card_AbilityManager_AbilityIconInteractable_AssignAbility_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__
-  commentId: M:InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
-  name.vb: AbilityIconInteractable_AssignAbility(IEnumerable(Of CodeInstruction))
-  fullName: InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>)
-  fullName.vb: InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction))
-  nameWithType: AbilityManager.AbilityIconInteractable_AssignAbility(IEnumerable<CodeInstruction>)
-  nameWithType.vb: AbilityManager.AbilityIconInteractable_AssignAbility(IEnumerable(Of CodeInstruction))
-- uid: InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility*
-  name: AbilityIconInteractable_AssignAbility
-  href: api/InscryptionAPI.Card.AbilityManager.html#InscryptionAPI_Card_AbilityManager_AbilityIconInteractable_AssignAbility_
-  commentId: Overload:InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility
-  isSpec: "True"
-  fullName: InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility
-  nameWithType: AbilityManager.AbilityIconInteractable_AssignAbility
 - uid: InscryptionAPI.Card.AbilityManager.Add(System.String,DiskCardGame.AbilityInfo,System.Type,UnityEngine.Texture)
   name: Add(string, AbilityInfo, Type, Texture)
   href: api/InscryptionAPI.Card.AbilityManager.html#InscryptionAPI_Card_AbilityManager_Add_System_String_DiskCardGame_AbilityInfo_System_Type_UnityEngine_Texture_
@@ -5232,6 +5224,12 @@ references:
   commentId: F:InscryptionAPI.Card.ActivatedDamageShieldBehaviour.gemsCostMod
   fullName: InscryptionAPI.Card.ActivatedDamageShieldBehaviour.gemsCostMod
   nameWithType: ActivatedDamageShieldBehaviour.gemsCostMod
+- uid: InscryptionAPI.Card.ActivatedDamageShieldBehaviour.gemsCostRemovedMod
+  name: gemsCostRemovedMod
+  href: api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.html#InscryptionAPI_Card_ActivatedDamageShieldBehaviour_gemsCostRemovedMod
+  commentId: F:InscryptionAPI.Card.ActivatedDamageShieldBehaviour.gemsCostRemovedMod
+  fullName: InscryptionAPI.Card.ActivatedDamageShieldBehaviour.gemsCostRemovedMod
+  nameWithType: ActivatedDamageShieldBehaviour.gemsCostRemovedMod
 - uid: InscryptionAPI.Card.ActivatedDamageShieldBehaviour.healthCostMod
   name: healthCostMod
   href: api/InscryptionAPI.Card.ActivatedDamageShieldBehaviour.html#InscryptionAPI_Card_ActivatedDamageShieldBehaviour_healthCostMod
@@ -9754,12 +9752,6 @@ references:
   commentId: F:InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToCard
   fullName: InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToCard
   nameWithType: CostProperties.CardInfoToCard
-- uid: InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToPlayableCardReferences
-  name: CardInfoToPlayableCardReferences
-  href: api/InscryptionAPI.Card.CostProperties.CostProperties.html#InscryptionAPI_Card_CostProperties_CostProperties_CardInfoToPlayableCardReferences
-  commentId: F:InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToPlayableCardReferences
-  fullName: InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToPlayableCardReferences
-  nameWithType: CostProperties.CardInfoToPlayableCardReferences
 - uid: InscryptionAPI.Card.CostProperties.CostProperties.ImprovedGemsCost(DiskCardGame.CardInfo)
   name: ImprovedGemsCost(CardInfo)
   href: api/InscryptionAPI.Card.CostProperties.CostProperties.html#InscryptionAPI_Card_CostProperties_CostProperties_ImprovedGemsCost_DiskCardGame_CardInfo_
@@ -10669,12 +10661,95 @@ references:
   commentId: F:InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.gemsCostMod
   fullName: InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.gemsCostMod
   nameWithType: ExtendedActivatedAbilityBehaviour.gemsCostMod
+- uid: InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.gemsCostRemovedMod
+  name: gemsCostRemovedMod
+  href: api/InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.html#InscryptionAPI_Card_ExtendedActivatedAbilityBehaviour_gemsCostRemovedMod
+  commentId: F:InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.gemsCostRemovedMod
+  fullName: InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.gemsCostRemovedMod
+  nameWithType: ExtendedActivatedAbilityBehaviour.gemsCostRemovedMod
 - uid: InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.healthCostMod
   name: healthCostMod
   href: api/InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.html#InscryptionAPI_Card_ExtendedActivatedAbilityBehaviour_healthCostMod
   commentId: F:InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.healthCostMod
   fullName: InscryptionAPI.Card.ExtendedActivatedAbilityBehaviour.healthCostMod
   nameWithType: ExtendedActivatedAbilityBehaviour.healthCostMod
+- uid: InscryptionAPI.Card.GainMultipleGems
+  name: GainMultipleGems
+  href: api/InscryptionAPI.Card.GainMultipleGems.html
+  commentId: T:InscryptionAPI.Card.GainMultipleGems
+  fullName: InscryptionAPI.Card.GainMultipleGems
+  nameWithType: GainMultipleGems
+- uid: InscryptionAPI.Card.GainMultipleGems.Gems
+  name: Gems
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_Gems
+  commentId: P:InscryptionAPI.Card.GainMultipleGems.Gems
+  fullName: InscryptionAPI.Card.GainMultipleGems.Gems
+  nameWithType: GainMultipleGems.Gems
+- uid: InscryptionAPI.Card.GainMultipleGems.Gems*
+  name: Gems
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_Gems_
+  commentId: Overload:InscryptionAPI.Card.GainMultipleGems.Gems
+  isSpec: "True"
+  fullName: InscryptionAPI.Card.GainMultipleGems.Gems
+  nameWithType: GainMultipleGems.Gems
+- uid: InscryptionAPI.Card.GainMultipleGems.OnDie(System.Boolean,DiskCardGame.PlayableCard)
+  name: OnDie(bool, PlayableCard)
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_OnDie_System_Boolean_DiskCardGame_PlayableCard_
+  commentId: M:InscryptionAPI.Card.GainMultipleGems.OnDie(System.Boolean,DiskCardGame.PlayableCard)
+  name.vb: OnDie(Boolean, PlayableCard)
+  fullName: InscryptionAPI.Card.GainMultipleGems.OnDie(bool, DiskCardGame.PlayableCard)
+  fullName.vb: InscryptionAPI.Card.GainMultipleGems.OnDie(Boolean, DiskCardGame.PlayableCard)
+  nameWithType: GainMultipleGems.OnDie(bool, PlayableCard)
+  nameWithType.vb: GainMultipleGems.OnDie(Boolean, PlayableCard)
+- uid: InscryptionAPI.Card.GainMultipleGems.OnDie*
+  name: OnDie
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_OnDie_
+  commentId: Overload:InscryptionAPI.Card.GainMultipleGems.OnDie
+  isSpec: "True"
+  fullName: InscryptionAPI.Card.GainMultipleGems.OnDie
+  nameWithType: GainMultipleGems.OnDie
+- uid: InscryptionAPI.Card.GainMultipleGems.OnResolveOnBoard
+  name: OnResolveOnBoard()
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_OnResolveOnBoard
+  commentId: M:InscryptionAPI.Card.GainMultipleGems.OnResolveOnBoard
+  fullName: InscryptionAPI.Card.GainMultipleGems.OnResolveOnBoard()
+  nameWithType: GainMultipleGems.OnResolveOnBoard()
+- uid: InscryptionAPI.Card.GainMultipleGems.OnResolveOnBoard*
+  name: OnResolveOnBoard
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_OnResolveOnBoard_
+  commentId: Overload:InscryptionAPI.Card.GainMultipleGems.OnResolveOnBoard
+  isSpec: "True"
+  fullName: InscryptionAPI.Card.GainMultipleGems.OnResolveOnBoard
+  nameWithType: GainMultipleGems.OnResolveOnBoard
+- uid: InscryptionAPI.Card.GainMultipleGems.RespondsToDie(System.Boolean,DiskCardGame.PlayableCard)
+  name: RespondsToDie(bool, PlayableCard)
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_RespondsToDie_System_Boolean_DiskCardGame_PlayableCard_
+  commentId: M:InscryptionAPI.Card.GainMultipleGems.RespondsToDie(System.Boolean,DiskCardGame.PlayableCard)
+  name.vb: RespondsToDie(Boolean, PlayableCard)
+  fullName: InscryptionAPI.Card.GainMultipleGems.RespondsToDie(bool, DiskCardGame.PlayableCard)
+  fullName.vb: InscryptionAPI.Card.GainMultipleGems.RespondsToDie(Boolean, DiskCardGame.PlayableCard)
+  nameWithType: GainMultipleGems.RespondsToDie(bool, PlayableCard)
+  nameWithType.vb: GainMultipleGems.RespondsToDie(Boolean, PlayableCard)
+- uid: InscryptionAPI.Card.GainMultipleGems.RespondsToDie*
+  name: RespondsToDie
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_RespondsToDie_
+  commentId: Overload:InscryptionAPI.Card.GainMultipleGems.RespondsToDie
+  isSpec: "True"
+  fullName: InscryptionAPI.Card.GainMultipleGems.RespondsToDie
+  nameWithType: GainMultipleGems.RespondsToDie
+- uid: InscryptionAPI.Card.GainMultipleGems.RespondsToResolveOnBoard
+  name: RespondsToResolveOnBoard()
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_RespondsToResolveOnBoard
+  commentId: M:InscryptionAPI.Card.GainMultipleGems.RespondsToResolveOnBoard
+  fullName: InscryptionAPI.Card.GainMultipleGems.RespondsToResolveOnBoard()
+  nameWithType: GainMultipleGems.RespondsToResolveOnBoard()
+- uid: InscryptionAPI.Card.GainMultipleGems.RespondsToResolveOnBoard*
+  name: RespondsToResolveOnBoard
+  href: api/InscryptionAPI.Card.GainMultipleGems.html#InscryptionAPI_Card_GainMultipleGems_RespondsToResolveOnBoard_
+  commentId: Overload:InscryptionAPI.Card.GainMultipleGems.RespondsToResolveOnBoard
+  isSpec: "True"
+  fullName: InscryptionAPI.Card.GainMultipleGems.RespondsToResolveOnBoard
+  nameWithType: GainMultipleGems.RespondsToResolveOnBoard
 - uid: InscryptionAPI.Card.IActivateWhenFacedown
   name: IActivateWhenFacedown
   href: api/InscryptionAPI.Card.IActivateWhenFacedown.html
@@ -12075,47 +12150,6 @@ references:
   commentId: F:InscryptionAPI.Dialogue.DialogueManager.DialogueColor.PluginGUID
   fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueColor.PluginGUID
   nameWithType: DialogueManager.DialogueColor.PluginGUID
-- uid: InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData
-  name: DialogueManager.DialogueDataUtil_ReadDialogueData
-  href: api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.html
-  commentId: T:InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData
-  fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData
-  nameWithType: DialogueManager.DialogueDataUtil_ReadDialogueData
-- uid: InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix
-  name: Postfix()
-  href: api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.html#InscryptionAPI_Dialogue_DialogueManager_DialogueDataUtil_ReadDialogueData_Postfix
-  commentId: M:InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix
-  fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix()
-  nameWithType: DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix()
-- uid: InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix*
-  name: Postfix
-  href: api/InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.html#InscryptionAPI_Dialogue_DialogueManager_DialogueDataUtil_ReadDialogueData_Postfix_
-  commentId: Overload:InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix
-  isSpec: "True"
-  fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix
-  nameWithType: DialogueManager.DialogueDataUtil_ReadDialogueData.Postfix
-- uid: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode
-  name: DialogueManager.DialogueParser_GetColorFromCode
-  href: api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.html
-  commentId: T:InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode
-  fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode
-  nameWithType: DialogueManager.DialogueParser_GetColorFromCode
-- uid: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix(DialogueParser,System.String,UnityEngine.Color,UnityEngine.Color@)
-  name: Prefix(DialogueParser, string, Color, ref Color)
-  href: api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.html#InscryptionAPI_Dialogue_DialogueManager_DialogueParser_GetColorFromCode_Prefix_DialogueParser_System_String_UnityEngine_Color_UnityEngine_Color__
-  commentId: M:InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix(DialogueParser,System.String,UnityEngine.Color,UnityEngine.Color@)
-  name.vb: Prefix(DialogueParser, String, Color, Color)
-  fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix(DialogueParser, string, UnityEngine.Color, ref UnityEngine.Color)
-  fullName.vb: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix(DialogueParser, String, UnityEngine.Color, UnityEngine.Color)
-  nameWithType: DialogueManager.DialogueParser_GetColorFromCode.Prefix(DialogueParser, string, Color, ref Color)
-  nameWithType.vb: DialogueManager.DialogueParser_GetColorFromCode.Prefix(DialogueParser, String, Color, Color)
-- uid: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix*
-  name: Prefix
-  href: api/InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.html#InscryptionAPI_Dialogue_DialogueManager_DialogueParser_GetColorFromCode_Prefix_
-  commentId: Overload:InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix
-  isSpec: "True"
-  fullName: InscryptionAPI.Dialogue.DialogueManager.DialogueParser_GetColorFromCode.Prefix
-  nameWithType: DialogueManager.DialogueParser_GetColorFromCode.Prefix
 - uid: InscryptionAPI.Dialogue.DialogueManager.GenerateEvent(System.String,System.String,System.Collections.Generic.List{InscryptionAPI.Dialogue.CustomLine},System.Collections.Generic.List{System.Collections.Generic.List{InscryptionAPI.Dialogue.CustomLine}},DialogueEvent.MaxRepeatsBehaviour,DialogueEvent.Speaker)
   name: GenerateEvent(string, string, List<CustomLine>, List<List<CustomLine>>, MaxRepeatsBehaviour, Speaker)
   href: api/InscryptionAPI.Dialogue.DialogueManager.html#InscryptionAPI_Dialogue_DialogueManager_GenerateEvent_System_String_System_String_System_Collections_Generic_List_InscryptionAPI_Dialogue_CustomLine__System_Collections_Generic_List_System_Collections_Generic_List_InscryptionAPI_Dialogue_CustomLine___DialogueEvent_MaxRepeatsBehaviour_DialogueEvent_Speaker_
@@ -12550,6 +12584,19 @@ references:
   commentId: T:InscryptionAPI.Encounters.EncounterBuilderBlueprintData
   fullName: InscryptionAPI.Encounters.EncounterBuilderBlueprintData
   nameWithType: EncounterBuilderBlueprintData
+- uid: InscryptionAPI.Encounters.EncounterBuilderBlueprintData.Build
+  name: Build()
+  href: api/InscryptionAPI.Encounters.EncounterBuilderBlueprintData.html#InscryptionAPI_Encounters_EncounterBuilderBlueprintData_Build
+  commentId: M:InscryptionAPI.Encounters.EncounterBuilderBlueprintData.Build
+  fullName: InscryptionAPI.Encounters.EncounterBuilderBlueprintData.Build()
+  nameWithType: EncounterBuilderBlueprintData.Build()
+- uid: InscryptionAPI.Encounters.EncounterBuilderBlueprintData.Build*
+  name: Build
+  href: api/InscryptionAPI.Encounters.EncounterBuilderBlueprintData.html#InscryptionAPI_Encounters_EncounterBuilderBlueprintData_Build_
+  commentId: Overload:InscryptionAPI.Encounters.EncounterBuilderBlueprintData.Build
+  isSpec: "True"
+  fullName: InscryptionAPI.Encounters.EncounterBuilderBlueprintData.Build
+  nameWithType: EncounterBuilderBlueprintData.Build
 - uid: InscryptionAPI.Encounters.EncounterBuilderBlueprintData.SetBasic(System.String,DiskCardGame.RegionData)
   name: SetBasic(string, RegionData)
   href: api/InscryptionAPI.Encounters.EncounterBuilderBlueprintData.html#InscryptionAPI_Encounters_EncounterBuilderBlueprintData_SetBasic_System_String_DiskCardGame_RegionData_
@@ -16181,7 +16228,14 @@ references:
 - uid: InscryptionAPI.Localizing.LocalizationManager.AllLanguages
   name: AllLanguages
   href: api/InscryptionAPI.Localizing.LocalizationManager.html#InscryptionAPI_Localizing_LocalizationManager_AllLanguages
-  commentId: F:InscryptionAPI.Localizing.LocalizationManager.AllLanguages
+  commentId: P:InscryptionAPI.Localizing.LocalizationManager.AllLanguages
+  fullName: InscryptionAPI.Localizing.LocalizationManager.AllLanguages
+  nameWithType: LocalizationManager.AllLanguages
+- uid: InscryptionAPI.Localizing.LocalizationManager.AllLanguages*
+  name: AllLanguages
+  href: api/InscryptionAPI.Localizing.LocalizationManager.html#InscryptionAPI_Localizing_LocalizationManager_AllLanguages_
+  commentId: Overload:InscryptionAPI.Localizing.LocalizationManager.AllLanguages
+  isSpec: "True"
   fullName: InscryptionAPI.Localizing.LocalizationManager.AllLanguages
   nameWithType: LocalizationManager.AllLanguages
 - uid: InscryptionAPI.Localizing.LocalizationManager.CodeToLanguage(System.String)
@@ -16257,7 +16311,14 @@ references:
 - uid: InscryptionAPI.Localizing.LocalizationManager.CustomTranslations
   name: CustomTranslations
   href: api/InscryptionAPI.Localizing.LocalizationManager.html#InscryptionAPI_Localizing_LocalizationManager_CustomTranslations
-  commentId: F:InscryptionAPI.Localizing.LocalizationManager.CustomTranslations
+  commentId: P:InscryptionAPI.Localizing.LocalizationManager.CustomTranslations
+  fullName: InscryptionAPI.Localizing.LocalizationManager.CustomTranslations
+  nameWithType: LocalizationManager.CustomTranslations
+- uid: InscryptionAPI.Localizing.LocalizationManager.CustomTranslations*
+  name: CustomTranslations
+  href: api/InscryptionAPI.Localizing.LocalizationManager.html#InscryptionAPI_Localizing_LocalizationManager_CustomTranslations_
+  commentId: Overload:InscryptionAPI.Localizing.LocalizationManager.CustomTranslations
+  isSpec: "True"
   fullName: InscryptionAPI.Localizing.LocalizationManager.CustomTranslations
   nameWithType: LocalizationManager.CustomTranslations
 - uid: InscryptionAPI.Localizing.LocalizationManager.ExportAllToCSV
@@ -16386,7 +16447,14 @@ references:
 - uid: InscryptionAPI.Localizing.LocalizationManager.NewLanguages
   name: NewLanguages
   href: api/InscryptionAPI.Localizing.LocalizationManager.html#InscryptionAPI_Localizing_LocalizationManager_NewLanguages
-  commentId: F:InscryptionAPI.Localizing.LocalizationManager.NewLanguages
+  commentId: P:InscryptionAPI.Localizing.LocalizationManager.NewLanguages
+  fullName: InscryptionAPI.Localizing.LocalizationManager.NewLanguages
+  nameWithType: LocalizationManager.NewLanguages
+- uid: InscryptionAPI.Localizing.LocalizationManager.NewLanguages*
+  name: NewLanguages
+  href: api/InscryptionAPI.Localizing.LocalizationManager.html#InscryptionAPI_Localizing_LocalizationManager_NewLanguages_
+  commentId: Overload:InscryptionAPI.Localizing.LocalizationManager.NewLanguages
+  isSpec: "True"
   fullName: InscryptionAPI.Localizing.LocalizationManager.NewLanguages
   nameWithType: LocalizationManager.NewLanguages
 - uid: InscryptionAPI.Localizing.LocalizationManager.OnLanguageLoaded
@@ -19623,28 +19691,6 @@ references:
   isSpec: "True"
   fullName: InscryptionAPI.Regions.RegionManager.FromTierFull
   nameWithType: RegionManager.FromTierFull
-- uid: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects
-  name: RegionManager.MapDataReader_SpawnMapObjects
-  href: api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.html
-  commentId: T:InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects
-  fullName: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects
-  nameWithType: RegionManager.MapDataReader_SpawnMapObjects
-- uid: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
-  name: Transpiler(IEnumerable<CodeInstruction>)
-  href: api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.html#InscryptionAPI_Regions_RegionManager_MapDataReader_SpawnMapObjects_Transpiler_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__
-  commentId: M:InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})
-  name.vb: Transpiler(IEnumerable(Of CodeInstruction))
-  fullName: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction>)
-  fullName.vb: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler(System.Collections.Generic.IEnumerable(Of HarmonyLib.CodeInstruction))
-  nameWithType: RegionManager.MapDataReader_SpawnMapObjects.Transpiler(IEnumerable<CodeInstruction>)
-  nameWithType.vb: RegionManager.MapDataReader_SpawnMapObjects.Transpiler(IEnumerable(Of CodeInstruction))
-- uid: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler*
-  name: Transpiler
-  href: api/InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.html#InscryptionAPI_Regions_RegionManager_MapDataReader_SpawnMapObjects_Transpiler_
-  commentId: Overload:InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler
-  isSpec: "True"
-  fullName: InscryptionAPI.Regions.RegionManager.MapDataReader_SpawnMapObjects.Transpiler
-  nameWithType: RegionManager.MapDataReader_SpawnMapObjects.Transpiler
 - uid: InscryptionAPI.Regions.RegionManager.ModifyRegionsList
   name: ModifyRegionsList
   href: api/InscryptionAPI.Regions.RegionManager.html#InscryptionAPI_Regions_RegionManager_ModifyRegionsList
@@ -25402,12 +25448,6 @@ references:
   isSpec: "True"
   fullName: InscryptionAPI.Triggers.SlotAttackSlotPatches.TriggerOnDirectDamageTriggers
   nameWithType: SlotAttackSlotPatches.TriggerOnDirectDamageTriggers
-- uid: InscryptionAPI.Triggers.TakeDamagePatches
-  name: TakeDamagePatches
-  href: api/InscryptionAPI.Triggers.TakeDamagePatches.html
-  commentId: T:InscryptionAPI.Triggers.TakeDamagePatches
-  fullName: InscryptionAPI.Triggers.TakeDamagePatches
-  nameWithType: TakeDamagePatches
 - uid: InscryptionCommunityPatch
   name: InscryptionCommunityPatch
   href: community/InscryptionCommunityPatch.html

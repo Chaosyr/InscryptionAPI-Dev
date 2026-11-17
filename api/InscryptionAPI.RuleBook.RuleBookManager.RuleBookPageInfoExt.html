@@ -9,7 +9,7 @@
     <meta name="title" content="Class RuleBookManager.RuleBookPageInfoExt | InscryptionAPI ">
 
 
-    <meta name="description" content="A custom class that associates a RuleBookPageInfo object with a Dictionary of RuleBookDescriptionRedirects. Use if">
+    <meta name="description" content="A custom class that associates a  object with a Dictionary of s. Use if">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Class RuleBookManager.RuleBookPageInfoExt">
 
 
-        <meta property="og:description" content="A custom class that associates a RuleBookPageInfo object with a Dictionary of RuleBookDescriptionRedirects. Use if">
+        <meta property="og:description" content="A custom class that associates a  object with a Dictionary of s. Use if">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Class RuleBookManager.RuleBookPageInfoExt">
 
 
-        <meta name="twitter:description" content="A custom class that associates a RuleBookPageInfo object with a Dictionary of RuleBookDescriptionRedirects. Use if">
+        <meta name="twitter:description" content="A custom class that associates a  object with a Dictionary of s. Use if">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -276,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_RuleBook_RuleBookManager_RuleBookPageInfoExt" data-uid="InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt" class="text-break">
-Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -293,7 +293,7 @@ Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondar
   <div class="markdown summary">
     <h2>Summary</h2>
     <p>The following is a brief description of what this type does, and what it is meant for: </p>
-  <p>A custom class that associates a RuleBookPageInfo object with a Dictionary of RuleBookDescriptionRedirects. Use if</p>
+  <p>A custom class that associates a <span class="xref">DiskCardGame.RuleBookPageInfo</span> object with a Dictionary of <a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo.html">RuleBookManager.RedirectInfo</a>s. Use if</p>
 
   </div>
 
@@ -392,9 +392,15 @@ Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondar
 
   <h3 id="InscryptionAPI_RuleBook_RuleBookManager_RuleBookPageInfoExt__ctor_DiskCardGame_RuleBookPageInfo_System_Collections_Generic_Dictionary_System_String_InscryptionAPI_RuleBook_RuleBookManager_RedirectInfo__" data-uid="InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.#ctor(DiskCardGame.RuleBookPageInfo,System.Collections.Generic.Dictionary{System.String,InscryptionAPI.RuleBook.RuleBookManager.RedirectInfo})">
   RuleBookPageInfoExt(RuleBookPageInfo, Dictionary&lt;string, RedirectInfo&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new instance of <a class="xref" href="InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.html">RuleBookManager.RuleBookPageInfoExt</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_RuleBook_RuleBookManager_RuleBookPageInfoExt__ctor_DiskCardGame_RuleBookPageInfo_System_Collections_Generic_Dictionary_System_String_InscryptionAPI_RuleBook_RuleBookManager_RedirectInfo___syntax">
@@ -428,7 +434,8 @@ Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondar
           parentPageInfo
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RuleBookPageInfo</span> that this instance will use as a prent reference.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -439,7 +446,8 @@ Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondar
           redirects
           </div>
         </td>
-        <td></td>
+        <td><p>All redirects for this rulebook page, mapped to the text that will be hyperlinked.</p>
+</td>
       </tr>
 
     </tbody>
@@ -466,17 +474,13 @@ Class RuleBookManager.RuleBookPageInfoExt  <a class="header-action link-secondar
 
   <h3 id="InscryptionAPI_RuleBook_RuleBookManager_RuleBookPageInfoExt_RulebookDescriptionRedirects" data-uid="InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.RulebookDescriptionRedirects">
   RulebookDescriptionRedirects
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Tracks all rulebook redirects that this ability's description will have. Explanation of the variables is as follows:
-Key (string): the text that will be recoloured to indicate that it's clickable.
-Tuple.Item1 (PageRangeType): the type of page the redirect will go to. Use PageRangeType.Unique if you want to redirect to a custom rulebook page using its pageId.
-Tuple.Item2 (Color): the colour the Key text will be recoloured to.
-Tuple.Item3 (string): the id that the API will match against to find the redirect page. Eg, for ability redirects this will be the Ability id as a string.</p>
+  <p>Tracks all rulebook redirects that this custom rulebook page's description will have.</p>
 
   </div>
 
@@ -510,9 +514,15 @@ Tuple.Item3 (string): the id that the API will match against to find the redirec
 
   <h3 id="InscryptionAPI_RuleBook_RuleBookManager_RuleBookPageInfoExt_parentPageInfo" data-uid="InscryptionAPI.RuleBook.RuleBookManager.RuleBookPageInfoExt.parentPageInfo">
   parentPageInfo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Rulebook/RuleBookManager.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The rulebook page that the redirects will be mapped to.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_RuleBook_RuleBookManager_RuleBookPageInfoExt_parentPageInfo_syntax">

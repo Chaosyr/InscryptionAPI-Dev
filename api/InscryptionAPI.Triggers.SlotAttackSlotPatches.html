@@ -9,6 +9,7 @@
     <meta name="title" content="Class SlotAttackSlotPatches | InscryptionAPI ">
 
 
+    <meta name="description" content="Inserts a null check for opposingSlot.Card after  is triggered.  Tweaks the direct damage logic to subtract from  if the opposing and attacking are on the same side.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class SlotAttackSlotPatches">
 
 
+        <meta property="og:description" content="Inserts a null check for opposingSlot.Card after  is triggered.  Tweaks the direct damage logic to subtract from  if the opposing and attacking are on the same side.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class SlotAttackSlotPatches">
 
 
+        <meta name="twitter:description" content="Inserts a null check for opposingSlot.Card after  is triggered.  Tweaks the direct damage logic to subtract from  if the opposing and attacking are on the same side.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Triggers_SlotAttackSlotPatches" data-uid="InscryptionAPI.Triggers.SlotAttackSlotPatches" class="text-break">
-Class SlotAttackSlotPatches  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class SlotAttackSlotPatches  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,14 @@ Class SlotAttackSlotPatches  <a class="header-action link-secondary" title="View
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Inserts a null check for <code>opposingSlot.Card</code> after <span class="xref">DiskCardGame.Trigger.CardGettingAttacked</span> is triggered.
+<br>
+Tweaks the direct damage logic to subtract from <span class="xref">DiskCardGame.CombatPhaseManager.DamageDealtThisPhase</span> if the opposing and attacking are on the same side.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -373,9 +384,16 @@ public static class SlotAttackSlotPatches</code></pre>
 
   <h3 id="InscryptionAPI_Triggers_SlotAttackSlotPatches_DamageToDealThisPhase_DiskCardGame_CardSlot_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Triggers.SlotAttackSlotPatches.DamageToDealThisPhase(DiskCardGame.CardSlot,DiskCardGame.CardSlot)">
   DamageToDealThisPhase(CardSlot, CardSlot)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Improved logic for calculating <span class="xref">DiskCardGame.CombatPhaseManager.DamageDealtThisPhase</span> that adds hooks for modifying it.
+Also adds functionality negative damage values to work.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Triggers_SlotAttackSlotPatches_DamageToDealThisPhase_DiskCardGame_CardSlot_DiskCardGame_CardSlot__syntax">
@@ -409,7 +427,8 @@ public static class SlotAttackSlotPatches</code></pre>
           attackingSlot
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardSlot</span> of the attacking card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -420,7 +439,8 @@ public static class SlotAttackSlotPatches</code></pre>
           opposingSlot
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardSlot</span> of the opposing card being attack.</p>
+</td>
       </tr>
 
     </tbody>
@@ -440,7 +460,8 @@ public static class SlotAttackSlotPatches</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
+        <td><p>How much damage to increment <span class="xref">DiskCardGame.CombatPhaseManager.DamageDealtThisPhase</span> by.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -462,9 +483,15 @@ public static class SlotAttackSlotPatches</code></pre>
 
   <h3 id="InscryptionAPI_Triggers_SlotAttackSlotPatches_TriggerCardGettingAttackedTriggers_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.SlotAttackSlotPatches.TriggerCardGettingAttackedTriggers(DiskCardGame.PlayableCard,DiskCardGame.PlayableCard)">
   TriggerCardGettingAttackedTriggers(PlayableCard, PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger both the vanilla <span class="xref">DiskCardGame.Trigger.CardGettingAttacked</span> trigger and the new <a class="xref" href="InscryptionAPI.Triggers.IPostCardGettingAttacked.html">IPostCardGettingAttacked</a> trigger.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Triggers_SlotAttackSlotPatches_TriggerCardGettingAttackedTriggers_DiskCardGame_PlayableCard_DiskCardGame_PlayableCard__syntax">
@@ -498,7 +525,8 @@ public static class SlotAttackSlotPatches</code></pre>
           attacker
           </div>
         </td>
-        <td></td>
+        <td><p>The attacking card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -509,7 +537,8 @@ public static class SlotAttackSlotPatches</code></pre>
           opposingCard
           </div>
         </td>
-        <td></td>
+        <td><p>The opposing card being attacked.</p>
+</td>
       </tr>
 
     </tbody>
@@ -551,9 +580,15 @@ public static class SlotAttackSlotPatches</code></pre>
 
   <h3 id="InscryptionAPI_Triggers_SlotAttackSlotPatches_TriggerOnDirectDamageTriggers_DiskCardGame_PlayableCard_DiskCardGame_CardSlot_" data-uid="InscryptionAPI.Triggers.SlotAttackSlotPatches.TriggerOnDirectDamageTriggers(DiskCardGame.PlayableCard,DiskCardGame.CardSlot)">
   TriggerOnDirectDamageTriggers(PlayableCard, CardSlot)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/SlotAttackSlotPatches.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger both the vanilla <span class="xref">DiskCardGame.Trigger.DealDamageDirectly</span> trigger and the new <a class="xref" href="InscryptionAPI.Triggers.IOnCardDealtDamageDirectly.html">IOnCardDealtDamageDirectly</a> trigger.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Triggers_SlotAttackSlotPatches_TriggerOnDirectDamageTriggers_DiskCardGame_PlayableCard_DiskCardGame_CardSlot__syntax">
@@ -587,7 +622,8 @@ public static class SlotAttackSlotPatches</code></pre>
           attacker
           </div>
         </td>
-        <td></td>
+        <td><p>The attacking card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -598,7 +634,8 @@ public static class SlotAttackSlotPatches</code></pre>
           opposingSlot
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardSlot</span> of the opposing card being attack.</p>
+</td>
       </tr>
 
     </tbody>

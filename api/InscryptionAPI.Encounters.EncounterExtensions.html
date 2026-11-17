@@ -9,6 +9,7 @@
     <meta name="title" content="Class EncounterExtensions | InscryptionAPI ">
 
 
+    <meta name="description" content="Utility class that adds various extension methods to aid in easily creating new battle encounters and custom opponents.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class EncounterExtensions">
 
 
+        <meta property="og:description" content="Utility class that adds various extension methods to aid in easily creating new battle encounters and custom opponents.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class EncounterExtensions">
 
 
+        <meta name="twitter:description" content="Utility class that adds various extension methods to aid in easily creating new battle encounters and custom opponents.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Encounters_EncounterExtensions" data-uid="InscryptionAPI.Encounters.EncounterExtensions" class="text-break">
-Class EncounterExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class EncounterExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class EncounterExtensions  <a class="header-action link-secondary" title="View s
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Utility class that adds various extension methods to aid in easily creating new battle encounters and custom opponents.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -373,7 +382,7 @@ public static class EncounterExtensions</code></pre>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddDominantTribes__1___0_DiskCardGame_Tribe___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddDominantTribes``1(``0,DiskCardGame.Tribe[])">
   AddDominantTribes&lt;T&gt;(T, params Tribe[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -416,7 +425,8 @@ The dominant tribes list determines the totems for this battle.</p>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -448,7 +458,8 @@ The dominant tribes list determines the totems for this battle.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -490,14 +501,14 @@ The dominant tribes list determines the totems for this battle.</p>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddRandomReplacementCards__1___0_System_String___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddRandomReplacementCards``1(``0,System.String[])">
   AddRandomReplacementCards&lt;T&gt;(T, params string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>Adds random replacement cards to this region.<br>
-A card from this list is selected whenever a card is randomly replaced by <code>randomReplaceChance</code>.</p>
+A card from this list is selected whenever a card is randomly replaced.</p>
 
   </div>
 
@@ -533,7 +544,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -565,7 +577,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -607,9 +620,15 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurnMods__1___0_DiskCardGame_EncounterBlueprintData_TurnModBlueprint___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddTurnMods``1(``0,DiskCardGame.EncounterBlueprintData.TurnModBlueprint[])">
   AddTurnMods&lt;T&gt;(T, params TurnModBlueprint[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets this blueprints list of <span class="xref">DiskCardGame.EncounterBlueprintData.TurnModBlueprint</span>s. Vanilla mod blueprints are used to apply overclock in Act 3.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurnMods__1___0_DiskCardGame_EncounterBlueprintData_TurnModBlueprint____syntax">
@@ -643,7 +662,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -654,7 +674,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           turnMods
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData.TurnModBlueprint</span>s to assign to this blueprint.</p>
+</td>
       </tr>
 
     </tbody>
@@ -674,7 +695,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -716,13 +738,13 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurn__1___0_DiskCardGame_EncounterBlueprintData_CardBlueprint___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddTurn``1(``0,DiskCardGame.EncounterBlueprintData.CardBlueprint[])">
   AddTurn&lt;T&gt;(T, params CardBlueprint[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Adds a new turn to the EncounterBlueprintData using the specified CardBlueprints.</p>
+  <p>Adds a new turn to the <span class="xref">DiskCardGame.EncounterBlueprintData</span> using the specified <span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint</span>s.</p>
 
   </div>
 
@@ -758,7 +780,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -769,7 +792,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           cards
           </div>
         </td>
-        <td><p>The CardBlurprints to add. If none are specified, creates an empty turn.</p>
+        <td><p>The blueprints to add. If none are specified, creates an empty turn.</p>
 </td>
       </tr>
 
@@ -790,7 +813,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><p>The same EncounterBlueprintData so a chain can continue.</p>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
 </td>
       </tr>
     </tbody>
@@ -833,13 +856,13 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurn__1___0_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint__" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddTurn``1(``0,System.Collections.Generic.List{DiskCardGame.EncounterBlueprintData.CardBlueprint})">
   AddTurn&lt;T&gt;(T, List&lt;CardBlueprint&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Adds a new turn to the EncounterBlueprintData.</p>
+  <p>Adds a new turn to the <span class="xref">DiskCardGame.EncounterBlueprintData</span>.</p>
 
   </div>
 
@@ -875,7 +898,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -886,7 +910,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           turn
           </div>
         </td>
-        <td><p>The turn to add. If null, creates an empty turn.</p>
+        <td><p>The blueprints to add. If none are specified, creates an empty turn.</p>
 </td>
       </tr>
 
@@ -907,7 +931,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><p>The same EncounterBlueprintData so a chain can continue.</p>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
 </td>
       </tr>
     </tbody>
@@ -950,13 +974,13 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurns__1___0_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint____" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddTurns``1(``0,System.Collections.Generic.List{DiskCardGame.EncounterBlueprintData.CardBlueprint}[])">
   AddTurns&lt;T&gt;(T, params List&lt;CardBlueprint&gt;[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L294"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Adds new turns to the EncounterBlueprintData using the specified CardBlueprint Lists.</p>
+  <p>Adds new turns to the <span class="xref">DiskCardGame.EncounterBlueprintData</span> using the specified CardBlueprint Lists.</p>
 
   </div>
 
@@ -992,7 +1016,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1003,7 +1028,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           turns
           </div>
         </td>
-        <td><p>The Lists of CardBlueprints to add to the EncounterBlueprintData.</p>
+        <td><p>Lists of blueprints to add to the <span class="xref">DiskCardGame.EncounterBlueprintData</span>. Each list represents a single turn.</p>
 </td>
       </tr>
 
@@ -1024,7 +1049,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><p>The same EncounterBlueprintData so a chain can continue.</p>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
 </td>
       </tr>
     </tbody>
@@ -1067,9 +1092,15 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurns__1___0_System_Collections_Generic_List_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.AddTurns``1(``0,System.Collections.Generic.List{System.Collections.Generic.List{DiskCardGame.EncounterBlueprintData.CardBlueprint}})">
   AddTurns&lt;T&gt;(T, List&lt;List&lt;CardBlueprint&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L308"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Adds new turns to the <span class="xref">DiskCardGame.EncounterBlueprintData</span> using the specified CardBlueprint Lists.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_AddTurns__1___0_System_Collections_Generic_List_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint____syntax">
@@ -1103,7 +1134,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1114,7 +1146,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           turns
           </div>
         </td>
-        <td></td>
+        <td><p>Lists of blueprints to add to the <span class="xref">DiskCardGame.EncounterBlueprintData</span>. Each list represents a single turn.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1134,7 +1167,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1176,7 +1210,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_CreateTurn__1___0_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.CreateTurn``1(``0)">
   CreateTurn&lt;T&gt;(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L256"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1280,7 +1314,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_DuplicateTurn_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint__System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.DuplicateTurn(System.Collections.Generic.List{DiskCardGame.EncounterBlueprintData.CardBlueprint},System.Int32)">
   DuplicateTurn(List&lt;CardBlueprint&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1355,7 +1389,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardBlueprint</span>&gt;[]</td>
-        <td><p>An array containing the newly duplicated lists. Use with EncounterBlueprintData.AddTurns().</p>
+        <td><p>An array containing the newly duplicated lists. Use with <a class="xref" href="InscryptionAPI.Encounters.EncounterExtensions.html#InscryptionAPI_Encounters_EncounterExtensions_AddTurns__1___0_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint____">AddTurns&lt;T&gt;(T, params List&lt;CardBlueprint&gt;[])</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1378,7 +1412,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_DuplicateTurns__1___0_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.DuplicateTurns``1(``0,System.Int32)">
   DuplicateTurns&lt;T&gt;(T, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1420,7 +1454,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1431,7 +1466,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           amount
           </div>
         </td>
-        <td></td>
+        <td><p>How many duplicates of this turn should be created.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1451,7 +1487,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>A copy of this blueprint.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1493,13 +1530,13 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_GetTriggeringNPC_GBC_GBCEncounterManager_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.GetTriggeringNPC(GBC.GBCEncounterManager)">
   GetTriggeringNPC(GBCEncounterManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L375"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Gets information about the NPC that triggered the current battle</p>
+  <p>Gets information about the NPC that triggered the current battle.</p>
 
   </div>
 
@@ -1577,9 +1614,15 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_OpponentById_System_Collections_Generic_IEnumerable_InscryptionAPI_Encounters_OpponentManager_FullOpponent__DiskCardGame_Opponent_Type_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.OpponentById(System.Collections.Generic.IEnumerable{InscryptionAPI.Encounters.OpponentManager.FullOpponent},DiskCardGame.Opponent.Type)">
   OpponentById(IEnumerable&lt;FullOpponent&gt;, Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves the <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> that has the given ID.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_OpponentById_System_Collections_Generic_IEnumerable_InscryptionAPI_Encounters_OpponentManager_FullOpponent__DiskCardGame_Opponent_Type__syntax">
@@ -1613,7 +1656,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           opponents
           </div>
         </td>
-        <td></td>
+        <td><p>Collection of <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> objects to search through.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1624,7 +1668,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           id
           </div>
         </td>
-        <td></td>
+        <td><p>The ID of the opponent.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1644,7 +1689,8 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><a class="xref" href="InscryptionAPI.Encounters.OpponentManager.html">OpponentManager</a>.<a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">FullOpponent</a></td>
-        <td></td>
+        <td><p>The <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> for this ID, or null if none exists.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1656,6 +1702,10 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
 
 
+  <h4 class="section" id="InscryptionAPI_Encounters_EncounterExtensions_OpponentById_System_Collections_Generic_IEnumerable_InscryptionAPI_Encounters_OpponentManager_FullOpponent__DiskCardGame_Opponent_Type__remarks">Remarks</h4>
+  <p>The following is additional information related to this member: </p>
+  <div class="markdown level1 remarks"><p>Intended for use with <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.html#InscryptionAPI_Encounters_OpponentManager_AllOpponents">AllOpponents</a>.</p>
+</div>
 
 
 
@@ -1666,7 +1716,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetDifficulty_DiskCardGame_EncounterBlueprintData_CardBlueprint_System_Int32_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetDifficulty(DiskCardGame.EncounterBlueprintData.CardBlueprint,System.Int32,System.Int32)">
   SetDifficulty(CardBlueprint, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1708,7 +1758,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
           card
           </div>
         </td>
-        <td><p>The CardBlueprint to access.</p>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint</span> to access.</p>
 </td>
       </tr>
       <tr>
@@ -1753,7 +1803,7 @@ A card from this list is selected whenever a card is randomly replaced by <code>
     <tbody>
       <tr>
         <td><span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span></td>
-        <td><p>The same CardBlueprint so a chain can continue.</p>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint</span> so a chain can continue.</p>
 </td>
       </tr>
     </tbody>
@@ -1776,14 +1826,15 @@ A card from this list is selected whenever a card is randomly replaced by <code>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetDifficulty__1___0_System_Int32_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetDifficulty``1(``0,System.Int32,System.Int32)">
   SetDifficulty&lt;T&gt;(T, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>Sets the difficulty range of this encounter.<br>
-Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#</code> + <code>modifier</code>.</p>
+Difficulty is determined by the formula:</p>
+<pre><code class="lang-csharp">(6 * tier) + battle # + modifier</code></pre>
 
   </div>
 
@@ -1819,7 +1870,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1863,7 +1915,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1905,9 +1958,15 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetNewSequencer_InscryptionAPI_Encounters_OpponentManager_FullOpponent_System_String_System_String_System_Type_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetNewSequencer(InscryptionAPI.Encounters.OpponentManager.FullOpponent,System.String,System.String,System.Type)">
   SetNewSequencer(FullOpponent, string, string, Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Registers then sets the <span class="xref">DiskCardGame.SpecialBattleSequencer</span> for this <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_SetNewSequencer_InscryptionAPI_Encounters_OpponentManager_FullOpponent_System_String_System_String_System_Type__syntax">
@@ -1941,7 +2000,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           opp
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1952,7 +2012,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           pluginGuid
           </div>
         </td>
-        <td></td>
+        <td><p>The GUID of the mod adding the special sequencer.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1963,7 +2024,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           sequencerName
           </div>
         </td>
-        <td></td>
+        <td><p>The name of the <span class="xref">DiskCardGame.SpecialBattleSequencer</span> this opponent uses</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1974,7 +2036,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           sequencerType
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.SpecialBattleSequencer</span> subclass that implements the sequencer's logic.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1994,7 +2057,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
     <tbody>
       <tr>
         <td><a class="xref" href="InscryptionAPI.Encounters.OpponentManager.html">OpponentManager</a>.<a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">FullOpponent</a></td>
-        <td></td>
+        <td><p>The same <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2016,9 +2080,15 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetOpponent_InscryptionAPI_Encounters_OpponentManager_FullOpponent_System_Type_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetOpponent(InscryptionAPI.Encounters.OpponentManager.FullOpponent,System.Type)">
   SetOpponent(FullOpponent, Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the <span class="xref">DiskCardGame.Opponent</span> of this <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_SetOpponent_InscryptionAPI_Encounters_OpponentManager_FullOpponent_System_Type__syntax">
@@ -2052,7 +2122,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           opp
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2063,7 +2134,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
           opponentType
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.Opponent</span> subclass that will be used in-game against this opponent.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2083,7 +2155,8 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
     <tbody>
       <tr>
         <td><a class="xref" href="InscryptionAPI.Encounters.OpponentManager.html">OpponentManager</a>.<a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">FullOpponent</a></td>
-        <td></td>
+        <td><p>The same <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2105,7 +2178,7 @@ Difficulty is determined by the formula (6 * <code>tier</code>) + <code>battle#<
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetRedundantAbilities__1___0_DiskCardGame_Ability___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetRedundantAbilities``1(``0,DiskCardGame.Ability[])">
   SetRedundantAbilities&lt;T&gt;(T, params Ability[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -2148,7 +2221,8 @@ Redundant abilities will not be used on totems for this encounter.</p>
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2180,7 +2254,8 @@ Redundant abilities will not be used on totems for this encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2222,9 +2297,15 @@ Redundant abilities will not be used on totems for this encounter.</p>
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetRegionSpecific__1___0_System_Boolean_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetRegionSpecific``1(``0,System.Boolean)">
   SetRegionSpecific&lt;T&gt;(T, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets whether this blueprint is region specific.<br></p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_SetRegionSpecific__1___0_System_Boolean__syntax">
@@ -2259,7 +2340,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2270,7 +2352,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           enabled
           </div>
         </td>
-        <td></td>
+        <td><p>If this blueprint is specific to a region.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2290,7 +2373,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2332,13 +2416,13 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetReplacement_DiskCardGame_EncounterBlueprintData_CardBlueprint_System_String_System_Int32_System_Boolean_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetReplacement(DiskCardGame.EncounterBlueprintData.CardBlueprint,System.String,System.Int32,System.Boolean)">
   SetReplacement(CardBlueprint, string, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Sets whether what card the CardBlueprint will be replaced with if difficultyReplace == true, and what difficulty threshold it will be replaced.</p>
+  <p>Sets whether what card the CardBlueprint will be replaced with if <code><span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint.difficultyReplace</span> == true</code>, and what difficulty threshold it will be replaced.</p>
 
   </div>
 
@@ -2374,7 +2458,7 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           blueprint
           </div>
         </td>
-        <td><p>The CardBlueprint to access.</p>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint</span> to access.</p>
 </td>
       </tr>
       <tr>
@@ -2431,7 +2515,7 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
     <tbody>
       <tr>
         <td><span class="xref">EncounterBlueprintData</span>.<span class="xref">CardBlueprint</span></td>
-        <td><p>The same CardBlueprint so a chain can continue.</p>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint</span> so a chain can continue.</p>
 </td>
       </tr>
     </tbody>
@@ -2454,9 +2538,15 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetSequencer_InscryptionAPI_Encounters_OpponentManager_FullOpponent_System_String_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetSequencer(InscryptionAPI.Encounters.OpponentManager.FullOpponent,System.String)">
   SetSequencer(FullOpponent, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the <span class="xref">DiskCardGame.SpecialBattleSequencer</span> for this <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_SetSequencer_InscryptionAPI_Encounters_OpponentManager_FullOpponent_System_String__syntax">
@@ -2490,7 +2580,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           opp
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2501,7 +2592,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           sequenceId
           </div>
         </td>
-        <td></td>
+        <td><p>The ID of the <span class="xref">DiskCardGame.SpecialBattleSequencer</span> this opponent uses, if any.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2521,7 +2613,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
     <tbody>
       <tr>
         <td><a class="xref" href="InscryptionAPI.Encounters.OpponentManager.html">OpponentManager</a>.<a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">FullOpponent</a></td>
-        <td></td>
+        <td><p>The same <a class="xref" href="InscryptionAPI.Encounters.OpponentManager.FullOpponent.html">OpponentManager.FullOpponent</a> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2543,13 +2636,13 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetTurnDifficulty_System_Collections_Generic_List_DiskCardGame_EncounterBlueprintData_CardBlueprint__System_Int32_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetTurnDifficulty(System.Collections.Generic.List{DiskCardGame.EncounterBlueprintData.CardBlueprint},System.Int32,System.Int32)">
   SetTurnDifficulty(List&lt;CardBlueprint&gt;, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Sets the difficulties of each CardBlueprint in the list to the specified values.</p>
+  <p>Sets the difficulties of each <span class="xref">DiskCardGame.EncounterBlueprintData.CardBlueprint</span> in the list to the specified values.</p>
 
   </div>
 
@@ -2653,9 +2746,15 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SetUnlockedCardPrerequisites__1___0_System_String___" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SetUnlockedCardPrerequisites``1(``0,System.String[])">
   SetUnlockedCardPrerequisites&lt;T&gt;(T, params string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the list of cards that must be unlocked before this encounter can be used.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_EncounterExtensions_SetUnlockedCardPrerequisites__1___0_System_String____syntax">
@@ -2689,7 +2788,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2700,7 +2800,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           cards
           </div>
         </td>
-        <td></td>
+        <td><p>The internal names of the prerequisite cards.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2720,7 +2821,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2762,7 +2864,7 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
 
   <h3 id="InscryptionAPI_Encounters_EncounterExtensions_SyncTurnDifficulties__1___0_System_Int32_System_Int32_" data-uid="InscryptionAPI.Encounters.EncounterExtensions.SyncTurnDifficulties``1(``0,System.Int32,System.Int32)">
   SyncTurnDifficulties&lt;T&gt;(T, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/EncounterExtensions.cs/#L343"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -2804,7 +2906,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           blueprint
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> to add this turn to.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2815,7 +2918,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           minDifficulty
           </div>
         </td>
-        <td></td>
+        <td><p>The minimum difficulty for this blueprint to appear.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2826,7 +2930,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
           maxDifficulty
           </div>
         </td>
-        <td></td>
+        <td><p>The maximum difficulty for this blueprint to appear at.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2846,7 +2951,8 @@ public static T SetRegionSpecific&lt;T&gt;(this T blueprint, bool enabled) where
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.EncounterBlueprintData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>

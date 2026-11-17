@@ -9,6 +9,7 @@
     <meta name="title" content="Class ExtendedAbilityBehaviour | InscryptionAPI ">
 
 
+    <meta name="description" content="Extended subclass of  that implements several custom API triggers.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class ExtendedAbilityBehaviour">
 
 
+        <meta property="og:description" content="Extended subclass of  that implements several custom API triggers.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class ExtendedAbilityBehaviour">
 
 
+        <meta name="twitter:description" content="Extended subclass of  that implements several custom API triggers.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Card_ExtendedAbilityBehaviour" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour" class="text-break">
-Class ExtendedAbilityBehaviour  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class ExtendedAbilityBehaviour  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class ExtendedAbilityBehaviour  <a class="header-action link-secondary" title="V
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Extended subclass of <span class="xref">DiskCardGame.AbilityBehaviour</span> that implements several custom API triggers.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -1000,9 +1009,15 @@ public abstract class ExtendedAbilityBehaviour : AbilityBehaviour, IGetOpposingS
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ProvidesPassiveAttackBuff" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.ProvidesPassiveAttackBuff">
   ProvidesPassiveAttackBuff
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>If this ability provides a passive attack buff.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ProvidesPassiveAttackBuff_syntax">
@@ -1036,9 +1051,15 @@ public virtual bool ProvidesPassiveAttackBuff { get; }</code></pre>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ProvidesPassiveHealthBuff" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.ProvidesPassiveHealthBuff">
   ProvidesPassiveHealthBuff
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>If this ability provides a passive health buff.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ProvidesPassiveHealthBuff_syntax">
@@ -1072,9 +1093,15 @@ public virtual bool ProvidesPassiveHealthBuff { get; }</code></pre>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_TriggerWhenFacedown" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.TriggerWhenFacedown">
   TriggerWhenFacedown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Whether or not this ability should activate certain triggers while facedown.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_TriggerWhenFacedown_syntax">
@@ -1111,13 +1138,13 @@ public virtual bool ProvidesPassiveHealthBuff { get; }</code></pre>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetOpposingSlots_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot__" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.GetOpposingSlots(System.Collections.Generic.List{DiskCardGame.CardSlot},System.Collections.Generic.List{DiskCardGame.CardSlot})">
   GetOpposingSlots(List&lt;CardSlot&gt;, List&lt;CardSlot&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Gets the card slots that the card wants to attack</p>
+  <p>Gets an additional list of <span class="xref">DiskCardGame.CardSlot</span>s that cards with this ability should target when attacking.</p>
 
   </div>
 
@@ -1153,7 +1180,7 @@ public virtual bool ProvidesPassiveHealthBuff { get; }</code></pre>
           originalSlots
           </div>
         </td>
-        <td><p>The set of original card slots that the card would attack (as set by abilities in the base game).</p>
+        <td><p>List of <span class="xref">DiskCardGame.CardSlot</span>s that were originally being targeted before custom abilities were applied.</p>
 </td>
       </tr>
       <tr>
@@ -1165,7 +1192,7 @@ public virtual bool ProvidesPassiveHealthBuff { get; }</code></pre>
           otherAddedSlots
           </div>
         </td>
-        <td><p>Slots that have been added by other custom abilities.</p>
+        <td><p>Other <span class="xref">DiskCardGame.CardSlot</span>s added by other abilities to the list of targeted slots.</p>
 </td>
       </tr>
 
@@ -1186,7 +1213,7 @@ public virtual bool ProvidesPassiveHealthBuff { get; }</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">CardSlot</span>&gt;</td>
-        <td><p>The list of card slots you want to attack.</p>
+        <td><p>List of <span class="xref">DiskCardGame.CardSlot</span>s that should be added to the list of targeted slots.</p>
 </td>
       </tr>
     </tbody>
@@ -1199,12 +1226,6 @@ public virtual bool ProvidesPassiveHealthBuff { get; }</code></pre>
 
 
 
-  <h4 class="section" id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetOpposingSlots_System_Collections_Generic_List_DiskCardGame_CardSlot__System_Collections_Generic_List_DiskCardGame_CardSlot___remarks">Remarks</h4>
-  <p>The following is additional information related to this member: </p>
-  <div class="markdown level1 remarks"><p>If your card is replacing the default attack slot (the opposing slot) see 'RemoveDefaultAttackSlot'
-If you are <strong>not</strong> replacing the default attack slot, do <strong>not</strong> include that here. Simple ensure 'RemoveDefaultAttackSlot' returns false.
-Only return the default attack slot if you want to attack it an additional time.</p>
-</div>
 
 
 
@@ -1215,13 +1236,13 @@ Only return the default attack slot if you want to attack it an additional time.
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveAttackBuff_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.GetPassiveAttackBuff(DiskCardGame.PlayableCard)">
   GetPassiveAttackBuff(PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Used to provide a passive attack buff to a target</p>
+  <p>Determines the passive attack buff given by this ability if one is given.</p>
 
   </div>
 
@@ -1257,7 +1278,8 @@ Only return the default attack slot if you want to attack it an additional time.
           target
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span> current being checked.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1277,7 +1299,7 @@ Only return the default attack slot if you want to attack it an additional time.
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><p>The amount of attack you want to buff the target by.</p>
+        <td><p>The attack buff to give to the target card.</p>
 </td>
       </tr>
     </tbody>
@@ -1290,10 +1312,6 @@ Only return the default attack slot if you want to attack it an additional time.
 
 
 
-  <h4 class="section" id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveAttackBuff_DiskCardGame_PlayableCard__remarks">Remarks</h4>
-  <p>The following is additional information related to this member: </p>
-  <div class="markdown level1 remarks"><p>Do not assume that the target is on your side of the board! There may be negative sigils that buff opposing cards.</p>
-</div>
 
 
 
@@ -1304,9 +1322,15 @@ Only return the default attack slot if you want to attack it an additional time.
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveAttackBuffs" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.GetPassiveAttackBuffs">
   GetPassiveAttackBuffs()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Array representing the attack buff given by this ability.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveAttackBuffs_syntax">
@@ -1358,13 +1382,13 @@ public virtual int[] GetPassiveAttackBuffs()</code></pre>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveHealthBuff_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.GetPassiveHealthBuff(DiskCardGame.PlayableCard)">
   GetPassiveHealthBuff(PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Used to provide a passive health buff to a target</p>
+  <p>Determines the passive health buff given by this ability if one is given.</p>
 
   </div>
 
@@ -1400,7 +1424,8 @@ public virtual int[] GetPassiveAttackBuffs()</code></pre>
           target
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span> current being checked.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1420,7 +1445,7 @@ public virtual int[] GetPassiveAttackBuffs()</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><p>The amount of health you want to buff the target by.</p>
+        <td><p>The health buff to give to the target card.</p>
 </td>
       </tr>
     </tbody>
@@ -1433,10 +1458,6 @@ public virtual int[] GetPassiveAttackBuffs()</code></pre>
 
 
 
-  <h4 class="section" id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveHealthBuff_DiskCardGame_PlayableCard__remarks">Remarks</h4>
-  <p>The following is additional information related to this member: </p>
-  <div class="markdown level1 remarks"><p>Do not assume that the target is on your side of the board! There may be negative sigils that buff opposing cards.</p>
-</div>
 
 
 
@@ -1447,9 +1468,15 @@ public virtual int[] GetPassiveAttackBuffs()</code></pre>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveHealthBuffs" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.GetPassiveHealthBuffs">
   GetPassiveHealthBuffs()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Array representing the health buff given by this ability.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_GetPassiveHealthBuffs_syntax">
@@ -1501,14 +1528,13 @@ public virtual int[] GetPassiveHealthBuffs()</code></pre>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_RemoveDefaultAttackSlot" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.RemoveDefaultAttackSlot">
   RemoveDefaultAttackSlot()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>If true, this means that the attack slots provided by GetOpposingSlots should override the default attack slot.
-If false, it means they should be in addition to the default opposing slot.</p>
+  <p>Whether or not the default attack slot should be removed (eg., Bifurcated Strike).</p>
 
   </div>
 
@@ -1539,7 +1565,8 @@ If false, it means they should be in addition to the default opposing slot.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if cards with this ability should not strike the opposing slot by default.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1561,13 +1588,13 @@ If false, it means they should be in addition to the default opposing slot.</p>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_RespondsToGetOpposingSlots" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.RespondsToGetOpposingSlots">
   RespondsToGetOpposingSlots()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Indicates if this card wants to respond to getting the opposing slots</p>
+  <p>Whether or not this ability should modify what <span class="xref">DiskCardGame.CardSlot</span>s cards with this ability will target when attacking.</p>
 
   </div>
 
@@ -1598,7 +1625,7 @@ If false, it means they should be in addition to the default opposing slot.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><p>True to provide opposing slots, False to leave the slots as default.</p>
+        <td><p>True if this ability should modify the list of cards being added.</p>
 </td>
       </tr>
     </tbody>
@@ -1621,9 +1648,15 @@ If false, it means they should be in addition to the default opposing slot.</p>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ShouldTriggerCustomWhenFaceDown_System_Type_" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.ShouldTriggerCustomWhenFaceDown(System.Type)">
   ShouldTriggerCustomWhenFaceDown(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Whether or not the given trigger should be called on this ability when its card is face down.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ShouldTriggerCustomWhenFaceDown_System_Type__syntax">
@@ -1657,7 +1690,8 @@ If false, it means they should be in addition to the default opposing slot.</p>
           customTrigger
           </div>
         </td>
-        <td></td>
+        <td><p>The Type of the custom API trigger being checked.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1677,7 +1711,8 @@ If false, it means they should be in addition to the default opposing slot.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if the given trigger should be activated while this ability's card is face down.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1699,9 +1734,15 @@ If false, it means they should be in addition to the default opposing slot.</p>
 
   <h3 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ShouldTriggerWhenFaceDown_DiskCardGame_Trigger_System_Object___" data-uid="InscryptionAPI.Card.ExtendedAbilityBehaviour.ShouldTriggerWhenFaceDown(DiskCardGame.Trigger,System.Object[])">
   ShouldTriggerWhenFaceDown(Trigger, object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ExtendedAbilityBehaviour.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Whether or not the given trigger should be called on this ability when its card is face down.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ExtendedAbilityBehaviour_ShouldTriggerWhenFaceDown_DiskCardGame_Trigger_System_Object____syntax">
@@ -1735,7 +1776,8 @@ If false, it means they should be in addition to the default opposing slot.</p>
           trigger
           </div>
         </td>
-        <td></td>
+        <td><p>The trigger being checked.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1746,7 +1788,8 @@ If false, it means they should be in addition to the default opposing slot.</p>
           otherArgs
           </div>
         </td>
-        <td></td>
+        <td><p>Array of objects relating to the trigger being checked.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1766,7 +1809,8 @@ If false, it means they should be in addition to the default opposing slot.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if the given trigger should be activated while this ability's card is face down.</p>
+</td>
       </tr>
     </tbody>
   </table>

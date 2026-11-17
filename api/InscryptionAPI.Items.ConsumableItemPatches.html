@@ -9,6 +9,7 @@
     <meta name="title" content="Class ConsumableItemPatches | InscryptionAPI ">
 
 
+    <meta name="description" content="Class containing patches to make custom items work.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class ConsumableItemPatches">
 
 
+        <meta property="og:description" content="Class containing patches to make custom items work.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class ConsumableItemPatches">
 
 
+        <meta name="twitter:description" content="Class containing patches to make custom items work.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Items_ConsumableItemPatches" data-uid="InscryptionAPI.Items.ConsumableItemPatches" class="text-break">
-Class ConsumableItemPatches  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemPatches.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class ConsumableItemPatches  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemPatches.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class ConsumableItemPatches  <a class="header-action link-secondary" title="View
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Class containing patches to make custom items work.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -373,9 +382,15 @@ public static class ConsumableItemPatches</code></pre>
 
   <h3 id="InscryptionAPI_Items_ConsumableItemPatches_ConstructItemPages_DiskCardGame_RuleBookInfo_DiskCardGame_PageRangeInfo_DiskCardGame_AbilityMetaCategory_" data-uid="InscryptionAPI.Items.ConsumableItemPatches.ConstructItemPages(DiskCardGame.RuleBookInfo,DiskCardGame.PageRangeInfo,DiskCardGame.AbilityMetaCategory)">
   ConstructItemPages(RuleBookInfo, PageRangeInfo, AbilityMetaCategory)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemPatches.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Items/ConsumableItemPatches.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Modified version of <span class="xref">DiskCardGame.RuleBookInfo.ConstructPageData(DiskCardGame.AbilityMetaCategory)</span> specific to items that enables custom items to also appear in the rulebook.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Items_ConsumableItemPatches_ConstructItemPages_DiskCardGame_RuleBookInfo_DiskCardGame_PageRangeInfo_DiskCardGame_AbilityMetaCategory__syntax">
@@ -409,7 +424,8 @@ public static class ConsumableItemPatches</code></pre>
           instance
           </div>
         </td>
-        <td></td>
+        <td><p>Current instance of the rulebook's utility class that stores page data.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -420,7 +436,8 @@ public static class ConsumableItemPatches</code></pre>
           pageRange
           </div>
         </td>
-        <td></td>
+        <td><p>Reference to the rulebook prefab object used for constructed pages.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -431,7 +448,8 @@ public static class ConsumableItemPatches</code></pre>
           metaCategory
           </div>
         </td>
-        <td></td>
+        <td><p>Used to determine if an item's rulebook entry can appear in this act.</p>
+</td>
       </tr>
 
     </tbody>
@@ -451,7 +469,8 @@ public static class ConsumableItemPatches</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">RuleBookPageInfo</span>&gt;</td>
-        <td></td>
+        <td><p>A list of all constructed rulebook pages.</p>
+</td>
       </tr>
     </tbody>
   </table>

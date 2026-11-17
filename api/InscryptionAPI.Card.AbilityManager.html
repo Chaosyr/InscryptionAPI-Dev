@@ -9,7 +9,7 @@
     <meta name="title" content="Class AbilityManager | InscryptionAPI ">
 
 
-    <meta name="description" content="This manager class handles the creation and management of mod-added abilities (sigils).">
+    <meta name="description" content="Manager class that handles the creation and management of mod-added abilities (sigils).">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Class AbilityManager">
 
 
-        <meta property="og:description" content="This manager class handles the creation and management of mod-added abilities (sigils).">
+        <meta property="og:description" content="Manager class that handles the creation and management of mod-added abilities (sigils).">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Class AbilityManager">
 
 
-        <meta name="twitter:description" content="This manager class handles the creation and management of mod-added abilities (sigils).">
+        <meta name="twitter:description" content="Manager class that handles the creation and management of mod-added abilities (sigils).">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -276,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Card_AbilityManager" data-uid="InscryptionAPI.Card.AbilityManager" class="text-break">
-Class AbilityManager  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L21"><i class="bi bi-code-slash"></i></a>
+Class AbilityManager  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -293,7 +293,7 @@ Class AbilityManager  <a class="header-action link-secondary" title="View source
   <div class="markdown summary">
     <h2>Summary</h2>
     <p>The following is a brief description of what this type does, and what it is meant for: </p>
-  <p>This manager class handles the creation and management of mod-added abilities (sigils).</p>
+  <p>Manager class that handles the creation and management of mod-added abilities (sigils).</p>
 
   </div>
 
@@ -381,7 +381,7 @@ public static class AbilityManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_BaseGameAbilities" data-uid="InscryptionAPI.Card.AbilityManager.BaseGameAbilities">
   BaseGameAbilities
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L155"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -421,9 +421,16 @@ public static class AbilityManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_SIGILCOST" data-uid="InscryptionAPI.Card.AbilityManager.SIGILCOST">
   SIGILCOST
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L431"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Prefix string for activated sigils with dynamic activation costs.
+Used by the API to determine what part of a sigil's description should be updated.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_AbilityManager_SIGILCOST_syntax">
@@ -460,7 +467,7 @@ public static class AbilityManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_AllAbilities" data-uid="InscryptionAPI.Card.AbilityManager.AllAbilities">
   AllAbilities
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -501,13 +508,13 @@ public static class AbilityManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_AllAbilityInfos" data-uid="InscryptionAPI.Card.AbilityManager.AllAbilityInfos">
   AllAbilityInfos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>The current processed list of all AbilityInfos in the game, including vanilla and mod-added abilities.</p>
+  <p>The current processed list of all <span class="xref">DiskCardGame.AbilityInfo</span> objects in the game, including vanilla and mod-added abilities.</p>
 
   </div>
 
@@ -542,9 +549,15 @@ public static class AbilityManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_Part2Modular" data-uid="InscryptionAPI.Card.AbilityManager.Part2Modular">
   Part2Modular
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Custom <span class="xref">DiskCardGame.AbilityMetaCategory</span> enum for marking an ability as modular in Part 2.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_AbilityManager_Part2Modular_syntax">
@@ -577,97 +590,17 @@ public static class AbilityManager</code></pre>
 </h2>
 
 
-  <a id="InscryptionAPI_Card_AbilityManager_AbilityIconInteractable_AssignAbility_" data-uid="InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility*" data-overload></a>
-
-  <h3 id="InscryptionAPI_Card_AbilityManager_AbilityIconInteractable_AssignAbility_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction__" data-uid="InscryptionAPI.Card.AbilityManager.AbilityIconInteractable_AssignAbility(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">
-  AbilityIconInteractable_AssignAbility(IEnumerable&lt;CodeInstruction&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L654"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-
-
-  <h4 id="InscryptionAPI_Card_AbilityManager_AbilityIconInteractable_AssignAbility_System_Collections_Generic_IEnumerable_HarmonyLib_CodeInstruction___syntax">
-    Syntax
-  </h4>
-  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
-
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">[HarmonyTranspiler]
-[HarmonyPatch(typeof(AbilityIconInteractable), &quot;AssignAbility&quot;)]
-public static IEnumerable&lt;CodeInstruction&gt; AbilityIconInteractable_AssignAbility(IEnumerable&lt;CodeInstruction&gt; instructions)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <p>The following table is a full list of parameters used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
-
-  <table class="api-parameters">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-
-    <tbody>
-
-      <tr>
-        <td>
-          <div class="parameter-type">
-          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">CodeInstruction</span>&gt;
-          </div>
-          <div class="parametername">
-          instructions
-          </div>
-        </td>
-        <td></td>
-      </tr>
-
-    </tbody>
-  </table>
-
-  <h4 class="section">Returns</h4>
-  <p>The following table is a full list of returns used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
-
-  <table class="api-returns">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">CodeInstruction</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="InscryptionAPI_Card_AbilityManager_Add_" data-uid="InscryptionAPI.Card.AbilityManager.Add*" data-overload></a>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_Add_System_String_DiskCardGame_AbilityInfo_System_Type_UnityEngine_Texture_" data-uid="InscryptionAPI.Card.AbilityManager.Add(System.String,DiskCardGame.AbilityInfo,System.Type,UnityEngine.Texture)">
   Add(string, AbilityInfo, Type, Texture)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L301"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Creates a new ability and registers it to be able to be added to cards</p>
+  <p>Creates a new ability and registers it to be able to be added to cards.</p>
 
   </div>
 
@@ -703,7 +636,7 @@ public static IEnumerable&lt;CodeInstruction&gt; AbilityIconInteractable_AssignA
           guid
           </div>
         </td>
-        <td><p>The guid of the mod adding the ability.</p>
+        <td><p>The GUID of the mod adding the ability.</p>
 </td>
       </tr>
       <tr>
@@ -715,7 +648,7 @@ public static IEnumerable&lt;CodeInstruction&gt; AbilityIconInteractable_AssignA
           info
           </div>
         </td>
-        <td><p>An instance of AbilityInfo describing the ability.</p>
+        <td><p>An instance of <span class="xref">DiskCardGame.AbilityInfo</span> describing the ability.</p>
 </td>
       </tr>
       <tr>
@@ -727,7 +660,7 @@ public static IEnumerable&lt;CodeInstruction&gt; AbilityIconInteractable_AssignA
           behavior
           </div>
         </td>
-        <td><p>A subclass of AbilityBehaviour that implements the logic for the ability.</p>
+        <td><p>A subclass of <span class="xref">DiskCardGame.AbilityBehaviour</span> that implements the logic for the ability.</p>
 </td>
       </tr>
       <tr>
@@ -760,7 +693,7 @@ public static IEnumerable&lt;CodeInstruction&gt; AbilityIconInteractable_AssignA
     <tbody>
       <tr>
         <td><a class="xref" href="InscryptionAPI.Card.AbilityManager.html">AbilityManager</a>.<a class="xref" href="InscryptionAPI.Card.AbilityManager.FullAbility.html">FullAbility</a></td>
-        <td><p>An instance of AbilityInfo describing the new ability.</p>
+        <td><p>An instance of <a class="xref" href="InscryptionAPI.Card.AbilityManager.FullAbility.html">AbilityManager.FullAbility</a> containing all this ability's data.</p>
 </td>
       </tr>
     </tbody>
@@ -776,7 +709,7 @@ public static IEnumerable&lt;CodeInstruction&gt; AbilityIconInteractable_AssignA
   <h4 class="section" id="InscryptionAPI_Card_AbilityManager_Add_System_String_DiskCardGame_AbilityInfo_System_Type_UnityEngine_Texture__remarks">Remarks</h4>
   <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>The actual unique identifier for the new ability will be found in the 'ability' field of
-the returned AbilityInfo object. There is no way for the modder to create a specific ability ID; it will
+the returned <span class="xref">DiskCardGame.AbilityInfo</span> object. There is no way for the modder to create a specific ability ID; it will
 always be assigned by the API.</p>
 <pre><code>**NOTE**: Even if you manually create an Ability identifier for your ability and attach it to the AbilityInfo 
 object before you pass it to the API, the API will *still* generate a unique ability ID for you, which may
@@ -794,7 +727,7 @@ ablity ID yourself and leave it as its default value.
 
   <h3 id="InscryptionAPI_Card_AbilityManager_New_System_String_System_String_System_String_System_Type_System_String_" data-uid="InscryptionAPI.Card.AbilityManager.New(System.String,System.String,System.String,System.Type,System.String)">
   New(string, string, string, Type, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L322"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -836,7 +769,7 @@ ablity ID yourself and leave it as its default value.
           guid
           </div>
         </td>
-        <td><p>The guid of the mod adding the ability.</p>
+        <td><p>The GUID of the mod adding the ability.</p>
 </td>
       </tr>
       <tr>
@@ -872,7 +805,7 @@ ablity ID yourself and leave it as its default value.
           behavior
           </div>
         </td>
-        <td><p>A subclass of AbilityBehaviour that implements the logic for the ability.</p>
+        <td><p>A subclass of <span class="xref">DiskCardGame.AbilityBehaviour</span> that implements the logic for the ability.</p>
 </td>
       </tr>
       <tr>
@@ -905,7 +838,7 @@ ablity ID yourself and leave it as its default value.
     <tbody>
       <tr>
         <td><span class="xref">AbilityInfo</span></td>
-        <td><p>An instance of AbilityInfo describing the new ability.</p>
+        <td><p>An instance of <span class="xref">DiskCardGame.AbilityInfo</span> describing the new ability.</p>
 </td>
       </tr>
     </tbody>
@@ -921,7 +854,7 @@ ablity ID yourself and leave it as its default value.
   <h4 class="section" id="InscryptionAPI_Card_AbilityManager_New_System_String_System_String_System_String_System_Type_System_String__remarks">Remarks</h4>
   <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>The actual unique identifier for the new ability will be found in the 'ability' field of
-the returned AbilityInfo object. There is no way for the modder to create a specific ability ID; it will
+the returned <span class="xref">DiskCardGame.AbilityInfo</span> object. There is no way for the modder to create a specific ability ID; it will
 always be assigned by the API.</p>
 </div>
 
@@ -934,7 +867,7 @@ always be assigned by the API.</p>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_New_System_String_System_String_System_String_System_Type_UnityEngine_Texture_" data-uid="InscryptionAPI.Card.AbilityManager.New(System.String,System.String,System.String,System.Type,UnityEngine.Texture)">
   New(string, string, string, Type, Texture)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L339"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -976,7 +909,7 @@ always be assigned by the API.</p>
           guid
           </div>
         </td>
-        <td><p>The guid of the mod adding the ability.</p>
+        <td><p>The GUID of the mod adding the ability.</p>
 </td>
       </tr>
       <tr>
@@ -1012,7 +945,7 @@ always be assigned by the API.</p>
           behavior
           </div>
         </td>
-        <td><p>A subclass of AbilityBehaviour that implements the logic for the ability.</p>
+        <td><p>A subclass of <span class="xref">DiskCardGame.AbilityBehaviour</span> that implements the logic for the ability.</p>
 </td>
       </tr>
       <tr>
@@ -1045,7 +978,7 @@ always be assigned by the API.</p>
     <tbody>
       <tr>
         <td><span class="xref">AbilityInfo</span></td>
-        <td><p>An instance of AbilityInfo describing the new ability.</p>
+        <td><p>An instance of <span class="xref">DiskCardGame.AbilityInfo</span> describing the new ability.</p>
 </td>
       </tr>
     </tbody>
@@ -1061,7 +994,7 @@ always be assigned by the API.</p>
   <h4 class="section" id="InscryptionAPI_Card_AbilityManager_New_System_String_System_String_System_String_System_Type_UnityEngine_Texture__remarks">Remarks</h4>
   <p>The following is additional information related to this member: </p>
   <div class="markdown level1 remarks"><p>The actual unique identifier for the new ability will be found in the 'ability' field of
-the returned AbilityInfo object. There is no way for the modder to create a specific ability ID; it will
+the returned <span class="xref">DiskCardGame.AbilityInfo</span> object. There is no way for the modder to create a specific ability ID; it will
 always be assigned by the API.</p>
 </div>
 
@@ -1074,9 +1007,15 @@ always be assigned by the API.</p>
 
   <h3 id="InscryptionAPI_Card_AbilityManager_OriginalLoadAbilityIcon_System_String_System_Boolean_System_Boolean_" data-uid="InscryptionAPI.Card.AbilityManager.OriginalLoadAbilityIcon(System.String,System.Boolean,System.Boolean)">
   OriginalLoadAbilityIcon(string, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L369"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Reverse patch that provides access to the original, unmodified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">LoadAbilityIcon(string, bool, bool)</a> method.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_AbilityManager_OriginalLoadAbilityIcon_System_String_System_Boolean_System_Boolean__syntax">
@@ -1176,7 +1115,7 @@ public static Texture OriginalLoadAbilityIcon(string abilityName, bool fillerAbi
 
   <h3 id="InscryptionAPI_Card_AbilityManager_Remove_DiskCardGame_Ability_" data-uid="InscryptionAPI.Card.AbilityManager.Remove(DiskCardGame.Ability)">
   Remove(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L352"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1243,13 +1182,13 @@ public static Texture OriginalLoadAbilityIcon(string abilityName, bool fillerAbi
 
   <h3 id="InscryptionAPI_Card_AbilityManager_Remove_InscryptionAPI_Card_AbilityManager_FullAbility_" data-uid="InscryptionAPI.Card.AbilityManager.Remove(InscryptionAPI.Card.AbilityManager.FullAbility)">
   Remove(FullAbility)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L358"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Removes an ability from the game based on ability ID. Can only remove mod-added abilities, not vanilla abilities.</p>
+  <p>Removes an ability from the game based on its <a class="xref" href="InscryptionAPI.Card.AbilityManager.FullAbility.html">AbilityManager.FullAbility</a>. Can only remove mod-added abilities, not vanilla abilities.</p>
 
   </div>
 
@@ -1310,7 +1249,7 @@ public static Texture OriginalLoadAbilityIcon(string abilityName, bool fillerAbi
 
   <h3 id="InscryptionAPI_Card_AbilityManager_SyncAbilityList" data-uid="InscryptionAPI.Card.AbilityManager.SyncAbilityList">
   SyncAbilityList()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1343,7 +1282,7 @@ public static Texture OriginalLoadAbilityIcon(string abilityName, bool fillerAbi
 
   <h4 class="section" id="InscryptionAPI_Card_AbilityManager_SyncAbilityList_remarks">Remarks</h4>
   <p>The following is additional information related to this member: </p>
-  <div class="markdown level1 remarks"><p>Most importantly, this re-executes all custom code that was added to the <a href="xref:InscryptionAPI.AbilityManager.ModifyAbilityList">ModifyAbilityList</a>
+  <div class="markdown level1 remarks"><p>Most importantly, this re-executes all custom code that was added to the <a class="xref" href="InscryptionAPI.Card.AbilityManager.html#InscryptionAPI_Card_AbilityManager_ModifyAbilityList">ModifyAbilityList</a>
 event. If you are doing any sort of context-aware processing of the ability list, you may need to manually
 call this method in order to make sure that your code executes correctly. However, this automatically gets called
 every time that the game transitions from either the main menu into the base game, or whenever a new run is
@@ -1362,7 +1301,7 @@ started inside of Kaycee's Mod. Only in extreme edge cases should you need to ma
 
   <h3 id="InscryptionAPI_Card_AbilityManager_ModifyAbilityList" data-uid="InscryptionAPI.Card.AbilityManager.ModifyAbilityList">
   ModifyAbilityList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/AbilityManager.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1395,35 +1334,35 @@ started inside of Kaycee's Mod. Only in extreme edge cases should you need to ma
 
   <h4 class="section" id="InscryptionAPI_Card_AbilityManager_ModifyAbilityList_remarks">Remarks</h4>
   <p>The following is additional information related to this member: </p>
-  <div class="markdown level1 remarks"><p>There are two primary use cases for this hook:</p>
-<pre><code>- Making changes to abilities that may be added after your plugin initializes
-- Making context-aware changes to abilities
-
+  <div class="markdown level1 remarks"><p>There are two primary use cases for this hook:
+<br><br></p>
+<ul>
+<li>Making changes to abilities that may be added after your plugin initializes</li>
+<li>Making context-aware changes to abilities
+<br><br>
 The way this operates is as follows:
-
-1. The AbilityManager makes a copy of all FullAbility objects. Note that unlike the similar code in CardManager, this is actually a *deep* copy of the AbilityInfo.
-2. The code in ModifyAbiltyList is executed on the copy of those abilities.
-3. The modified list becomes the game's new official list of abilities.
-
+<br><br></li>
+</ul>
+<ol>
+<li>The <a class="xref" href="InscryptionAPI.Card.AbilityManager.html">AbilityManager</a> makes a copy of all <a class="xref" href="InscryptionAPI.Card.AbilityManager.FullAbility.html">AbilityManager.FullAbility</a> objects. Note that unlike the similar code in CardManager, this is actually a <em>deep</em> copy of the AbilityInfo.
+<br>2. The code in <a class="xref" href="InscryptionAPI.Card.AbilityManager.html#InscryptionAPI_Card_AbilityManager_ModifyAbilityList">ModifyAbilityList</a> is executed on the copy of those abilities.
+<br>3. The modified list becomes the game's new official list of abilities.
+<br><br>
 The reason the abilities are cloned before processing is so that you can make any change to them you wish
 without affecting the original ability. This means that you do not need to try to track changes or remember
-what the original version of the ability looked like before you started changing it; the next time 
-[SyncAbilityList](xref:InscryptionAPI.AbilityManager.SyncAbilityList) is called, all changes will be reverted
-and then re-applied.
-
-To use this, you need to add a delegate that accepts the current list of all abilities, then returns
-that same list back.
-
-```c#
-AbilityManager.ModifyAbilityList += delegate(List&lt;FullAbility&gt; abilities)
+what the original version of the ability looked like before you started changing it; the next time
+<a class="xref" href="InscryptionAPI.Card.AbilityManager.html#InscryptionAPI_Card_AbilityManager_SyncAbilityList">SyncAbilityList()</a> is called, all changes will be reverted and then re-applied.
+<br><br>
+To use this, you need to add a delegate that accepts the current list of all abilities, then returns that same list back.
+<br><br></li>
+</ol>
+<pre><code class="lang-csharp">AbilityManager.ModifyAbilityList += delegate(List&lt;FullAbility&gt; abilities)
 {
     // Add the rulebook metacategories to every single ability
     foreach (var ability in abilities)
         ability.info.AddMetaCategories(AbilityMetaCategory.Part1Rulebook, AbilityMetaCategory.Part3Rulebook);
     return abilities;
-}
-```
-</code></pre>
+}</code></pre>
 </div>
 
 

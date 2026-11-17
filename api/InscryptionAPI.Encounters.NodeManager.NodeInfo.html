@@ -9,6 +9,7 @@
     <meta name="title" content="Class NodeManager.NodeInfo | InscryptionAPI ">
 
 
+    <meta name="description" content="Represents a new node added by the API.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class NodeManager.NodeInfo">
 
 
+        <meta property="og:description" content="Represents a new node added by the API.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class NodeManager.NodeInfo">
 
 
+        <meta name="twitter:description" content="Represents a new node added by the API.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Encounters_NodeManager_NodeInfo" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo" class="text-break">
-Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L54"><i class="bi bi-code-slash"></i></a>
+Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Represents a new node added by the API.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -314,7 +323,8 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
   <p>The following codeblock is the declaration syntax of this type found in the code: </p>
 
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public class NodeManager.NodeInfo</code></pre>
+    <pre><code class="lang- hljs">[Obsolete(&quot;NodeManager is deprecated, use NewNodeManager instead.&quot;)]
+public class NodeManager.NodeInfo</code></pre>
   </div>
 
 
@@ -383,9 +393,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_ModGUID" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.ModGUID">
   ModGUID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Guid of the mod this node came from.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_ModGUID_syntax">
@@ -418,9 +434,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_animatedMapNode" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.animatedMapNode">
   animatedMapNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Animation frames for the node object on the map. If null or empty, the animation frames of the map object won't be affected.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_animatedMapNode_syntax">
@@ -453,9 +475,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_guid" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.guid">
   guid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Internal name of the node.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_guid_syntax">
@@ -488,9 +516,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_nodeDataType" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.nodeDataType">
   nodeDataType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Type for the node data.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_nodeDataType_syntax">
@@ -523,9 +557,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_nodePosition" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.nodePosition">
   nodePosition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Flags that affect the way the node generates.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_nodePosition_syntax">
@@ -558,9 +598,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_sequencerType" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.sequencerType">
   sequencerType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Type for the node sequencer. If null, it will try to get the sequencer type from the sequencer prefab instead.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_sequencerType_syntax">
@@ -597,9 +643,15 @@ Class NodeManager.NodeInfo  <a class="header-action link-secondary" title="View 
 
   <h3 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_BuildNode" data-uid="InscryptionAPI.Encounters.NodeManager.NodeInfo.BuildNode">
   BuildNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/NodeManager.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new node.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_NodeManager_NodeInfo_BuildNode_syntax">

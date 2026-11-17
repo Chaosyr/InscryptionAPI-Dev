@@ -276,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Nodes_CustomPreviousRowContent" data-uid="InscryptionAPI.Nodes.CustomPreviousRowContent" class="text-break">
-Class CustomPreviousRowContent  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L105"><i class="bi bi-code-slash"></i></a>
+Class CustomPreviousRowContent  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -395,13 +395,13 @@ Class CustomPreviousRowContent  <a class="header-action link-secondary" title="V
 
   <h3 id="InscryptionAPI_Nodes_CustomPreviousRowContent__ctor_System_String_System_String_System_Boolean_" data-uid="InscryptionAPI.Nodes.CustomPreviousRowContent.#ctor(System.String,System.String,System.Boolean)">
   CustomPreviousRowContent(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Creates an &quot;CustomPreviousRowContent&quot; selection condition and sets its target guid, name and required value.</p>
+  <p>Creates a <a class="xref" href="InscryptionAPI.Nodes.CustomPreviousRowContent.html">CustomPreviousRowContent</a> selection condition and sets its target guid, name and required value.</p>
 
   </div>
 
@@ -491,9 +491,19 @@ doesn't contain it.</p>
 
   <h3 id="InscryptionAPI_Nodes_CustomPreviousRowContent_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData__" data-uid="InscryptionAPI.Nodes.CustomPreviousRowContent.Satisfied(System.Int32,System.Collections.Generic.List{DiskCardGame.NodeData})">
   Satisfied(int, List&lt;NodeData&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Determines if this condition is satisfied and this node can be generated.
+<br><br>
+If <span class="xref">InscryptionAPI.Nodes.CustomPreviousRowContent.doesContain</span> is true, return true if the previous node row contains a node with the given <span class="xref">InscryptionAPI.Nodes.CustomPreviousRowContent.name</span> and <span class="xref">InscryptionAPI.Nodes.CustomPreviousRowContent.guid</span>.
+<br><br>
+If <span class="xref">InscryptionAPI.Nodes.CustomPreviousRowContent.doesContain</span> is false, return true if the previous node row does not contain a node with the given <span class="xref">InscryptionAPI.Nodes.CustomPreviousRowContent.name</span> and <code>guide</code>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Nodes_CustomPreviousRowContent_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData___syntax">
@@ -527,7 +537,8 @@ doesn't contain it.</p>
           gridY
           </div>
         </td>
-        <td></td>
+        <td><p>The y-index of this node. Higher values represent further nodes on the map.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -538,7 +549,8 @@ doesn't contain it.</p>
           previousNodes
           </div>
         </td>
-        <td></td>
+        <td><p>The nodes generated at the previous y-index.</p>
+</td>
       </tr>
 
     </tbody>
@@ -558,7 +570,8 @@ doesn't contain it.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if this node condition is satisfied and the node can be generated and added to the map.</p>
+</td>
       </tr>
     </tbody>
   </table>

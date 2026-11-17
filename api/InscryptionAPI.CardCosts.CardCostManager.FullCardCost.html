@@ -9,6 +9,7 @@
     <meta name="title" content="Class CardCostManager.FullCardCost | InscryptionAPI ">
 
 
+    <meta name="description" content="A utility class that holds all of the required information about a card cost in order to be able to use it in-game.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class CardCostManager.FullCardCost">
 
 
+        <meta property="og:description" content="A utility class that holds all of the required information about a card cost in order to be able to use it in-game.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class CardCostManager.FullCardCost">
 
 
+        <meta name="twitter:description" content="A utility class that holds all of the required information about a card cost in order to be able to use it in-game.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -287,6 +290,12 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>A utility class that holds all of the required information about a card cost in order to be able to use it in-game.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -401,9 +410,16 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
 
   <h3 id="InscryptionAPI_CardCosts_CardCostManager_FullCardCost__ctor_System_String_System_String_System_Type_System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__" data-uid="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.#ctor(System.String,System.String,System.Type,System.Func{System.Int32,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,UnityEngine.Texture2D},System.Func{System.Int32,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,UnityEngine.Texture2D})">
   FullCardCost(string, string, Type, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt;, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new instance of FullCardCost and registers its behaviour type with the <a class="xref" href="InscryptionAPI.Guid.TypeManager.html">TypeManager</a>.
+Simplified version of the full constructor.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_CardCosts_CardCostManager_FullCardCost__ctor_System_String_System_String_System_Type_System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D___syntax">
@@ -437,7 +453,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           modGUID
           </div>
         </td>
-        <td></td>
+        <td><p>The GUID of the mod that added this.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -448,7 +465,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           costName
           </div>
         </td>
-        <td></td>
+        <td><p>The unique id/name for this cost.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -459,7 +477,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           costBehaviour
           </div>
         </td>
-        <td></td>
+        <td><p>A subclass of CustomCardCost that implements the logic for the cost.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -470,7 +489,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getCostTexture
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to retrieve a card's cost texture based on its cost value.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -481,7 +501,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getPixelCostTexture
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to retrieve a card's pixel cost texture based on its cost value.</p>
+</td>
       </tr>
 
     </tbody>
@@ -505,9 +526,15 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
 
   <h3 id="InscryptionAPI_CardCosts_CardCostManager_FullCardCost__ctor_System_String_System_String_System_Type_System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_System_Int32__System_Func_System_Int32_DiskCardGame_CardInfo_System_Collections_Generic_List_DiskCardGame_CardInfo__System_Boolean__System_Func_System_Int32_UnityEngine_Texture__System_Boolean_DiskCardGame_ResourceType_System_Int32___" data-uid="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.#ctor(System.String,System.String,System.Type,System.Func{System.Int32,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,UnityEngine.Texture2D},System.Func{System.Int32,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,UnityEngine.Texture2D},System.Func{System.Int32,System.Int32},System.Func{System.Int32,DiskCardGame.CardInfo,System.Collections.Generic.List{DiskCardGame.CardInfo},System.Boolean},System.Func{System.Int32,UnityEngine.Texture},System.Boolean,DiskCardGame.ResourceType,System.Int32[])">
   FullCardCost(string, string, Type, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt;, Func&lt;int, CardInfo, PlayableCard, Texture2D&gt;, Func&lt;int, int&gt;, Func&lt;int, CardInfo, List&lt;CardInfo&gt;, bool&gt;, Func&lt;int, Texture&gt;, bool, ResourceType, int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Creates a new instance of FullCardCost and registers its behaviour type with the <a class="xref" href="InscryptionAPI.Guid.TypeManager.html">TypeManager</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_CardCosts_CardCostManager_FullCardCost__ctor_System_String_System_String_System_Type_System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_UnityEngine_Texture2D__System_Func_System_Int32_System_Int32__System_Func_System_Int32_DiskCardGame_CardInfo_System_Collections_Generic_List_DiskCardGame_CardInfo__System_Boolean__System_Func_System_Int32_UnityEngine_Texture__System_Boolean_DiskCardGame_ResourceType_System_Int32____syntax">
@@ -541,7 +568,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           modGUID
           </div>
         </td>
-        <td></td>
+        <td><p>The GUID of the mod that added this.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -552,7 +580,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           costName
           </div>
         </td>
-        <td></td>
+        <td><p>The unique id/name for this cost.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -563,7 +592,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           costBehaviour
           </div>
         </td>
-        <td></td>
+        <td><p>A subclass of CustomCardCost that implements the logic for the cost.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -574,7 +604,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getCostTexture
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to retrieve a card's cost texture based on its cost value.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -585,7 +616,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getPixelCostTexture
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to retrieve a card's pixel cost texture based on its cost value.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -596,7 +628,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getCostTier
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to determine this cost's tier.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -607,7 +640,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getCanBePlayedByTurn2WithHand
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to determine if cards with this cost can be drawn in the opening hand.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -618,7 +652,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           getRewardBackTexture
           </div>
         </td>
-        <td></td>
+        <td><p>The method used to determine what texture this cost's reward card should use when choosing it in a card cost choice node.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -629,7 +664,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           canBeNegative
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not this cost can have a valid negative value (if false, negative values default to 0).</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -640,7 +676,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           resourceType
           </div>
         </td>
-        <td></td>
+        <td><p>The ResourceType id for this cost. Used in card cost choice nodes.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -651,7 +688,8 @@ Class CardCostManager.FullCardCost  <a class="header-action link-secondary" titl
           choiceAmounts
           </div>
         </td>
-        <td></td>
+        <td><p>What amounts of this cost card cost choice nodes can offer the player as an option (think how the nodes let you choose from cards with 1, 2, or 3 Blood).</p>
+</td>
       </tr>
 
     </tbody>
@@ -895,7 +933,7 @@ A bool representing if this card can be played by the second turn.</p>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>Retrieves the correct texture corresponding to CardInfo's cost. Used in the 3D Acts (Act 1, Act 3, etc.).
 Parameters:
-int: how much of the custom cost the CardInfo/PlayableCard needs to be played.
+int: how much of the custom cost the <span class="xref">DiskCardGame.CardInfo</span>/PlayableCard needs to be played.
 CardInfo: the base CardInfo of the current card.
 PlayableCard: the PlayableCard possessing the base CardInfo. Can be null.
 Returns:
@@ -986,7 +1024,7 @@ An integer representing the cost tier of this cost.</p>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>Retrieves the correct texture corresponding to CardInfo's cost. Used in Act 2.
 Parameters:
-int: how much of the custom cost the CardInfo/PlayableCard needs to be played.
+int: how much of the custom cost the <span class="xref">DiskCardGame.CardInfo</span>/PlayableCard needs to be played.
 CardInfo: the base CardInfo of the current card.
 PlayableCard: the PlayableCard possessing the base CardInfo. Can be null.
 Returns:
@@ -1186,7 +1224,7 @@ If multiple custom costs share the same ResourceType, they will all be part of t
           amount
           </div>
         </td>
-        <td><p>The cost value of the CardInfo being checked.</p>
+        <td><p>The cost value of the <span class="xref">DiskCardGame.CardInfo</span> being checked.</p>
 </td>
       </tr>
       <tr>
@@ -1198,7 +1236,7 @@ If multiple custom costs share the same ResourceType, they will all be part of t
           card
           </div>
         </td>
-        <td><p>The CardInfo being checked.</p>
+        <td><p>The <span class="xref">DiskCardGame.CardInfo</span> being checked.</p>
 </td>
       </tr>
       <tr>
@@ -1254,7 +1292,7 @@ If multiple custom costs share the same ResourceType, they will all be part of t
 
   <h3 id="InscryptionAPI_CardCosts_CardCostManager_FullCardCost_Clone" data-uid="InscryptionAPI.CardCosts.CardCostManager.FullCardCost.Clone">
   Clone()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Costs/CardCostManager.cs/#L223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1534,7 +1572,7 @@ If multiple custom costs share the same ResourceType, they will all be part of t
           amount
           </div>
         </td>
-        <td><p>The cost value of the CardInfo being checked.</p>
+        <td><p>The cost value of the <span class="xref">DiskCardGame.CardInfo</span> being checked.</p>
 </td>
       </tr>
       <tr>
@@ -1546,7 +1584,7 @@ If multiple custom costs share the same ResourceType, they will all be part of t
           cardInfo
           </div>
         </td>
-        <td><p>The CardInfo being checked.</p>
+        <td><p>The <span class="xref">DiskCardGame.CardInfo</span> being checked.</p>
 </td>
       </tr>
       <tr>

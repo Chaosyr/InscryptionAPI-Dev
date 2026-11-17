@@ -276,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Nodes_CustomPreviousNodesContent" data-uid="InscryptionAPI.Nodes.CustomPreviousNodesContent" class="text-break">
-Class CustomPreviousNodesContent  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L77"><i class="bi bi-code-slash"></i></a>
+Class CustomPreviousNodesContent  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -395,7 +395,7 @@ Class CustomPreviousNodesContent  <a class="header-action link-secondary" title=
 
   <h3 id="InscryptionAPI_Nodes_CustomPreviousNodesContent__ctor_System_String_System_String_System_Boolean_" data-uid="InscryptionAPI.Nodes.CustomPreviousNodesContent.#ctor(System.String,System.String,System.Boolean)">
   CustomPreviousNodesContent(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -490,9 +490,19 @@ Class CustomPreviousNodesContent  <a class="header-action link-secondary" title=
 
   <h3 id="InscryptionAPI_Nodes_CustomPreviousNodesContent_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData__" data-uid="InscryptionAPI.Nodes.CustomPreviousNodesContent.Satisfied(System.Int32,System.Collections.Generic.List{DiskCardGame.NodeData})">
   Satisfied(int, List&lt;NodeData&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Determines if this condition is satisfied and this node can be generated.
+<br><br>
+If <span class="xref">InscryptionAPI.Nodes.CustomPreviousNodesContent.doesContain</span> is true, return true if the previous nodes contain a node with the given <span class="xref">InscryptionAPI.Nodes.CustomPreviousNodesContent.name</span> and <span class="xref">InscryptionAPI.Nodes.CustomPreviousNodesContent.guid</span>.
+<br><br>
+If <span class="xref">InscryptionAPI.Nodes.CustomPreviousNodesContent.doesContain</span> is false, return true if the previous nodes do not contain a node with the given <span class="xref">InscryptionAPI.Nodes.CustomPreviousNodesContent.name</span> and <span class="xref">InscryptionAPI.Nodes.CustomPreviousNodesContent.guid</span>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Nodes_CustomPreviousNodesContent_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData___syntax">
@@ -526,7 +536,8 @@ Class CustomPreviousNodesContent  <a class="header-action link-secondary" title=
           gridY
           </div>
         </td>
-        <td></td>
+        <td><p>The y-index of this node. Higher values represent further nodes on the map.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -537,7 +548,8 @@ Class CustomPreviousNodesContent  <a class="header-action link-secondary" title=
           previousNodes
           </div>
         </td>
-        <td></td>
+        <td><p>The nodes generated at the previous y-index.</p>
+</td>
       </tr>
 
     </tbody>
@@ -557,7 +569,8 @@ Class CustomPreviousNodesContent  <a class="header-action link-secondary" title=
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if this node condition is satisfied and the node can be generated and added to the map.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -9,6 +9,7 @@
     <meta name="title" content="Class OpponentGemsManager | InscryptionAPI ">
 
 
+    <meta name="description" content="Class for handling gems currently possessed by the opponent. Allows for abilities and other behaviours that rely on owned gems to correctly work on both sides of the board.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class OpponentGemsManager">
 
 
+        <meta property="og:description" content="Class for handling gems currently possessed by the opponent. Allows for abilities and other behaviours that rely on owned gems to correctly work on both sides of the board.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class OpponentGemsManager">
 
 
+        <meta name="twitter:description" content="Class for handling gems currently possessed by the opponent. Allows for abilities and other behaviours that rely on owned gems to correctly work on both sides of the board.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Card_OpponentGemsManager" data-uid="InscryptionAPI.Card.OpponentGemsManager" class="text-break">
-Class OpponentGemsManager  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L4"><i class="bi bi-code-slash"></i></a>
+Class OpponentGemsManager  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,13 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Class for handling gems currently possessed by the opponent.
+Allows for abilities and other behaviours that rely on owned gems to correctly work on both sides of the board.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -820,9 +830,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_opponentGems" data-uid="InscryptionAPI.Card.OpponentGemsManager.opponentGems">
   opponentGems
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>List of gems currently owned by the opponent.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_opponentGems_syntax">
@@ -859,9 +875,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_AddGem_DiskCardGame_GemType_" data-uid="InscryptionAPI.Card.OpponentGemsManager.AddGem(DiskCardGame.GemType)">
   AddGem(GemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Adds a gem of the given type to the list of opponent-owned gems.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_AddGem_DiskCardGame_GemType__syntax">
@@ -895,7 +917,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
           gem
           </div>
         </td>
-        <td></td>
+        <td><p>Type of gem to add to the opponent's possession.</p>
+</td>
       </tr>
 
     </tbody>
@@ -919,9 +942,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_AddGems_DiskCardGame_GemType___" data-uid="InscryptionAPI.Card.OpponentGemsManager.AddGems(DiskCardGame.GemType[])">
   AddGems(params GemType[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Adds gems of the given types to the list of opponent-owned gems.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_AddGems_DiskCardGame_GemType____syntax">
@@ -955,7 +984,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
           gems
           </div>
         </td>
-        <td></td>
+        <td><p>Types of gems to add to the opponent's possession.</p>
+</td>
       </tr>
 
     </tbody>
@@ -979,9 +1009,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_ForceGemsUpdate" data-uid="InscryptionAPI.Card.OpponentGemsManager.ForceGemsUpdate">
   ForceGemsUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Forcefully updates the list of opponent-owned gems based on gems owned on the opponent's side of the board.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_ForceGemsUpdate_syntax">
@@ -1014,9 +1050,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_GemsOfType_DiskCardGame_GemType_" data-uid="InscryptionAPI.Card.OpponentGemsManager.GemsOfType(DiskCardGame.GemType)">
   GemsOfType(GemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>How many of a certain gem type the opponent possesses.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_GemsOfType_DiskCardGame_GemType__syntax">
@@ -1050,7 +1092,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
           gem
           </div>
         </td>
-        <td></td>
+        <td><p>The gem type to search for.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1070,7 +1113,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
+        <td><p>How many of the given gem type are owned by the opponent</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1092,9 +1136,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_HasGem_DiskCardGame_GemType_" data-uid="InscryptionAPI.Card.OpponentGemsManager.HasGem(DiskCardGame.GemType)">
   HasGem(GemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Determines if the opponent owns a given gem.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_HasGem_DiskCardGame_GemType__syntax">
@@ -1128,7 +1178,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
           gem
           </div>
         </td>
-        <td></td>
+        <td><p>The gem type to look for.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1148,7 +1199,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if the opponent owns at least one gem of the given type. False otherwise.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1170,9 +1222,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_LoseGem_DiskCardGame_GemType_" data-uid="InscryptionAPI.Card.OpponentGemsManager.LoseGem(DiskCardGame.GemType)">
   LoseGem(GemType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Removes a gem of the given type from the list of opponent-owned gems.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_LoseGem_DiskCardGame_GemType__syntax">
@@ -1206,7 +1264,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
           gem
           </div>
         </td>
-        <td></td>
+        <td><p>Type of gem to remove from the opponent's possession.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1230,9 +1289,15 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionAPI_Card_OpponentGemsManager_LoseGems_DiskCardGame_GemType___" data-uid="InscryptionAPI.Card.OpponentGemsManager.LoseGems(DiskCardGame.GemType[])">
   LoseGems(params GemType[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/OpponentGemsManager.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Removes gems of the given types from the list of opponent-owned gems.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_OpponentGemsManager_LoseGems_DiskCardGame_GemType____syntax">
@@ -1266,7 +1331,8 @@ Class OpponentGemsManager  <a class="header-action link-secondary" title="View s
           gems
           </div>
         </td>
-        <td></td>
+        <td><p>Types of gems to remove from the opponent's possession.</p>
+</td>
       </tr>
 
     </tbody>

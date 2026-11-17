@@ -9,6 +9,7 @@
     <meta name="title" content="Class CostProperties | InscryptionAPI ">
 
 
+    <meta name="description" content="Class that handles dynamic costs on  objects.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class CostProperties">
 
 
+        <meta property="og:description" content="Class that handles dynamic costs on  objects.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class CostProperties">
 
 
+        <meta name="twitter:description" content="Class that handles dynamic costs on  objects.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Card_CostProperties_CostProperties" data-uid="InscryptionAPI.Card.CostProperties.CostProperties" class="text-break">
-Class CostProperties  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class CostProperties  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class CostProperties  <a class="header-action link-secondary" title="View source
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Class that handles dynamic costs on <span class="xref">DiskCardGame.PlayableCard</span> objects.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -372,9 +381,15 @@ public static class CostProperties</code></pre>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_CardInfoToCard" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToCard">
   CardInfoToCard
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>A table that maps a <span class="xref">DiskCardGame.CardInfo</span> object to a list of weak references to every <span class="xref">DiskCardGame.PlayableCard</span> that uses that same <span class="xref">DiskCardGame.CardInfo</span>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CostProperties_CostProperties_CardInfoToCard_syntax">
@@ -403,40 +418,6 @@ public static class CostProperties</code></pre>
 
 
 
-
-  <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_CardInfoToPlayableCardReferences" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.CardInfoToPlayableCardReferences">
-  CardInfoToPlayableCardReferences
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L74"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-
-
-  <h4 id="InscryptionAPI_Card_CostProperties_CostProperties_CardInfoToPlayableCardReferences_syntax">
-    Syntax
-  </h4>
-  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
-
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public static ConditionalWeakTable&lt;CardInfo, List&lt;WeakReference&lt;PlayableCard&gt;&gt;&gt; CardInfoToPlayableCardReferences</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -445,13 +426,13 @@ public static class CostProperties</code></pre>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_ImprovedGemsCost_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.ImprovedGemsCost(DiskCardGame.CardInfo)">
   ImprovedGemsCost(CardInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Improved version of CardInfo.GemsCost that accounts for addGemCost and RemovedGemsCost().</p>
+  <p>Improved version of <span class="xref">DiskCardGame.CardInfo.GemsCost</span> that accounts for <span class="xref">DiskCardGame.CardModificationInfo.addGemCost</span> and <a class="xref" href="InscryptionAPI.Card.CardModificationInfoExtensions.html#InscryptionAPI_Card_CardModificationInfoExtensions_RemovedGemsCosts_DiskCardGame_CardModificationInfo_">RemovedGemsCosts(CardModificationInfo)</a>.</p>
 
   </div>
 
@@ -521,7 +502,7 @@ public static class CostProperties</code></pre>
 
   <h4 class="section" id="InscryptionAPI_Card_CostProperties_CostProperties_ImprovedGemsCost_DiskCardGame_CardInfo__remarks">Remarks</h4>
   <p>The following is additional information related to this member: </p>
-  <div class="markdown level1 remarks"><p>For consistency's sake, it's recommended you use this method over OriginalGemsCost in most cases.</p>
+  <div class="markdown level1 remarks"><p>For consistency's sake, it's recommended you use this method over <a class="xref" href="InscryptionAPI.Card.CostProperties.CostProperties.html#InscryptionAPI_Card_CostProperties_CostProperties_OriginalGemsCost_DiskCardGame_CardInfo_">OriginalGemsCost(CardInfo)</a> in most cases.</p>
 </div>
 
 
@@ -533,15 +514,15 @@ public static class CostProperties</code></pre>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_OriginalBloodCost_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.OriginalBloodCost(DiskCardGame.CardInfo)">
   OriginalBloodCost(CardInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>ChangeCardCostGetter patches BloodCost so we can change the cost on the fly
+  <p><span class="xref">InscryptionAPI.Card.CostProperties.ChangeCardCostGetter</span> patches <span class="xref">DiskCardGame.CardInfo.BloodCost</span> so we can change the cost on the fly
 This reverse patch gives us access to the original method without any changes.
-This method has a copy of all the code that CardInfo.BloodCost had so it doesn't result in a StackOverflow and freezing the game when called.</p>
+This method has a copy of all the code that <span class="xref">DiskCardGame.CardInfo.BloodCost</span> had so it doesn't result in a StackOverflow and freezing the game when called.</p>
 
   </div>
 
@@ -621,15 +602,15 @@ public static int OriginalBloodCost(CardInfo __instance)</code></pre>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_OriginalBonesCost_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.OriginalBonesCost(DiskCardGame.CardInfo)">
   OriginalBonesCost(CardInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>ChangeCardCostGetter patches BoneCost so we can change the cost on the fly
+  <p><span class="xref">InscryptionAPI.Card.CostProperties.ChangeCardCostGetter</span> patches <span class="xref">DiskCardGame.CardInfo.BonesCost</span> so we can change the cost on the fly
 This reverse patch gives us access to the original method without any changes.
-This method has a copy of all the code that CardInfo.BoneCost had so it doesn't result in a StackOverflow and freezing the game when called.</p>
+This method has a copy of all the code that <span class="xref">DiskCardGame.CardInfo.BonesCost</span> had so it doesn't result in a StackOverflow and freezing the game when called.</p>
 
   </div>
 
@@ -709,15 +690,15 @@ public static int OriginalBonesCost(CardInfo __instance)</code></pre>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_OriginalEnergyCost_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.OriginalEnergyCost(DiskCardGame.CardInfo)">
   OriginalEnergyCost(CardInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>ChangeCardCostGetter patches EnergyCost so we can change the cost on the fly
+  <p><span class="xref">InscryptionAPI.Card.CostProperties.ChangeCardCostGetter</span> patches <span class="xref">DiskCardGame.CardInfo.EnergyCost</span> so we can change the cost on the fly
 This reverse patch gives us access to the original method without any changes.
-This method has a copy of all the code that CardInfo.EnergyCost had so it doesn't result in a StackOverflow and freezing the game when called.</p>
+This method has a copy of all the code that <span class="xref">DiskCardGame.CardInfo.EnergyCost</span> had so it doesn't result in a StackOverflow and freezing the game when called.</p>
 
   </div>
 
@@ -797,15 +778,15 @@ public static int OriginalEnergyCost(CardInfo __instance)</code></pre>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_OriginalGemsCost_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.OriginalGemsCost(DiskCardGame.CardInfo)">
   OriginalGemsCost(CardInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>ChangeCardCostGetter patches GemsCost so we can change the cost on the fly
+  <p><span class="xref">InscryptionAPI.Card.CostProperties.ChangeCardCostGetter</span> patches <span class="xref">DiskCardGame.CardInfo.GemsCost</span> so we can change the cost on the fly
 This reverse patch gives us access to the original method without any changes.
-This method has a copy of all the code that CardInfo.GemsCost had so it doesn't result in a StackOverflow and freezing the game when called.</p>
+This method has a copy of all the code that <span class="xref">DiskCardGame.CardInfo.GemsCost</span> had so it doesn't result in a StackOverflow and freezing the game when called.</p>
 
   </div>
 
@@ -885,7 +866,7 @@ public static List&lt;GemType&gt; OriginalGemsCost(CardInfo __instance)</code></
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_ReduceGemifiedBlood_DiskCardGame_PlayableCard_System_Nullable_System_Int32__" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.ReduceGemifiedBlood(DiskCardGame.PlayableCard,System.Nullable{System.Int32})">
   ReduceGemifiedBlood(PlayableCard, int?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -927,7 +908,7 @@ public static List&lt;GemType&gt; OriginalGemsCost(CardInfo __instance)</code></
           card
           </div>
         </td>
-        <td><p>The gemified PlayableCard we're checking.</p>
+        <td><p>The gemified <span class="xref">DiskCardGame.PlayableCard</span> we're checking.</p>
 </td>
       </tr>
       <tr>
@@ -939,7 +920,7 @@ public static List&lt;GemType&gt; OriginalGemsCost(CardInfo __instance)</code></
           bloodCost
           </div>
         </td>
-        <td><p>The PlayableCard's blood cost. Defaults to using the CardInfo's blood cost if null.</p>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span>'s blood cost. Defaults to using the <span class="xref">DiskCardGame.CardInfo</span>'s blood cost if null.</p>
 </td>
       </tr>
 
@@ -988,7 +969,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_ReduceGemifiedBones_DiskCardGame_PlayableCard_System_Nullable_System_Int32__" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.ReduceGemifiedBones(DiskCardGame.PlayableCard,System.Nullable{System.Int32})">
   ReduceGemifiedBones(PlayableCard, int?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1030,7 +1011,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
           card
           </div>
         </td>
-        <td><p>The gemified PlayableCard we're checking.</p>
+        <td><p>The gemified <span class="xref">DiskCardGame.PlayableCard</span> we're checking.</p>
 </td>
       </tr>
       <tr>
@@ -1042,7 +1023,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
           bonesCost
           </div>
         </td>
-        <td><p>The PlayableCard's bone cost. Defaults to using the CardInfo's bone cost if null.</p>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span>'s bone cost. Defaults to using the <span class="xref">DiskCardGame.CardInfo</span>'s bone cost if null.</p>
 </td>
       </tr>
 
@@ -1091,7 +1072,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_ReduceGemifiedEnergy_DiskCardGame_PlayableCard_System_Nullable_System_Int32__" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.ReduceGemifiedEnergy(DiskCardGame.PlayableCard,System.Nullable{System.Int32})">
   ReduceGemifiedEnergy(PlayableCard, int?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1133,7 +1114,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
           card
           </div>
         </td>
-        <td><p>The gemified PlayableCard we're checking.</p>
+        <td><p>The gemified <span class="xref">DiskCardGame.PlayableCard</span> we're checking.</p>
 </td>
       </tr>
       <tr>
@@ -1145,7 +1126,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
           energyCost
           </div>
         </td>
-        <td><p>The PlayableCard's energy cost. Defaults to using the CardInfo's energy cost if null.</p>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span>'s energy cost. Defaults to using the <span class="xref">DiskCardGame.CardInfo</span>'s energy cost if null.</p>
 </td>
       </tr>
 
@@ -1194,7 +1175,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
 
   <h3 id="InscryptionAPI_Card_CostProperties_CostProperties_ReduceGemifiedMox_DiskCardGame_PlayableCard_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionAPI.Card.CostProperties.CostProperties.ReduceGemifiedMox(DiskCardGame.PlayableCard,System.Collections.Generic.List{DiskCardGame.GemType})">
   ReduceGemifiedMox(PlayableCard, List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CostProperties.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1236,7 +1217,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
           card
           </div>
         </td>
-        <td><p>The gemified PlayableCard we're checking.</p>
+        <td><p>The gemified <span class="xref">DiskCardGame.PlayableCard</span> we're checking.</p>
 </td>
       </tr>
       <tr>
@@ -1248,7 +1229,7 @@ Priority from first choice to last: Energy, Bones, Mox, Blood</p>
           gemsCost
           </div>
         </td>
-        <td><p>The PlayableCard's gems cost. Defaults to using the CardInfo's gems cost if null.</p>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span>'s gems cost. Defaults to using the <span class="xref">DiskCardGame.CardInfo</span>'s gems cost if null.</p>
 </td>
       </tr>
 

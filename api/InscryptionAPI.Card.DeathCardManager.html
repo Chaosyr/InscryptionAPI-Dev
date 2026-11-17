@@ -9,6 +9,7 @@
     <meta name="title" content="Class DeathCardManager | InscryptionAPI ">
 
 
+    <meta name="description" content="Class for handling custom death cards.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class DeathCardManager">
 
 
+        <meta property="og:description" content="Class for handling custom death cards.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class DeathCardManager">
 
 
+        <meta name="twitter:description" content="Class for handling custom death cards.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Card_DeathCardManager" data-uid="InscryptionAPI.Card.DeathCardManager" class="text-break">
-Class DeathCardManager  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class DeathCardManager  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class DeathCardManager  <a class="header-action link-secondary" title="View sour
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Class for handling custom death cards.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -372,9 +381,15 @@ public static class DeathCardManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_DeathCardManager_CardPrefix" data-uid="InscryptionAPI.Card.DeathCardManager.CardPrefix">
   CardPrefix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The prefix used by the API to demark custom death cards added through the <a class="xref" href="InscryptionAPI.Card.DeathCardManager.html">DeathCardManager</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_DeathCardManager_CardPrefix_syntax">
@@ -411,9 +426,15 @@ public static class DeathCardManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_DeathCardManager_APIDeathCards" data-uid="InscryptionAPI.Card.DeathCardManager.APIDeathCards">
   APIDeathCards
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>A list of all API-added death cards</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_DeathCardManager_APIDeathCards_syntax">
@@ -450,9 +471,15 @@ public static class DeathCardManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_DeathCardManager_AddDefaultDeathCard_DiskCardGame_CardModificationInfo_System_Boolean_" data-uid="InscryptionAPI.Card.DeathCardManager.AddDefaultDeathCard(DiskCardGame.CardModificationInfo,System.Boolean)">
   AddDefaultDeathCard(CardModificationInfo, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Adds a death card to the list of default death cards available at the start of each run.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_DeathCardManager_AddDefaultDeathCard_DiskCardGame_CardModificationInfo_System_Boolean__syntax">
@@ -486,7 +513,8 @@ public static class DeathCardManager</code></pre>
           deathCardMod
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardModificationInfo</span> containing the death card data.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -497,7 +525,8 @@ public static class DeathCardManager</code></pre>
           addToAscension
           </div>
         </td>
-        <td></td>
+        <td><p>If true, will add <code class="paramref">deathCardMod</code> to the list of ascension death cards rather than the default (Part 1) pool.</p>
+</td>
       </tr>
 
     </tbody>
@@ -521,9 +550,15 @@ public static class DeathCardManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_DeathCardManager_GetAPIDeathCardName_DiskCardGame_CardModificationInfo_System_Boolean_" data-uid="InscryptionAPI.Card.DeathCardManager.GetAPIDeathCardName(DiskCardGame.CardModificationInfo,System.Boolean)">
   GetAPIDeathCardName(CardModificationInfo, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/DeathCardManager.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Gets the name of an API-added death card from the given <span class="xref">DiskCardGame.CardModificationInfo</span>. Can also create a new death card using the given <span class="xref">DiskCardGame.CardModificationInfo</span>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_DeathCardManager_GetAPIDeathCardName_DiskCardGame_CardModificationInfo_System_Boolean__syntax">
@@ -557,7 +592,8 @@ public static class DeathCardManager</code></pre>
           mod
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardModificationInfo</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -568,7 +604,8 @@ public static class DeathCardManager</code></pre>
           createNewCard
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not to create a new death card with the given name. Appends a number for duplicate card names.</p>
+</td>
       </tr>
 
     </tbody>
@@ -588,7 +625,8 @@ public static class DeathCardManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>The internal name of the death card associated with the given <span class="xref">DiskCardGame.CardModificationInfo</span>.</p>
+</td>
       </tr>
     </tbody>
   </table>

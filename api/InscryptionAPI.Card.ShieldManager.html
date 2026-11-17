@@ -9,7 +9,7 @@
     <meta name="title" content="Class ShieldManager | InscryptionAPI ">
 
 
-    <meta name="description" content="This manager class handles the logic for shields.">
+    <meta name="description" content="Manager class that handles the logic for shields.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Class ShieldManager">
 
 
-        <meta property="og:description" content="This manager class handles the logic for shields.">
+        <meta property="og:description" content="Manager class that handles the logic for shields.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Class ShieldManager">
 
 
-        <meta name="twitter:description" content="This manager class handles the logic for shields.">
+        <meta name="twitter:description" content="Manager class that handles the logic for shields.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -293,7 +293,7 @@ Class ShieldManager  <a class="header-action link-secondary" title="View source"
   <div class="markdown summary">
     <h2>Summary</h2>
     <p>The following is a brief description of what this type does, and what it is meant for: </p>
-  <p>This manager class handles the logic for shields.</p>
+  <p>Manager class that handles the logic for shields.</p>
 
   </div>
 
@@ -388,7 +388,7 @@ public static class ShieldManager</code></pre>
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>A list of FullAbilities whose AbilityBehaviour overrides DamageShieldBehaviour.</p>
+  <p>A list of FullAbilities whose <span class="xref">DiskCardGame.AbilityBehaviour</span> inherits from <a class="xref" href="InscryptionAPI.Card.DamageShieldBehaviour.html">DamageShieldBehaviour</a>.</p>
 
   </div>
 
@@ -423,9 +423,15 @@ public static class ShieldManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_ShieldManager_AllShieldInfos" data-uid="InscryptionAPI.Card.ShieldManager.AllShieldInfos">
   AllShieldInfos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>The current processed list of all <span class="xref">DiskCardGame.AbilityInfo</span>s in the game that inherit from <a class="xref" href="InscryptionAPI.Card.DamageShieldBehaviour.html">DamageShieldBehaviour</a>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_ShieldManager_AllShieldInfos_syntax">
@@ -462,14 +468,14 @@ public static class ShieldManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_ShieldManager_BreakShield_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Card.ShieldManager.BreakShield(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
   BreakShield(PlayableCard, int, PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>The method used for when a shielded card is damaged. Includes extra parameters for modders looking to modify this further.
-This method is only called when damage &gt; 0 and the target has a shield.</p>
+This method is only called when <code class="paramref">damage</code> &gt; 0 and the target has a shield.</p>
 
   </div>
 
@@ -554,13 +560,13 @@ This method is only called when damage &gt; 0 and the target has a shield.</p>
 
   <h3 id="InscryptionAPI_Card_ShieldManager_NewHasShield_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Card.ShieldManager.NewHasShield(DiskCardGame.PlayableCard)">
   NewHasShield(PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Modified version of PlayableCard.HasShield that replaces the original method's result.</p>
+  <p>Modified version of <span class="xref">DiskCardGame.PlayableCard.HasShield()</span> that replaces the original method's result.</p>
 
   </div>
 
@@ -638,13 +644,13 @@ This method is only called when damage &gt; 0 and the target has a shield.</p>
 
   <h3 id="InscryptionAPI_Card_ShieldManager_TriggerBreakShield_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Card.ShieldManager.TriggerBreakShield(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
   TriggerBreakShield(PlayableCard, int, PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/ShieldManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>IEnumerator method that wraps BreakShield. Also contains code for triggering IShieldPreventedDamage and IShieldPreventedDamageInHand.</p>
+  <p>IEnumerator method that wraps <a class="xref" href="InscryptionAPI.Card.ShieldManager.html#InscryptionAPI_Card_ShieldManager_BreakShield_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_">BreakShield(PlayableCard, int, PlayableCard)</a>. Also contains code for triggering <a class="xref" href="InscryptionAPI.Triggers.IShieldPreventedDamage.html">IShieldPreventedDamage</a> and <a class="xref" href="InscryptionAPI.Triggers.IShieldPreventedDamageInHand.html">IShieldPreventedDamageInHand</a>.</p>
 
   </div>
 

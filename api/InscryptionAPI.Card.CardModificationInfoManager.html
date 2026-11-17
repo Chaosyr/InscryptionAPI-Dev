@@ -9,7 +9,7 @@
     <meta name="title" content="Class CardModificationInfoManager | InscryptionAPI ">
 
 
-    <meta name="description" content="Class for managing special CardModificationInfos. These include persistent extended properties and custom costs.">
+    <meta name="description" content="Class for managing special s. These include persistent extended properties and custom costs.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Class CardModificationInfoManager">
 
 
-        <meta property="og:description" content="Class for managing special CardModificationInfos. These include persistent extended properties and custom costs.">
+        <meta property="og:description" content="Class for managing special s. These include persistent extended properties and custom costs.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Class CardModificationInfoManager">
 
 
-        <meta name="twitter:description" content="Class for managing special CardModificationInfos. These include persistent extended properties and custom costs.">
+        <meta name="twitter:description" content="Class for managing special s. These include persistent extended properties and custom costs.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -293,7 +293,7 @@ Class CardModificationInfoManager  <a class="header-action link-secondary" title
   <div class="markdown summary">
     <h2>Summary</h2>
     <p>The following is a brief description of what this type does, and what it is meant for: </p>
-  <p>Class for managing special CardModificationInfos.
+  <p>Class for managing special <span class="xref">DiskCardGame.CardModificationInfo</span>s.
 These include persistent extended properties and custom costs.</p>
 
   </div>
@@ -383,9 +383,15 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsFromId_System_String_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetCustomCostsFromId(System.String)">
   GetCustomCostsFromId(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves all custom costs stored in the given singleton ID string.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsFromId_System_String__syntax">
@@ -419,7 +425,8 @@ public static class CardModificationInfoManager</code></pre>
           singletonId
           </div>
         </td>
-        <td></td>
+        <td><p>The singleton ID string to retrieve custom costs from.</p>
+</td>
       </tr>
 
     </tbody>
@@ -439,7 +446,8 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td></td>
+        <td><p>A List of all custom costs stored by the singleton ID.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -451,6 +459,14 @@ public static class CardModificationInfoManager</code></pre>
 
 
 
+  <h4 class="section" id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsFromId_System_String__remarks">Remarks</h4>
+  <p>The following is additional information related to this member: </p>
+  <div class="markdown level1 remarks"><b>
+Avoid using <span class="xref">DiskCardGame.CardModificationInfo</span>s to add custom costs to cards. Instead use <a class="xref" href="InscryptionAPI.Card.CardExtensions.html#InscryptionAPI_Card_CardExtensions_SetCustomCost__1_DiskCardGame_CardInfo_System_Int32_">SetCustomCost&lt;T&gt;(CardInfo, int)</a> and the much better <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.
+<br><br>
+Only use this if you're trying to do cost adjustments like you can with vanilla costs and <span class="xref">DiskCardGame.CardModificationInfo</span>s.
+</b>
+</div>
 
 
 
@@ -461,9 +477,15 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsIdString_DiskCardGame_CardModificationInfo_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetCustomCostsIdString(DiskCardGame.CardModificationInfo)">
   GetCustomCostsIdString(CardModificationInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves the custom costs substring from the given <span class="xref">DiskCardGame.CardModificationInfo</span>'s singleton ID.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsIdString_DiskCardGame_CardModificationInfo__syntax">
@@ -497,7 +519,8 @@ public static class CardModificationInfoManager</code></pre>
           mod
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardModificationInfo</span> to access.</p>
+</td>
       </tr>
 
     </tbody>
@@ -517,7 +540,8 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>The custom costs substring or null if one doesn't exist.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -529,6 +553,14 @@ public static class CardModificationInfoManager</code></pre>
 
 
 
+  <h4 class="section" id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsIdString_DiskCardGame_CardModificationInfo__remarks">Remarks</h4>
+  <p>The following is additional information related to this member: </p>
+  <div class="markdown level1 remarks"><b>
+Avoid using <span class="xref">DiskCardGame.CardModificationInfo</span>s to add custom costs to cards. Instead use <a class="xref" href="InscryptionAPI.Card.CardExtensions.html#InscryptionAPI_Card_CardExtensions_SetCustomCost__1_DiskCardGame_CardInfo_System_Int32_">SetCustomCost&lt;T&gt;(CardInfo, int)</a> and the much better <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.
+<br><br>
+Only use this if you're trying to do cost adjustments like you can with vanilla costs and <span class="xref">DiskCardGame.CardModificationInfo</span>s.
+</b>
+</div>
 
 
 
@@ -539,9 +571,15 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsIdString_System_String_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetCustomCostsIdString(System.String)">
   GetCustomCostsIdString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves the custom costs substring from the given singleton ID string.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsIdString_System_String__syntax">
@@ -575,7 +613,8 @@ public static class CardModificationInfoManager</code></pre>
           singletonId
           </div>
         </td>
-        <td></td>
+        <td><p>The singleton ID string to access.</p>
+</td>
       </tr>
 
     </tbody>
@@ -595,7 +634,8 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>The custom costs substring or null if one doesn't exist.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -607,6 +647,14 @@ public static class CardModificationInfoManager</code></pre>
 
 
 
+  <h4 class="section" id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomCostsIdString_System_String__remarks">Remarks</h4>
+  <p>The following is additional information related to this member: </p>
+  <div class="markdown level1 remarks"><b>
+Avoid using <span class="xref">DiskCardGame.CardModificationInfo</span>s to add custom costs to cards. Instead use <a class="xref" href="InscryptionAPI.Card.CardExtensions.html#InscryptionAPI_Card_CardExtensions_SetCustomCost__1_DiskCardGame_CardInfo_System_Int32_">SetCustomCost&lt;T&gt;(CardInfo, int)</a> and the much better <a class="xref" href="InscryptionAPI.CardCosts.CardCostManager.html">CardCostManager</a>.
+<br><br>
+Only use this if you're trying to do cost adjustments like you can with vanilla costs and <span class="xref">DiskCardGame.CardModificationInfo</span>s.
+</b>
+</div>
 
 
 
@@ -617,9 +665,15 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomPropertiesFromId_System_String_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetCustomPropertiesFromId(System.String)">
   GetCustomPropertiesFromId(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves all custom properties stored in the given singleton ID string.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomPropertiesFromId_System_String__syntax">
@@ -653,7 +707,8 @@ public static class CardModificationInfoManager</code></pre>
           singletonId
           </div>
         </td>
-        <td></td>
+        <td><p>The singleton ID string to retrieve custom properties from.</p>
+</td>
       </tr>
 
     </tbody>
@@ -673,7 +728,8 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td></td>
+        <td><p>A List of all custom properties stored by the singleton ID.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -695,9 +751,15 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomPropertiesIdString_DiskCardGame_CardModificationInfo_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetCustomPropertiesIdString(DiskCardGame.CardModificationInfo)">
   GetCustomPropertiesIdString(CardModificationInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves the custom properties substring from the given <span class="xref">DiskCardGame.CardModificationInfo</span>'s singleton ID.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomPropertiesIdString_DiskCardGame_CardModificationInfo__syntax">
@@ -731,7 +793,8 @@ public static class CardModificationInfoManager</code></pre>
           mod
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardModificationInfo</span> to access.</p>
+</td>
       </tr>
 
     </tbody>
@@ -751,7 +814,8 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>The custom properties substring or null if one doesn't exist.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -773,9 +837,15 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomPropertiesIdString_System_String_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetCustomPropertiesIdString(System.String)">
   GetCustomPropertiesIdString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves the custom properties substring from the given singleton ID string.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Card_CardModificationInfoManager_GetCustomPropertiesIdString_System_String__syntax">
@@ -809,7 +879,8 @@ public static class CardModificationInfoManager</code></pre>
           singletonId
           </div>
         </td>
-        <td></td>
+        <td><p>The singleton ID string to access.</p>
+</td>
       </tr>
 
     </tbody>
@@ -829,7 +900,8 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
+        <td><p>The custom properties substring or null if one doesn't exist.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -937,7 +1009,7 @@ public static class CardModificationInfoManager</code></pre>
         <td>
           <span class="parametername">T</span>
         </td>
-        <td><p>The custom class</p>
+        <td><p>The custom class.</p>
 </td>
       </tr>
 
@@ -958,13 +1030,13 @@ public static class CardModificationInfoManager</code></pre>
 
   <h3 id="InscryptionAPI_Card_CardModificationInfoManager_GetIdKeyPair_System_String_System_String_" data-uid="InscryptionAPI.Card.CardModificationInfoManager.GetIdKeyPair(System.String,System.String)">
   GetIdKeyPair(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Card/CardModificationInfoManager.cs/#L217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Retrieves the property name and associated value from the provided 'properties' string.</p>
+  <p>Retrieves the property name and associated value from the <code class="paramref">properties</code> string.</p>
 
   </div>
 
@@ -1033,7 +1105,7 @@ public static class CardModificationInfoManager</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>A string containing the key and the value separated by a comma like so: 'key,value'</p>
+        <td><p>A string containing the key and the value separated by a comma like so: <code>key,value</code></p>
 </td>
       </tr>
     </tbody>
@@ -1062,7 +1134,7 @@ public static class CardModificationInfoManager</code></pre>
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Re-executes events and rebuilds the special CardModificationInfo pool.</p>
+  <p>Re-executes events and rebuilds the special <span class="xref">DiskCardGame.CardModificationInfo</span> pool.</p>
 
   </div>
 

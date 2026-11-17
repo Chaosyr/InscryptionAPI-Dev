@@ -9,6 +9,7 @@
     <meta name="title" content="Class RegionExtensions | InscryptionAPI ">
 
 
+    <meta name="description" content="Utility class that adds extensions to aid in creating and modifying .">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class RegionExtensions">
 
 
+        <meta property="og:description" content="Utility class that adds extensions to aid in creating and modifying .">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class RegionExtensions">
 
 
+        <meta name="twitter:description" content="Utility class that adds extensions to aid in creating and modifying .">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Regions_RegionExtensions" data-uid="InscryptionAPI.Regions.RegionExtensions" class="text-break">
-Class RegionExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class RegionExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Utility class that adds extensions to aid in creating and modifying <span class="xref">DiskCardGame.RegionData</span>.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -372,9 +381,15 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddBosses_DiskCardGame_RegionData_DiskCardGame_Opponent_Type___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddBosses(DiskCardGame.RegionData,DiskCardGame.Opponent.Type[])">
   AddBosses(RegionData, params Type[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L249"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Adds bosses that can appear in this region.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_AddBosses_DiskCardGame_RegionData_DiskCardGame_Opponent_Type____syntax">
@@ -408,7 +423,8 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -419,7 +435,8 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
           bosses
           </div>
         </td>
-        <td></td>
+        <td><p>The IDs for all bosses that can appear in this region.</p>
+</td>
       </tr>
 
     </tbody>
@@ -439,7 +456,8 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -461,9 +479,17 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddConsumableItems_DiskCardGame_RegionData_DiskCardGame_ConsumableItemData___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddConsumableItems(DiskCardGame.RegionData,DiskCardGame.ConsumableItemData[])">
   AddConsumableItems(RegionData, params ConsumableItemData[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Adds consumables to this region.<br>
+This only applies to consumables that are <span class="xref">DiskCardGame.ConsumableItemData.regionSpecific</span>.
+Adding non-region-specific consumables will increase the probability of the consumable appearing.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_AddConsumableItems_DiskCardGame_RegionData_DiskCardGame_ConsumableItemData____syntax">
@@ -497,7 +523,8 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -508,7 +535,8 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
           consumables
           </div>
         </td>
-        <td></td>
+        <td><p>Names of items to appear in this region.</p>
+</td>
       </tr>
 
     </tbody>
@@ -528,7 +556,8 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -550,14 +579,15 @@ Class RegionExtensions  <a class="header-action link-secondary" title="View sour
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddConsumableItems_DiskCardGame_RegionData_System_String___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddConsumableItems(DiskCardGame.RegionData,System.String[])">
   AddConsumableItems(RegionData, params string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>Adds consumables to this region.<br>
-This only applies to consumables that are <code>regionSpecific</code>. Adding non-region-specific consumables will increase the probability of the consumable appearing.</p>
+This only applies to consumables that are <span class="xref">DiskCardGame.ConsumableItemData.regionSpecific</span>.
+Adding non-region-specific consumables will increase the probability of the consumable appearing.</p>
 
   </div>
 
@@ -593,7 +623,8 @@ This only applies to consumables that are <code>regionSpecific</code>. Adding no
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -604,7 +635,7 @@ This only applies to consumables that are <code>regionSpecific</code>. Adding no
           consumables
           </div>
         </td>
-        <td><p>.</p>
+        <td><p>Names of items to appear in this region.</p>
 </td>
       </tr>
 
@@ -625,7 +656,8 @@ This only applies to consumables that are <code>regionSpecific</code>. Adding no
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -647,7 +679,7 @@ This only applies to consumables that are <code>regionSpecific</code>. Adding no
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddDominantTribes_DiskCardGame_RegionData_DiskCardGame_Tribe___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddDominantTribes(DiskCardGame.RegionData,DiskCardGame.Tribe[])">
   AddDominantTribes(RegionData, params Tribe[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -691,7 +723,8 @@ Every region must have at least one dominant tribe.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -723,7 +756,8 @@ Every region must have at least one dominant tribe.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -745,7 +779,7 @@ Every region must have at least one dominant tribe.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddEncounters_DiskCardGame_RegionData_DiskCardGame_EncounterBlueprintData___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddEncounters(DiskCardGame.RegionData,DiskCardGame.EncounterBlueprintData[])">
   AddEncounters(RegionData, params EncounterBlueprintData[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -788,7 +822,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -820,7 +855,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -842,9 +878,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddFillerScenery_DiskCardGame_RegionData_DiskCardGame_FillerSceneryEntry___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddFillerScenery(DiskCardGame.RegionData,DiskCardGame.FillerSceneryEntry[])">
   AddFillerScenery(RegionData, params FillerSceneryEntry[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the data used for this region's map's filler scenery objects.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_AddFillerScenery_DiskCardGame_RegionData_DiskCardGame_FillerSceneryEntry____syntax">
@@ -878,7 +920,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -889,7 +932,8 @@ Every region with battles needs at least one encounter.</p>
           fillerScenery
           </div>
         </td>
-        <td></td>
+        <td><p>The data for determining what objects are used to fill the map's filler scenery.</p>
+</td>
       </tr>
 
     </tbody>
@@ -909,7 +953,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -931,14 +976,14 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddLikelyCards_DiskCardGame_RegionData_System_String___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddLikelyCards(DiskCardGame.RegionData,System.String[])">
   AddLikelyCards(RegionData, params string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Adds likely cards to this region.<br>
-Likely cards require the <code>ChoiceNode</code> metacategory to appear.<br>
+  <p>Adds cards that are more likely to appear in this region's choice nodes.<br>
+Likely cards still require the <span class="xref">DiskCardGame.CardMetaCategory.ChoiceNode</span> metacategory.<br>
 One of three normal card choices is guaranteed to contain a card from the region's likely cards.</p>
 
   </div>
@@ -975,7 +1020,8 @@ One of three normal card choices is guaranteed to contain a card from the region
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1007,7 +1053,8 @@ One of three normal card choices is guaranteed to contain a card from the region
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1029,9 +1076,15 @@ One of three normal card choices is guaranteed to contain a card from the region
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddScarceScenery_DiskCardGame_RegionData_DiskCardGame_ScarceSceneryEntry___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddScarceScenery(DiskCardGame.RegionData,DiskCardGame.ScarceSceneryEntry[])">
   AddScarceScenery(RegionData, params ScarceSceneryEntry[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L379"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the data used for this region's map's scarce scenery objects.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_AddScarceScenery_DiskCardGame_RegionData_DiskCardGame_ScarceSceneryEntry____syntax">
@@ -1065,7 +1118,8 @@ One of three normal card choices is guaranteed to contain a card from the region
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1076,7 +1130,8 @@ One of three normal card choices is guaranteed to contain a card from the region
           scarceScenery
           </div>
         </td>
-        <td></td>
+        <td><p>The data for determining what objects are used to fill the map's scarce scenery.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1096,7 +1151,8 @@ One of three normal card choices is guaranteed to contain a card from the region
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1118,14 +1174,14 @@ One of three normal card choices is guaranteed to contain a card from the region
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_AddTerrainCards_DiskCardGame_RegionData_System_String___" data-uid="InscryptionAPI.Regions.RegionExtensions.AddTerrainCards(DiskCardGame.RegionData,System.String[])">
   AddTerrainCards(RegionData, params string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
   <p>Adds terrain cards to this region.<br>
-Terrain cards require the <code>Terrain</code> trait to appear.<br>
+Terrain cards require the <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Terrain.html">Terrain</a> trait to appear.<br>
 Every region must have at least one valid terrain card.</p>
 
   </div>
@@ -1162,7 +1218,8 @@ Every region must have at least one valid terrain card.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1194,7 +1251,8 @@ Every region must have at least one valid terrain card.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1216,9 +1274,15 @@ Every region must have at least one valid terrain card.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_Build_DiskCardGame_RegionData_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="InscryptionAPI.Regions.RegionExtensions.Build(DiskCardGame.RegionData,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
   Build(RegionData, bool, bool, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L438"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Validates the region and outputs console warnings if it's missing any important data.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_Build_DiskCardGame_RegionData_System_Boolean_System_Boolean_System_Boolean_System_Boolean__syntax">
@@ -1252,7 +1316,8 @@ Every region must have at least one valid terrain card.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1263,7 +1328,8 @@ Every region must have at least one valid terrain card.</p>
           ignoreTerrainWarning
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not the API should output a console warning when this region has no terrain cards.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1274,7 +1340,8 @@ Every region must have at least one valid terrain card.</p>
           ignoreTribesWarning
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not the API should output a console warning when this region has no dominant tribes.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1285,7 +1352,8 @@ Every region must have at least one valid terrain card.</p>
           ignoreEncountersWarning
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not the API should output a console warning when this region has no encounters.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1296,7 +1364,8 @@ Every region must have at least one valid terrain card.</p>
           ignoreBossesWarning
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not the API should output a console warning when this region has no bosses.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1316,7 +1385,8 @@ Every region must have at least one valid terrain card.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1338,7 +1408,7 @@ Every region must have at least one valid terrain card.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_CreateEncounter_DiskCardGame_RegionData_System_String_" data-uid="InscryptionAPI.Regions.RegionExtensions.CreateEncounter(DiskCardGame.RegionData,System.String)">
   CreateEncounter(RegionData, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1381,7 +1451,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1413,7 +1484,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="InscryptionAPI.Encounters.EncounterBuilderBlueprintData.html">EncounterBuilderBlueprintData</a></td>
-        <td></td>
+        <td><p>The created encounter data.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1435,9 +1507,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_RegionByName_System_Collections_Generic_IEnumerable_DiskCardGame_RegionData__System_String_" data-uid="InscryptionAPI.Regions.RegionExtensions.RegionByName(System.Collections.Generic.IEnumerable{DiskCardGame.RegionData},System.String)">
   RegionByName(IEnumerable&lt;RegionData&gt;, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Retrieves the <span class="xref">DiskCardGame.RegionData</span> with the given name.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_RegionByName_System_Collections_Generic_IEnumerable_DiskCardGame_RegionData__System_String__syntax">
@@ -1471,7 +1549,8 @@ Every region with battles needs at least one encounter.</p>
           regions
           </div>
         </td>
-        <td></td>
+        <td><p>Collection of <span class="xref">DiskCardGame.RegionData</span> objects to search for.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1482,7 +1561,8 @@ Every region with battles needs at least one encounter.</p>
           name
           </div>
         </td>
-        <td></td>
+        <td><p>Region name to look for.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1502,7 +1582,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> with the given name, or null if one couldn't be found.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1524,7 +1605,7 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetAmbientLoopId_DiskCardGame_RegionData_System_String_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetAmbientLoopId(DiskCardGame.RegionData,System.String)">
   SetAmbientLoopId(RegionData, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L351"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1566,7 +1647,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1598,7 +1680,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1620,9 +1703,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetBoardColor_DiskCardGame_RegionData_UnityEngine_Color_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetBoardColor(DiskCardGame.RegionData,UnityEngine.Color)">
   SetBoardColor(RegionData, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L156"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets this region's board lighting colour.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetBoardColor_DiskCardGame_RegionData_UnityEngine_Color__syntax">
@@ -1656,7 +1745,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1667,7 +1757,8 @@ Every region with battles needs at least one encounter.</p>
           color
           </div>
         </td>
-        <td></td>
+        <td><p>The colour to set the board lighting to.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1687,7 +1778,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1709,13 +1801,14 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetBossPrepCondition_DiskCardGame_RegionData_DiskCardGame_StoryEventCondition_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetBossPrepCondition(DiskCardGame.RegionData,DiskCardGame.StoryEventCondition)">
   SetBossPrepCondition(RegionData, StoryEventCondition)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Sets the boss prep encounter condition for this region. If this condition is not met, the 'boss prep encounter' will not appear.</p>
+  <p>Sets the boss prep encounter condition for this region.
+If this condition is not met, the 'boss prep encounter' will not appear.</p>
 
   </div>
 
@@ -1751,7 +1844,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1783,7 +1877,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1805,13 +1900,14 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetBossPrepEncounter_DiskCardGame_RegionData_DiskCardGame_EncounterBlueprintData_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetBossPrepEncounter(DiskCardGame.RegionData,DiskCardGame.EncounterBlueprintData)">
   SetBossPrepEncounter(RegionData, EncounterBlueprintData)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Sets the boss prep encounter for this region. The boss prep encounter is the final battle node in the region, before the boss.</p>
+  <p>Sets the boss prep encounter for this region.
+The boss prep encounter is the final battle node in the region, before the boss.</p>
 
   </div>
 
@@ -1847,7 +1943,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1879,7 +1976,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1901,7 +1999,7 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetCanAppearRandomly_DiskCardGame_RegionData_System_Boolean_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetCanAppearRandomly(DiskCardGame.RegionData,System.Boolean)">
   SetCanAppearRandomly(RegionData, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1943,7 +2041,7 @@ Every region with battles needs at least one encounter.</p>
           data
           </div>
         </td>
-        <td><p>The RegionData for the region we are modifying.</p>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> for the region we are modifying.</p>
 </td>
       </tr>
       <tr>
@@ -1976,7 +2074,7 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td><p>The same RegionData so a chain can continue.</p>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
 </td>
       </tr>
     </tbody>
@@ -1999,9 +2097,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetCardsColor_DiskCardGame_RegionData_UnityEngine_Color_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetCardsColor(DiskCardGame.RegionData,UnityEngine.Color)">
   SetCardsColor(RegionData, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets this region's card lighting colour.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetCardsColor_DiskCardGame_RegionData_UnityEngine_Color__syntax">
@@ -2035,7 +2139,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2046,7 +2151,8 @@ Every region with battles needs at least one encounter.</p>
           color
           </div>
         </td>
-        <td></td>
+        <td><p>The colour to set the card lighting to.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2066,7 +2172,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2088,9 +2195,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetDustParticlesEnabled_DiskCardGame_RegionData_System_Boolean_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetDustParticlesEnabled(DiskCardGame.RegionData,System.Boolean)">
   SetDustParticlesEnabled(RegionData, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets whether or not dust particles should appear on the map while in this region.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetDustParticlesEnabled_DiskCardGame_RegionData_System_Boolean__syntax">
@@ -2124,7 +2237,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2135,7 +2249,8 @@ Every region with battles needs at least one encounter.</p>
           enabled
           </div>
         </td>
-        <td></td>
+        <td><p>If dust particles should appear while in this region.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2155,7 +2270,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2177,9 +2293,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetFogAlpha_DiskCardGame_RegionData_System_Single_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetFogAlpha(DiskCardGame.RegionData,System.Single)">
   SetFogAlpha(RegionData, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L292"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the fog's alpha value.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetFogAlpha_DiskCardGame_RegionData_System_Single__syntax">
@@ -2213,7 +2335,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2224,7 +2347,8 @@ Every region with battles needs at least one encounter.</p>
           alpha
           </div>
         </td>
-        <td></td>
+        <td><p>How opaque/transparent the fog should be. Value ranges from [0.0, 1.0]</p>
+</td>
       </tr>
 
     </tbody>
@@ -2244,7 +2368,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2266,9 +2391,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetFogEnabled_DiskCardGame_RegionData_System_Boolean_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetFogEnabled(DiskCardGame.RegionData,System.Boolean)">
   SetFogEnabled(RegionData, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L280"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets whether or not fog should appear on the map while in this region.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetFogEnabled_DiskCardGame_RegionData_System_Boolean__syntax">
@@ -2302,7 +2433,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2313,7 +2445,8 @@ Every region with battles needs at least one encounter.</p>
           enabled
           </div>
         </td>
-        <td></td>
+        <td><p>If fog should appear while in this region.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2333,7 +2466,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2355,9 +2489,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetFogProfile_DiskCardGame_RegionData_VolumetricFogAndMist_VolumetricFogProfile_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetFogProfile(DiskCardGame.RegionData,VolumetricFogAndMist.VolumetricFogProfile)">
   SetFogProfile(RegionData, VolumetricFogProfile)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L395"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the data used for how map fog should appear in this region.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetFogProfile_DiskCardGame_RegionData_VolumetricFogAndMist_VolumetricFogProfile__syntax">
@@ -2391,7 +2531,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2402,7 +2543,8 @@ Every region with battles needs at least one encounter.</p>
           fogProfile
           </div>
         </td>
-        <td></td>
+        <td><p>The description object that controls how the fog appears.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2422,7 +2564,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2444,9 +2587,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetMapAlbedo_DiskCardGame_RegionData_UnityEngine_Texture_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetMapAlbedo(DiskCardGame.RegionData,UnityEngine.Texture)">
   SetMapAlbedo(RegionData, Texture)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L407"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the albedo texture for this region's map.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetMapAlbedo_DiskCardGame_RegionData_UnityEngine_Texture__syntax">
@@ -2480,7 +2629,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2491,7 +2641,8 @@ Every region with battles needs at least one encounter.</p>
           mapAlbedo
           </div>
         </td>
-        <td></td>
+        <td><p>The texture used for the map's albedo..</p>
+</td>
       </tr>
 
     </tbody>
@@ -2511,7 +2662,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2533,9 +2685,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetMapEmission_DiskCardGame_RegionData_UnityEngine_Texture_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetMapEmission(DiskCardGame.RegionData,UnityEngine.Texture)">
   SetMapEmission(RegionData, Texture)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L304"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the emission texture for this region's map object.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetMapEmission_DiskCardGame_RegionData_UnityEngine_Texture__syntax">
@@ -2569,7 +2727,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2580,7 +2739,8 @@ Every region with battles needs at least one encounter.</p>
           texture
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture.html">Texture</a> to use for the map emission.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2600,7 +2760,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2622,9 +2783,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetMapEmission_DiskCardGame_RegionData_UnityEngine_Texture2D_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetMapEmission(DiskCardGame.RegionData,UnityEngine.Texture2D)">
   SetMapEmission(RegionData, Texture2D)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L315"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the emission texture for this region's map object.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetMapEmission_DiskCardGame_RegionData_UnityEngine_Texture2D__syntax">
@@ -2658,7 +2825,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2669,7 +2837,8 @@ Every region with battles needs at least one encounter.</p>
           texture
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a> to use for the map emission.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2689,7 +2858,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2711,9 +2881,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetMapEmissionColor_DiskCardGame_RegionData_UnityEngine_Color_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetMapEmissionColor(DiskCardGame.RegionData,UnityEngine.Color)">
   SetMapEmissionColor(RegionData, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L327"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the map emission's colour.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetMapEmissionColor_DiskCardGame_RegionData_UnityEngine_Color__syntax">
@@ -2747,7 +2923,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2758,7 +2935,8 @@ Every region with battles needs at least one encounter.</p>
           color
           </div>
         </td>
-        <td></td>
+        <td><p>The colour to use for the map emission.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2778,7 +2956,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2800,9 +2979,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetMapParticlesPrefabs_DiskCardGame_RegionData_UnityEngine_GameObject___" data-uid="InscryptionAPI.Regions.RegionExtensions.SetMapParticlesPrefabs(DiskCardGame.RegionData,UnityEngine.GameObject[])">
   SetMapParticlesPrefabs(RegionData, params GameObject[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L419"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the prefab objects for this particles on this region's map.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetMapParticlesPrefabs_DiskCardGame_RegionData_UnityEngine_GameObject____syntax">
@@ -2836,7 +3021,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2847,7 +3033,8 @@ Every region with battles needs at least one encounter.</p>
           particles
           </div>
         </td>
-        <td></td>
+        <td><p>The objects used for the particles on the map.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2867,7 +3054,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2889,9 +3077,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetName_DiskCardGame_RegionData_System_String_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetName(DiskCardGame.RegionData,System.String)">
   SetName(RegionData, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets the given <span class="xref">DiskCardGame.RegionData</span>'s internal name.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetName_DiskCardGame_RegionData_System_String__syntax">
@@ -2925,7 +3119,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -2936,7 +3131,8 @@ Every region with battles needs at least one encounter.</p>
           name
           </div>
         </td>
-        <td></td>
+        <td><p>The name of the region.</p>
+</td>
       </tr>
 
     </tbody>
@@ -2956,7 +3152,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2978,9 +3175,15 @@ Every region with battles needs at least one encounter.</p>
 
   <h3 id="InscryptionAPI_Regions_RegionExtensions_SetSilenceCabinAmbience_DiskCardGame_RegionData_System_Boolean_" data-uid="InscryptionAPI.Regions.RegionExtensions.SetSilenceCabinAmbience(DiskCardGame.RegionData,System.Boolean)">
   SetSilenceCabinAmbience(RegionData, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Regions/RegionExtensions.cs/#L339"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Sets if this region should have no ambience.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Regions_RegionExtensions_SetSilenceCabinAmbience_DiskCardGame_RegionData_System_Boolean__syntax">
@@ -3014,7 +3217,8 @@ Every region with battles needs at least one encounter.</p>
           region
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.RegionData</span> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -3025,7 +3229,8 @@ Every region with battles needs at least one encounter.</p>
           enabled
           </div>
         </td>
-        <td></td>
+        <td><p>If the ambient music should be replaced with silence.</p>
+</td>
       </tr>
 
     </tbody>
@@ -3045,7 +3250,8 @@ Every region with battles needs at least one encounter.</p>
     <tbody>
       <tr>
         <td><span class="xref">RegionData</span></td>
-        <td></td>
+        <td><p>The same <span class="xref">DiskCardGame.RegionData</span> so a chain can continue.</p>
+</td>
       </tr>
     </tbody>
   </table>

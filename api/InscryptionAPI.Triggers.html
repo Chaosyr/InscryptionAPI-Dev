@@ -291,15 +291,15 @@ Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.C
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Triggers.DoCombatPhasePatches.html">DoCombatPhasePatches</a></dt>
-      <dd></dd>
+      <dd><p>Patches to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">DoCombatPhase(bool, SpecialBattleSequencer)</a> that add negative damage support and modifying attack slots support.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Triggers.SlotAttackSlotPatches.html">SlotAttackSlotPatches</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="InscryptionAPI.Triggers.TakeDamagePatches.html">TakeDamagePatches</a></dt>
-      <dd></dd>
+      <dd><p>Inserts a null check for <code>opposingSlot.Card</code> after <span class="xref">DiskCardGame.Trigger.CardGettingAttacked</span> is triggered.
+<br>
+Tweaks the direct damage logic to subtract from <span class="xref">DiskCardGame.CombatPhaseManager.DamageDealtThisPhase</span> if the opposing and attacking are on the same side.</p>
+</dd>
     </dl>
     <h3 id="interfaces">
 Interfaces
@@ -474,7 +474,7 @@ This is a replacement for the vanilla DealDamageDirectly trigger, which unlike t
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="InscryptionAPI.Triggers.IPostCardGettingAttacked.html">IPostCardGettingAttacked</a></dt>
-      <dd><p>Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument</p>
+      <dd><p>Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument.</p>
 </dd>
     </dl>
     <dl class="jumplist">

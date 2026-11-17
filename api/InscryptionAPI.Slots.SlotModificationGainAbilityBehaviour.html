@@ -962,9 +962,15 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
 
   <h3 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_AbilityToGain" data-uid="InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.AbilityToGain">
   AbilityToGain
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Ability cards placed in this slot will gain.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_AbilityToGain_syntax">
@@ -1001,13 +1007,13 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
 
   <h3 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_Cleanup_InscryptionAPI_Slots_SlotModificationManager_ModificationType_" data-uid="InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.Cleanup(InscryptionAPI.Slots.SlotModificationManager.ModificationType)">
   Cleanup(ModificationType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Use to clean up any additional custom slot visualizations before being removed</p>
+  <p>Removes the given ability from the occupying card when this slot modification is removed from the slot.</p>
 
   </div>
 
@@ -1085,9 +1091,15 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
 
   <h3 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_OnOtherCardAssignedToSlot_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.OnOtherCardAssignedToSlot(DiskCardGame.PlayableCard)">
   OnOtherCardAssignedToSlot(PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Logic for when a card is played on this slot.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_OnOtherCardAssignedToSlot_DiskCardGame_PlayableCard__syntax">
@@ -1121,7 +1133,8 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
           otherCard
           </div>
         </td>
-        <td></td>
+        <td><p>The card played on this slot.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1163,9 +1176,15 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
 
   <h3 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_RespondsToOtherCardAssignedToSlot_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.RespondsToOtherCardAssignedToSlot(DiskCardGame.PlayableCard)">
   RespondsToOtherCardAssignedToSlot(PlayableCard)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>If this trigger should respond to other cards being assigned to card slots.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_RespondsToOtherCardAssignedToSlot_DiskCardGame_PlayableCard__syntax">
@@ -1219,7 +1238,8 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>Always returns true.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1241,13 +1261,13 @@ Class SlotModificationGainAbilityBehaviour  <a class="header-action link-seconda
 
   <h3 id="InscryptionAPI_Slots_SlotModificationGainAbilityBehaviour_Setup" data-uid="InscryptionAPI.Slots.SlotModificationGainAbilityBehaviour.Setup">
   Setup()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Slots/SlotModificationGainAbilityBehaviour.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>Use to setup any additional custom slot visualizations when created.</p>
+  <p>Gives the ability to gain to the occupying card that this slot modification was just added to.</p>
 
   </div>
 

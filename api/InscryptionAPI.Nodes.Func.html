@@ -276,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Nodes_Func" data-uid="InscryptionAPI.Nodes.Func" class="text-break">
-Class Func  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L134"><i class="bi bi-code-slash"></i></a>
+Class Func  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -395,7 +395,7 @@ Class Func  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="InscryptionAPI_Nodes_Func__ctor_System_Func_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData__System_Boolean__" data-uid="InscryptionAPI.Nodes.Func.#ctor(System.Func{System.Int32,System.Collections.Generic.List{DiskCardGame.NodeData},System.Boolean})">
   Func(Func&lt;int, List&lt;NodeData&gt;, bool&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -466,9 +466,17 @@ Class Func  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="InscryptionAPI_Nodes_Func_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData__" data-uid="InscryptionAPI.Nodes.Func.Satisfied(System.Int32,System.Collections.Generic.List{DiskCardGame.NodeData})">
   Satisfied(int, List&lt;NodeData&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Nodes/SelectionConditions.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Determines if this condition is satisfied and this node can be generated.
+<br><br>
+If <span class="xref">InscryptionAPI.Nodes.Func.func</span> is null, return true. Otherwise, call <span class="xref">InscryptionAPI.Nodes.Func.func</span> and return its value.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Nodes_Func_Satisfied_System_Int32_System_Collections_Generic_List_DiskCardGame_NodeData___syntax">
@@ -502,7 +510,8 @@ Class Func  <a class="header-action link-secondary" title="View source" href="ht
           gridY
           </div>
         </td>
-        <td></td>
+        <td><p>The y-index of this node. Higher values represent further nodes on the map.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -513,7 +522,8 @@ Class Func  <a class="header-action link-secondary" title="View source" href="ht
           previousNodes
           </div>
         </td>
-        <td></td>
+        <td><p>The nodes generated at the previous y-index.</p>
+</td>
       </tr>
 
     </tbody>
@@ -533,7 +543,8 @@ Class Func  <a class="header-action link-secondary" title="View source" href="ht
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
+        <td><p>True if this node condition is satisfied and the node can be generated and added to the map.</p>
+</td>
       </tr>
     </tbody>
   </table>

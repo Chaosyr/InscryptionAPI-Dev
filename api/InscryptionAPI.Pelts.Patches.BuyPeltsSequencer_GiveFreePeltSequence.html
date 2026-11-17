@@ -9,6 +9,7 @@
     <meta name="title" content="Class BuyPeltsSequencer_GiveFreePeltSequence | InscryptionAPI ">
 
 
+    <meta name="description" content="Patcher class for modifying the  method.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class BuyPeltsSequencer_GiveFreePeltSequence">
 
 
+        <meta property="og:description" content="Patcher class for modifying the  method.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class BuyPeltsSequencer_GiveFreePeltSequence">
 
 
+        <meta name="twitter:description" content="Patcher class for modifying the  method.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Pelts_Patches_BuyPeltsSequencer_GiveFreePeltSequence" data-uid="InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence" class="text-break">
-Class BuyPeltsSequencer_GiveFreePeltSequence  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Pelts/Patches/BuyPeltsSequencer_Patches.cs/#L258"><i class="bi bi-code-slash"></i></a>
+Class BuyPeltsSequencer_GiveFreePeltSequence  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Pelts/Patches/BuyPeltsSequencer_Patches.cs/#L261"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class BuyPeltsSequencer_GiveFreePeltSequence  <a class="header-action link-secon
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Patcher class for modifying the <span class="xref">DiskCardGame.BuyPeltsSequencer.GiveFreePeltSequence()</span> method.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -384,9 +393,17 @@ public class BuyPeltsSequencer_GiveFreePeltSequence</code></pre>
 
   <h3 id="InscryptionAPI_Pelts_Patches_BuyPeltsSequencer_GiveFreePeltSequence_ChangeFreeCard_DiskCardGame_CardInfo_" data-uid="InscryptionAPI.Pelts.Patches.BuyPeltsSequencer_GiveFreePeltSequence.ChangeFreeCard(DiskCardGame.CardInfo)">
   ChangeFreeCard(CardInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Pelts/Patches/BuyPeltsSequencer_Patches.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Pelts/Patches/BuyPeltsSequencer_Patches.cs/#L296"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>New method for determining what free pelt card is given.
+<br>
+Defaults to Hare Pelt and its return value does not change unless this is patched.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Pelts_Patches_BuyPeltsSequencer_GiveFreePeltSequence_ChangeFreeCard_DiskCardGame_CardInfo__syntax">
@@ -420,7 +437,8 @@ public class BuyPeltsSequencer_GiveFreePeltSequence</code></pre>
           currentFreeCard
           </div>
         </td>
-        <td></td>
+        <td><p>The current value of this method.</p>
+</td>
       </tr>
 
     </tbody>
@@ -440,7 +458,8 @@ public class BuyPeltsSequencer_GiveFreePeltSequence</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">CardInfo</span></td>
-        <td></td>
+        <td><p>The card that the Trapper will give to the player for free.</p>
+</td>
       </tr>
     </tbody>
   </table>

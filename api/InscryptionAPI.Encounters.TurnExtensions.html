@@ -9,6 +9,7 @@
     <meta name="title" content="Class TurnExtensions | InscryptionAPI ">
 
 
+    <meta name="description" content="Utility class that adds extensions to aid in the creation of encounter blueprint turns.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class TurnExtensions">
 
 
+        <meta property="og:description" content="Utility class that adds extensions to aid in the creation of encounter blueprint turns.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class TurnExtensions">
 
 
+        <meta name="twitter:description" content="Utility class that adds extensions to aid in the creation of encounter blueprint turns.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionAPI_Encounters_TurnExtensions" data-uid="InscryptionAPI.Encounters.TurnExtensions" class="text-break">
-Class TurnExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/TurnBuilder.cs/#L26"><i class="bi bi-code-slash"></i></a>
+Class TurnExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/TurnBuilder.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Utility class that adds extensions to aid in the creation of encounter blueprint turns.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -372,7 +381,7 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
 
   <h3 id="InscryptionAPI_Encounters_TurnExtensions_AddCardBlueprint__1_InscryptionAPI_Encounters_TurnBuilder___0__System_String_System_Int32_System_Int32_System_Int32_System_Boolean_System_Int32_System_String_" data-uid="InscryptionAPI.Encounters.TurnExtensions.AddCardBlueprint``1(InscryptionAPI.Encounters.TurnBuilder{``0},System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32,System.String)">
   AddCardBlueprint&lt;T&gt;(TurnBuilder&lt;T&gt;, string, int, int, int, bool, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/TurnBuilder.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/TurnBuilder.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -414,7 +423,8 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
           turnBuilder
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="InscryptionAPI.Encounters.TurnBuilder-1.html">TurnBuilder&lt;T&gt;</a> to access.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -437,7 +447,7 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
           randomReplaceChance
           </div>
         </td>
-        <td><p>The integer probability of this card getting replaced by a card from the encounter's <code>randomReplacementCards</code>.</p>
+        <td><p>The integer probability of this card getting replaced by a card from <span class="xref">DiskCardGame.EncounterBlueprintData.randomReplacementCards</span>.</p>
 </td>
       </tr>
       <tr>
@@ -485,7 +495,7 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
           difficultyReplaceReq
           </div>
         </td>
-        <td><p>The difficulty threshold for the <code>replacement</code> card to be used instead.</p>
+        <td><p>The difficulty threshold for the <code class="paramref">replacement</code> card to be used instead.</p>
 </td>
       </tr>
       <tr>
@@ -540,7 +550,8 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
         <td>
           <span class="parametername">T</span>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> type.</p>
+</td>
       </tr>
 
     </tbody>
@@ -560,9 +571,15 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
 
   <h3 id="InscryptionAPI_Encounters_TurnExtensions_Build__1_InscryptionAPI_Encounters_TurnBuilder___0__" data-uid="InscryptionAPI.Encounters.TurnExtensions.Build``1(InscryptionAPI.Encounters.TurnBuilder{``0})">
   Build&lt;T&gt;(TurnBuilder&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/TurnBuilder.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Encounters/TurnBuilder.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Finishes building the blueprint and returns it for use.</p>
+
+  </div>
 
 
   <h4 id="InscryptionAPI_Encounters_TurnExtensions_Build__1_InscryptionAPI_Encounters_TurnBuilder___0___syntax">
@@ -596,7 +613,8 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
           turnBuilder
           </div>
         </td>
-        <td></td>
+        <td><p>The <a class="xref" href="InscryptionAPI.Encounters.TurnBuilder-1.html">TurnBuilder&lt;T&gt;</a> to access.</p>
+</td>
       </tr>
 
     </tbody>
@@ -616,7 +634,8 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> being constructed by this builder.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -638,7 +657,8 @@ Class TurnExtensions  <a class="header-action link-secondary" title="View source
         <td>
           <span class="parametername">T</span>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.EncounterBlueprintData</span> type.</p>
+</td>
       </tr>
 
     </tbody>
