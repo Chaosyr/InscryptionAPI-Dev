@@ -9,6 +9,7 @@
     <meta name="title" content="Class Part1GemifyIndicator | InscryptionAPI ">
 
 
+    <meta name="description" content="Patches in the Gemify Renderer into Act 1 for the ability to use Gemification in Act 1 visually.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class Part1GemifyIndicator">
 
 
+        <meta property="og:description" content="Patches in the Gemify Renderer into Act 1 for the ability to use Gemification in Act 1 visually.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class Part1GemifyIndicator">
 
 
+        <meta name="twitter:description" content="Patches in the Gemify Renderer into Act 1 for the ability to use Gemification in Act 1 visually.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionCommunityPatch_Card_Part1GemifyIndicator" data-uid="InscryptionCommunityPatch.Card.Part1GemifyIndicator" class="text-break">
-Class Part1GemifyIndicator  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1GemifyIndicator.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class Part1GemifyIndicator  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1GemifyIndicator.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class Part1GemifyIndicator  <a class="header-action link-secondary" title="View 
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Patches in the Gemify Renderer into Act 1 for the ability to use Gemification in Act 1 visually.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -372,9 +381,16 @@ public class Part1GemifyIndicator</code></pre>
 
   <h3 id="InscryptionCommunityPatch_Card_Part1GemifyIndicator_GemifyRenderers" data-uid="InscryptionCommunityPatch.Card.Part1GemifyIndicator.GemifyRenderers">
   GemifyRenderers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1GemifyIndicator.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1GemifyIndicator.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>An <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Renderer.html">Renderer</a> array representing the Gemification Renderers. They are ordered as follows:</p>
+<table><thead><tr></tr></thead><tbody><tr><td class="term">0</td><td class="description">Base Gemification</td></tr><tr><td class="term">1</td><td class="description">Power Gemification</td></tr><tr><td class="term">2</td><td class="description">Health Gemification</td></tr><tr><td class="term">3</td><td class="description">Cost Gemification</td></tr></tbody></table>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1GemifyIndicator_GemifyRenderers_syntax">
@@ -411,9 +427,15 @@ public class Part1GemifyIndicator</code></pre>
 
   <h3 id="InscryptionCommunityPatch_Card_Part1GemifyIndicator_AddAct1GemifyVisuals_DiskCardGame_CardRenderCamera_" data-uid="InscryptionCommunityPatch.Card.Part1GemifyIndicator.AddAct1GemifyVisuals(DiskCardGame.CardRenderCamera)">
   AddAct1GemifyVisuals(CardRenderCamera)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1GemifyIndicator.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1GemifyIndicator.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Handles adding an Act 1 Gemification Visual to a card.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1GemifyIndicator_AddAct1GemifyVisuals_DiskCardGame_CardRenderCamera__syntax">
@@ -447,7 +469,8 @@ public class Part1GemifyIndicator</code></pre>
           cardRenderCamera
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardRenderCamera</span> associated with the card.</p>
+</td>
       </tr>
 
     </tbody>

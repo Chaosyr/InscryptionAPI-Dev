@@ -382,9 +382,15 @@ Also reduces the size of card costs so they take up less space on the card.</p>
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_RightAct2Cost" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.RightAct2Cost">
   RightAct2Cost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Whether or not the Cost should be on the right in Act 2.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part2CardCostRender_RightAct2Cost_syntax">
@@ -421,7 +427,7 @@ Also reduces the size of card costs so they take up less space on the card.</p>
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_CombineIconAndCount_System_Int32_UnityEngine_Texture2D_" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.CombineIconAndCount(System.Int32,UnityEngine.Texture2D)">
   CombineIconAndCount(int, Texture2D)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
 
@@ -510,13 +516,13 @@ Also reduces the size of card costs so they take up less space on the card.</p>
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_CombineVanillaCostTextures_System_Collections_Generic_List_UnityEngine_Texture2D__UnityEngine_Texture2D_System_Boolean_System_Int32_" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.CombineVanillaCostTextures(System.Collections.Generic.List{UnityEngine.Texture2D},UnityEngine.Texture2D,System.Boolean,System.Int32)">
   CombineVanillaCostTextures(List&lt;Texture2D&gt;, Texture2D, bool, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
     <h4>Summary</h4>
     <p>The following is a brief description of what this member does, and what it is meant for: </p>
-  <p>A variant of TextureHelper.CombineTextures specifically designed for combining vanilla cost textures.
+  <p>A variant of <a class="xref" href="../api/InscryptionAPI.Helpers.TextureHelper.html#InscryptionAPI_Helpers_TextureHelper_CombineTextures_System_Collections_Generic_List_UnityEngine_Texture2D__UnityEngine_Texture2D_System_Int32_System_Int32_System_Int32_System_Int32_">CombineTextures(List&lt;Texture2D&gt;, Texture2D, int, int, int, int)</a> specifically designed for combining vanilla cost textures.
 Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in width, and this method compensates for any textures thinner than 24 px.</p>
 
   </div>
@@ -553,7 +559,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           textures
           </div>
         </td>
-        <td></td>
+        <td><p>The List of <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a> to be combined.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -564,7 +571,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           baseTexture
           </div>
         </td>
-        <td></td>
+        <td><p>The base of the Combined texture, as a <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -575,7 +583,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           leftOriented
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not to apply the Cost Left/Right oriented. True means Left, False means Right.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -586,7 +595,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           yOffset
           </div>
         </td>
-        <td></td>
+        <td><p>The Y Offset to use when combining the Textures.</p>
+</td>
       </tr>
 
     </tbody>
@@ -606,7 +616,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a></td>
-        <td></td>
+        <td><p>The <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a> representing the combined texture of the Card's Cost.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -628,7 +639,7 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_CostTextures_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.CostTextures(DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})">
   CostTextures(CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
 
@@ -761,9 +772,15 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_FinalVanillaCostSprite_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Boolean_" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.FinalVanillaCostSprite(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Boolean)">
   FinalVanillaCostSprite(PixelCardDisplayer, CardInfo, PlayableCard, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Handles getting the Final Sprite for the Vanilla Cost of an Act 2 Card.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part2CardCostRender_FinalVanillaCostSprite_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Boolean__syntax">
@@ -797,7 +814,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           display
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">GBC.PixelCardDisplayer</span> associated with the Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -808,7 +826,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           cardInfo
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardInfo</span> we are targeting to apply the visual for..</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -819,7 +838,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           playableCard
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span> representation of the <span class="xref">DiskCardGame.CardInfo</span>.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -830,7 +850,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           leftOriented
           </div>
         </td>
-        <td></td>
+        <td><p>Whether or not to apply the Cost Left/Right oriented. True means Left, False means Right.</p>
+</td>
       </tr>
 
     </tbody>
@@ -850,7 +871,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Sprite.html">Sprite</a></td>
-        <td></td>
+        <td><p>A <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Sprite.html">Sprite</a> representing the Act 2 Cost of the given card.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -872,7 +894,7 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_GetMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.GetMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})">
   GetMoxTextures(List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L342"><i class="bi bi-code-slash"></i></a>
   </h3>
 
 
@@ -950,7 +972,7 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_GetVanillaMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.GetVanillaMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})">
   GetVanillaMoxTextures(List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L287"><i class="bi bi-code-slash"></i></a>
   </h3>
 
 
@@ -1028,9 +1050,15 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_VanillaCostTextures_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.VanillaCostTextures(GBC.PixelCardDisplayer,DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})">
   VanillaCostTextures(PixelCardDisplayer, CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>This function handles getting the cost texture for the given card from the specified cost amounts that are passed into it.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part2CardCostRender_VanillaCostTextures_GBC_PixelCardDisplayer_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType___syntax">
@@ -1064,7 +1092,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           display
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">GBC.PixelCardDisplayer</span> representing the Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1075,7 +1104,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           cardInfo
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardInfo</span> representing the Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1086,7 +1116,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           playableCard
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span> representing the Playable Version of the Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1097,7 +1128,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           bloodCost
           </div>
         </td>
-        <td></td>
+        <td><p>The amount of blood by which the card costs.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1108,7 +1140,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           bonesCost
           </div>
         </td>
-        <td></td>
+        <td><p>The amount of bones by which the card costs.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1119,7 +1152,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           energyCost
           </div>
         </td>
-        <td></td>
+        <td><p>The amount of energy by which the card costs.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -1130,7 +1164,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
           gemsCost
           </div>
         </td>
-        <td></td>
+        <td><p>The Types of Gem's the card costs.</p>
+</td>
       </tr>
 
     </tbody>
@@ -1150,7 +1185,8 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</td>
-        <td></td>
+        <td><p>A List of <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a> representing the Cost Textures for the card.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1175,9 +1211,15 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateCardCost" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateCardCost">
   UpdateCardCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>An Action of <span class="xref">DiskCardGame.CardInfo</span> to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> representing a card cost update.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateCardCost_syntax">
@@ -1209,9 +1251,15 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_UpdatePlayableCardCost" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.UpdatePlayableCardCost">
   UpdatePlayableCardCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>An Action of <span class="xref">DiskCardGame.CardInfo</span> to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> representing a playable card cost update.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part2CardCostRender_UpdatePlayableCardCost_syntax">
@@ -1243,7 +1291,7 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateVanillaCardCost" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaCardCost">
   UpdateVanillaCardCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">
@@ -1283,7 +1331,7 @@ Each cost texture is assumed to be 13 pixels in height and UP TO 24 pixels in wi
 
   <h3 id="InscryptionCommunityPatch_Card_Part2CardCostRender_UpdateVanillaPlayableCardCost" data-uid="InscryptionCommunityPatch.Card.Part2CardCostRender.UpdateVanillaPlayableCardCost">
   UpdateVanillaPlayableCardCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part2CardCostRender.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary">

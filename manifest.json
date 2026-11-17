@@ -7268,7 +7268,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionCommunityPatch.Card.Part1CardCostRender",
-      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.</p>\n"
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1CardCostRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act 1 in order to add support for mixed card costs, custom costs, and energy and Mox costs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -7282,7 +7282,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender",
-      "Summary": null
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.yml\" sourcestartlinenumber=\"1\">Modifies how card costs are rendered in Act 1 to handle whether the cost should be displayed above or below the emission.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -7296,7 +7296,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionCommunityPatch.Card.Part1GemifyIndicator",
-      "Summary": null
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1GemifyIndicator.yml\" sourcestartlinenumber=\"1\">Patches in the Gemify Renderer into Act 1 for the ability to use Gemification in Act 1 visually.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -7310,7 +7310,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "InscryptionCommunityPatch.Card.Part1SniperVisualizer",
-      "Summary": null
+      "Summary": "<p sourcefile=\"community/InscryptionCommunityPatch.Card.Part1SniperVisualizer.yml\" sourcestartlinenumber=\"1\">Adds a Sniper Visualizer to Act 1.</p>\n"
     },
     {
       "type": "ManagedReference",

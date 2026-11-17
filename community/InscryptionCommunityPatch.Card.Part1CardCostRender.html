@@ -9,7 +9,7 @@
     <meta name="title" content="Class Part1CardCostRender | InscryptionAPI ">
 
 
-    <meta name="description" content="Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.">
+    <meta name="description" content="Modifies how card costs are rendered in Act 1 in order to add support for mixed card costs, custom costs, and energy and Mox costs.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Class Part1CardCostRender">
 
 
-        <meta property="og:description" content="Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.">
+        <meta property="og:description" content="Modifies how card costs are rendered in Act 1 in order to add support for mixed card costs, custom costs, and energy and Mox costs.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Class Part1CardCostRender">
 
 
-        <meta name="twitter:description" content="Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.">
+        <meta name="twitter:description" content="Modifies how card costs are rendered in Act 1 in order to add support for mixed card costs, custom costs, and energy and Mox costs.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -293,7 +293,7 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
   <div class="markdown summary">
     <h2>Summary</h2>
     <p>The following is a brief description of what this type does, and what it is meant for: </p>
-  <p>Modifies how card costs are rendered in Act to add support for mixed card costs, custom costs, and energy and Mox costs.</p>
+  <p>Modifies how card costs are rendered in Act 1 in order to add support for mixed card costs, custom costs, and energy and Mox costs.</p>
 
   </div>
 
@@ -381,9 +381,15 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionCommunityPatch_Card_Part1CardCostRender_CostTextures_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionCommunityPatch.Card.Part1CardCostRender.CostTextures(DiskCardGame.CardInfo,DiskCardGame.PlayableCard,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{DiskCardGame.GemType})">
   CostTextures(CardInfo, PlayableCard, int, int, int, List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>This function handles getting the cost texture for the given card from the specified cost amounts that are passed into it.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1CardCostRender_CostTextures_DiskCardGame_CardInfo_DiskCardGame_PlayableCard_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_DiskCardGame_GemType___syntax">
@@ -417,7 +423,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           cardInfo
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardInfo</span> representing the Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -428,7 +435,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           playableCard
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.PlayableCard</span> representing the Playable Version of the Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -439,7 +447,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           bloodCost
           </div>
         </td>
-        <td></td>
+        <td><p>The amount of blood by which the card costs.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -450,7 +459,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           bonesCost
           </div>
         </td>
-        <td></td>
+        <td><p>The amount of bones by which the card costs.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -461,7 +471,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           energyCost
           </div>
         </td>
-        <td></td>
+        <td><p>The amount of energy by which the card costs.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -472,7 +483,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           gemsCost
           </div>
         </td>
-        <td></td>
+        <td><p>The Types of Gem's the card costs.</p>
+</td>
       </tr>
 
     </tbody>
@@ -492,7 +504,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</td>
-        <td></td>
+        <td><p>A List of <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a> representing the Cost Textures for the card.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -514,9 +527,15 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionCommunityPatch_Card_Part1CardCostRender_GetMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType__" data-uid="InscryptionCommunityPatch.Card.Part1CardCostRender.GetMoxTextures(System.Collections.Generic.List{DiskCardGame.GemType})">
   GetMoxTextures(List&lt;GemType&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Handles getting the Gem Cost Texture for the <span class="xref">DiskCardGame.CardInfo</span>/<span class="xref">DiskCardGame.PlayableCard</span>.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1CardCostRender_GetMoxTextures_System_Collections_Generic_List_DiskCardGame_GemType___syntax">
@@ -550,7 +569,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
           gemsCost
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.GemType</span>'s in which the card costs.</p>
+</td>
       </tr>
 
     </tbody>
@@ -570,7 +590,8 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a>&gt;</td>
-        <td></td>
+        <td><p>A List of <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Texture2D.html">Texture2D</a> representing the Gem Cost Textures of the cost.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -595,9 +616,15 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionCommunityPatch_Card_Part1CardCostRender_UpdateCardCost" data-uid="InscryptionCommunityPatch.Card.Part1CardCostRender.UpdateCardCost">
   UpdateCardCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>An Action of <span class="xref">DiskCardGame.CardInfo</span> to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> representing a card cost update.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1CardCostRender_UpdateCardCost_syntax">
@@ -629,9 +656,15 @@ Class Part1CardCostRender  <a class="header-action link-secondary" title="View s
 
   <h3 id="InscryptionCommunityPatch_Card_Part1CardCostRender_UpdatePlayableCardCost" data-uid="InscryptionCommunityPatch.Card.Part1CardCostRender.UpdatePlayableCardCost">
   UpdatePlayableCardCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CardCostRender.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>An Action of <span class="xref">DiskCardGame.CardInfo</span> to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> representing a playable card cost update.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1CardCostRender_UpdatePlayableCardCost_syntax">

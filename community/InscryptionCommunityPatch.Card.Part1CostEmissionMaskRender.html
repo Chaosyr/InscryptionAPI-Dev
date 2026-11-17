@@ -9,6 +9,7 @@
     <meta name="title" content="Class Part1CostEmissionMaskRender | InscryptionAPI ">
 
 
+    <meta name="description" content="Modifies how card costs are rendered in Act 1 to handle whether the cost should be displayed above or below the emission.">
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
@@ -16,6 +17,7 @@
     <meta property="og:title" content="Class Part1CostEmissionMaskRender">
 
 
+        <meta property="og:description" content="Modifies how card costs are rendered in Act 1 to handle whether the cost should be displayed above or below the emission.">
 
     <meta property="og:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -24,6 +26,7 @@
     <meta name="twitter:title" content="Class Part1CostEmissionMaskRender">
 
 
+        <meta name="twitter:description" content="Modifies how card costs are rendered in Act 1 to handle whether the cost should be displayed above or below the emission.">
 
     <meta name="twitter:image" content="https://Chaosyr.github.io/InscryptionAPI-Dev/DiscordIcon.png">
 
@@ -273,7 +276,7 @@
 
 
   <h1 id="InscryptionCommunityPatch_Card_Part1CostEmissionMaskRender" data-uid="InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender" class="text-break">
-Class Part1CostEmissionMaskRender  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CostEmissionMaskRender.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class Part1CostEmissionMaskRender  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CostEmissionMaskRender.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -287,6 +290,12 @@ Class Part1CostEmissionMaskRender  <a class="header-action link-secondary" title
       </dl>
   </div>
 
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Modifies how card costs are rendered in Act 1 to handle whether the cost should be displayed above or below the emission.</p>
+
+  </div>
 
 
   <div class="inheritance">
@@ -372,9 +381,15 @@ public class Part1CostEmissionMaskRender</code></pre>
 
   <h3 id="InscryptionCommunityPatch_Card_Part1CostEmissionMaskRender_CostEmissionMaskRenderers" data-uid="InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.CostEmissionMaskRenderers">
   CostEmissionMaskRenderers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CostEmissionMaskRender.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CostEmissionMaskRender.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>A Dictionary of <span class="xref">DiskCardGame.CardDisplayer3D</span> to <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/SpriteRenderer.html">SpriteRenderer</a> representing the Rendering Masks for the Cost.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1CostEmissionMaskRender_CostEmissionMaskRenderers_syntax">
@@ -411,9 +426,15 @@ public class Part1CostEmissionMaskRender</code></pre>
 
   <h3 id="InscryptionCommunityPatch_Card_Part1CostEmissionMaskRender_Verify3DCostEmissionMaskRenderer_DiskCardGame_CardDisplayer3D_System_Boolean_" data-uid="InscryptionCommunityPatch.Card.Part1CostEmissionMaskRender.Verify3DCostEmissionMaskRenderer(DiskCardGame.CardDisplayer3D,System.Boolean)">
   Verify3DCostEmissionMaskRenderer(CardDisplayer3D, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CostEmissionMaskRender.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionCommunityPatch/Card/Part1CostEmissionMaskRender.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Verifies the 3D Cost Emission Mask Render that way we can find out whether we can apply the rendering change or not.</p>
+
+  </div>
 
 
   <h4 id="InscryptionCommunityPatch_Card_Part1CostEmissionMaskRender_Verify3DCostEmissionMaskRenderer_DiskCardGame_CardDisplayer3D_System_Boolean__syntax">
@@ -447,7 +468,8 @@ public class Part1CostEmissionMaskRender</code></pre>
           cardDisplayer
           </div>
         </td>
-        <td></td>
+        <td><p>The <span class="xref">DiskCardGame.CardDisplayer3D</span> for the given Card.</p>
+</td>
       </tr>
       <tr>
         <td>
@@ -458,7 +480,8 @@ public class Part1CostEmissionMaskRender</code></pre>
           emissionEnabled
           </div>
         </td>
-        <td></td>
+        <td><p>Whether the Emission is enabled or not.</p>
+</td>
       </tr>
 
     </tbody>
@@ -478,7 +501,8 @@ public class Part1CostEmissionMaskRender</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/SpriteRenderer.html">SpriteRenderer</a></td>
-        <td></td>
+        <td><p>A <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/SpriteRenderer.html">SpriteRenderer</a> if verified successfully, otherwise <code>default</code> version of the <a class="xref" href="https://docs.unity3d.com/2019.4/Documentation/ScriptReference/SpriteRenderer.html">SpriteRenderer</a>.</p>
+</td>
       </tr>
     </tbody>
   </table>
