@@ -274,6 +274,441 @@
             <article data-uid="InscryptionAPI.Triggers.IModifyDamageTaken">
 
 
+
+
+  <h1 id="InscryptionAPI_Triggers_IModifyDamageTaken" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken" class="text-break">
+Interface IModifyDamageTaken  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L685"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+      <dl>
+          <dt>Namespace</dt>
+          <dd><code><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></code></dd>
+      </dl>
+      <dl>
+          <dt>Assembly</dt>
+          <dd><code>InscryptionAPI.dll</code></dd>
+      </dl>
+  </div>
+
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Data collection trigger that modifies the damage taken by any card.
+Should be used instead of ICardTakenDamageModifier.</p>
+
+  </div>
+
+
+
+
+
+
+  <h2 id="InscryptionAPI_Triggers_IModifyDamageTaken_syntax">
+    Syntax
+  </h2>
+  <p>The following codeblock is the declaration syntax of this type found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public interface IModifyDamageTaken</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <details class="typelist extensionMethods">
+    <summary>
+      <h2 class="extensionMethods">Extension Methods (Click me to Expand)</h2>
+    </summary>
+    <p>The following are methods in which you can use that act as extensions to this type: </p>
+    <div class="typelist-content">
+
+      <div class="extension-method">
+        <div class="extension-method-header">
+          <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+        </div>
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs"><a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">Repeat</a>&lt;<a class="xref" href="InscryptionAPI.Triggers.IModifyDamageTaken.html">IModifyDamageTaken</a>&gt;(<a class="xref" href="InscryptionAPI.Triggers.IModifyDamageTaken.html">IModifyDamageTaken</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</code></pre>
+        </div>
+        <div class="markdown level1 summary"><p>Data collection trigger that modifies the damage taken by any card.
+Should be used instead of ICardTakenDamageModifier.</p>
+</div>
+      </div>
+
+    </div>
+  </details>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_OnModifyDamageTaken_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.OnModifyDamageTaken*" data-overload></a>
+
+  <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken_OnModifyDamageTaken_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_System_Int32_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.OnModifyDamageTaken(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard,System.Int32)">
+  OnModifyDamageTaken(PlayableCard, int, PlayableCard, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L705"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Returns the new amount of damage taken by a card.</p>
+
+  </div>
+
+
+  <h4 id="InscryptionAPI_Triggers_IModifyDamageTaken_OnModifyDamageTaken_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_System_Int32__syntax">
+    Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">int OnModifyDamageTaken(PlayableCard target, int damage, PlayableCard attacker, int originalDamage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <p>The following table is a full list of parameters used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <span class="xref">PlayableCard</span>
+          </div>
+          <div class="parametername">
+          target
+          </div>
+        </td>
+        <td><p>The card that took damage.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          damage
+          </div>
+        </td>
+        <td><p>The current amount of damage to be delt.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <span class="xref">PlayableCard</span>
+          </div>
+          <div class="parametername">
+          attacker
+          </div>
+        </td>
+        <td><p>The attacking card.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          originalDamage
+          </div>
+        </td>
+        <td><p>The original amount of damage to be delt.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h4 class="section">Returns</h4>
+  <p>The following table is a full list of returns used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The new amount of damage taken by a card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_RespondsToModifyDamageTaken_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.RespondsToModifyDamageTaken*" data-overload></a>
+
+  <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken_RespondsToModifyDamageTaken_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_System_Int32_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.RespondsToModifyDamageTaken(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard,System.Int32)">
+  RespondsToModifyDamageTaken(PlayableCard, int, PlayableCard, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L695"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Returns true if this should modify the amount of damage taken by a card.</p>
+
+  </div>
+
+
+  <h4 id="InscryptionAPI_Triggers_IModifyDamageTaken_RespondsToModifyDamageTaken_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_System_Int32__syntax">
+    Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">bool RespondsToModifyDamageTaken(PlayableCard target, int damage, PlayableCard attacker, int originalDamage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <p>The following table is a full list of parameters used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <span class="xref">PlayableCard</span>
+          </div>
+          <div class="parametername">
+          target
+          </div>
+        </td>
+        <td><p>The card that took damage.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          damage
+          </div>
+        </td>
+        <td><p>The current amount of damage to be delt.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <span class="xref">PlayableCard</span>
+          </div>
+          <div class="parametername">
+          attacker
+          </div>
+        </td>
+        <td><p>The attacking card.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          originalDamage
+          </div>
+        </td>
+        <td><p>The original amount of damage to be delt.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h4 class="section">Returns</h4>
+  <p>The following table is a full list of returns used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should modify the amount of damage taken by a card.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IModifyDamageTaken_TriggerPriority_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.TriggerPriority*" data-overload></a>
+
+  <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken_TriggerPriority_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard_" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken.TriggerPriority(DiskCardGame.PlayableCard,System.Int32,DiskCardGame.PlayableCard)">
+  TriggerPriority(PlayableCard, int, PlayableCard)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L714"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger priority. Higher numbers trigger first.</p>
+
+  </div>
+
+
+  <h4 id="InscryptionAPI_Triggers_IModifyDamageTaken_TriggerPriority_DiskCardGame_PlayableCard_System_Int32_DiskCardGame_PlayableCard__syntax">
+    Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">int TriggerPriority(PlayableCard target, int damage, PlayableCard attacker)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <p>The following table is a full list of parameters used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <span class="xref">PlayableCard</span>
+          </div>
+          <div class="parametername">
+          target
+          </div>
+        </td>
+        <td><p>The card that took damage.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>
+          </div>
+          <div class="parametername">
+          damage
+          </div>
+        </td>
+        <td><p>The amount of damage to be delt. NOTE: THIS VALUE IS <em>NOT</em> UP TO DATE, GETTING PRIORITIES HAPPENS <em>BEFORE</em> THE MODIFICATION ITSELF.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <span class="xref">PlayableCard</span>
+          </div>
+          <div class="parametername">
+          attacker
+          </div>
+        </td>
+        <td><p>The attacking card.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h4 class="section">Returns</h4>
+  <p>The following table is a full list of returns used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The trigger priority int.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
 

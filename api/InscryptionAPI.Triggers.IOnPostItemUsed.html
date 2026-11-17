@@ -274,6 +274,305 @@
             <article data-uid="InscryptionAPI.Triggers.IOnPostItemUsed">
 
 
+
+
+  <h1 id="InscryptionAPI_Triggers_IOnPostItemUsed" data-uid="InscryptionAPI.Triggers.IOnPostItemUsed" class="text-break">
+Interface IOnPostItemUsed  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+      <dl>
+          <dt>Namespace</dt>
+          <dd><code><a class="xref" href="InscryptionAPI.html">InscryptionAPI</a>.<a class="xref" href="InscryptionAPI.Triggers.html">Triggers</a></code></dd>
+      </dl>
+      <dl>
+          <dt>Assembly</dt>
+          <dd><code>InscryptionAPI.dll</code></dd>
+      </dl>
+  </div>
+
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  <p>Trigger that is triggered after any item is used.</p>
+
+  </div>
+
+
+
+
+
+
+  <h2 id="InscryptionAPI_Triggers_IOnPostItemUsed_syntax">
+    Syntax
+  </h2>
+  <p>The following codeblock is the declaration syntax of this type found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public interface IOnPostItemUsed</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <details class="typelist extensionMethods">
+    <summary>
+      <h2 class="extensionMethods">Extension Methods (Click me to Expand)</h2>
+    </summary>
+    <p>The following are methods in which you can use that act as extensions to this type: </p>
+    <div class="typelist-content">
+
+      <div class="extension-method">
+        <div class="extension-method-header">
+          <a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">ListExtensions.Repeat&lt;T&gt;(T, int)</a>
+        </div>
+        <div class="codewrapper">
+          <pre><code class="lang-csharp hljs"><a class="xref" href="InscryptionAPI.Helpers.Extensions.ListExtensions.html#InscryptionAPI_Helpers_Extensions_ListExtensions_Repeat__1___0_System_Int32_">Repeat</a>&lt;<a class="xref" href="InscryptionAPI.Triggers.IOnPostItemUsed.html">IOnPostItemUsed</a>&gt;(<a class="xref" href="InscryptionAPI.Triggers.IOnPostItemUsed.html">IOnPostItemUsed</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</code></pre>
+        </div>
+        <div class="markdown level1 summary"><p>Trigger that is triggered after any item is used.</p>
+</div>
+      </div>
+
+    </div>
+  </details>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="InscryptionAPI_Triggers_IOnPostItemUsed_OnPostItemUsed_" data-uid="InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed*" data-overload></a>
+
+  <h3 id="InscryptionAPI_Triggers_IOnPostItemUsed_OnPostItemUsed_System_String_System_Boolean_System_Boolean_" data-uid="InscryptionAPI.Triggers.IOnPostItemUsed.OnPostItemUsed(System.String,System.Boolean,System.Boolean)">
+  OnPostItemUsed(string, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger whatever events you want to run after an item is used.</p>
+
+  </div>
+
+
+  <h4 id="InscryptionAPI_Triggers_IOnPostItemUsed_OnPostItemUsed_System_String_System_Boolean_System_Boolean__syntax">
+    Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">IEnumerator OnPostItemUsed(string itemName, bool success, bool isHammer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <p>The following table is a full list of parameters used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+          </div>
+          <div class="parametername">
+          itemName
+          </div>
+        </td>
+        <td><p>Internal name of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
+          </div>
+          <div class="parametername">
+          success
+          </div>
+        </td>
+        <td><p>Normally true, but false if a targeted use item (e.g. scissors) got the use cancelled.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
+          </div>
+          <div class="parametername">
+          isHammer
+          </div>
+        </td>
+        <td><p>True if the item is the act 3 hammer, false otherwise.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h4 class="section">Returns</h4>
+  <p>The following table is a full list of returns used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
+        <td><p>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="InscryptionAPI_Triggers_IOnPostItemUsed_RespondsToPostItemUsed_" data-uid="InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed*" data-overload></a>
+
+  <h3 id="InscryptionAPI_Triggers_IOnPostItemUsed_RespondsToPostItemUsed_System_String_System_Boolean_System_Boolean_" data-uid="InscryptionAPI.Triggers.IOnPostItemUsed.RespondsToPostItemUsed(System.String,System.Boolean,System.Boolean)">
+  RespondsToPostItemUsed(string, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Chaosyr/InscryptionAPI-Dev/blob/main/InscryptionAPI/Triggers/Interfaces.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Returns true if this should trigger after an item is used.</p>
+
+  </div>
+
+
+  <h4 id="InscryptionAPI_Triggers_IOnPostItemUsed_RespondsToPostItemUsed_System_String_System_Boolean_System_Boolean__syntax">
+    Syntax
+  </h4>
+  <p>The following codeblock is the declaration syntax of this member found in the code: </p>
+
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">bool RespondsToPostItemUsed(string itemName, bool success, bool isHammer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <p>The following table is a full list of parameters used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-parameters">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+          </div>
+          <div class="parametername">
+          itemName
+          </div>
+        </td>
+        <td><p>Internal name of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
+          </div>
+          <div class="parametername">
+          success
+          </div>
+        </td>
+        <td><p>Normally true, but false if a targeted use item (e.g. scissors) got the use cancelled.</p>
+</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="parameter-type">
+          <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>
+          </div>
+          <div class="parametername">
+          isHammer
+          </div>
+        </td>
+        <td><p>True if the item is the act 3 hammer, false otherwise.</p>
+</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h4 class="section">Returns</h4>
+  <p>The following table is a full list of returns used by this member, in the form of <code>type, name | description</code> for your ease of convenience, if you don't know what a given type is, you can click it and it will link to its definition at the associated documentation. The table is below: </p>
+
+  <table class="api-returns">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this should trigger after an item is used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
 

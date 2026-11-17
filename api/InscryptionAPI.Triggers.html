@@ -507,6 +507,1415 @@ Enums
     </dl>
 
 
+
+
+  <h1 id="InscryptionAPI_Triggers" data-uid="InscryptionAPI.Triggers" class="text-break">
+Namespace InscryptionAPI.Triggers  
+  </h1>
+
+  <div class="facts text-secondary">
+      <dl>
+          <dt>Namespace</dt>
+          <dd><code></code></dd>
+      </dl>
+      <dl>
+          <dt>Assembly</dt>
+          <dd><code>InscryptionAPI.dll</code></dd>
+      </dl>
+  </div>
+
+  <div class="markdown summary">
+    <h2>Summary</h2>
+    <p>The following is a brief description of what this type does, and what it is meant for: </p>
+  
+<p>Maintains the various custom interface and ability triggers added by the API.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="classes"></h2>
+
+
+
+  <h3 id="InscryptionAPI_Triggers_CustomTriggerFinder" data-uid="InscryptionAPI.Triggers.CustomTriggerFinder">
+  CustomTriggerFinder
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Finds custom trigger recievers that exists on the board/in the hand
+Always excludes facedowns by default, use <a class="xref" href="InscryptionAPI.Card.IActivateWhenFacedown.html">IActivateWhenFacedown</a> to alter this default</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_DoCombatPhasePatches" data-uid="InscryptionAPI.Triggers.DoCombatPhasePatches">
+  DoCombatPhasePatches
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Patches to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">DoCombatPhase(bool, SpecialBattleSequencer)</a> that add negative damage support and modifying attack slots support.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_SlotAttackSlotPatches" data-uid="InscryptionAPI.Triggers.SlotAttackSlotPatches">
+  SlotAttackSlotPatches
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Inserts a null check for <code>opposingSlot.Card</code> after <span class="xref">DiskCardGame.Trigger.CardGettingAttacked</span> is triggered.
+<br>
+Tweaks the direct damage logic to subtract from <span class="xref">DiskCardGame.CombatPhaseManager.DamageDealtThisPhase</span> if the opposing and attacking are on the same side.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="interfaces"></h2>
+
+
+
+  <h3 id="InscryptionAPI_Triggers_ICardTakenDamageModifier" data-uid="InscryptionAPI.Triggers.ICardTakenDamageModifier">
+  ICardTakenDamageModifier
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that modifies the damage taken by any card.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IGetAttackingSlots" data-uid="InscryptionAPI.Triggers.IGetAttackingSlots">
+  IGetAttackingSlots
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Used when changing what CardSlots are queued for attacking.
+Triggers before null and Powerless cards are removed, so no making empty slots attack and no making Attack-less cards attack.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IGetOpposingSlots" data-uid="InscryptionAPI.Triggers.IGetOpposingSlots">
+  IGetOpposingSlots
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Run whenever a card is asked what its opposing slots are as part of the attack sequence</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IItemCanBeUsed" data-uid="InscryptionAPI.Triggers.IItemCanBeUsed">
+  IItemCanBeUsed
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that collects data about the usability of an item.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IModifyDamageTaken" data-uid="InscryptionAPI.Triggers.IModifyDamageTaken">
+  IModifyDamageTaken
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that modifies the damage taken by any card.
+Should be used instead of ICardTakenDamageModifier.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IModifyDirectDamage" data-uid="InscryptionAPI.Triggers.IModifyDirectDamage">
+  IModifyDirectDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that modifies the damage taken when directly attacked.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnAddedToHand" data-uid="InscryptionAPI.Triggers.IOnAddedToHand">
+  IOnAddedToHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when the card is drawn, but after it has been added to the list of cards in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnBellRung" data-uid="InscryptionAPI.Triggers.IOnBellRung">
+  IOnBellRung
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after the combat phase starts.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnCardAssignedToSlotContext" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotContext">
+  IOnCardAssignedToSlotContext
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after any card is assigned to a slot. The difference between this and normal OnOtherCardAssignedToSlot is that this trigger also provides information about the new and old slot.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnCardAssignedToSlotNoResolve" data-uid="InscryptionAPI.Triggers.IOnCardAssignedToSlotNoResolve">
+  IOnCardAssignedToSlotNoResolve
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after any card is assigned to a slot, but only if it was assigned to a slot before.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnCardDealtDamageDirectly" data-uid="InscryptionAPI.Triggers.IOnCardDealtDamageDirectly">
+  IOnCardDealtDamageDirectly
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when a card deals direct damage.
+This is a replacement for the vanilla DealDamageDirectly trigger, which unlike the base-game trigger, triggers for all cards on the board and supplies more information.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnCardPassiveAttackBuffs" data-uid="InscryptionAPI.Triggers.IOnCardPassiveAttackBuffs">
+  IOnCardPassiveAttackBuffs
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that modifies the passive attack buffs of any card.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnCardPassiveHealthBuffs" data-uid="InscryptionAPI.Triggers.IOnCardPassiveHealthBuffs">
+  IOnCardPassiveHealthBuffs
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that modifies the passive health buffs of any card.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnItemPreventedFromUse" data-uid="InscryptionAPI.Triggers.IOnItemPreventedFromUse">
+  IOnItemPreventedFromUse
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when an item is prevented from use using IItemCanBeUsed.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnOtherCardAddedToHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardAddedToHand">
+  IOnOtherCardAddedToHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when any card is drawn, but after it has been added to the list of cards in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnOtherCardAssignedToSlotInHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardAssignedToSlotInHand">
+  IOnOtherCardAssignedToSlotInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when any card is assigned to a slot, but unlike normal OnOtherCardAssignedToSlotInHand this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnOtherCardDealtDamageInHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardDealtDamageInHand">
+  IOnOtherCardDealtDamageInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when any card deals damage to another card, but unlike normal OnOtherCardDealtDamage this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnOtherCardDieInHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardDieInHand">
+  IOnOtherCardDieInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after any card dies, but unlike normal OnOtherCardDie this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnOtherCardPreDeathInHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardPreDeathInHand">
+  IOnOtherCardPreDeathInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered before any card dies, but unlike normal OnOtherCardPreDeath this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnOtherCardResolveInHand" data-uid="InscryptionAPI.Triggers.IOnOtherCardResolveInHand">
+  IOnOtherCardResolveInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when any card gets played, but unlike normal OnOtherCardResolveOnBoard this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPostItemUsed" data-uid="InscryptionAPI.Triggers.IOnPostItemUsed">
+  IOnPostItemUsed
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after any item is used.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPostScalesChanged" data-uid="InscryptionAPI.Triggers.IOnPostScalesChanged">
+  IOnPostScalesChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after the scales are changed. Also includes information about the original damage and side that the damage is added at, before those values potentially get changed by IOnPreScalesChangedRef.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPostSingularSlotAttackSlot" data-uid="InscryptionAPI.Triggers.IOnPostSingularSlotAttackSlot">
+  IOnPostSingularSlotAttackSlot
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after a slot does an individual attack.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPostSlotAttackSequence" data-uid="InscryptionAPI.Triggers.IOnPostSlotAttackSequence">
+  IOnPostSlotAttackSequence
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered after a slot does its attacks.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPreItemUsed" data-uid="InscryptionAPI.Triggers.IOnPreItemUsed">
+  IOnPreItemUsed
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered before any item is used.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPreScalesChanged" data-uid="InscryptionAPI.Triggers.IOnPreScalesChanged">
+  IOnPreScalesChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered before the scales are changed, after IOnPreScalesChangedRef. Also includes information about the original damage and side that the damage is added at, before those values potentially get changed by IOnPreScalesChangedRef.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPreScalesChangedRef" data-uid="InscryptionAPI.Triggers.IOnPreScalesChangedRef">
+  IOnPreScalesChangedRef
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that is triggered before the scales are changed, can be used to change the amount of damage added and to which side it's added.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnPreSlotAttackSequence" data-uid="InscryptionAPI.Triggers.IOnPreSlotAttackSequence">
+  IOnPreSlotAttackSequence
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered before a slot does its attacks.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnTurnEndInHand" data-uid="InscryptionAPI.Triggers.IOnTurnEndInHand">
+  IOnTurnEndInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when the turn ends, but unlike normal OnTurnEnd this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnTurnEndInQueue" data-uid="InscryptionAPI.Triggers.IOnTurnEndInQueue">
+  IOnTurnEndInQueue
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered when the turn ends, but unlike normal OnTurnEnd this one only works on cards in the opponent's queue.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IOnUpkeepInHand" data-uid="InscryptionAPI.Triggers.IOnUpkeepInHand">
+  IOnUpkeepInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered each turn, but unlike normal OnUpkeep this one only works in hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IPassiveAttackBuff" data-uid="InscryptionAPI.Triggers.IPassiveAttackBuff">
+  IPassiveAttackBuff
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Used when a card wants to provide a passive buff to other cards on the board</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IPassiveHealthBuff" data-uid="InscryptionAPI.Triggers.IPassiveHealthBuff">
+  IPassiveHealthBuff
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Used when a card wants to provide a passive buff to other cards on the board</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IPostCardGettingAttacked" data-uid="InscryptionAPI.Triggers.IPostCardGettingAttacked">
+  IPostCardGettingAttacked
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Expanded version of CardGettingAttacked trigger, executed after it, that includes the attacker as an argument.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IPreTakeDamage" data-uid="InscryptionAPI.Triggers.IPreTakeDamage">
+  IPreTakeDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is triggered right before a card takes damage.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_ISetupAttackSequence" data-uid="InscryptionAPI.Triggers.ISetupAttackSequence">
+  ISetupAttackSequence
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Data collection trigger that collects data related to attacked slots.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IShieldPreventedDamage" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamage">
+  IShieldPreventedDamage
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Trigger that is called after a shielded card was attacked and lost a shield.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3 id="InscryptionAPI_Triggers_IShieldPreventedDamageInHand" data-uid="InscryptionAPI.Triggers.IShieldPreventedDamageInHand">
+  IShieldPreventedDamageInHand
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Variant of IShieldPreventDamage that triggers for cards in the hand.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="enums"></h2>
+
+
+
+  <h3 id="InscryptionAPI_Triggers_OpposingSlotTriggerPriority" data-uid="InscryptionAPI.Triggers.OpposingSlotTriggerPriority">
+  OpposingSlotTriggerPriority
+  
+  </h3>
+
+  <div class="markdown level1 summary">
+    <h4>Summary</h4>
+    <p>The following is a brief description of what this member does, and what it is meant for: </p>
+  <p>Flag that tells IGetOpposingSlots when to trigger.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </article>
 
 
