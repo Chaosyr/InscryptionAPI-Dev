@@ -392,49 +392,211 @@ icon.png // Ignorable, but if kept, goes in plugin subfolder
 </ul>
 <h2 id="getting-started-modding">Getting Started: Modding</h2>
 <hr>
-<p>Modding Inscryption requires a knowledge of coding in C#, and in many cases an understanding of how to patch the game using HarmonyPatch.</p>
-<p>If you're unfamiliar with any of this, or just want to create cards and sigils, you can use <a href="https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/">JSONLoader</a>.</p>
+<p>Modding Inscryption requires a knowledge of coding in C# or a similar programming language such as Java, and in many cases an understanding of how to patch the game using HarmonyPatch, which you can find the docs for <a href="https://github.com/BepInEx/HarmonyX/wiki">here</a> for HarmonyX, and <a href="https://harmony.pardeike.net/v2/articles/intro.html">here</a> for the underlying basic Harmony.</p>
+<p>If you're unfamiliar with any of this, or just want to create cards and sigils, you can use <a href="https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/">JSONLoader</a>, if you wish to avoid learning C#.</p>
+<p>If your up for the task, a good entry point to learning C# is <a href="https://www.youtube.com/watch?v=GhQdlIFylQ8">this tutorial by freeCodeCamp.org</a>. It's around a 4 hour video, we'd advise you to tackle it in portions. One deviation from the video however, we are going to advise you to grab a thing called <a href="https://www.jetbrains.com/rider/">JetBrains Rider</a>, you'll specifically want the <code>Free for non-commerical use</code> version. If your familiar with the UX of <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a> for Java based modding, than it should feel familiar to you.</p>
+<p>If at any point your confused while doing the tutorial, feel free to ask for help in <a href="https://discord.gg/qEqtF29ZEt">the discord</a> specifically, the channel entitled <code>programming-help</code> will be your friend. Mind you help will not be immediate, but we will try and get help to you as soon as we are able.</p>
 <h3 id="modding-with-jsonloader">Modding with JSONLoader</h3>
-<p>JSONLoader is a versatile mod that provides a more beginner-friendly way of creating new cards and abilities for Inscryption using JSON syntax, which is much simpler than C#.</p>
-<p>JSONLoader's documentation can be found <a href="https://github.com/MADH95/JSONLoader">here</a>.</p>
-<p>A video tutorial covering how to use JSONLoader in a basic form can be found <a href="https://www.youtube.com/watch?v=grTSkpI4U7g">here</a>.</p>
-<h3 id="modding-with-c">Modding with C#</h3>
-<p>To begin modding with C#, you will need to create a new C# project using a code editor.
-We recommend and assume you're using Microsoft's Visual Studio.</p>
-<p>Your project's target framework needs to be <code>netstandard2.0</code>.</p>
-<p>Once your project's created, go to <code>Project &gt; Manage NuGet Packages</code>.
-Click the dropdown menu for 'Package source' and check that 'BepInEx' and 'nuget' is there.</p>
-<p>If BepInEx or nuget aren't an available source, we need to add them.
-To add a new package source, click on the gear icon next to the package source selector, then click the large green plus-sign.</p>
-<p>To add BepInEx, change the name to 'BepInEx' and the source link to 'https://nuget.bepinex.dev/v3/index.json'.
-To add nuget, change the name to 'nuget' and the source link to 'https://nuget.windows10ce.com/nuget/v3/index.json'.</p>
-<p>Change the package source to 'All' then click 'Browse'.
-We want to install the following packages (<strong>Make sure the version numbers match!</strong>):</p>
+<blockquote>
+<p>JSONLoader is a versatile mod that provides a more beginner-friendly way of creating new cards and abilities for Inscryption using JSON syntax, which is much simpler than C#. If you don't know the basics of JSON you can find a useful video on the subject <a href="https://www.youtube.com/watch?v=iiADhChRriM">here</a>.</p>
+</blockquote>
+<p>JSONLoader's official documentation can be found in the following places, note Nightly refers to the Beta version, and Stable refers to the Main-Line version.</p>
 <ul>
-<li>BepInEx.Analyzers v1.0.8</li>
-<li>BepInEx.Core v5.4.19</li>
-<li>HarmonyX v2.9.0</li>
-<li>Inscryption.GameLibs v1.9.0-r.0</li>
-<li>UnityEngine.Modules v2019.4.24</li>
+<li>Nightly GitHub Wiki: <a href="https://github.com/Chaosyr/JSONCardLoaderWiki/wiki">GitHub Wiki</a></li>
+<li>Nightly Thunderstore Wiki: <a href="https://thunderstore.io/c/inscryption/p/MADH95Mods/JSON_and_CSV_Loader_Nightly/wiki">Thunderstore Wiki</a></li>
+<li>Stable GitHub Wiki: <a href="https://github.com/MADH95/JSONLoader/wiki">GitHub Wiki</a></li>
+<li>Stable Thunderstore Wiki: <a href="https://thunderstore.io/c/inscryption/p/MADH95Mods/JSONCardLoader/wiki">Thunderstore Wiki</a></li>
 </ul>
-<p>You will also need to add the API as a reference.
-There are a couple ways to do this, detailed below; whichever way you choose to do this, you'll also need to need to reference <code>InscryptionAPI.dll</code>, which should be in your BepInEx plugins folder; copy this path for future use.</p>
-<p>To do so, go to your 'BepInEx/plugins' folder and copy the folder path.
-Then, navigate to <code>Project &gt; Add Project Reference</code> and click 'Browse'.
-Copy the folder path and add 'InscryptionAPI.dll' as a reference.
-You can do this for other mods' .dll files if you want to reference them as a mod dependency (a separate mod that your mod relies on to work).</p>
-<p>An alternative method to adding the API (and other mods) as a reference is to use NuGet packages by adding 'https://nuget.bepinex.dev/v3/index.json' as a package source, and then adding 'API_dev-API' as a reference.</p>
-<p>With all this, you are now ready to begin creating your mod!
-Some resources are provided below for you to use, including an example mod to look at for examples.
-Otherwise, continue reading this wiki.</p>
+<p>A video tutorial covering how to use JSONLoader in a basic form can be found <a href="https://www.youtube.com/watch?v=grTSkpI4U7g">here</a>. A more updated series of sorts by JamesGames can be found <a href="https://youtube.com/playlist?list=PLy57qL2R3Z6NaRJKF4QBaBn6WH8Vztya9&amp;si=npQ2ZxF4gHRXa0B3">here</a>. If you at any point need any help with JSONLoader, you can ask your questions in <a href="https://discord.gg/BNDVDA5Gvh">the discord</a>, specifically the <code>jsonloader-help</code> channel.</p>
+<h3 id="modding-with-c">Modding with C#</h3>
+<p>First things first, in order to even make a mod for the game you will need a few things setup. First off if you haven't installed it yet, we reccomend getting a tool called <a href="https://www.jetbrains.com/rider/">JetBrains Rider</a>. This guide will follow the layout of this IDE. If you still want to use <a href="https://visualstudio.microsoft.com/">Visual Studio</a> instead, no one is going to stop you, there will be a foldout below this guide with the setup for that IDE, note its a little outdated.</p>
+<h4 id="jetbrains-rider-based-project-setups">JetBrains Rider Based Project Setups</h4>
+<details open>
+<summary>
+Click me to close
+</summary>
+<p>Now that you have your IDE, we'll start by making our Project.</p>
+<ol>
+<li>Open up the IDE, than click on <code>New</code>, followed by <code>New Solution</code>.</li>
+<li>One the menu pops up select <code>Class Library</code> from the Left-Side panel.</li>
+<li>Next we want to fill in some fields
+<ol>
+<li>Where it says <code>Solution Name</code>, update the associated field to the name of your mod.</li>
+<li>Next to that field theres a little thing that says <code>format</code>, click the drop down and change it to <code>sln</code>.</li>
+<li>Where it says <code>Target Framework</code>, select the dropdown and change it to <code>v4.7.2</code>. If it is not present, that means you don't have the SDK or Framework installed.
+<ol>
+<li>First ensure the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/10.0">Net10 SDK</a> is installed, you'll want the <code>SDK</code> associated with your OS and Architecture. Note you will want to download an <code>Installer</code> not a <code>Binary</code>.</li>
+<li>Now ensure the <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472">Netframework 4.7.2</a> is installed, you'll want the <code>Offline Installer</code> under <code>Build Apps</code> called the <code>Developer Pack</code>.</li>
+</ol>
+</li>
+<li>Ensure the <code>Language</code> is set to <code>C#</code>, and the Type is set to <code>Class Library</code>.</li>
+</ol>
+</li>
+<li>Now press <code>Create</code>.</li>
+</ol>
+<p>Now we have your basic project setup, if you see a pop up about Microsoft Defender affecting the IDE click <code>Exclude folders</code>, this will allow the IDE to do its job much quicker than it would be able to otherwise.</p>
+<p>Alright now we'll need to make sure you have the NuGet Package sources you'll need for success. The following steps will guide you through the process.</p>
+<ol>
+<li>Right-Click on the <code>Solution</code>, hover over <code>Open In</code>, than select <code>Explorer</code>.</li>
+<li>Once open you should see the File Explorer opened to a folder containing an <code>sln</code> file with a name matching your Project's.</li>
+<li>In this folder create a new text file, than open it in a text editor. Now enter the following into the text file:
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;configuration&gt;
+  &lt;packageSources&gt;
+    &lt;add key=&quot;BepInEx&quot; value=&quot;https://nuget.bepinex.dev/v3/index.json&quot; /&gt;
+    &lt;add key=&quot;nuget.org&quot; value=&quot;https://api.nuget.org/v3/index.json&quot; /&gt;
+    &lt;add key=&quot;ts-nuget&quot; value=&quot;https://nuget.windows10ce.com/nuget/v3/index.json&quot; protocolVersion=&quot;3&quot; /&gt;
+  &lt;/packageSources&gt;
+&lt;/configuration&gt;
+</code></pre>
+</li>
+<li>Save the file, and rename it to <code>NuGet.Config</code>.</li>
+<li>If you don't see the sources in your IDE, try following this short guide and try again: <a href="https://github.com/Chaosyr/JSONCardLoaderWiki/wiki/JSON-and-CSV-Loader-API-Documentation-%E2%80%90-JSON-Inscrybing#file-explorer-windows">File Explorer (Windows); JSONLoader Wiki</a>. Simply put, your windows might not of overwrote the file extension because your extensions are hidden by default.</li>
+</ol>
+<p>Now that we have this setup when you hit <code>All enabled feeds</code> under the <code>NuGet</code> menu found in the bottom of the left-hand toolbar, you should see 3 feeds, labeled <code>BepInEx</code>, <code>nuget.org</code>, and <code>ts-nuget</code>. Also ensure <code>Prerelease</code> is ticked on.</p>
+<p>Next up, press <code>Discover</code> under the <code>Packages</code> tab of the <code>NuGet</code> menu. Search up the following packages in the table below, than install the version specified to the solution, also ensure the source matches.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Package Name</th>
+<th style="text-align: center;">Version</th>
+<th style="text-align: right;">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>BepInEx.Analyzers</code></td>
+<td style="text-align: center;">1.0.8</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>BepInEx.Core</code></td>
+<td style="text-align: center;">5.4.21</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>HarmonyX</code></td>
+<td style="text-align: center;">2.10.2</td>
+<td style="text-align: right;"><code>nuget.org</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Inscryption.GameLibs</code></td>
+<td style="text-align: center;">v1.9.0-r.0</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>UnityEngine.Modules</code></td>
+<td style="text-align: center;">v2019.4.24</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>API_dev-API</code></td>
+<td style="text-align: center;">2.24.1</td>
+<td style="text-align: right;"><code>ts-nuget</code></td>
+</tr>
+</tbody>
+</table>
+<p>If you need any other dependencies that are mods on Thunderstore, search up its package identifier in the NuGet Search, for example <code>Nevernamed-Nevernameds_Sigilarium</code>. You can get the package identifier by going to the mods page on the Thunderstore Website, such as: <a href="https://thunderstore.io/c/inscryption/p/Nevernamed/Nevernameds_Sigilarium/">Nevernameds Sigilarium</a>. Beneath the Download, Like and Report Buttons, there will be a string of text resembling <code>Team-Name-Version</code>. You'll want to copy that string and remove the version part of it, that is what you will put in the NuGet Search.</p>
+</details>
+<h4 id="visual-studio-based-project-setups">Visual Studio Based Project Setups</h4>
+<details>
+<summary>
+Click me to expand
+</summary>
+<p>Now that you have your IDE, do the following to begin with. Your project's target framework needs to be <code>netstandard4.7.2</code>. Once your project's created, go to <code>Project &gt; Manage NuGet Packages</code>. Click the dropdown menu for <code>Package source</code> and check that <code>BepInEx</code>, <code>nuget.org</code> and <code>ts-nuget</code> are there.</p>
+<p>If <code>BepInEx</code>, <code>nuget.org</code> or <code>ts-nuget</code> aren't an available source, we need to add them. There are two methods you can use to address this, the first of which is entirely within Visual Studio, the second of which is through file, which may be less complicated.</p>
+<details>
+<summary>
+Via Package Source Configuration
+</summary>
+For each missing source you will want to do the following:
+<ol>
+<li>Click on the <code>Gear</code> icon next to the package source selector.</li>
+<li>Click the large green <code>Plus</code>.</li>
+<li>Set the fields to match what is shown in the below list:
+<ul>
+<li>To add <code>BepInEx</code>, change the name to <code>BepInEx</code> and the source link to <code>https://nuget.bepinex.dev/v3/index.json</code>.</li>
+<li>To add <code>nuget.org</code>, change the name to <code>nuget.org</code> and the source link to <code>https://api.nuget.org/v3/index.json</code>.</li>
+<li>To add <code>ts-nuget</code>, change the name to <code>ts-nuget</code> and the source link to <code>https://nuget.windows10ce.com/nuget/v3/index.json</code>.</li>
+</ul>
+</li>
+</ol>
+</details>
+<details>
+<summary>
+Via File
+</summary>
+<ol>
+<li>Right-Click the <code>Solution</code> found at the top of the <code>Solution Explorer</code>.</li>
+<li>Click <code>Open Folder in File Explorer</code>.</li>
+<li>Once open you should see the File Explorer opened to a folder containing an <code>sln</code> file with a name matching your Project's.</li>
+<li>In this folder create a new text file, than open it in a text editor. Now enter the following into the text file:
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;configuration&gt;
+  &lt;packageSources&gt;
+    &lt;add key=&quot;BepInEx&quot; value=&quot;https://nuget.bepinex.dev/v3/index.json&quot; /&gt;
+    &lt;add key=&quot;nuget.org&quot; value=&quot;https://api.nuget.org/v3/index.json&quot; /&gt;
+    &lt;add key=&quot;ts-nuget&quot; value=&quot;https://nuget.windows10ce.com/nuget/v3/index.json&quot; protocolVersion=&quot;3&quot; /&gt;
+  &lt;/packageSources&gt;
+&lt;/configuration&gt;
+</code></pre>
+</li>
+<li>Save the file, and rename it to <code>NuGet.Config</code>.</li>
+<li>If you don't see the sources in your IDE, try following this short guide and try again: <a href="https://github.com/Chaosyr/JSONCardLoaderWiki/wiki/JSON-and-CSV-Loader-API-Documentation-%E2%80%90-JSON-Inscrybing#file-explorer-windows">File Explorer (Windows); JSONLoader Wiki</a>. Simply put, your windows might not of overwrote the file extension because your extensions are hidden by default. If that fails try the <code>Via Package Source Configuration</code> method.</li>
+</ol>
+</details>
+<p>Now that we have this setup change the package source to  <code>All</code>. Also ensure <code>Prerelease</code> is ticked on.</p>
+<p>Next up, press <code>Browse</code> in the menu. Search up the following packages in the table below, than install the version specified to the solution, also ensure the source matches.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Package Name</th>
+<th style="text-align: center;">Version</th>
+<th style="text-align: right;">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>BepInEx.Analyzers</code></td>
+<td style="text-align: center;">1.0.8</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>BepInEx.Core</code></td>
+<td style="text-align: center;">5.4.21</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>HarmonyX</code></td>
+<td style="text-align: center;">2.10.2</td>
+<td style="text-align: right;"><code>nuget.org</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Inscryption.GameLibs</code></td>
+<td style="text-align: center;">v1.9.0-r.0</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>UnityEngine.Modules</code></td>
+<td style="text-align: center;">v2019.4.24</td>
+<td style="text-align: right;"><code>BepInEx</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>API_dev-API</code></td>
+<td style="text-align: center;">2.24.1</td>
+<td style="text-align: right;"><code>ts-nuget</code></td>
+</tr>
+</tbody>
+</table>
+<p>If you need any other dependencies that are mods on Thunderstore, search up its package identifier in the NuGet Search, for example <code>Nevernamed-Nevernameds_Sigilarium</code>. You can get the package identifier by going to the mods page on the Thunderstore Website, such as: <a href="https://thunderstore.io/c/inscryption/p/Nevernamed/Nevernameds_Sigilarium/">Nevernameds Sigilarium</a>. Beneath the Download, Like and Report Buttons, there will be a string of text resembling <code>Team-Name-Version</code>. You'll want to copy that string and remove the version part of it, that is what you will put in the NuGet Search.</p>
+</details>
+<p>You are now ready to begin creating your mod! Some resources are provided below for you to use, including an example mod to look at for examples. Otherwise, continue reading this wiki.</p>
 <h3 id="modding-resources">Modding Resources</h3>
 <p><a href="https://discord.gg/QrJEF5Denm">Inscryption Modding Discord</a></p>
 <p><a href="https://docs.bepinex.dev/">BepInEx documentation</a></p>
 <p><a href="https://harmony.pardeike.net/articles/patching.html">Harmony patching article</a></p>
 <p><a href="https://github.com/debugman18/InscryptionExampleMod">Example Mod using C#</a></p>
 <p><a href="https://github.com/SaxbyMod/SabyModEnums">Vanilla and Modded Enumerations</a></p>
-<p>An example mod utilising this plugin can be found <a href="https://github.com/debugman18/InscryptionExampleMod">here</a>,
-and the modding wiki and documentation can be found <a href="https://inscryptionmodding.github.io/InscryptionAPI/wiki/index.html">here</a>.</p>
 <hr>
 <h2 id="modded-save-file">Modded Save File</h2>
 <p>With this API installed, an additional 'modded save file' will be created by the game. This file will be found in the 'BepInEx' subdirectory, and contains all save data created by mods that use this API. This file will not automatically be synced to the cloud by Steam.</p>
