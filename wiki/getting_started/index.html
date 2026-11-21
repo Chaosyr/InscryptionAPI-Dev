@@ -274,7 +274,7 @@
 <p>This set of articles covers getting started for both users and modders. This page acts as the homepage that links out to them. You can switch between them through the table of contents, which is on the left hand of the screen. You can also switch to other articles through the table of contents.</p>
 <h2 id="getting-started-users">Getting Started (Users)</h2>
 <p>The following are links to articles relavent for Users of the API. Namely covering the topic of installation of mods for Inscryption that utilize the API. This also includes how to install BepInEx, the underlying framework for all Inscryption Mods, for all of the given scenarios the Articles tackle.</p>
-<p><strong>FOR LINUX AND STEAMDECK:</strong> Ensure that the game is set to run using <code>Proton</code> in he game settings on steam. Should be a setting like this: <code>Change launch behaviour</code> -&gt; <code>Proton</code>.</p>
+<p><em><strong>FOR LINUX AND STEAMDECK:</strong></em> Ensure that the game is set to run using <code>Proton</code> in he game settings on steam. Should be a setting like this: <code>Change launch behaviour</code> -&gt; <code>Proton</code>.</p>
 <ul>
 <li><a href="users/installing_with_a_mod_manager.html">Installing With a Mod Manager</a></li>
 <li><a href="users/installing_manually_on_windows_x86.html">Installing Manually on Windows (x86)</a></li>
@@ -283,6 +283,69 @@
 <li><a href="users/installing_on_mac_and_linux.html">Installing on Mac &amp; Linux</a></li>
 </ul>
 <h2 id="getting-started-modders">Getting Started (Modders)</h2>
+<p>So your interested in learning how to modify Inscryption? Well this section of our guide should come in really handy for you! Albeit if your a artist, a developer, or just passing by, we hope you find these guides of value.</p>
+<p>First off let's get you to the right branch of the guides. Let's get some groundworks out of the way now. Based on the item below, you should be funneled to the level your after.</p>
+<pre><code class="lang-mermaid">flowchart TD
+    A[&quot;Are you trying to make a Simple Cardpack?&quot;]
+    A --&gt; A1[&quot;If this item applied to you, than let's head to the&lt;br/&gt;[JSONLoader Branch]()&lt;br/&gt;Unless your willing to challenge yourself?&lt;br/&gt;If you want the challenge, follow the other tree!&quot;]
+
+    B[&quot;Are you after something more Complex in terms of your Project?&quot;]
+    B --&gt; C[&quot;Are you already familiar with C#?&quot;]
+
+    C --&gt;|Yes| D[&quot;What is your preferred of the two? Visual Studio, or JetBrains Rider?&quot;]
+    C --&gt;|No| C1[&quot;If this was your case, than let's head into the&lt;br/&gt;[C# Basics Branch](), to get you familiar with the underlying concepts,&lt;br/&gt;and knowledge you will need in order to make your mod.&quot;]
+
+    D --&gt;|Visual Studio| D1[&quot;If this was your choice, let us navigate into the&lt;br/&gt;[API Project Setup Guide for Visual Studio]().&quot;]
+    D --&gt;|JetBrains Rider| D2[&quot;If this was your choice, let us navigate into the&lt;br/&gt;[API Project Setup Guide for JetBrains Rider]().&quot;]
+
+    click A1 &quot;modders/jsonloader_projects/index.md&quot; &quot;Open JSONLoader Branch&quot;
+    click C1 &quot;modders/c_sharp_basics/index.md&quot; &quot;Open C# Basics Branch&quot;
+    click D1 &quot;modders/api_projects_vs_edition/index.md&quot; &quot;Open Visual Studio Setup Guide&quot;
+    click D2 &quot;modders/api_projects_rider_edition/index.md&quot; &quot;Open JetBrains Rider Setup Guide&quot;
+</code></pre>
+<details>
+<summary>
+Plain-Text Version
+</summary>
+<ol>
+<li>Are you trying to make a Simple Cardpack?
+<ul>
+<li>If this item applied to you, than let's head to the <a href="modders/jsonloader_projects/index.html">JSONLoader Branch</a> shallst we? Unless your willing to challenge yourself?</li>
+</ul>
+</li>
+<li>Are you after something more Complex in terms of your Project?
+<ol>
+<li>Are you already familiar with C#?
+<ul>
+<li>If <code>Yes</code> was your choice:
+<ol>
+<li>What is your preferred of the two? Visual Studio, or JetBrains Rider?
+<ul>
+<li>If <code>Visual Studio</code> was your choice:
+<ul>
+<li>If this was your choice, let us navigate into the <a href="modders/api_projects_vs_edition/index.html">API Project Setup Guide for Visual Studio</a>.</li>
+</ul>
+</li>
+<li>If <code>JetBrains Rider</code> was your choice:
+<ul>
+<li>If this was your choice, let us navigate into the <a href="modders/api_projects_rider_edition/index.html">API Project Setup Guide for JetBrains Rider</a>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>If <code>No</code> was your choice:
+<ul>
+<li>If this was your case, than let's head into the <a href="modders/c_sharp_basics/index.html">C# Basics Branch</a>, to get you familiar with the underlying concepts and knowledge you will need in order to make your mod.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</details>
 
 </article>
 
