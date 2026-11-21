@@ -7917,6 +7917,56 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/users/installing_manually_on_windows_x64.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/users/installing_manually_on_windows_x64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/users/installing_manually_on_windows_x86.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/users/installing_manually_on_windows_x86.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/users/installing_on_mac_and_linux.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/users/installing_on_mac_and_linux.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/users/installing_on_the_steam_deck.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/users/installing_on_the_steam_deck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/users/installing_with_a_mod_manager.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/users/installing_with_a_mod_manager.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/users/toc.yml",
       "output": {

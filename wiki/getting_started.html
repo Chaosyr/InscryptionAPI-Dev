@@ -4,16 +4,16 @@
     <meta charset="utf-8">
 
 
-    <title>Getting Started | InscryptionAPI </title>
+    <title> | InscryptionAPI </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Getting Started | InscryptionAPI ">
+    <meta name="title" content=" | InscryptionAPI ">
 
 
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="InscryptionAPI">
-    <meta property="og:title" content="Getting Started">
+    <meta property="og:title" content="">
 
 
 
@@ -21,7 +21,7 @@
 
     <!-- Twitter / Large Preview -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Getting Started">
+    <meta name="twitter:title" content="">
 
 
 
@@ -269,105 +269,7 @@
             </div>
 
             <article data-uid="">
-<h1 id="getting-started">Getting Started</h1>
 
-<p>This article covers both getting started for users and modders. If you want to skip directly to either section, click the relavent section under <code>IN THIS ARTICLE</code>. If you want to change articles, you can do so on the Left side of the page, which is the Table Of Contents of our Wiki.</p>
-<h2 id="getting-started-installation">Getting Started: Installation</h2>
-<hr>
-<p>To begin, we'll go over how to install BepInEx, the framework all Inscryption mods use.  This is a necessary step to playing modded Inscryption, so be sure to follow this carefully.</p>
-<p><strong>FOR LINUX AND STEAMDECK:</strong> Ensure that the game is set to run using <code>Proton</code> in he game settings on steam. Should be a setting like this: <code>Change launch behaviour</code> -&gt; <code>Proton</code>.</p>
-<h3 id="installing-with-a-mod-manager">Installing with a Mod Manager</h3>
-<ol>
-<li>Download and install <a href="https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager">Thunderstore Mod Manager</a>, <a href="https://thunderstore.io/c/inscryption/p/Kesomannen/GaleModManager/">Gale</a>, <a href="https://pulsarmods.com/">Pulsar</a> or <a href="https://thunderstore.io/c/inscryption/p/ebkr/r2modman/">r2modman</a>.</li>
-<li>Click the <strong>Install with Mod Manager</strong> button on the top of <a href="https://thunderstore.io/c/inscryption/p/BepInEx/BepInExPack_Inscryption/">BepInEx's</a> page.</li>
-<li>Run the game via the mod manager.</li>
-</ol>
-<p>If you have issues with Mod Managers head to one of these discords;</p>
-<ul>
-<li><strong>Thunderstore Support Discord:</strong> <a href="https://discord.gg/Fbz54kQAxg">Here</a></li>
-<li><strong>R2ModMan Support Discord:</strong> <a href="https://discord.gg/R85wjqa4WN">Here</a></li>
-<li><strong>Gale Mod Manager Support Discord:</strong> <a href="https://discord.gg/sfuWXRfeTt">Here</a></li>
-</ul>
-<h3 id="installing-manually">Installing Manually</h3>
-<ol>
-<li>Install <a href="https://thunderstore.io/package/download/BepInEx/BepInExPack_Inscryption/5.4.2305/">BepInEx</a> by pressing <code>Manual Download</code> and extract the contents into a folder. <strong>Do not extract into the game folder!</strong></li>
-<li>Move the contents of the <code>BepInExPack_Inscryption</code> folder into the game folder (where the game executable is; usually found here: <code>C:\Program Files (x86)\Steam\steamapps\common\Inscryption</code>).</li>
-<li>Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.</li>
-<li>Install <a href="https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/">MonoModLoader</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don't exist, just create them).</li>
-<li>Install <a href="https://inscryption.thunderstore.io/package/API_dev/API/">Inscryption API</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>plugins</code> folder into <code>BepInEx/plugins</code> and the contents of the <code>monomod</code> folder into the <code>BepInEx/monomod</code> folder.</li>
-<li>Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.</li>
-<li>For any additional mods create a new subfolder, it can be called anything and extract the zips archive into it and if there is a <code>BepInEx</code> folder within the zip instead drop the contents of that folder into the <code>BepInEx</code> root for the modding instance. EX;
-<pre><code>BepInEx // These go within the BepInEx root folder
-|-- config
-|-- patchers
-|-- plugins
-|-- monomod
-|-- core
-plugins // Files within go into the created plugin subfolder that was created for the mod
-|-- Art
-|-- Scripts
-|-- MyMod.dll
-manifest.json // Ignorable, but if kept, goes in plugin subfolder
-README.md // Ignorable, but if kept, goes in plugin subfolder
-CHANGELOG.md // Ignorable, but if kept, goes in plugin subfolder
-icon.png // Ignorable, but if kept, goes in plugin subfolder
-</code></pre>
-</li>
-<li>Run the game once more and everything should be correct and working.</li>
-</ol>
-<h3 id="installing-manually-xbox-game-pass">Installing Manually (XBOX Game-Pass)</h3>
-<ol>
-<li>Install <a href="https://thunderstore.io/package/download/BepInEx/BepInExPack_Inscryption/5.4.2305/">BepInEx</a> by pressing <code>Manual Download</code> and extract the contents into a folder. <strong>Do not extract into the game folder!</strong></li>
-<li>Move the contents of the <code>BepInExPack_Inscryption</code> folder into the game folder (where the game executable is; usually found here: <code>C:\XboxGames\Inscryption\Content</code>).</li>
-<li>Install the following package: <a href="https://thunderstore.io/c/inscryption/p/CORE_API_TEAM/GamepassSilencio/">XboxSilencio</a>, this is a package which aims to solve frictions with XBOX Gamepass specific installations, such as HueyFS related errors.</li>
-<li>Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.</li>
-<li>Install <a href="https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/">MonoModLoader</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don't exist, just create them).</li>
-<li>Install <a href="https://inscryption.thunderstore.io/package/API_dev/API/">Inscryption API</a> and extract the contents into a folder.</li>
-<li>Move the contents of the <code>plugins</code> folder into <code>BepInEx/plugins</code> and the contents of the <code>monomod</code> folder into the <code>BepInEx/monomod</code> folder.</li>
-<li>Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.</li>
-<li>For any additional mods create a new subfolder, it can be called anything and extract the zips archive into it and if there is a <code>BepInEx</code> folder within the zip instead drop the contents of that folder into the <code>BepInEx</code> root for the modding instance. EX;
-<pre><code>BepInEx // These go within the BepInEx root folder
-|-- config
-|-- patchers
-|-- plugins
-|-- monomod
-|-- core
-plugins // Files within go into the created plugin subfolder that was created for the mod
-|-- Art
-|-- Scripts
-|-- MyMod.dll
-manifest.json // Ignorable, but if kept, goes in plugin subfolder
-README.md // Ignorable, but if kept, goes in plugin subfolder
-CHANGELOG.md // Ignorable, but if kept, goes in plugin subfolder
-icon.png // Ignorable, but if kept, goes in plugin subfolder
-</code></pre>
-</li>
-<li>Run the game once more and everything should be correct and working.</li>
-</ol>
-<h3 id="installing-on-the-steam-deck">Installing on the Steam Deck</h3>
-<ol>
-<li>Download <a href="https://thunderstore.io/c/inscryption/p/ebkr/r2modman/">r2modman</a> on the Steam Deck's Desktop Mode and open it from its download using its <code>AppImage</code> file.</li>
-<li>Download the mods you plan on using and their dependencies.</li>
-<li>Go to the setting of the profile you are using for the mods and click <code>Browse Profile Folder</code>.</li>
-<li>Copy the BepInEx folder, then go to Steam and open Inscryption's Properties menu</li>
-<li>Go to <code>Installed Files</code> click <code>Browse</code> to open the folder containing Inscryption's local files; paste the BepInEx folder there.</li>
-<li>Enter Gaming Mode and check 'Force the use of a specific Steam Play compatibility tool' in the Properties menu under <code>Compatibility</code>.</li>
-<li>Go to the launch parameters and enter <code>WINEDLLOVERRIDES=&quot;winhttp.dll=n,b&quot; %command%</code>.</li>
-<li>Open Inscryption. If everything was done correctly, you should see a console appear on your screen.</li>
-</ol>
-<h3 id="mac--linux">Mac &amp; Linux</h3>
-<ol>
-<li>Follow the steps here first: <a href="https://docs.bepinex.dev/articles/user_guide/installation/index.html">https://docs.bepinex.dev/articles/user_guide/installation/index.html</a></li>
-<li>Next do steps 4-10 of the Manual Installation</li>
-<li>Your game should be setup for inscryption modding now</li>
-</ol>
-<p>If you have any issues with Mac/Linux, Steam Deck, or Manual head over to the discord for this game:</p>
-<ul>
-<li><strong>Inscryption Modding Discord:</strong> <a href="https://discord.gg/ZQPvfKEpwM">Here</a></li>
-</ul>
 <h2 id="getting-started-modding">Getting Started: Modding</h2>
 <hr>
 <p>Modding Inscryption requires a knowledge of coding in C# or a similar programming language such as Java, and in many cases an understanding of how to patch the game using HarmonyPatch, which you can find the docs for <a href="https://github.com/BepInEx/HarmonyX/wiki">here</a> for HarmonyX, and <a href="https://harmony.pardeike.net/v2/articles/intro.html">here</a> for the underlying basic Harmony.</p>
