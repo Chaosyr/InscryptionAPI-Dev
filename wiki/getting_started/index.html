@@ -287,21 +287,21 @@
 <p>First off let's get you to the right branch of the guides. Let's get some groundworks out of the way now. Based on the item below, you should be funneled to the level your after.</p>
 <pre><code class="lang-mermaid">flowchart TD
     A[&quot;Are you trying to make a Simple Cardpack?&quot;]
-    A --&gt; A1[&quot;If this item applied to you, than let's head to the&lt;br/&gt;[JSONLoader Branch]()&lt;br/&gt;Unless your willing to challenge yourself?&lt;br/&gt;If you want the challenge, follow the other tree!&quot;]
+    A --&gt; A1[&quot;If this item applied to you, than let's head to the&lt;br/&gt;~~ JSONLoader Branch ~~&lt;br/&gt;Unless your willing to challenge yourself?&lt;br/&gt;If you want the challenge, follow the other tree!&quot;]
 
     B[&quot;Are you after something more Complex in terms of your Project?&quot;]
     B --&gt; C[&quot;Are you already familiar with C#?&quot;]
 
     C --&gt;|Yes| D[&quot;What is your preferred of the two? Visual Studio, or JetBrains Rider?&quot;]
-    C --&gt;|No| C1[&quot;If this was your case, than let's head into the&lt;br/&gt;[C# Basics Branch](), to get you familiar with the underlying concepts,&lt;br/&gt;and knowledge you will need in order to make your mod.&quot;]
+    C --&gt;|No| C1[&quot;If this was your case, than let's head into the&lt;br/&gt;~~ C# Basics Branch ~~&lt;/br&gt;To get you familiar with the underlying concepts,&lt;br/&gt;and knowledge you will need in order to make your mod.&quot;]
 
-    D --&gt;|Visual Studio| D1[&quot;If this was your choice, let us navigate into the&lt;br/&gt;[API Project Setup Guide for Visual Studio]().&quot;]
-    D --&gt;|JetBrains Rider| D2[&quot;If this was your choice, let us navigate into the&lt;br/&gt;[API Project Setup Guide for JetBrains Rider]().&quot;]
+    D --&gt;|Visual Studio| D1[&quot;If this was your choice, let us navigate into the&lt;br/&gt;~~ API Project Setup Guide for Visual Studio ~~&quot;]
+    D --&gt;|JetBrains Rider| D2[&quot;If this was your choice, let us navigate into the&lt;br/&gt;~~ API Project Setup Guide for JetBrains Rider ~~&quot;]
 
-    click A1 &quot;modders/jsonloader_projects/index.md&quot; &quot;Open JSONLoader Branch&quot;
-    click C1 &quot;modders/c_sharp_basics/index.md&quot; &quot;Open C# Basics Branch&quot;
-    click D1 &quot;modders/api_projects_vs_edition/index.md&quot; &quot;Open Visual Studio Setup Guide&quot;
-    click D2 &quot;modders/api_projects_rider_edition/index.md&quot; &quot;Open JetBrains Rider Setup Guide&quot;
+    click A1 &quot;jsonloader_projects/index.html&quot; &quot;Open JSONLoader Branch&quot;
+    click C1 &quot;c_sharp_basics/index.html&quot; &quot;Open C# Basics Branch&quot;
+    click D1 &quot;api_projects_vs_edition/index.html&quot; &quot;Open Visual Studio Setup Guide&quot;
+    click D2 &quot;api_projects_rider_edition/index.html&quot; &quot;Open JetBrains Rider Setup Guide&quot;
 </code></pre>
 <details>
 <summary>
@@ -346,6 +346,14 @@ Plain-Text Version
 </li>
 </ol>
 </details>
+<h3 id="modding-resources">Modding Resources</h3>
+<ul>
+<li><a href="https://discord.gg/QrJEF5Denm">Inscryption Modding Discord</a></li>
+<li><a href="https://docs.bepinex.dev/">BepInEx documentation</a></li>
+<li><a href="https://harmony.pardeike.net/articles/patching.html">Harmony patching article</a></li>
+<li><a href="https://github.com/debugman18/InscryptionExampleMod">Example Mod using C#</a></li>
+<li><a href="https://github.com/SaxbyMod/SabyModEnums">Vanilla and Modded Enumerations</a></li>
+</ul>
 
 </article>
 
