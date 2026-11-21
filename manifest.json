@@ -7107,11 +7107,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -7718,11 +7718,11 @@
       "type": "Toc",
       "source_relative_path": "community/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "community/toc.html"
-        },
         ".json": {
           "relative_path": "community/toc.json"
+        },
+        ".html": {
+          "relative_path": "community/toc.html"
         }
       },
       "version": ""
@@ -7781,11 +7781,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
@@ -7884,11 +7884,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/modders/api_projects_rider_edition/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/modders/api_projects_rider_edition/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/modders/api_projects_rider_edition/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/api_projects_rider_edition/toc.html"
         }
       },
       "version": ""
@@ -7907,11 +7907,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/modders/api_projects_vs_edition/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/modders/api_projects_vs_edition/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/modders/api_projects_vs_edition/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/api_projects_vs_edition/toc.html"
         }
       },
       "version": ""
@@ -7930,11 +7930,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/modders/c_sharp_basics/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/modders/c_sharp_basics/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/modders/c_sharp_basics/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/c_sharp_basics/toc.html"
         }
       },
       "version": ""
@@ -7963,11 +7963,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/modders/jsonloader_projects/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/modders/jsonloader_projects/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/modders/jsonloader_projects/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/jsonloader_projects/toc.html"
         }
       },
       "version": ""
@@ -7976,11 +7976,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/modders/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/modders/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/modders/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/toc.html"
         }
       },
       "version": ""
@@ -7989,11 +7989,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/toc.html"
         }
       },
       "version": ""
@@ -8062,11 +8062,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/getting_started/users/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/getting_started/users/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/getting_started/users/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/getting_started/users/toc.html"
         }
       },
       "version": ""
@@ -8225,11 +8225,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/toc.html"
         }
       },
       "version": ""
