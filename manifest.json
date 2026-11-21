@@ -7107,11 +7107,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -7718,11 +7718,11 @@
       "type": "Toc",
       "source_relative_path": "community/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "community/toc.html"
-        },
         ".json": {
           "relative_path": "community/toc.json"
+        },
+        ".html": {
+          "relative_path": "community/toc.html"
         }
       },
       "version": ""
@@ -7781,11 +7781,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
@@ -7856,6 +7856,36 @@
       "output": {
         ".html": {
           "relative_path": "wiki/getting_started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/modders/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/users/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/users/index.html"
         }
       },
       "version": ""
@@ -8014,11 +8044,11 @@
       "type": "Toc",
       "source_relative_path": "wiki/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "wiki/toc.html"
-        },
         ".json": {
           "relative_path": "wiki/toc.json"
+        },
+        ".html": {
+          "relative_path": "wiki/toc.html"
         }
       },
       "version": ""
