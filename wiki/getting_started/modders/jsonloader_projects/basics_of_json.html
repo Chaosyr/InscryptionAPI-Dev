@@ -271,6 +271,24 @@
             <article data-uid="">
 <h1 id="basics-of-json">Basics of JSON</h1>
 
+<p>So, knowledge of <code>JSON</code> is a core requirement of using JSONLoader. Thus, let's get you familiarized with what <code>JSON</code> is. First off <code>JSON</code> stands for <code>JavaScript Object Notation</code>, if the name didn't imply it already, it is a thing that originated from JavaScript. Not to be confused with Java, they are vastly different beasts. Anyways <code>JSON</code> is a Scripting Language, meant for expressing objects, such as what JSONLoader uses for it's Cards. But before we can dig into that, first we need to introduce you to <code>JSON Syntax</code>.</p>
+<hr>
+<h2 id="your-first-json">Your First JSON</h2>
+<p>To get started, let's create a new <code>JSON File</code>. Now open it in your text editor of preference. Next up, enter the following <code>{}</code>. Why? Well without them, the <code>JSON</code> won't actually read as a <code>JSON</code>, the curly braces (<code>{}</code>) act as the peice that tells the reader that the contents within the <code>{}</code> are a <code>Object</code>. To be precise the opening <code>{</code> opens the <code>Object</code>, and the closing <code>}</code> thus closes the object.</p>
+<p>What goes within these <code>{}</code> are called <code>Properties</code> and they define what the <code>Object</code> holds, the <code>Properties</code> themselves you can think of as defining what a peice of the <code>Object</code> is meant to do. A <code>Property</code> consists of a <code>Key</code> and a <code>Value</code>. The <code>Key</code> will always have the same syntax. The <code>Value</code> will change syntax based on the <code>Type</code> in which the <code>Property</code> pretains of. For example a <code>String</code> and a <code>Boolean</code> will have different ways of defining its <code>Value</code>'s syntax, and by extension, what the <code>Value</code> of the <code>Property Key</code> can be.</p>
+<p>You can open a <code>Key</code> the same way you would an <code>Object</code>. Except with a <code>Key</code> you would use a pair of quotation marks (<code>&quot;&quot;</code>). What goes within the quotation marks would be the <code>Property Key</code> in plain text. When working with <code>JSON</code>, the <code>Schema</code> associated with the <code>JSON</code> will define what goes in the <code>Key</code>. A <code>Schema</code> is basically a set of rules that extend the rules of how a given <code>Property</code> can be defined, and can also be used to see what kind of <code>Value</code> is expected to go alongside a given <code>Property Key</code>. <em>Note: <code>Propety Key</code>'s are case sensitive, when defining one, ensure the casing matches the original <code>Key</code> found with the <code>Schema</code>.</em></p>
+<p>Now theres a plethora of things you can format into this newly created <code>Object</code>. Open up your braces to look like the following code block, make sure there's a tab's worth of spacing in the middle. You won't be peanalized if you don't but it will look better for the person who will end up reading the <code>JSON</code>. Within these braces is where we will be putting the <code>Properties</code>, as is expected by <code>JSON</code> syntax.</p>
+<pre><code class="lang-json">{
+
+}
+</code></pre>
+<p>The following subsections will go over each <code>Property Type</code> that we can use when making a <code>JSON</code>. It will go over both what the rules of the <code>Property Type</code> are, an what the <code>Property Type</code> could be used for.</p>
+<h3 id="string">String</h3>
+<h3 id="integer">Integer</h3>
+<h3 id="boolean">Boolean</h3>
+<h3 id="array">Array</h3>
+<h3 id="object">Object</h3>
+<h3 id="null">Null</h3>
 <hr>
 
 </article>
