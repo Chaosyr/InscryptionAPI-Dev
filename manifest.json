@@ -7951,6 +7951,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "wiki/getting_started/modders/jsonloader_projects/environment_setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "wiki/getting_started/modders/jsonloader_projects/environment_setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "wiki/getting_started/modders/jsonloader_projects/index.md",
       "output": {
         ".html": {
