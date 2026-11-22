@@ -4,16 +4,16 @@
     <meta charset="utf-8">
 
 
-    <title> | InscryptionAPI </title>
+    <title>Inscryption Modding Wiki | InscryptionAPI </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content=" | InscryptionAPI ">
+    <meta name="title" content="Inscryption Modding Wiki | InscryptionAPI ">
 
 
 
     <!-- Open Graph / Discord Embeds -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="InscryptionAPI">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="Inscryption Modding Wiki">
 
 
 
@@ -21,7 +21,7 @@
 
     <!-- Twitter / Large Preview -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="">
+    <meta name="twitter:title" content="Inscryption Modding Wiki">
 
 
 
@@ -269,14 +269,23 @@
             </div>
 
             <article data-uid="">
+<h1 id="inscryption-modding-wiki">Inscryption Modding Wiki</h1>
 
-<h2 id="inscryption-modding-wiki">Inscryption Modding Wiki</h2>
+<p>Hey there, and welcome to the Inscryption Modding and API Wiki. This is your one stop hub for all things related to the API. The following are some quick links:</p>
+<ul>
+<li><a href="../api/index.html">Inscryption API Documentation</a></li>
+<li><a href="../community/index.html">Inscryption Community Patch Documentation</a></li>
+<li><a href="index.html">Inscryption Modding Wiki</a></li>
+</ul>
+<p>Some other links you may find extremely valuable are as follows:</p>
+<ul>
+<li><a href="https://discord.gg/QrJEF5Denm">Inscryption Modding Discord</a></li>
+<li><a href="https://thunderstore.io/c/inscryption/p/API_dev/API/">Thunderstore Package</a></li>
+<li><a href="https://github.com/InscryptionModding/InscryptionAPI">GitHub Repository</a></li>
+</ul>
+<p>How can you contribute to the wiki? Well for starters you can find the Wiki end of our setup <a href="https://github.com/InscryptionModding/InscryptionAPI/tree/main/docs">here</a>, the only relevant part of this setup you may need to interact with is <code>wiki</code> or any <code>index.md</code> files. The rest of it leave untouched unless you <em><strong>know</strong></em> what you are doing. Once you have a markdown file open its straight forward editing as long as you know how Markdown works.</p>
 <hr>
-<p>Welcome to the modding wiki!  This document will help familiarise you with modding Inscryption using the Inscryption API.
-Here you will find in-depth information on the API's numerous features, both what they do and how you can use them.</p>
-<p>For a full list of API classes and members, or are looking for more technical information, you can look at the documentation section.</p>
 <h2 id="game-tweaks">Game Tweaks</h2>
-<hr>
 <p>Included with the API are a number of game changes for aiding with multi-Act support and further modding customisation.</p>
 <p>The API package also comes with a second DLL consisting of multiple community patches, either fixing bugs or providing QoL changes for the game.</p>
 <h3 id="card-cost-displays">Card Cost Displays</h3>
@@ -303,8 +312,8 @@ Act3BonesDisplayer.ForceBonesDisplayActive = true; // Forces the bones TV screen
 <p>If the bones TV screen is active, a bolt will also be dropped on top of each card that dies in-game (the same way that bone tokens are dropped on top of cards that die in Leshy's cabin).</p>
 <h3 id="deathshield-ability-behaviour">DeathShield Ability Behaviour</h3>
 <p>The API changes how DeathShield (aka Nano Armour/Armoured) functions, with the ability now being attached to a custom ability behaviour  'APIDeathShield' that inherits from DamageShieldBehaviour (more info further below).</p>
-<h2 id="extra-alternate-portraits">Extra Alternate Portraits</h2>
 <hr>
+<h2 id="extra-alternate-portraits">Extra Alternate Portraits</h2>
 <p>In Inscryption, there are some situations where a card's portrait is changed.
 SteelTrap, for example, changes the base card's portrait to the 'closed trap' portrait, and Mud Turtle switches its portrait upon losing its shield.
 However, these cases are very limited; SteelTrap changes <em>all</em> cards to the closed trap portrait, even if it's not on the vanilla trap card;
@@ -342,12 +351,13 @@ These are stored separately from a card's base portrait and alternate portrait, 
 </tr>
 </tbody>
 </table>
+<hr>
 <h2 id="part2modular">Part2Modular</h2>
 <p>The API adds a custom AbilityMetaCategory called Part2Modular, accessible from the AbilityManager.</p>
 <p>This metacategory is used in the community patches to determine what sigils the Amorphous sigil can become while in Act 2, but is otherwise free for you to use.</p>
 <p>A number of vanilla sigils have been marked with this metacategory by default.</p>
-<h2 id="core-features">Core Features</h2>
 <hr>
+<h2 id="core-features">Core Features</h2>
 <h3 id="extending-enumerations">Extending Enumerations</h3>
 <p>The base game uses a number of hard-coded lists, called 'Enumerations' or 'Enums', to manage behaviors. For example, the ability &quot;Brittle&quot; is assigned to a card using the enumerated value Ability.Brittle. We can expand these lists, but it requires care, and it is managed by the GuidManager class. This handles the creation of new enumerations and making sure those are handled consistently across mods.</p>
 <p>Lets say that you want to create a new story event. These are managed by the enumeration StoryEvent. To create a new story event, you should use this pattern to create a single static reference to that new value:</p>
@@ -368,6 +378,7 @@ These are stored separately from a card's base portrait and alternate portrait, 
 }
 </code></pre>
 <p>When written like this, the static property &quot;NumberOfItems&quot; now automatically syncs to the save file.</p>
+<hr>
 
 </article>
 
