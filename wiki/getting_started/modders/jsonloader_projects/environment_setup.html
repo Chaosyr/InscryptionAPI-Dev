@@ -272,20 +272,146 @@
 <h1 id="environment-setup">Environment Setup</h1>
 
 <p>First off we need to get some initial setup for the JSONLoader environment out of the way. The sections on this page, shown under <code>IN THIS ARTICLE</code> on the right hand side of the screen, will be focused on various aspects of setting up the environment. Why? We want to reduce the frictions you may run into when working with JSONLoader, before you run into them yourself. If you already have the environment you will be using setup, than feel free to skip ahead to the next article.</p>
+<hr>
 <h2 id="what-do-i-need">What do I need?</h2>
 <p>First off you will need an Text Editor of some variety. A basic notepad can do the trick. However, if you want an easy to use system, which has syntax highlighting for both JSON and CSV, we reccomend grabbing either <a href="https://code.visualstudio.com/download">Visual Studio Code</a> or <a href="https://code.visualstudio.com/insiders">Visual Studio Code Insiders</a>. There is also a plethora of other editors that could work too, such as <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>, or <a href="https://atom-editor.cc/">Atom</a>. Once you've got the given editor you want to use installed/setup, we can proceed to the next section.</p>
+<hr>
 <h2 id="file-explorer-setup-for-windows">File Explorer Setup for Windows</h2>
-<p>If your not a windows user, skip this section. But if you are a windows user, you'll want to follow it, that way we can ensure the file extensions, of the files your making will be the correct ones. The following steps will help you to enable File Explorer to show extensions of your files.</p>
+<p>If your not a <code>Windows</code> user, skip this section. But if you are a <code>Windows</code> user, you'll want to follow it, that way we can ensure the file extensions, of the files your making will be the correct ones. The following steps will help you to enable File Explorer to show extensions of your files.</p>
 <ol>
 <li>First things first, you'll want to open your File Explorer, you can do this by pressing the <code>Windows</code> key, than searching for <code>File Explorer</code>, and lastly pressing <code>Open</code>.</li>
-<li>Below the <code>navbar</code> at the top of the window, press the button that looks like <code>…</code> or <code>three dots vertically centered and in a row</code>.</li>
+<li>Below the <code>Navbar</code> at the top of the window, press the button that looks like <code>…</code> or <code>three dots vertically centered and in a row</code>.</li>
 <li>After having pressed the button, click on <code>Options</code> from the popup menu.</li>
 <li>Once your in the menu, three tabs will be present at the top of the pop up, you will want to press the one labeled <code>View</code>.</li>
 <li>Under <code>Advanced Settings</code> toggle the following setting off, <code>Hide extensions for known file types</code>, followed by toggling on <code>Show hidden files, folders, and drives</code>, this one is less needed, but it may come in handy when looking for your <code>AppData</code> folder if it ever becomes needed.</li>
 <li>Now press <code>Apply to Folders</code> followed by <code>OK</code>.</li>
 </ol>
 <p>With that we are now set to proceed to the next section! If you ever find yourself unable to view your file extensions, just refollow the above steps to fix it.</p>
+<hr>
 <h2 id="fetching-the-relavent-paths">Fetching the Relavent Paths</h2>
+<p>Next up we'll want to grab a few paths to use as a quick reference. If you ever need them you can also come back here for where they are as well. Namely we'll need to navigate to your game or profile's <code>plugins</code> folder alot during development of your JSON/CSV Packs.</p>
+<h3 id="mod-manager-installations">Mod Manager Installations</h3>
+<p>For Mod Managers we need to navigate through the UI of the Mod Manager to navigate to the folder we'll need. Each of the following Sub Sections corrolates with a given Mod Manager that can be used with the game, that we are officially supported through.</p>
+<h4 id="r2modman">R2ModMan</h4>
+<p>For R2ModMan the process for getting there is as follows:</p>
+<ol>
+<li>Navigate to <code>Settings</code>.</li>
+<li>Under <code>Settings</code> find <code>Directories</code> in the Left-Hand Table of Contents, than click it.</li>
+<li>Find <code>Profile Folder</code> than press <code>Browse</code>, File Explorer (or an equivalent) should now be open.</li>
+<li>For the <code>plugins</code> folder, navigate to <code>BepInEx</code> followed by <code>plugins</code>.</li>
+<li>Now store the full path to this folder somewhere you can easily reference.</li>
+</ol>
+<h4 id="gale-mod-manager">Gale Mod Manager</h4>
+<p>For Gale the process is as follows:</p>
+<ol>
+<li>Click <code>File</code> in the <code>Navbar</code>, than click on <code>Open Profile Folder</code>, File Explorer (or an equivalent) should be open.</li>
+<li>For the <code>plugins</code> folder, navigate to <code>BepInEx</code> followed by <code>plugins</code>.</li>
+<li>Now store the full path to this folder somewhere you can easily reference.</li>
+</ol>
+<h4 id="thunderstore-mod-manager">Thunderstore Mod Manager</h4>
+<p>For Thunderstore Mod Manager the process is pretty much the same as it would be for R2ModMan:</p>
+<ol>
+<li>Navigate to <code>Settings</code>.</li>
+<li>Under <code>Settings</code> find <code>Directories</code> in the Left-Hand Table of Contents, than click it.</li>
+<li>Find <code>Profile Folder</code> than press <code>Browse</code>, File Explorer (or an equivalent) should now be open.</li>
+<li>For the <code>plugins</code> folder, navigate to <code>BepInEx</code> followed by <code>plugins</code>.</li>
+<li>Now store the full path to this folder somewhere you can easily reference.</li>
+</ol>
+<h3 id="manual-installations">Manual Installations</h3>
+<p>If your modding the game manually, first off refer to <a href="../../users/index.html">Getting Started (Users)</a> for how to setup the basics. Make sure you have it setup correct otherwise the following steps won't align the greatest.</p>
+<ol>
+<li>Navigate to Inscryption's local install folder
+<ul>
+<li>For XBOX Gamepass the path is roughly <code>C:\XboxGames\Inscryption\Content</code>, the drive may differ based on where you installed it to.</li>
+<li>For Steam first navigate to where your Steam is installed to, than follow this path <code>\steamapps\common\Inscryption</code>.</li>
+</ul>
+</li>
+<li>For the <code>plugins</code> folder, navigate to <code>BepInEx</code> followed by <code>plugins</code>.</li>
+<li>Now store the full path to this folder somewhere you can easily reference.</li>
+</ol>
+<hr>
+<h2 id="adding-the-jsoncsv-loader-file-extensions-to-the-context-menu-on-windows-11">Adding the JSON/CSV Loader File Extensions to the Context Menu on Windows 11</h2>
+<p>If your not on <code>Windows 11</code>, unfortunatly this won't be able to apply to you, but if you find anything similar for your OS we could include, feel free to let us know that way we can add it. Anyways, the following is a <code>Registry File</code> that you can use to add the File Type's needed for JSON/CSV Loader directly in your <code>New File</code> under the <code>Windows Context Menu</code>.</p>
+<p>So first of all your going to want to create a new file, namely a text file. You can use Notepad or one of the aforementioned text editors for JSON Editing to do this. Once your in the new file, you'll want to paste the following into it. You can copy it by pressing the <code>Clipboard</code> icon in the top right corner of the code box. Note you don't need to have <a href="https://code.visualstudio.com/download">Visual Studio Code</a> to use this, that's namely there for the purpose of giving you pretty icons for the file types.</p>
+<pre><code class="lang-ini">Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.md]
+@=&quot;markdownfile&quot;
+
+[HKEY_CLASSES_ROOT\.md\ShellNew]
+&quot;NullFile&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\markdownfile]
+@=&quot;Markdown Document&quot;
+
+[HKEY_CLASSES_ROOT\markdownfile\DefaultIcon]
+@=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\markdown.ico\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\.json]
+@=&quot;jsonfile&quot;
+
+[HKEY_CLASSES_ROOT\.json\ShellNew]
+&quot;NullFile&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\jsonfile]
+@=&quot;JSON File&quot;
+
+[HKEY_CLASSES_ROOT\jsonfile\DefaultIcon]
+@=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\json.ico\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\.jldr]
+@=&quot;jldrfile&quot;
+
+[HKEY_CLASSES_ROOT\.jldr\ShellNew]
+&quot;NullFile&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\jldrfile]
+@=&quot;JSONLoader File&quot;
+
+[HKEY_CLASSES_ROOT\jldrfile\DefaultIcon]
+@=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\json.ico\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\.jldr2]
+@=&quot;jldr2file&quot;
+
+[HKEY_CLASSES_ROOT\.jldr2\ShellNew]
+&quot;NullFile&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\jldr2file]
+@=&quot;JSONLoader2 File&quot;
+
+[HKEY_CLASSES_ROOT\jldr2file\DefaultIcon]
+@=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\json.ico\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\.jldr3]
+@=&quot;jldr3file&quot;
+
+[HKEY_CLASSES_ROOT\.jldr3\ShellNew]
+&quot;NullFile&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\jldr3file]
+@=&quot;JSONLoader3 File&quot;
+
+[HKEY_CLASSES_ROOT\jldr3file\DefaultIcon]
+@=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\json.ico\&quot;&quot;
+
+[HKEY_CLASSES_ROOT\.csv]
+@=&quot;csvfile&quot;
+
+[HKEY_CLASSES_ROOT\.csv\ShellNew]
+&quot;NullFile&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\csvfile]
+@=&quot;CSV File&quot;
+
+[HKEY_CLASSES_ROOT\csvfile\DefaultIcon]
+@=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\html.ico\&quot;&quot;
+</code></pre>
+<p>Once you have that pasted into the new file, you'll want to save it as a <code>.reg</code> file, you can also rename it to hav the <code>.reg</code> extension as well. The files name itself does not matter. Once you have it saved as a <code>.reg</code> file all you need to do now is run it. Which you can either do via right click, or by double clicking the file. For it to apply you'll want to restart your Windows Explorer via Task Manager.</p>
+<p>Now you should see the following File Type's appear when you go to make a new file: <code>Markdown File</code>, <code>CSV File</code>, <code>JSONLoader File</code>, <code>JSONLoader2 File</code>, <code>JSONLoader3 File</code>, and <code>JSON File</code>. The <code>JSONLoader(X) File</code> will be what you care about for current JSONLoader, namely the <code>JSONLoader2 File</code> for Stable, the rest are applicable for Nightly (including CSV).</p>
+<p>The <code>Markdown File</code> is included in this for the purposes of making your packages <code>README</code>, <code>CHANGELOG</code> and any other documentation you'd want to include. Your Package will be addressed in a later section of the Wiki. But for now, just note that you have it now.</p>
+<hr>
+<p>Alright now that we have the environment setup, press <code>Next</code> to proceed into the <a href="basics_of_json.html">Basics of JSON</a>.</p>
 
 </article>
 
