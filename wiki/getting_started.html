@@ -72,6 +72,16 @@
 
         const availableFonts = [
             'dpcomic',
+            '04b',
+            'crumbled-pixels',
+            'daggersquare',
+            'daggersquare-oblique',
+            'garbageschrift',
+            'heavyweight',
+            'mail-ray-stuff',
+            'marksman',
+            'pony-island',
+            'portmanteau',
             'comic-sans',
             'sans-serif',
             'monospace',
@@ -157,6 +167,16 @@
 
                                         <select id="document-font-selector" class="form-select">
                                             <option value="dpcomic">DPComic</option>
+                                            <option value="04b">04b</option>
+                                            <option value="crumbled-pixels">Crumbled Pixels</option>
+                                            <option value="daggersquare">Daggersquare</option>
+                                            <option value="daggersquare-oblique">Daggersquare Oblique</option>
+                                            <option value="garbageschrift">Garbageschrift</option>
+                                            <option value="heavyweight">Heavyweight</option>
+                                            <option value="mail-ray-stuff">Mail Ray Stuff</option>
+                                            <option value="marksman">Marksman</option>
+                                            <option value="pony-island">Pony Island</option>
+                                            <option value="portmanteau">Portmanteau</option>
                                             <option value="comic-sans">Comic Sans (Dyslexia)</option>
                                             <option value="sans-serif">Sans Serif</option>
                                             <option value="monospace">Monospace</option>
@@ -174,6 +194,16 @@
 
                                         <select id="code-font-selector" class="form-select">
                                             <option value="dpcomic">DPComic</option>
+                                            <option value="04b">04b</option>
+                                            <option value="crumbled-pixels">Crumbled Pixels</option>
+                                            <option value="daggersquare">Daggersquare</option>
+                                            <option value="daggersquare-oblique">Daggersquare Oblique</option>
+                                            <option value="garbageschrift">Garbageschrift</option>
+                                            <option value="heavyweight">Heavyweight</option>
+                                            <option value="mail-ray-stuff">Mail Ray Stuff</option>
+                                            <option value="marksman">Marksman</option>
+                                            <option value="pony-island">Pony Island</option>
+                                            <option value="portmanteau">Portmanteau</option>
                                             <option value="comic-sans">Comic Sans (Dyslexia)</option>
                                             <option value="sans-serif">Sans Serif</option>
                                             <option value="monospace">Monospace</option>
@@ -198,21 +228,33 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="code-font-size" class="form-label">
-                                            Code Font Size
-                                            <output id="code-font-size-value">18px</output>
-                                        </label>
-
-                                        <input id="code-font-size" class="form-range" type="range" min="10" max="28" step="1" value="18">
-                                    </div>
-
-                                    <div class="mb-3">
                                         <label for="document-line-height" class="form-label">
                                             Document Line Height
                                             <output id="document-line-height-value">1.5</output>
                                         </label>
 
                                         <input id="document-line-height" class="form-range" type="range" min="1" max="2.5" step="0.1" value="1.5">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="document-letter-spacing" class="form-label">Document Letter Spacing</label>
+                                        <input type="range" id="document-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
+                                        <output id="document-letter-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="document-word-spacing" class="form-label">Document Word Spacing</label>
+                                        <input type="range" id="document-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
+                                        <output id="document-word-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-font-size" class="form-label">
+                                            Code Font Size
+                                            <output id="code-font-size-value">18px</output>
+                                        </label>
+
+                                        <input id="code-font-size" class="form-range" type="range" min="10" max="28" step="1" value="18">
                                     </div>
 
                                     <div>
@@ -222,6 +264,18 @@
                                         </label>
 
                                         <input id="code-line-height" class="form-range" type="range" min="1" max="2.5" step="0.1" value="1.4">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-letter-spacing" class="form-label">Code Letter Spacing</label>
+                                        <input type="range" id="code-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
+                                        <output id="code-letter-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-word-spacing" class="form-label">Code Word Spacing</label>
+                                        <input type="range" id="code-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
+                                        <output id="code-word-spacing-value">0px</output>
                                     </div>
 
                                     <hr>
@@ -276,18 +330,6 @@
 <p>If you're unfamiliar with any of this, or just want to create cards and sigils, you can use <a href="https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/">JSONLoader</a>, if you wish to avoid learning C#.</p>
 <p>If your up for the task, a good entry point to learning C# is <a href="https://www.youtube.com/watch?v=GhQdlIFylQ8">this tutorial by freeCodeCamp.org</a>. It's around a 4 hour video, we'd advise you to tackle it in portions. One deviation from the video however, we are going to advise you to grab a thing called <a href="https://www.jetbrains.com/rider/">JetBrains Rider</a>, you'll specifically want the <code>Free for non-commerical use</code> version. If your familiar with the UX of <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a> for Java based modding, than it should feel familiar to you.</p>
 <p>If at any point your confused while doing the tutorial, feel free to ask for help in <a href="https://discord.gg/qEqtF29ZEt">the discord</a> specifically, the channel entitled <code>programming-help</code> will be your friend. Mind you help will not be immediate, but we will try and get help to you as soon as we are able.</p>
-<h3 id="modding-with-jsonloader">Modding with JSONLoader</h3>
-<blockquote>
-<p>JSONLoader is a versatile mod that provides a more beginner-friendly way of creating new cards and abilities for Inscryption using JSON syntax, which is much simpler than C#. If you don't know the basics of JSON you can find a useful video on the subject <a href="https://www.youtube.com/watch?v=iiADhChRriM">here</a>.</p>
-</blockquote>
-<p>JSONLoader's official documentation can be found in the following places, note Nightly refers to the Beta version, and Stable refers to the Main-Line version.</p>
-<ul>
-<li>Nightly GitHub Wiki: <a href="https://github.com/Chaosyr/JSONCardLoaderWiki/wiki">GitHub Wiki</a></li>
-<li>Nightly Thunderstore Wiki: <a href="https://thunderstore.io/c/inscryption/p/MADH95Mods/JSON_and_CSV_Loader_Nightly/wiki">Thunderstore Wiki</a></li>
-<li>Stable GitHub Wiki: <a href="https://github.com/MADH95/JSONLoader/wiki">GitHub Wiki</a></li>
-<li>Stable Thunderstore Wiki: <a href="https://thunderstore.io/c/inscryption/p/MADH95Mods/JSONCardLoader/wiki">Thunderstore Wiki</a></li>
-</ul>
-<p>A video tutorial covering how to use JSONLoader in a basic form can be found <a href="https://www.youtube.com/watch?v=grTSkpI4U7g">here</a>. A more updated series of sorts by JamesGames can be found <a href="https://youtube.com/playlist?list=PLy57qL2R3Z6NaRJKF4QBaBn6WH8Vztya9&amp;si=npQ2ZxF4gHRXa0B3">here</a>. If you at any point need any help with JSONLoader, you can ask your questions in <a href="https://discord.gg/BNDVDA5Gvh">the discord</a>, specifically the <code>jsonloader-help</code> channel.</p>
 <h3 id="modding-with-c">Modding with C#</h3>
 <p>First things first, in order to even make a mod for the game you will need a few things setup. First off if you haven't installed it yet, we reccomend getting a tool called <a href="https://www.jetbrains.com/rider/">JetBrains Rider</a>. This guide will follow the layout of this IDE. If you still want to use <a href="https://visualstudio.microsoft.com/">Visual Studio</a> instead, no one is going to stop you, there will be a foldout below this guide with the setup for that IDE, note its a little outdated.</p>
 <h4 id="jetbrains-rider-based-project-setups">JetBrains Rider Based Project Setups</h4>
@@ -471,12 +513,6 @@ Via File
 <p>If you need any other dependencies that are mods on Thunderstore, search up its package identifier in the NuGet Search, for example <code>Nevernamed-Nevernameds_Sigilarium</code>. You can get the package identifier by going to the mods page on the Thunderstore Website, such as: <a href="https://thunderstore.io/c/inscryption/p/Nevernamed/Nevernameds_Sigilarium/">Nevernameds Sigilarium</a>. Beneath the Download, Like and Report Buttons, there will be a string of text resembling <code>Team-Name-Version</code>. You'll want to copy that string and remove the version part of it, that is what you will put in the NuGet Search.</p>
 </details>
 <p>You are now ready to begin creating your mod! Some resources are provided below for you to use, including an example mod to look at for examples. Otherwise, continue reading this wiki.</p>
-<h3 id="modding-resources">Modding Resources</h3>
-<p><a href="https://discord.gg/QrJEF5Denm">Inscryption Modding Discord</a></p>
-<p><a href="https://docs.bepinex.dev/">BepInEx documentation</a></p>
-<p><a href="https://harmony.pardeike.net/articles/patching.html">Harmony patching article</a></p>
-<p><a href="https://github.com/debugman18/InscryptionExampleMod">Example Mod using C#</a></p>
-<p><a href="https://github.com/SaxbyMod/SabyModEnums">Vanilla and Modded Enumerations</a></p>
 
 </article>
 
@@ -600,16 +636,6 @@ Via File
                     max: 32
                 },
                 {
-                    id: 'code-font-size',
-                    output: 'code-font-size-value',
-                    storage: 'docfx-code-font-size',
-                    property: '--code-font-size',
-                    unit: 'px',
-                    defaultValue: 18,
-                    min: 10,
-                    max: 28
-                },
-                {
                     id: 'document-line-height',
                     output: 'document-line-height-value',
                     storage: 'docfx-document-line-height',
@@ -620,6 +646,36 @@ Via File
                     max: 2.5
                 },
                 {
+                    id: 'document-letter-spacing',
+                    output: 'document-letter-spacing-value',
+                    storage: 'docfx-document-letter-spacing',
+                    property: '--document-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'document-word-spacing',
+                    output: 'document-word-spacing-value',
+                    storage: 'docfx-document-word-spacing',
+                    property: '--document-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
+                },
+                {
+                    id: 'code-font-size',
+                    output: 'code-font-size-value',
+                    storage: 'docfx-code-font-size',
+                    property: '--code-font-size',
+                    unit: 'px',
+                    defaultValue: 18,
+                    min: 10,
+                    max: 28
+                },
+                {
                     id: 'code-line-height',
                     output: 'code-line-height-value',
                     storage: 'docfx-code-line-height',
@@ -628,6 +684,26 @@ Via File
                     defaultValue: 1.4,
                     min: 1,
                     max: 2.5
+                },
+                {
+                    id: 'code-letter-spacing',
+                    output: 'code-letter-spacing-value',
+                    storage: 'docfx-code-letter-spacing',
+                    property: '--code-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'code-word-spacing',
+                    output: 'code-word-spacing-value',
+                    storage: 'docfx-code-word-spacing',
+                    property: '--code-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
                 },
                 {
                     id: 'heading-line-height',
@@ -751,6 +827,10 @@ Via File
                     'docfx-code-font-size',
                     'docfx-document-line-height',
                     'docfx-code-line-height',
+                    'docfx-document-letter-spacing',
+                    'docfx-document-word-spacing',
+                    'docfx-code-letter-spacing',
+                    'docfx-code-word-spacing',
                     'docfx-heading-line-height'
                 ];
     

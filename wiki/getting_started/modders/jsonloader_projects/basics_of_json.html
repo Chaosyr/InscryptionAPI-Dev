@@ -72,6 +72,16 @@
 
         const availableFonts = [
             'dpcomic',
+            '04b',
+            'crumbled-pixels',
+            'daggersquare',
+            'daggersquare-oblique',
+            'garbageschrift',
+            'heavyweight',
+            'mail-ray-stuff',
+            'marksman',
+            'pony-island',
+            'portmanteau',
             'comic-sans',
             'sans-serif',
             'monospace',
@@ -157,6 +167,16 @@
 
                                         <select id="document-font-selector" class="form-select">
                                             <option value="dpcomic">DPComic</option>
+                                            <option value="04b">04b</option>
+                                            <option value="crumbled-pixels">Crumbled Pixels</option>
+                                            <option value="daggersquare">Daggersquare</option>
+                                            <option value="daggersquare-oblique">Daggersquare Oblique</option>
+                                            <option value="garbageschrift">Garbageschrift</option>
+                                            <option value="heavyweight">Heavyweight</option>
+                                            <option value="mail-ray-stuff">Mail Ray Stuff</option>
+                                            <option value="marksman">Marksman</option>
+                                            <option value="pony-island">Pony Island</option>
+                                            <option value="portmanteau">Portmanteau</option>
                                             <option value="comic-sans">Comic Sans (Dyslexia)</option>
                                             <option value="sans-serif">Sans Serif</option>
                                             <option value="monospace">Monospace</option>
@@ -174,6 +194,16 @@
 
                                         <select id="code-font-selector" class="form-select">
                                             <option value="dpcomic">DPComic</option>
+                                            <option value="04b">04b</option>
+                                            <option value="crumbled-pixels">Crumbled Pixels</option>
+                                            <option value="daggersquare">Daggersquare</option>
+                                            <option value="daggersquare-oblique">Daggersquare Oblique</option>
+                                            <option value="garbageschrift">Garbageschrift</option>
+                                            <option value="heavyweight">Heavyweight</option>
+                                            <option value="mail-ray-stuff">Mail Ray Stuff</option>
+                                            <option value="marksman">Marksman</option>
+                                            <option value="pony-island">Pony Island</option>
+                                            <option value="portmanteau">Portmanteau</option>
                                             <option value="comic-sans">Comic Sans (Dyslexia)</option>
                                             <option value="sans-serif">Sans Serif</option>
                                             <option value="monospace">Monospace</option>
@@ -198,21 +228,33 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="code-font-size" class="form-label">
-                                            Code Font Size
-                                            <output id="code-font-size-value">18px</output>
-                                        </label>
-
-                                        <input id="code-font-size" class="form-range" type="range" min="10" max="28" step="1" value="18">
-                                    </div>
-
-                                    <div class="mb-3">
                                         <label for="document-line-height" class="form-label">
                                             Document Line Height
                                             <output id="document-line-height-value">1.5</output>
                                         </label>
 
                                         <input id="document-line-height" class="form-range" type="range" min="1" max="2.5" step="0.1" value="1.5">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="document-letter-spacing" class="form-label">Document Letter Spacing</label>
+                                        <input type="range" id="document-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
+                                        <output id="document-letter-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="document-word-spacing" class="form-label">Document Word Spacing</label>
+                                        <input type="range" id="document-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
+                                        <output id="document-word-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-font-size" class="form-label">
+                                            Code Font Size
+                                            <output id="code-font-size-value">18px</output>
+                                        </label>
+
+                                        <input id="code-font-size" class="form-range" type="range" min="10" max="28" step="1" value="18">
                                     </div>
 
                                     <div>
@@ -222,6 +264,18 @@
                                         </label>
 
                                         <input id="code-line-height" class="form-range" type="range" min="1" max="2.5" step="0.1" value="1.4">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-letter-spacing" class="form-label">Code Letter Spacing</label>
+                                        <input type="range" id="code-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
+                                        <output id="code-letter-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-word-spacing" class="form-label">Code Word Spacing</label>
+                                        <input type="range" id="code-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
+                                        <output id="code-word-spacing-value">0px</output>
                                     </div>
 
                                     <hr>
@@ -271,18 +325,18 @@
             <article data-uid="">
 <h1 id="basics-of-json">Basics of JSON</h1>
 
-<p>So, knowledge of <code>JSON</code> is a core requirement of using JSONLoader. Thus, let's get you familiarized with what <code>JSON</code> is. First off <code>JSON</code> stands for <code>JavaScript Object Notation</code>, if the name didn't imply it already, it is a thing that originated from JavaScript. Not to be confused with Java, they are vastly different beasts. Anyways <code>JSON</code> is a Scripting Language, meant for expressing objects, such as what JSONLoader uses for it's Cards. But before we can dig into that, first we need to introduce you to <code>JSON Syntax</code>.</p>
+<p>So, knowledge of <code>JSON</code> is a core requirement of using JSONLoader. Thus, let's get you familiarized with what <code>JSON</code> is. First off <code>JSON</code> stands for <code>JavaScript Object Notation</code>, if the name didn't imply it already, it is a thing that originated from JavaScript. Not to be confused with Java, they are vastly different beasts. Anyways <code>JSON</code> is a Scripting Language, meant for expressing objects, such as what JSONLoader uses for its Cards. But before we can dig into that, first we need to introduce you to <code>JSON Syntax</code>.</p>
 <hr>
 <h2 id="your-first-json">Your First JSON</h2>
-<p>To get started, let's create a new <code>JSON File</code>. Now open it in your text editor of preference. Next up, enter the following <code>{}</code>. Why? Well without them, the <code>JSON</code> won't actually read as a <code>JSON</code>, the curly braces (<code>{}</code>) act as the peice that tells the reader that the contents within the <code>{}</code> are a <code>Object</code>. To be precise the opening <code>{</code> opens the <code>Object</code>, and the closing <code>}</code> thus closes the object.</p>
-<p>What goes within these <code>{}</code> are called <code>Properties</code> and they define what the <code>Object</code> holds, the <code>Properties</code> themselves you can think of as defining what a peice of the <code>Object</code> is meant to do. A <code>Property</code> consists of a <code>Key</code> and a <code>Value</code>. The <code>Key</code> will always have the same syntax. The <code>Value</code> will change syntax based on the <code>Type</code> in which the <code>Property</code> pretains of. For example a <code>String</code> and a <code>Boolean</code> will have different ways of defining its <code>Value</code>'s syntax, and by extension, what the <code>Value</code> of the <code>Property Key</code> can be.</p>
-<p>You can open a <code>Key</code> the same way you would an <code>Object</code>. Except with a <code>Key</code> you would use a pair of quotation marks (<code>&quot;&quot;</code>). What goes within the quotation marks would be the <code>Property Key</code> in plain text. When working with <code>JSON</code>, the <code>Schema</code> associated with the <code>JSON</code> will define what goes in the <code>Key</code>. A <code>Schema</code> is basically a set of rules that extend the rules of how a given <code>Property</code> can be defined, and can also be used to see what kind of <code>Value</code> is expected to go alongside a given <code>Property Key</code>. <em>Note: <code>Propety Key</code>'s are case sensitive, when defining one, ensure the casing matches the original <code>Key</code> found with the <code>Schema</code>.</em></p>
-<p>Now theres a plethora of things you can format into this newly created <code>Object</code>. Open up your braces to look like the following code block, make sure there's a tab's worth of spacing in the middle. You won't be peanalized if you don't but it will look better for the person who will end up reading the <code>JSON</code>. Within these braces is where we will be putting the <code>Properties</code>, as is expected by <code>JSON</code> syntax.</p>
+<p>To get started, let's create a new <code>JSON File</code>. Now open it in your text editor of preference. Next up, enter the following <code>{}</code>. Why? Well without them, the <code>JSON</code> won't actually read as a <code>JSON</code>, the curly braces (<code>{}</code>) act as the piece that tells the reader that the contents within the <code>{}</code> are a <code>Object</code>. To be precise the opening <code>{</code> opens the <code>Object</code>, and the closing <code>}</code> thus closes the object.</p>
+<p>What goes within these <code>{}</code> are called <code>Properties</code> and they define what the <code>Object</code> holds, the <code>Properties</code> themselves you can think of as defining what a piece of the <code>Object</code> is meant to do. A <code>Property</code> consists of a <code>Key</code> and a <code>Value</code>. The <code>Key</code> will always have the same syntax. The <code>Value</code> will change syntax based on the <code>Type</code> in which the <code>Property</code> pertains of. For example, a <code>String</code> and a <code>Boolean</code> will have different ways of defining its <code>Value</code>'s syntax, and by extension, what the <code>Value</code> of the <code>Property Key</code> can be.</p>
+<p>You can open a <code>Key</code> the same way you would an <code>Object</code>. Except with a <code>Key</code> you would use a pair of quotation marks (<code>&quot;&quot;</code>). What goes within the quotation marks would be the <code>Property Key</code> in plaintext. When working with <code>JSON</code>, the <code>Schema</code> associated with the <code>JSON</code> will define what goes in the <code>Key</code>. A <code>Schema</code> is basically a set of rules that extend the rules of how a given <code>Property</code> can be defined, and can also be used to see what kind of <code>Value</code> is expected to go alongside a given <code>Property Key</code>. <em>Note: <code>Propety Key</code>'s are case-sensitive, when defining one, ensure the casing matches the original <code>Key</code> found with the <code>Schema</code>.</em></p>
+<p>Now there's a plethora of things you can format into this newly created <code>Object</code>. Open up your braces to look like the following code block, make sure there's a tab's worth of spacing in the middle. You won't be penalized if you don't but it will look better for the person who will end up reading the <code>JSON</code>. Within these braces is where we will be putting the <code>Properties</code>, as is expected by <code>JSON</code> syntax.</p>
 <pre><code class="lang-json">{
 
 }
 </code></pre>
-<p>The following subsections will go over each <code>Property Type</code> that we can use when making a <code>JSON</code>. It will go over both what the rules of the <code>Property Type</code> are, an what the <code>Property Type</code> could be used for.</p>
+<p>The following subsections will go over each <code>Property Type</code> that we can use when making a <code>JSON</code>. It will go over both what the rules of the <code>Property Type</code> are, a what the <code>Property Type</code> could be used for.</p>
 <h3 id="string">String</h3>
 <h3 id="integer">Integer</h3>
 <h3 id="boolean">Boolean</h3>
@@ -413,16 +467,6 @@
                     max: 32
                 },
                 {
-                    id: 'code-font-size',
-                    output: 'code-font-size-value',
-                    storage: 'docfx-code-font-size',
-                    property: '--code-font-size',
-                    unit: 'px',
-                    defaultValue: 18,
-                    min: 10,
-                    max: 28
-                },
-                {
                     id: 'document-line-height',
                     output: 'document-line-height-value',
                     storage: 'docfx-document-line-height',
@@ -433,6 +477,36 @@
                     max: 2.5
                 },
                 {
+                    id: 'document-letter-spacing',
+                    output: 'document-letter-spacing-value',
+                    storage: 'docfx-document-letter-spacing',
+                    property: '--document-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'document-word-spacing',
+                    output: 'document-word-spacing-value',
+                    storage: 'docfx-document-word-spacing',
+                    property: '--document-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
+                },
+                {
+                    id: 'code-font-size',
+                    output: 'code-font-size-value',
+                    storage: 'docfx-code-font-size',
+                    property: '--code-font-size',
+                    unit: 'px',
+                    defaultValue: 18,
+                    min: 10,
+                    max: 28
+                },
+                {
                     id: 'code-line-height',
                     output: 'code-line-height-value',
                     storage: 'docfx-code-line-height',
@@ -441,6 +515,26 @@
                     defaultValue: 1.4,
                     min: 1,
                     max: 2.5
+                },
+                {
+                    id: 'code-letter-spacing',
+                    output: 'code-letter-spacing-value',
+                    storage: 'docfx-code-letter-spacing',
+                    property: '--code-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'code-word-spacing',
+                    output: 'code-word-spacing-value',
+                    storage: 'docfx-code-word-spacing',
+                    property: '--code-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
                 },
                 {
                     id: 'heading-line-height',
@@ -564,6 +658,10 @@
                     'docfx-code-font-size',
                     'docfx-document-line-height',
                     'docfx-code-line-height',
+                    'docfx-document-letter-spacing',
+                    'docfx-document-word-spacing',
+                    'docfx-code-letter-spacing',
+                    'docfx-code-word-spacing',
                     'docfx-heading-line-height'
                 ];
     

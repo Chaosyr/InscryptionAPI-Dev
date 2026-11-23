@@ -72,6 +72,16 @@
 
         const availableFonts = [
             'dpcomic',
+            '04b',
+            'crumbled-pixels',
+            'daggersquare',
+            'daggersquare-oblique',
+            'garbageschrift',
+            'heavyweight',
+            'mail-ray-stuff',
+            'marksman',
+            'pony-island',
+            'portmanteau',
             'comic-sans',
             'sans-serif',
             'monospace',
@@ -157,6 +167,16 @@
 
                                         <select id="document-font-selector" class="form-select">
                                             <option value="dpcomic">DPComic</option>
+                                            <option value="04b">04b</option>
+                                            <option value="crumbled-pixels">Crumbled Pixels</option>
+                                            <option value="daggersquare">Daggersquare</option>
+                                            <option value="daggersquare-oblique">Daggersquare Oblique</option>
+                                            <option value="garbageschrift">Garbageschrift</option>
+                                            <option value="heavyweight">Heavyweight</option>
+                                            <option value="mail-ray-stuff">Mail Ray Stuff</option>
+                                            <option value="marksman">Marksman</option>
+                                            <option value="pony-island">Pony Island</option>
+                                            <option value="portmanteau">Portmanteau</option>
                                             <option value="comic-sans">Comic Sans (Dyslexia)</option>
                                             <option value="sans-serif">Sans Serif</option>
                                             <option value="monospace">Monospace</option>
@@ -174,6 +194,16 @@
 
                                         <select id="code-font-selector" class="form-select">
                                             <option value="dpcomic">DPComic</option>
+                                            <option value="04b">04b</option>
+                                            <option value="crumbled-pixels">Crumbled Pixels</option>
+                                            <option value="daggersquare">Daggersquare</option>
+                                            <option value="daggersquare-oblique">Daggersquare Oblique</option>
+                                            <option value="garbageschrift">Garbageschrift</option>
+                                            <option value="heavyweight">Heavyweight</option>
+                                            <option value="mail-ray-stuff">Mail Ray Stuff</option>
+                                            <option value="marksman">Marksman</option>
+                                            <option value="pony-island">Pony Island</option>
+                                            <option value="portmanteau">Portmanteau</option>
                                             <option value="comic-sans">Comic Sans (Dyslexia)</option>
                                             <option value="sans-serif">Sans Serif</option>
                                             <option value="monospace">Monospace</option>
@@ -198,21 +228,33 @@
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="code-font-size" class="form-label">
-                                            Code Font Size
-                                            <output id="code-font-size-value">18px</output>
-                                        </label>
-
-                                        <input id="code-font-size" class="form-range" type="range" min="10" max="28" step="1" value="18">
-                                    </div>
-
-                                    <div class="mb-3">
                                         <label for="document-line-height" class="form-label">
                                             Document Line Height
                                             <output id="document-line-height-value">1.5</output>
                                         </label>
 
                                         <input id="document-line-height" class="form-range" type="range" min="1" max="2.5" step="0.1" value="1.5">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="document-letter-spacing" class="form-label">Document Letter Spacing</label>
+                                        <input type="range" id="document-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
+                                        <output id="document-letter-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="document-word-spacing" class="form-label">Document Word Spacing</label>
+                                        <input type="range" id="document-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
+                                        <output id="document-word-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-font-size" class="form-label">
+                                            Code Font Size
+                                            <output id="code-font-size-value">18px</output>
+                                        </label>
+
+                                        <input id="code-font-size" class="form-range" type="range" min="10" max="28" step="1" value="18">
                                     </div>
 
                                     <div>
@@ -222,6 +264,18 @@
                                         </label>
 
                                         <input id="code-line-height" class="form-range" type="range" min="1" max="2.5" step="0.1" value="1.4">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-letter-spacing" class="form-label">Code Letter Spacing</label>
+                                        <input type="range" id="code-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
+                                        <output id="code-letter-spacing-value">0px</output>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="code-word-spacing" class="form-label">Code Word Spacing</label>
+                                        <input type="range" id="code-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
+                                        <output id="code-word-spacing-value">0px</output>
                                     </div>
 
                                     <hr>
@@ -273,8 +327,8 @@
 
 <p>First off we need to get some initial setup for the JSONLoader environment out of the way. The sections on this page, shown under <code>IN THIS ARTICLE</code> on the right hand side of the screen, will be focused on various aspects of setting up the environment. Why? We want to reduce the frictions you may run into when working with JSONLoader, before you run into them yourself. If you already have the environment you will be using setup, than feel free to skip ahead to the next article.</p>
 <hr>
-<h2 id="what-do-i-need">What do I need?</h2>
-<p>First off you will need an Text Editor of some variety. A basic notepad can do the trick. However, if you want an easy to use system, which has syntax highlighting for both JSON and CSV, we reccomend grabbing either <a href="https://code.visualstudio.com/download">Visual Studio Code</a> or <a href="https://code.visualstudio.com/insiders">Visual Studio Code Insiders</a>. There is also a plethora of other editors that could work too, such as <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>, or <a href="https://atom-editor.cc/">Atom</a>. Once you've got the given editor you want to use installed/setup, we can proceed to the next section.</p>
+<h2 id="what-do-i-need">What Do I Need?</h2>
+<p>First off you will need a Text Editor of some variety. A basic notepad can do the trick. However, if you want an easy to use system, which has syntax highlighting for both JSON and CSV, we recommend grabbing either <a href="https://code.visualstudio.com/download">Visual Studio Code</a> or <a href="https://code.visualstudio.com/insiders">Visual Studio Code Insiders</a>. There is also a plethora of other editors that could work too, such as <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>, or <a href="https://atom-editor.cc/">Atom</a>. Once you've got the given editor you want to use installed/setup, we can proceed to the next section.</p>
 <hr>
 <h2 id="file-explorer-setup-for-windows">File Explorer Setup for Windows</h2>
 <p>If your not a <code>Windows</code> user, skip this section. But if you are a <code>Windows</code> user, you'll want to follow it, that way we can ensure the file extensions, of the files your making will be the correct ones. The following steps will help you to enable File Explorer to show extensions of your files.</p>
@@ -286,12 +340,12 @@
 <li>Under <code>Advanced Settings</code> toggle the following setting off, <code>Hide extensions for known file types</code>, followed by toggling on <code>Show hidden files, folders, and drives</code>, this one is less needed, but it may come in handy when looking for your <code>AppData</code> folder if it ever becomes needed.</li>
 <li>Now press <code>Apply to Folders</code> followed by <code>OK</code>.</li>
 </ol>
-<p>With that we are now set to proceed to the next section! If you ever find yourself unable to view your file extensions, just refollow the above steps to fix it.</p>
+<p>With that we are now set to proceed to the next section! If you ever find yourself unable to view your file extensions, just follow the above steps to fix it.</p>
 <hr>
-<h2 id="fetching-the-relavent-paths">Fetching the Relavent Paths</h2>
-<p>Next up we'll want to grab a few paths to use as a quick reference. If you ever need them you can also come back here for where they are as well. Namely we'll need to navigate to your game or profile's <code>plugins</code> folder alot during development of your JSON/CSV Packs.</p>
+<h2 id="fetching-the-relevant-paths">Fetching the Relevant Paths</h2>
+<p>Next up we'll want to grab a few paths to use as a quick reference. If you ever need them you can also come back here for where they are as well. Namely we'll need to navigate to your game or profile's <code>plugins</code> folder a lot during development of your JSON/CSV Packs.</p>
 <h3 id="mod-manager-installations">Mod Manager Installations</h3>
-<p>For Mod Managers we need to navigate through the UI of the Mod Manager to navigate to the folder we'll need. Each of the following Sub Sections corrolates with a given Mod Manager that can be used with the game, that we are officially supported through.</p>
+<p>For Mod Managers we need to navigate through the UI of the Mod Manager to navigate to the folder we'll need. Each of the following Subsections correlates with a given Mod Manager that can be used with the game, that we are officially supported through.</p>
 <h4 id="r2modman">R2ModMan</h4>
 <p>For R2ModMan the process for getting there is as follows:</p>
 <ol>
@@ -318,7 +372,7 @@
 <li>Now store the full path to this folder somewhere you can easily reference.</li>
 </ol>
 <h3 id="manual-installations">Manual Installations</h3>
-<p>If your modding the game manually, first off refer to <a href="../../users/index.html">Getting Started (Users)</a> for how to setup the basics. Make sure you have it setup correct otherwise the following steps won't align the greatest.</p>
+<p>If your modding the game manually, first off refer to <a href="../../users/index.html">Getting Started (Users)</a> for how to set up the basics. Make sure you have it setup correct otherwise the following steps won't align the greatest.</p>
 <ol>
 <li>Navigate to Inscryption's local install folder
 <ul>
@@ -331,8 +385,8 @@
 </ol>
 <hr>
 <h2 id="adding-the-jsoncsv-loader-file-extensions-to-the-context-menu-on-windows-11">Adding the JSON/CSV Loader File Extensions to the Context Menu on Windows 11</h2>
-<p>If your not on <code>Windows 11</code>, unfortunatly this won't be able to apply to you, but if you find anything similar for your OS we could include, feel free to let us know that way we can add it. Anyways, the following is a <code>Registry File</code> that you can use to add the File Type's needed for JSON/CSV Loader directly in your <code>New File</code> under the <code>Windows Context Menu</code>.</p>
-<p>So first of all your going to want to create a new file, namely a text file. You can use Notepad or one of the aforementioned text editors for JSON Editing to do this. Once your in the new file, you'll want to paste the following into it. You can copy it by pressing the <code>Clipboard</code> icon in the top right corner of the code box. Note you don't need to have <a href="https://code.visualstudio.com/download">Visual Studio Code</a> to use this, that's namely there for the purpose of giving you pretty icons for the file types.</p>
+<p>If your not on <code>Windows 11</code>, unfortunately this won't be able to apply to you, but if you find anything similar for your OS we could include, feel free to let us know that way we can add it. Anyways, the following is a <code>Registry File</code> that you can use to add the File Type's needed for JSON/CSV Loader directly in your <code>New File</code> under the <code>Windows Context Menu</code>.</p>
+<p>So first of all your going to want to create a new file, namely a text file. You can use Notepad or one of the aforementioned text editors for JSON Editing to do this. Once your in the new file, you'll want to paste the following into it. You can copy it by pressing the <code>Clipboard</code> icon in the top right corner of the code box. Note you don't need to have <a href="https://code.visualstudio.com/download">Visual Studio Code</a> to use this, that's namely there for the purpose of giving you pretty icons for the filetypes.</p>
 <pre><code class="lang-ini">Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\.md]
@@ -407,7 +461,7 @@
 [HKEY_CLASSES_ROOT\csvfile\DefaultIcon]
 @=&quot;\&quot;C:\\Users\\Chaos\\AppData\\Local\\Programs\\Microsoft VSCode\\a44adf7f53\\resources\\app\\resources\\win32\\html.ico\&quot;&quot;
 </code></pre>
-<p>Once you have that pasted into the new file, you'll want to save it as a <code>.reg</code> file, you can also rename it to hav the <code>.reg</code> extension as well. The files name itself does not matter. Once you have it saved as a <code>.reg</code> file all you need to do now is run it. Which you can either do via right click, or by double clicking the file. For it to apply you'll want to restart your Windows Explorer via Task Manager.</p>
+<p>Once you have that pasted into the new file, you'll want to save it as a <code>.reg</code> file, you can also rename it to have the <code>.reg</code> extension as well. The files name itself does not matter. Once you have it saved as a <code>.reg</code> file all you need to do now is run it. Which you can either do via right-click, or by double-clicking the file. For it to apply you'll want to restart your Windows Explorer via Task Manager.</p>
 <p>Now you should see the following File Type's appear when you go to make a new file: <code>Markdown File</code>, <code>CSV File</code>, <code>JSONLoader File</code>, <code>JSONLoader2 File</code>, <code>JSONLoader3 File</code>, and <code>JSON File</code>. The <code>JSONLoader(X) File</code> will be what you care about for current JSONLoader, namely the <code>JSONLoader2 File</code> for Stable, the rest are applicable for Nightly (including CSV).</p>
 <p>The <code>Markdown File</code> is included in this for the purposes of making your packages <code>README</code>, <code>CHANGELOG</code> and any other documentation you'd want to include. Your Package will be addressed in a later section of the Wiki. But for now, just note that you have it now.</p>
 <hr>
@@ -536,16 +590,6 @@
                     max: 32
                 },
                 {
-                    id: 'code-font-size',
-                    output: 'code-font-size-value',
-                    storage: 'docfx-code-font-size',
-                    property: '--code-font-size',
-                    unit: 'px',
-                    defaultValue: 18,
-                    min: 10,
-                    max: 28
-                },
-                {
                     id: 'document-line-height',
                     output: 'document-line-height-value',
                     storage: 'docfx-document-line-height',
@@ -556,6 +600,36 @@
                     max: 2.5
                 },
                 {
+                    id: 'document-letter-spacing',
+                    output: 'document-letter-spacing-value',
+                    storage: 'docfx-document-letter-spacing',
+                    property: '--document-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'document-word-spacing',
+                    output: 'document-word-spacing-value',
+                    storage: 'docfx-document-word-spacing',
+                    property: '--document-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
+                },
+                {
+                    id: 'code-font-size',
+                    output: 'code-font-size-value',
+                    storage: 'docfx-code-font-size',
+                    property: '--code-font-size',
+                    unit: 'px',
+                    defaultValue: 18,
+                    min: 10,
+                    max: 28
+                },
+                {
                     id: 'code-line-height',
                     output: 'code-line-height-value',
                     storage: 'docfx-code-line-height',
@@ -564,6 +638,26 @@
                     defaultValue: 1.4,
                     min: 1,
                     max: 2.5
+                },
+                {
+                    id: 'code-letter-spacing',
+                    output: 'code-letter-spacing-value',
+                    storage: 'docfx-code-letter-spacing',
+                    property: '--code-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'code-word-spacing',
+                    output: 'code-word-spacing-value',
+                    storage: 'docfx-code-word-spacing',
+                    property: '--code-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
                 },
                 {
                     id: 'heading-line-height',
@@ -687,6 +781,10 @@
                     'docfx-code-font-size',
                     'docfx-document-line-height',
                     'docfx-code-line-height',
+                    'docfx-document-letter-spacing',
+                    'docfx-document-word-spacing',
+                    'docfx-code-letter-spacing',
+                    'docfx-code-word-spacing',
                     'docfx-heading-line-height'
                 ];
     
