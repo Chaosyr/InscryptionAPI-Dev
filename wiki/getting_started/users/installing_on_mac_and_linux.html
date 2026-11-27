@@ -239,7 +239,7 @@
                                     <div class="mb-3">
                                         <label for="document-letter-spacing" class="form-label">
                                             Document Letter Spacing
-                                            <output id="document-letter-spacing-value">0</output>
+                                            <output id="document-letter-spacing-value">0px</output>
                                         </label>
                                         <input type="range" id="document-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
                                     </div>
@@ -247,7 +247,7 @@
                                     <div class="mb-3">
                                         <label for="document-word-spacing" class="form-label">
                                             Document Word Spacing
-                                            <output id="document-word-spacing-value">0</output>
+                                            <output id="document-word-spacing-value">0px</output>
                                         </label>
                                         <input type="range" id="document-word-spacing" class="form-range" min="-5" max="20" step="0.1" value="0">
                                     </div>
@@ -273,7 +273,7 @@
                                     <div class="mb-3">
                                         <label for="code-letter-spacing" class="form-label">
                                             Code Letter Spacing
-                                            <output id="code-letter-spacing-value">0</output>
+                                            <output id="code-letter-spacing-value">0px</output>
                                         </label>
                                         <input type="range" id="code-letter-spacing" class="form-range" min="-5" max="10" step="0.1" value="0">
                                     </div>
@@ -297,6 +297,24 @@
                                         </label>
 
                                         <input id="heading-line-height" class="form-range" type="range" min="1" max="2" step="0.1" value="1.2">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="heading-letter-spacing" class="form-label">
+                                            Heading Letter Spacing
+                                            <output id="heading-letter-spacing-value">0px</output>
+                                        </label>
+
+                                        <input id="heading-letter-spacing" class="form-range" type="range" min="-5" max="20" step="0.1" value="0">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="heading-word-spacing" class="form-label">
+                                            Heading Word Spacing
+                                            <output id="heading-word-spacing-value">0px</output>
+                                        </label>
+
+                                        <input id="heading-word-spacing" class="form-range" type="range" min="-5" max="20" step="0.1" value="0">
                                     </div>
                                 </div>
                             </div>
@@ -336,8 +354,30 @@
 <p><em><strong>FOR LINUX:</strong></em> Ensure that the game is set to run using <code>Proton</code> in the game settings on steam. Should be a setting like this: <code>Change launch behaviour</code> -&gt; <code>Proton</code>.</p>
 <ol>
 <li>Follow the steps here first: <a href="https://docs.bepinex.dev/articles/user_guide/installation/index.html">BepInEx Installation Guide</a>.</li>
-<li>Next do steps 4–10 of the Manual Installation.</li>
-<li>Your game should be setup for Inscryption modding now.</li>
+<li>Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.</li>
+<li>Install <a href="https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/">MonoModLoader</a> and extract the contents into a folder.</li>
+<li>Move the contents of the <code>patchers</code> folder into <code>BepInEx/patchers</code> (If any of the mentioned BepInEx folders don't exist, just create them).</li>
+<li>Install <a href="https://inscryption.thunderstore.io/package/API_dev/API/">Inscryption API</a> and extract the contents into a folder.</li>
+<li>Move the contents of the <code>plugins</code> folder into <code>BepInEx/plugins</code> and the contents of the <code>monomod</code> folder into the <code>BepInEx/monomod</code> folder.</li>
+<li>Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.</li>
+<li>For any additional mods create a new subfolder. It can be called anything. Then, extract the zips archive into it. If there is a <code>BepInEx</code> folder within the zip instead drop the contents of that folder into the <code>BepInEx</code> root for the modding instance. EX;
+<pre><code>BepInEx // These go within the BepInEx root folder
+|-- config
+|-- patchers
+|-- plugins
+|-- monomod
+|-- core
+plugins // Files within go into the created plugin subfolder that was created for the mod
+|-- Art
+|-- Scripts
+|-- MyMod.dll
+manifest.json // Ignorable, but if kept, goes in plugin subfolder
+README.md // Ignorable, but if kept, goes in plugin subfolder
+CHANGELOG.md // Ignorable, but if kept, goes in plugin subfolder
+icon.png // Ignorable, but if kept, goes in plugin subfolder
+</code></pre>
+</li>
+<li>Run the game once more and everything should be correct and working.</li>
 </ol>
 <p>If you have any issues with Mac/Linux, Steam Deck, or Manual head over to the discord for this game:</p>
 <ul>
@@ -545,6 +585,26 @@
                     defaultValue: 1.2,
                     min: 1,
                     max: 2
+                },
+                {
+                    id: 'heading-letter-spacing',
+                    output: 'heading-letter-spacing-value',
+                    storage: 'docfx-heading-letter-spacing',
+                    property: '--heading-letter-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 10
+                },
+                {
+                    id: 'heading-word-spacing',
+                    output: 'heading-word-spacing-value',
+                    storage: 'docfx-heading-word-spacing',
+                    property: '--heading-word-spacing',
+                    unit: 'px',
+                    defaultValue: 0,
+                    min: -5,
+                    max: 20
                 }
             ];
 
@@ -662,7 +722,9 @@
                     'docfx-document-word-spacing',
                     'docfx-code-letter-spacing',
                     'docfx-code-word-spacing',
-                    'docfx-heading-line-height'
+                    'docfx-heading-line-height',
+                    'docfx-heading-letter-spacing',
+                    'docfx-heading-word-spacing'
                 ];
     
                 keys.forEach(key => localStorage.removeItem(key));
