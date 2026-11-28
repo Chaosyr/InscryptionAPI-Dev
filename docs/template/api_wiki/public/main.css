@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'DPComic';
+    font-family: DPComic;
     src: url('fonts/dpcomic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'DPComic-Extended';
+    font-family: DPComic-Extended;
     src: url('fonts/DPComic_Extended.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -20,63 +20,63 @@
 }
 
 @font-face {
-    font-family: 'Crumbled-Pixels';
+    font-family: Crumbled-Pixels;
     src: url('fonts/Crumbled-Pixels.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Daggersquare';
+    font-family: Daggersquare;
     src: url('fonts/DAGGERSQUARE.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Daggersquare-Oblique';
+    font-family: Daggersquare-Oblique;
     src: url('fonts/DAGGERSQUARE\ OBLIQUE.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Garbageschrift';
+    font-family: Garbageschrift;
     src: url('fonts/GARBAGES.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Heavyweight';
+    font-family: Heavyweight;
     src: url('fonts/heavyweight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Mail-Ray-Stuff';
+    font-family: Mail-Ray-Stuff;
     src: url('fonts/mail\ ray\ stuff.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Marksman';
+    font-family: Marksman;
     src: url('fonts/Marksman.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Pony-Island';
+    font-family: Pony-Island;
     src: url('fonts/pony-island.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Portmanteau';
+    font-family: Portmanteau;
     src: url('fonts/Portmanteau\ Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -84,35 +84,28 @@
 
 :root {
     --page-gutter: clamp(1rem, 4vw, 5rem);
-
     --document-font: 'DPComic', 'DPComic-Extended', system-ui, sans-serif;
     --code-font: 'DPComic', 'DPComic-Extended', system-ui, sans-serif;
-
     --bs-font-sans-serif: var(--document-font);
     --bs-body-font-family: var(--document-font);
     --bs-font-monospace: var(--code-font);
-
     --document-font-size: 20px;
+    --document-line-height: 1.2;
+    --document-letter-spacing: 1px;
+    --document-word-spacing: 0.9px;
     --code-font-size: 18px;
-
-    --document-line-height: 1.5;
-    --code-line-height: 1.4;
-
+    --code-line-height: 1.2;
+    --code-letter-spacing: 1px;
+    --code-word-spacing: 0.9px;
     --h1-font-size: 3.25em;
     --h2-font-size: 2.25em;
     --h3-font-size: 1.70em;
     --h4-font-size: 1.50em;
     --h5-font-size: 1.20em;
     --h6-font-size: 1.00em;
-    --heading-line-height: 1.2;
-    --heading-letter-spacing: 0px;
-    --heading-word-spacing: 0px;
-
-    --document-letter-spacing: 0px;
-    --document-word-spacing: 0px;
-
-    --code-letter-spacing: 0px;
-    --code-word-spacing: 0px;
+    --heading-line-height: 1.0;
+    --heading-letter-spacing: 1px;
+    --heading-word-spacing: 0.9px;
 }
 
 html[data-document-font="dpcomic"] {
@@ -172,7 +165,7 @@ html[data-document-font="monospace"] {
 }
 
 html[data-document-font="system"] {
-    --document-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --document-font: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
 }
 
 
@@ -233,7 +226,7 @@ html[data-code-font="monospace"] {
 }
 
 html[data-code-font="system"] {
-    --code-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --code-font: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
 }
 
 body {
@@ -280,6 +273,7 @@ body {
 
 * {
     border-width: 4px !important;
+    border-radius: 4px !important;
 }
 
 b, strong {
@@ -360,7 +354,7 @@ body > footer, body[data-layout="landing"] > footer {
     overscroll-behavior: contain;
 }
 
-@media (max-width: 767.98px) {
+@media (width <= 767.98px) {
     #navpanel,
     #navbar {
         overflow: visible;
@@ -505,7 +499,7 @@ body[data-yaml-mime="ApiPage"] article h2.section {
 }
 
 .inheritance-tree {
-    border-top: 1px solid currentColor;
+    border-top: 4px solid var(--bs-border-color, #444);
     padding-top: 0.35rem;
 }
 
@@ -528,7 +522,7 @@ body[data-yaml-mime="ApiPage"] article h2.section {
 .api-parameters th, .api-returns th, .api-type-parameters th, .api-exceptions th, .api-fields th,
 .api-parameters td, .api-returns td, .api-type-parameters td, .api-exceptions td, .api-fields td {
     padding: 0.5rem 0.75rem;
-    border: 1px solid var(--bs-border-color, #444);
+    border: 4px solid var(--bs-border-color, #444);
     text-align: left;
 }
 
@@ -538,17 +532,29 @@ html.community-documentation h1,
 html.community-documentation .h1,
 html.apispec-documentation h1,
 html.apispec-documentation .h1 {
-    border-bottom: 1px solid currentColor;
+    border-bottom: 4px solid var(--bs-border-color, #444);
     padding-bottom: 0.35rem;
 }
 
-html.api-documentation h3,
-html.api-documentation .h3,
-html.community-documentation h3,
-html.community-documentation .h3,
-html.apispec-documentation h3,
-html.apispec-documentation .h3 {
-    border-bottom: 1px solid currentColor;
+html.api-documentation h1,
+html.api-documentation .h1,
+html.community-documentation h1,
+html.community-documentation .h1,
+html.apispec-documentation h1,
+html.apispec-documentation .h1 {
+    border-bottom: 4px solid var(--bs-border-color, #444);
+    padding-bottom: 0.35rem;
+}
+
+html.wiki-documentation h1,
+html.wiki-documentation .h1 {
+    border-bottom: 4px solid var(--bs-border-color, #444);
+    padding-bottom: 0.35rem;
+}
+
+html.wiki-documentation h2,
+html.wiki-documentation .h2 {
+    border-bottom: 4px solid var(--bs-border-color, #444);
     padding-bottom: 0.35rem;
 }
 
@@ -580,7 +586,7 @@ a.active {
 }
 
 blockquote {
-    border-left-style: solid;
+    border-left: 4px solid var(--bs-border-color, #444);
     border-right-style: none;
     border-top-style: none;
     border-bottom-style: none;
@@ -675,7 +681,7 @@ div.mermaidTooltip {
 }
 
 #nextArticle {
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+    border: 4px solid var(--bs-border-color, #444);
 }
 
 body:not([data-search])[data-layout=""] > main > .content > .contribution, body:not([data-search])[data-layout=""] > main > .content > .next-article, body:not([data-search])[data-layout="conceptual"] > main > .content > .contribution, body:not([data-search])[data-layout="conceptual"] > main > .content > .next-article {
@@ -684,7 +690,7 @@ body:not([data-search])[data-layout=""] > main > .content > .contribution, body:
 }
 
 .prev {
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+    border: 4px solid var(--bs-border-color, #444);
     padding-left: 1.5rem;
     border-radius: 4px;
     background: var(--bs-tertiary-bg, #e9ecef);
@@ -698,7 +704,7 @@ body:not([data-search])[data-layout=""] > main > .content > .contribution, body:
 }
 
 .next {
-    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+    border: 4px solid var(--bs-border-color, #444);
     padding-right: 1.5rem;
     border-radius: 4px;
     background: var(--bs-tertiary-bg, #e9ecef);
@@ -723,6 +729,6 @@ article::after {
     content: "Below are the Quick Guide Navigation Buttons:";
     display: block;
     padding: 1rem;
-    border-top: 4px var(--bs-border-style) var(--bs-border-color);
+    border-top: 4px solid var(--bs-border-color, #444);
     text-align: center;
 }
